@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:flint",
+      "components": {
+        "minecraft:custom_model_data": 45302
+      }
+    },
+    "title": "Shater it !",
+    "description": "smash the pebbles on hard surface",
+    "hidden": false
+  },
+  "parent": "datapack:pebble_collector",
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:flint",
+            "components": {
+              "minecraft:custom_model_data": 45302
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_axe"
+    },
+    "title": "Flint axe",
+    "description": "Craft Flint axe with 2sticks 3 sharp stones and 1string",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "datapack:crafting_table",
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": "minecraft:stone_axe",
+            "components": {
+              "minecraft:item_name": "{\"text\":\"Flint Axe\"}"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

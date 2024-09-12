@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "SPS",
+    "SPS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:string"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    }
+  },
+  "result": {
+    "id": "minecraft:paper",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "{\"text\":\"Durable Bandage\"}",
+      "minecraft:food": {
+        "nutrition": 0,
+        "saturation": 0,
+        "can_always_eat": true,
+        "eat_seconds": 4,
+        "effects": [
+          {
+            "effect": {
+              "id": "minecraft:regeneration",
+              "amplifier": 0,
+              "duration": 160,
+              "ambient": true,
+              "show_particles": true,
+              "show_icon": true
+            }
+          },
+          {
+            "effect": {
+              "id": "minecraft:instant_health",
+              "amplifier": 0,
+              "duration": 1,
+              "ambient": true,
+              "show_particles": true,
+              "show_icon": true
+            }
+          }
+        ]
+      },
+      "minecraft:max_stack_size": 6
+    }
+  },
+  "show_notification": true
+}

@@ -1,0 +1,23 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+          "player": {
+            "equipment": {
+              "mainhand": {
+                "items": "minecraft:stone_axe",
+                "components": {
+                  "minecraft:custom_data": "{\"tag\":\"sculpture_tool\"}"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "datapack:item_use/sculpting_tool_use"
+    }
+  }
+  

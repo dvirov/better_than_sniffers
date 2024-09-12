@@ -1,0 +1,31 @@
+{
+    "pack": {
+      "pack_format": 48,
+      "description": "Description"
+    },
+    "filter": {
+      "block": [
+        {
+          "namespace": "minecraft",
+          "path": "recipe/*"
+        },
+        {
+          "namespace": "minecraft",
+          "path": "loot_table/*"
+        },
+        {
+          "namespace": "minecraft",
+          "path": "enchantment/*"
+        },
+        {
+          "namespace": "minecraft",
+          "path": "tags/*"
+        },
+        {
+          "namespace": "minecraft",
+          "path": "advancement/*"
+        }
+      ]
+    }
+  }
+  

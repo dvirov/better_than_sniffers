@@ -1,0 +1,26 @@
+{
+    "values": [
+        "datapack:beach_winter",
+        "datapack:grove_winter",
+        "datapack:river_winter",
+        "datapack:birch_forest_winter",
+        "datapack:cherry_grove_winter",
+        "datapack:dark_forest_winter",
+        "datapack:flower_forest_winter",
+        "datapack:forest_winter",
+        "datapack:grove_winter",
+        "datapack:jungle_winter",
+        "datapack:meadow_winter",
+        "datapack:mushroom_fields_winter",
+        "datapack:old_growth_birch_forest_winter",
+        "datapack:old_growth_pine_taiga_winter",
+        "datapack:old_growth_spruce_taiga_winter",
+        "datapack:plains_winter",
+        "datapack:river_winter",
+        "datapack:sparse_jungle_winter",
+        "datapack:stony_peaks_winter",
+        "datapack:stony_shore_winter",
+        "datapack:sunflower_plains_winter",
+        "datapack:taiga_winter"
+    ]
+  }

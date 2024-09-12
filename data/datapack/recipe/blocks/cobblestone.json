@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SS",
+    "SS"
+    
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stone_button"
+    }
+  },
+  "result": {
+    "id": "minecraft:cobblestone_slab",
+    "components": {
+      "minecraft:custom_data": "{\"tag\":\"cobblestone_slab\"}"
+    }
+  },
+  "show_notification": true
+}

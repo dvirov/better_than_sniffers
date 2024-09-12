@@ -1,0 +1,7 @@
+{
+  "death_message_type": "default",
+  "exhaustion": 0,
+  "message_id": "parania",
+  "effects": "freezing",
+  "scaling": "never"
+}

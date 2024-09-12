@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "SSS",
+    "SPS"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:jungle_slab"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "minecraft:jungle_fence",
+    "count": 3
+  },
+  "show_notification": true
+}

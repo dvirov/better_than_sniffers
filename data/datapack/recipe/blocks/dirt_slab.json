@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "CC",
+    "CC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:clay_ball"
+    }
+  },
+  "result": {
+    "id": "minecraft:petrified_oak_slab",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "{\"text\":\"Dirt Slab\"}"
+    }
+  },
+  "show_notification": true
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "SSS",
+    "SPS"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:acacia_slab"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "minecraft:acacia_fence",
+    "count": 3
+  },
+  "show_notification": true
+}

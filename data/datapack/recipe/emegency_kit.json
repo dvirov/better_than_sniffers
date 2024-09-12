@@ -1,0 +1,56 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "X"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "result": {
+    "id": "minecraft:paper",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "{\"text\":\"Emergency kit\"}",
+      "minecraft:food": {
+        "nutrition": 20,
+        "saturation": 20,
+        "can_always_eat": true,
+        "eat_seconds": 0.1,
+        "effects": [
+          {
+            "effect": {
+              "id": "minecraft:absorption",
+              "amplifier": 3,
+              "duration": 200
+            }
+          },
+          {
+            "effect": {
+              "id": "minecraft:regeneration",
+              "amplifier": 0,
+              "duration": 300,
+              "ambient": true,
+              "show_particles": true,
+              "show_icon": true
+            }
+          },
+          {
+            "effect": {
+              "id": "minecraft:instant_health",
+              "amplifier": 5,
+              "duration": 1,
+              "ambient": true,
+              "show_particles": true,
+              "show_icon": true
+            }
+          }
+        ]
+      },
+      "minecraft:max_stack_size": 1
+    }
+  },
+  "show_notification": true
+}

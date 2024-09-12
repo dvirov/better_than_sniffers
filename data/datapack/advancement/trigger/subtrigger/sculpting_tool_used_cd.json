@@ -1,0 +1,11 @@
+{
+	"criteria": {
+	  "": {
+		"trigger": "minecraft:tick"
+	  }
+	},
+	"rewards": {
+	  "function": "datapack:item_use/sculpting_tool_use_cd"
+	}
+  }
+  

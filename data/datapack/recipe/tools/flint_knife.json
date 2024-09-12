@@ -1,0 +1,52 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      "F",
+      "S"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:stick"
+      },
+      "F": {
+        "item": "minecraft:flint"
+      }
+    },
+    "result": {
+      "id": "minecraft:stone_sword",
+      "count": 1,
+      "components": {
+        "minecraft:attribute_modifiers": {
+          "modifiers": [
+            {
+              "id": "attack_damage",
+              "type": "minecraft:generic.attack_damage",
+              "amount": 1,
+              "operation": "add_value",
+              "slot": "mainhand"
+            }
+          ],
+          "show_in_tooltip": false
+        },
+        "minecraft:item_name": "{\"text\":\"Flint Knife\"}",
+        "minecraft:lore": [
+          "{\"color\":\"gray\",\"italic\":false,\"text\":\"When in Main Hand:\"}",
+          "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 1 Attack Damege\"}"
+        ],
+        "minecraft:custom_data": "{\"tag\":\"flint_knife\"}",
+        "minecraft:tool": {
+          "rules": [
+            {
+              "blocks": "#minecraft:foliage",
+              "correct_for_drops": true
+            }
+          ],
+          "damage_per_block": 1
+        },
+        "minecraft:max_damage": 10
+      }
+    },
+    "show_notification": true
+  }
+  

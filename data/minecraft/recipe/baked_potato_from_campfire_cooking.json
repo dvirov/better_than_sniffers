@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 10000,
+  "experience": 0.35,c:\Users\User\AppData\Local\Temp\Rar$DRa20044.35188\data\minecraft\recipe\dried_kelp_from_campfire_cooking.json
+  "ingredient": {
+    "item": "minecraft:potato"
+  },
+  "result": {
+    "id": "minecraft:baked_potato"
+  }
+}

@@ -1,0 +1,1 @@
+execute anchored eyes run function datapack:item_use/log_peeling

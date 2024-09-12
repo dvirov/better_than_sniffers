@@ -1,0 +1,36 @@
+{
+    "values": [
+      "#minecraft:raiders",
+      "minecraft:skeleton",
+      "minecraft:stray",
+      "minecraft:wither_skeleton",
+      "minecraft:bogged",
+      "minecraft:wither",
+      "minecraft:phantom",
+      "minecraft:creeper",
+      "minecraft:blaze",
+      "minecraft:breeze",
+      "minecraft:zombie",
+      "minecraft:zombie_villager",
+      "minecraft:zombified_piglin",
+      "minecraft:zoglin",
+      "minecraft:drowned",
+      "minecraft:husk",
+      "minecraft:spider",
+      "minecraft:cave_spider",
+      "minecraft:elder_guardian",
+      "minecraft:guardian",
+      "minecraft:enderman",
+      "minecraft:endermite",
+      "minecraft:ghast",
+      "minecraft:hoglin",
+      "minecraft:magma_cube",
+      "minecraft:piglin",
+      "minecraft:piglin_brute",
+      "minecraft:shulker",
+      "minecraft:slime",
+      "minecraft:silverfish",
+      "minecraft:vex"
+
+    ]
+  }

@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "F ",
+    "SR",
+    "S "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "R": {
+      "item": "minecraft:string"
+    },
+    "F": {
+      "item": "minecraft:flint"
+    }
+  },
+  "result": {
+    "id": "minecraft:stone_shovel",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "{\"text\":\"Flint Shovel\"}",
+      "minecraft:custom_data": "{\"tag\":\"flint_shovel\"}",
+      "minecraft:tool": {
+        "rules": [
+          {
+            "blocks": "#datapack:tire1_dirt",
+            "speed": 20,
+            "correct_for_drops": true
+          }
+        ],
+        "default_mining_speed": 1,
+        "damage_per_block": 1
+      }
+    }
+  }
+}

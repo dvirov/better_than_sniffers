@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:skeleton_skull",
+        "components": {
+          "minecraft:custom_model_data": 45300
+        }
+      },
+      "title": "Better Than Sniffers",
+      "description": "Created by dvirov ",
+      "background": "minecraft:textures/block/andesite.png",
+      "announce_to_chat": false
+
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick"
+      }
+    }
+  }
+  

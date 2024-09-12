@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "SPS",
+    "SPS"
+    
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:spruce_slab"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "minecraft:spruce_fence_gate",
+    "count": 1
+  },
+  "show_notification": true
+}

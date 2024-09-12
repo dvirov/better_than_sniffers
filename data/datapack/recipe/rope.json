@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SSS",
+    "SSS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "id": "minecraft:lead",
+    "components": {
+      "minecraft:item_name": "{\"text\":\"Rope\"}",
+      "custom_model_data": 45306,
+      "minecraft:custom_data": "{\"tag\":\"rope\"}"
+    }
+  },
+  "show_notification": true
+}

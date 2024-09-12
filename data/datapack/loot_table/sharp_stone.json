@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:empty",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:flint",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 45302
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_stack_size": 1,
+                "minecraft:enchantment_glint_override": false,
+                "minecraft:rarity": "common",
+                "minecraft:item_name": "{\"text\":\"Sharp Stone\"}",
+                "minecraft:tool": {
+                  "rules": [
+                    {
+                      "blocks": "#datapack:leaves",
+                      "speed": 2,
+                      "correct_for_drops": true
+                    }
+                  ],
+                  "damage_per_block": 1
+                },
+                "minecraft:max_damage": 5,
+                "minecraft:damage": 0,
+                "minecraft:custom_data": "{\"tag\":\"sharp_stone\"}"
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}

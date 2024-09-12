@@ -1,0 +1,40 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "light": {
+          "light": 0
+        },
+        "can_see_sky": false
+      }
+    },
+    {
+      "condition": "minecraft:all_of",
+      "terms": [
+        {
+          "condition": "minecraft:time_check",
+          "value": {
+            "min": 13500,
+            "max": 22500
+          },
+          "period": 24000
+        },
+        {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "can_see_sky": true
+          }
+        },
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "is_near_light_block": 0
+          }
+        }
+      ]
+    }
+  ]
+}

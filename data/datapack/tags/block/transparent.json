@@ -1,0 +1,9 @@
+{
+  "values": [
+    "minecraft:air",
+    "#datapack:foliage",
+    "#minecraft:slabs",
+    "#minecraft:walls",
+    "#minecraft:fences"
+  ]
+}

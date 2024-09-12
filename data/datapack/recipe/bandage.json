@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "SS",
+    "SS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "id": "minecraft:paper",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "{\"text\":\"Bandage\"}",
+      "minecraft:food": {
+        "nutrition": 0,
+        "saturation": 0,
+        "can_always_eat": true,
+        "eat_seconds": 4,
+        "effects": [
+          {
+            "effect": {
+              "id": "minecraft:regeneration",
+              "amplifier": 0,
+              "duration": 100,
+              "ambient": true,
+              "show_particles": true,
+              "show_icon": true
+            }
+          }
+        ]
+      }
+    }
+  },
+  "show_notification": true
+}

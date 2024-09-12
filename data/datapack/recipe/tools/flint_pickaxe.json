@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "FFF",
+    " SR",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "R": {
+      "item": "minecraft:string"
+    },
+    "F": {
+      "item": "minecraft:flint"
+    }
+  },
+  "result": {
+    "id": "minecraft:stone_pickaxe",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "{\"text\":\"§fCoal Extractor\"}",
+      "minecraft:custom_data": "{\"tag\":\"flint_pickaxe\"}",
+      "minecraft:enchantments": {
+        "levels": {
+          "datapack:coal_excavate":1
+        },
+        "show_in_tooltip": false
+      },
+      "minecraft:enchantment_glint_override": false,
+      "minecraft:rarity": "common",
+      "minecraft:max_damage": 32,
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "id": "damage",
+            "type": "minecraft:generic.attack_damage",
+            "amount": 1,
+            "operation": "add_value",
+            "slot": "mainhand"
+          }
+        ]
+      }
+    }
+  },
+  "show_notification": true
+}
