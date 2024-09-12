@@ -19,7 +19,7 @@
           {
             "items": "minecraft:flint",
             "components": {
-              "minecraft:custom_model_data": 45302
+              "minecraft:item_name": "{\"text\":\"Sharp Stone\"}"
             }
           }
         ]

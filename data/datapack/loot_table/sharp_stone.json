@@ -8,10 +8,7 @@
           "type": "minecraft:item",
           "name": "minecraft:flint",
           "functions": [
-            {
-              "function": "minecraft:set_custom_model_data",
-              "value": 45302
-            },
+
             {
               "function": "minecraft:set_components",
               "components": {
@@ -23,7 +20,7 @@
                   "rules": [
                     {
                       "blocks": "#datapack:leaves",
-                      "speed": 2,
+                      "speed": 4,
                       "correct_for_drops": true
                     }
                   ],
