@@ -2,9 +2,8 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "location": {},
-    "stepping_on": {
-      "can_see_sky": true
+    "flags": {
+      "is_sneaking": true
     }
   }
 }

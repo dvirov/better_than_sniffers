@@ -6,10 +6,10 @@ execute as @a at @s unless score @s is_near_light_block matches 1 store success 
 
 execute as @a as @s at @s run function datapack:world_event/temperature/temperature
 
-execute if score .monthinyear calander matches 1 as @a as @s at @s run function datapack:world_event/seasons/fall
-execute if score .monthinyear calander matches 2 as @a as @s at @s run function datapack:world_event/seasons/winter
-execute if score .monthinyear calander matches 3 as @a as @s at @s run function datapack:world_event/seasons/spring
-execute if score .monthinyear calander matches 4 as @a as @s at @s run function datapack:world_event/seasons/summer
+execute if score .season calander matches 1 as @a as @s at @s run function datapack:world_event/seasons/fall
+execute if score .season calander matches 2 as @a as @s at @s run function datapack:world_event/seasons/winter
+execute if score .season calander matches 3 as @a as @s at @s run function datapack:world_event/seasons/spring
+execute if score .season calander matches 4 as @a as @s at @s run function datapack:world_event/seasons/summer
 
 
 execute as @a as @s at @s store result score @s ylevel run data get entity @s Pos[1]

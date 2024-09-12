@@ -12,7 +12,7 @@ scoreboard objectives add campfire_place minecraft.used:minecraft.blaze_spawn_eg
 
 gamerule doInsomnia false
 gamerule naturalRegeneration false
-gamerule snowAccumulationHeight 8
+gamerule snowAccumulationHeight 7
 
 scoreboard objectives add bar_stamina dummy
 scoreboard objectives add bar_temprature dummy
