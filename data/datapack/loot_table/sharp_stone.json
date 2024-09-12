@@ -26,7 +26,7 @@
                   ],
                   "damage_per_block": 1
                 },
-                "minecraft:max_damage": 5,
+                "minecraft:max_damage": 7,
                 "minecraft:damage": 0,
                 "minecraft:custom_data": "{\"tag\":\"sharp_stone\"}"
               }
