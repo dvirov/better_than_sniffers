@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "B B",
+    "B B",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:brick"
+    }
+  },
+  "result": {
+    "id": "minecraft:decorated_pot",
+    "components": {
+      "minecraft:item_name": "{\"text\":\"Storage Pot\"}"
+    }
+  },
+  "show_notification": true
+}

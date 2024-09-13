@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "RP",
+    "PR"
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:hanging_roots"
+    },
+    "P": {
+      "item": "minecraft:petrified_oak_slab"
+    }
+  },
+  "result": {
+    "id": "minecraft:rooted_dirt"
+  },
+  "show_notification": true
+}

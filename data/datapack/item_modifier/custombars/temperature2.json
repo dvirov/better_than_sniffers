@@ -2,7 +2,7 @@
   {
     "function": "minecraft:set_components",
     "components": {
-      "minecraft:item_name": "\" \uE002\""
+      "minecraft:item_name": "\"                      \uE002\""
     }
   }
 ]

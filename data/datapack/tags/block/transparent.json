@@ -4,6 +4,10 @@
     "#datapack:foliage",
     "#minecraft:slabs",
     "#minecraft:walls",
-    "#minecraft:fences"
-  ]
+    "#minecraft:fences",
+    "#minecraft:saplings",
+    "#wooden_buttons",
+    "#minecraft:stone_buttons",
+    "flower_pot"
+    ]
 }

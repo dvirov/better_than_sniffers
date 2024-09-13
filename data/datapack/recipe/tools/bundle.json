@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "RSR",
+    "R R",
+    "RRR"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:string"
+    },
+    "R": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "id": "minecraft:bundle"
+  },
+  "show_notification": true
+}
