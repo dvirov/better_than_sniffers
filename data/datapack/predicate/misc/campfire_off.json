@@ -1,0 +1,29 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "campfire_time_ticks": {
+          "min": -100,
+          "max": 0
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "location": {
+          "block": {
+            "blocks": "minecraft:campfire",
+            "state": {
+              "lit": "false"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

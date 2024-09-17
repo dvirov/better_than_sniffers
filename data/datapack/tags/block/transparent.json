@@ -8,6 +8,7 @@
     "#minecraft:saplings",
     "#wooden_buttons",
     "#minecraft:stone_buttons",
-    "flower_pot"
+    "flower_pot",
+    "campfire"
     ]
 }
