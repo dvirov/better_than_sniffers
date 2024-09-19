@@ -1,8 +1,7 @@
 scoreboard players add @s time_in_dark 1
-execute if score @s time_in_dark matches 700..1200 run effect give @s nausea 10 0 true
 execute if score @s time_in_dark matches 1200.. run effect give @s darkness 10 0 true
-execute if score @s time_in_dark matches 1500.. run effect give @s blindness 10 0 true
-execute if score @s time_in_dark matches 1700.. unless entity @e[type=vex,distance=..10] run summon vex ~ ~ ~ {Silent:1b,CustomNameVisible:1b,LifeTicks:100,CustomName:'"Nightmer"',active_effects:[{id:"minecraft:invisibility",amplifier:1,duration:-1,show_particles:1b}]}
+execute if score @s time_in_dark matches 1700.. run effect give @s blindness 1 0 true
+#execute if score @s time_in_dark matches 1700.. unless entity @e[type=vex,distance=..10] run summon vex ~ ~ ~ {Silent:1b,CustomNameVisible:1b,LifeTicks:100,CustomName:'"Nightmer"',active_effects:[{id:"minecraft:invisibility",amplifier:1,duration:-1,show_particles:1b}]}
 
 execute if score @s time_in_dark matches 600 run playsound minecraft:ambient.cave
 execute if score @s time_in_dark matches 600 if predicate datapack:word_event/rng0.2 run return run tellraw @s {"color":"red","text":"You feel an evil presence watching you"}

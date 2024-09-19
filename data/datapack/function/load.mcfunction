@@ -20,3 +20,7 @@ scoreboard objectives add bar_temprature dummy
 scoreboard objectives add ylevel dummy
 scoreboard objectives add oxygen_time dummy
 
+scoreboard objectives add drying_time dummy
+#scoreboard objectives add drying_timeL dummy
+
+

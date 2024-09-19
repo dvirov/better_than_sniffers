@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:zombie_spawn_egg",
+          "components": {
+            "minecraft:item_name": "{\"text\":\"Drying Rack\"}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "datapack:i"
+  }
+}
