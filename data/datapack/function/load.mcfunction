@@ -15,7 +15,12 @@ gamerule naturalRegeneration false
 gamerule snowAccumulationHeight 7
 
 scoreboard objectives add bar_stamina dummy
+scoreboard objectives add bar_stamina_cd dummy
+
 scoreboard objectives add bar_temprature dummy
+
+scoreboard objectives add bar_sanity dummy
+
 
 scoreboard objectives add ylevel dummy
 scoreboard objectives add oxygen_time dummy

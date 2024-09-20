@@ -1,13 +1,7 @@
 
-#super cold
-execute if score @s bar_temprature matches ..-50 run item modify entity @s enderchest.1 datapack:custombars/temperature0
-#cold
-execute if score @s bar_temprature matches -50..0 run item modify entity @s enderchest.1 datapack:custombars/temperature1
 
-#hote
-execute if score @s bar_temprature matches 50..100 run item modify entity @s enderchest.1 datapack:custombars/temperature2
-#super hot
-execute if score @s bar_temprature matches 100.. run item modify entity @s enderchest.1 datapack:custombars/temperature3
+execute if score @s bar_stamina matches 21.. run scoreboard players set @s bar_stamina 21
+execute if score @s bar_stamina matches ..0 run scoreboard players set @s bar_stamina 0
 
 execute if score @s bar_stamina matches 0 run item modify entity @s enderchest.2 datapack:custombars/stamina0
 execute if score @s bar_stamina matches 1 run item modify entity @s enderchest.2 datapack:custombars/stamina1
@@ -31,4 +25,5 @@ execute if score @s bar_stamina matches 18 run item modify entity @s enderchest.
 execute if score @s bar_stamina matches 19 run item modify entity @s enderchest.2 datapack:custombars/stamina19
 execute if score @s bar_stamina matches 20 run item modify entity @s enderchest.2 datapack:custombars/stamina20
 execute if score @s bar_stamina matches 21 run item modify entity @s enderchest.2 datapack:custombars/stamina21
+
 

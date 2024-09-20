@@ -2,9 +2,11 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "location": {},
-    "stepping_on": {
-      "can_see_sky": true
+    "movement": {
+      "speed": {
+        "min": 0,
+        "max": 1
+      }
     }
   }
 }
