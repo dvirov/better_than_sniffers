@@ -1,21 +1,45 @@
-sound to break pebbles
+C:\Users\User\AppData\Roaming\.minecraft\resourcepacks\better than sniffers\assets\minecraft\font\default.json
+
+
+
+
+storage templates
+ages:
+flint
+cobblestone
+copper
+iron
+gold/
+diamond
+netherite
+
+sub stages:
+alchemy
+kinetic
+enchanting
+
+
 
 drink water can cool you
-insanety bar
 >recipe for
 
 
 
 >loot tables for 
 
-pumpkins
+
 
 
 mud
 mud bricks
 bricks
 
-cauldron
+
 
 
 {Brain: {memories: {}}, HurtByTimestamp: 0, SleepTimer: 0s, SpawnForced: 0b, Invulnerable: 0b, AbsorptionAmount: 0.0f, abilities: {invulnerable: 1b, mayfly: 1b, instabuild: 1b, walkSpeed: 0.1f, mayBuild: 1b, flying: 1b, flySpeed: 0.05f}, FallDistance: 0.0f, recipeBook: {recipes: ["datapack:tools/flint_axe", "datapack:blocks/oak_fence", "datapack:tools/flint_pickaxe", "datapack:tools/flint_knife", "datapack:tools/fire_plough", "datapack:tools/flint_hoe", "datapack:blocks/dirt_slab", "datapack:tools/weave", "datapack:blocks/net", "datapack:tools/sculpting_tool", "datapack:blocks/rooted_dirt", "datapack:blocks/decorated_pot", "datapack:tools/bundle", "datapack:blocks/campfire"], isBlastingFurnaceFilteringCraftable: 0b, isSmokerGuiOpen: 0b, isFilteringCraftable: 1b, toBeDisplayed: ["datapack:tools/flint_axe", "datapack:tools/sculpting_tool", "datapack:blocks/oak_fence", "datapack:tools/flint_pickaxe"], isFurnaceGuiOpen: 0b, isGuiOpen: 0b, isFurnaceFilteringCraftable: 0b, isBlastingFurnaceGuiOpen: 0b, isSmokerFilteringCraftable: 0b}, XpTotal: 30692, UUID: [I; 1166849438, 2083278301, -1671312990, 680109810], SpawnY: 0, SpawnZ: 13, SpawnX: -3, ignore_fall_damage_from_current_explosion: 0b, Air: 300s, SpawnAngle: -121.61445f, warden_spawn_tracker: {warning_level: 0, ticks_since_last_warning: 10950, cooldown_ticks: 0}, Score: 30692, Pos: [-0.44212490623112105d, 22.766368075370334d, -0.9259372349087357d], XpP: 0.9649126f, EnderItems: [{count: 1, Slot: 0b, id: "minecraft:structure_void"}, {count: 1, Slot: 1b, components: {"minecraft:item_name": '"                      "'}, id: "minecraft:structure_void"}, {count: 1, Slot: 2b, components: {"minecraft:item_name": '" "'}, id: "minecraft:structure_void"}], DataVersion: 3953, spawn_extra_particles_on_fall: 0b, HurtTime: 0s, SelectedItemSlot: 5, Inventory: [{count: 1, Slot: 0b, id: "minecraft:pillager_spawn_egg"}, {count: 1, Slot: 1b, id: "minecraft:glass"}, {count: 1, Slot: 2b, id: "minecraft:water_bucket"}, {count: 1, Slot: 3b, id: "minecraft:bucket"}, {count: 1, Slot: 4b, id: "minecraft:villager_spawn_egg"}, {count: 1, Slot: 6b, components: {"minecraft:entity_data": {NoGravity: 1b, DisabledSlots: 4079166, Small: 1b, CustomName: '{"text":" "}', Pose: {RightArm: [{"": 0b}, {"": 0b}, {"": 215s}], LeftLeg: [{"": 180s}, {"": 0b}, {"": 0b}], Head: [B; 0B, 0B, 0B], LeftArm: [{"": 0b}, {"": 0b}, {"": -215s}], RightLeg: [{"": 180s}, {"": 0b}, {"": 0b}], Body: [B; 0B, 0B, 0B]}, NoBasePlate: 1b, Invulnerable: 1b, attributes: [{id: "minecraft:generic.scale", base: 0.7d}], id: "minecraft:armor_stand", Invisible: 1b, ShowArms: 1b, Tags: ["campfire"]}, "minecraft:item_name": '"Campfire"', "minecraft:max_stack_size": 1, "minecraft:custom_data": {tag: "campfire"}}, id: "minecraft:blaze_spawn_egg"}, {count: 1, Slot: 7b, id: "minecraft:structure_void"}, {count: 1, Slot: 8b, id: "minecraft:target"}, {count: 64, Slot: 9b, id: "minecraft:oak_fence"}, {count: 1, Slot: 10b, components: {"minecraft:block_entity_data": {metadata: "", mirror: "NONE", ignoreEntities: 0b, powered: 0b, seed: 0L, author: "dvirov", rotation: "NONE", posX: 0, mode: "SAVE", posY: 1, sizeX: 2, posZ: 0, integrity: 1.0f, showair: 0b, name: "minecraft:barrel_camp", id: "minecraft:structure_block", sizeY: 1, sizeZ: 1, showboundingbox: 1b}}, id: "minecraft:structure_block"}, {count: 1, Slot: 12b, components: {"minecraft:block_entity_data": {joint: "rollable", name: "minecraft:", pool: "datapack:enemy", final_state: "minecraft:structure_void", placement_priority: 0, selection_priority: 0, id: "minecraft:jigsaw", target: "datapack:enemy"}}, id: "minecraft:jigsaw"}, {count: 1, Slot: 13b, id: "minecraft:dirt"}, {count: 1, Slot: 14b, components: {"minecraft:block_entity_data": {metadata: "", mirror: "NONE", ignoreEntities: 0b, powered: 0b, seed: 0L, author: "?", rotation: "NONE", posX: 0, mode: "SAVE", posY: 1, sizeX: 13, posZ: 0, integrity: 1.0f, showair: 0b, name: "minecraft:camp_", id: "minecraft:structure_block", sizeY: 4, sizeZ: 13, showboundingbox: 1b}}, id: "minecraft:structure_block"}, {count: 1, Slot: 15b, components: {"minecraft:block_entity_data": {metadata: "", mirror: "NONE", ignoreEntities: 0b, powered: 0b, seed: 0L, author: "?", rotation: "NONE", posX: 0, mode: "LOAD", posY: 1, sizeX: 13, posZ: 0, integrity: 1.0f, showair: 0b, name: "minecraft:camp_01", id: "minecraft:structure_block", sizeY: 4, sizeZ: 13, showboundingbox: 1b}}, id: "minecraft:structure_block"}, {count: 1, Slot: 18b, id: "minecraft:spruce_fence_gate"}, {count: 64, Slot: 25b, id: "minecraft:oak_fence_gate"}, {count: 1, Slot: 33b, id: "minecraft:birch_fence_gate"}], LastDeathLocation: {pos: [I; -20, -3, 20], dimension: "minecraft:overworld"}, foodTickTimer: 0, FallFlying: 0b, PortalCooldown: 0, active_effects: [{duration: -1, show_icon: 1b, amplifier: 100b, id: "minecraft:strength"}], DeathTime: 0s, XpSeed: 1780275745, playerGameType: 1, AxiomHotbarData: {ActiveHotbarIndex: 4b, Slot13: {count: 1, id: "minecraft:acacia_fence"}, Slot35: {count: 1, id: "minecraft:bamboo_slab"}, Slot14: {count: 1, id: "minecraft:dark_oak_fence"}, Slot15: {count: 1, id: "minecraft:mangrove_fence"}, Slot16: {count: 1, id: "minecraft:cherry_fence"}, Slot17: {count: 1, id: "minecraft:bamboo_fence"}, Slot18: {count: 1, id: "minecraft:oak_fence_gate"}, Slot19: {count: 1, id: "minecraft:spruce_fence_gate"}, Slot2: {count: 1, id: "minecraft:stripped_birch_log"}, Slot3: {count: 1, id: "minecraft:stripped_jungle_log"}, Slot4: {count: 1, id: "minecraft:stripped_acacia_log"}, Slot5: {count: 1, id: "minecraft:stripped_dark_oak_log"}, Slot20: {count: 1, id: "minecraft:birch_fence_gate"}, Slot21: {count: 1, id: "minecraft:jungle_fence_gate"}, Slot0: {count: 1, id: "minecraft:stripped_oak_log"}, Slot22: {count: 1, id: "minecraft:acacia_fence_gate"}, Slot1: {count: 1, id: "minecraft:stripped_spruce_log"}, Slot23: {count: 1, id: "minecraft:dark_oak_fence_gate"}, Slot6: {count: 1, id: "minecraft:stripped_mangrove_log"}, Slot7: {count: 1, id: "minecraft:stripped_cherry_log"}, Slot8: {count: 1, id: "minecraft:stripped_bamboo_block"}, Slot9: {count: 1, id: "minecraft:oak_fence"}, Slot24: {count: 1, id: "minecraft:mangrove_fence_gate"}, Slot25: {count: 1, id: "minecraft:cherry_fence_gate"}, Slot26: {count: 1, id: "minecraft:bamboo_fence_gate"}, Slot27: {count: 1, id: "minecraft:oak_slab"}, Slot28: {count: 1, id: "minecraft:spruce_slab"}, Slot29: {count: 1, id: "minecraft:birch_slab"}, Slot30: {count: 1, id: "minecraft:jungle_slab"}, Slot31: {count: 1, id: "minecraft:acacia_slab"}, Slot10: {count: 1, id: "minecraft:spruce_fence"}, Slot32: {count: 1, id: "minecraft:dark_oak_slab"}, Slot11: {count: 1, id: "minecraft:birch_fence"}, Slot33: {count: 1, id: "minecraft:mangrove_slab"}, Slot12: {count: 1, id: "minecraft:jungle_fence"}, Slot34: {count: 1, id: "minecraft:cherry_slab"}}, SpawnDimension: "minecraft:overworld", seenCredits: 0b, Motion: [0.0d, 0.0d, 0.0d], Health: 18.0f, foodSaturationLevel: 19.0f, OnGround: 0b, Dimension: "minecraft:overworld", Rotation: [-162.97124f, 73.19778f], XpLevel: 19, current_impulse_context_reset_grace_time: 0, Fire: -20s, attributes: [{id: "minecraft:player.block_interaction_range", base: 4.5d}, {id: "minecraft:generic.max_absorption", base: 0.0d}, {id: "minecraft:generic.oxygen_bonus", base: 100.0d}, {id: "minecraft:generic.attack_damage", modifiers: [{amount: 303.0d, id: "minecraft:effect.strength", operation: "add_value"}], base: 0.0d}, {id: "minecraft:generic.jump_strength", base: 0.369d}, {id: "minecraft:generic.attack_speed", base: 4.0d}, {id: "minecraft:generic.armor_toughness", base: 0.0d}, {id: "minecraft:player.entity_interaction_range", base: 2.0d}, {id: "minecraft:generic.armor", base: 0.0d}, {id: "minecraft:generic.movement_speed", base: 0.10000000149011612d}, {id: "minecraft:player.block_break_speed", base: 0.5d}, {id: "minecraft:player.mining_efficiency", base: 100.0d}], foodLevel: 20, foodExhaustionLevel: 2.3181705f}
+
+
+
+
+

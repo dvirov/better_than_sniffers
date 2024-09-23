@@ -11,3 +11,4 @@ execute unless score .moonphase calander matches 1.. run scoreboard players set 
 execute unless score .monthinyear calander matches 1.. run scoreboard players set .monthinyear calander 1
 
 scoreboard players set .20 values 20
+scoreboard players set .100 values 100

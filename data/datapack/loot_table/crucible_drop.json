@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:empty",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:item_frame",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "rarity": "uncommon",
+                "custom_data": {"tag":"crucible"},
+                "minecraft:item_name": "{\"text\":\"Crucible\"}",
+                "minecraft:entity_data": {
+                  "id": "minecraft:item_frame", "Tags":["custom_block","crucible"], "Invisible":false, "Invulnerable": true, "Fixed":true, "Silent": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

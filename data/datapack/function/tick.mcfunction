@@ -7,4 +7,4 @@ execute as @e[type=armor_stand,tag=drying_rack] at @s run function datapack:dryi
 
 
 
-
+function datapack:blocks/tick

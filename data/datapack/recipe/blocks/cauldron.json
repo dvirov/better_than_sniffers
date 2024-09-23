@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "B B",
+    "B B",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "tag": "minecraft:wooden_slabs"
+    }
+  },
+  "result": {
+    "id": "minecraft:cauldron",
+    "components": {
+      "minecraft:item_name": "{\"text\":\"Wooden Cauldron\"}"
+    }
+  },
+  "show_notification": true
+}

@@ -1,0 +1,10 @@
+{
+  "condition": "minecraft:entity_scores",
+  "entity": "this",
+  "scores": {
+    "air": {
+      "min": 0,
+      "max": 299
+    }
+  }
+}

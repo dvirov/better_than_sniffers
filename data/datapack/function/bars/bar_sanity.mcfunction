@@ -1,5 +1,8 @@
+scoreboard players operation @s bar_sanity = @s bar_sanity_calc
+scoreboard players operation @s bar_sanity /= .100 values 
 
-
+execute if score @s bar_sanity_calc matches 2090.. run scoreboard players set @s bar_sanity_calc 2090
+execute if score @s bar_sanity_calc matches ..90 run scoreboard players set @s bar_sanity_calc 90
 execute if score @s bar_sanity matches 20.. run scoreboard players set @s bar_sanity 20
 execute if score @s bar_sanity matches ..0 run scoreboard players set @s bar_sanity 0
 

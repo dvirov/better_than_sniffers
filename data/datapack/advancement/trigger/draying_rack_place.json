@@ -13,6 +13,6 @@
     }
   },
   "rewards": {
-    "function": "datapack:i"
+    "function": "datapack:test"
   }
 }
