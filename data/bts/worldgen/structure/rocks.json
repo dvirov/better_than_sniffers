@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#bts:rocks",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "beard_thin",
+  "start_pool": "bts:rocks",
+  "size": 1,
+  "start_height": {
+    "above_bottom": 65
+  },
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "max_distance_from_center": 1,
+  "use_expansion_hack": false,
+  "liquid_settings": "apply_waterlogging"
+}

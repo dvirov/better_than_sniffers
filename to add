@@ -1,14 +1,16 @@
 C:\Users\User\AppData\Roaming\.minecraft\resourcepacks\better than sniffers\assets\minecraft\font\default.json
 
 
-
+flint>wood>stone>copper
 
 storage templates
 ages:
-flint
+flint V
 cobblestone
 copper
+bronze
 iron
+steel
 gold/
 diamond
 netherite
@@ -18,16 +20,14 @@ alchemy
 kinetic
 enchanting
 
-
+cooking pot 
 
 drink water can cool you
 >recipe for
+tools 
 
-
-
+polish and sand paper like in create
 >loot tables for 
-
-
 
 
 mud

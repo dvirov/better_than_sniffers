@@ -1,0 +1,26 @@
+{
+      "display": {
+        "icon": {
+          "id": "minecraft:campfire"
+        },
+        "title": "Warm Up",
+        "description": "Craft and Place Campfire",
+        "frame": "task",
+        "show_toast": true
+      },
+      "parent": "bts:crafting_table",
+      "criteria": {
+        "requirement": {
+          "trigger": "minecraft:item_used_on_block",
+          "conditions": {
+            "player": {
+              "equipment": {
+                "mainhand": {
+                  "items": "minecraft:blaze_spawn_egg"
+                }
+          }
+        }
+      }
+   }
+  }
+}

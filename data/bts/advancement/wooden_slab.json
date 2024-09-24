@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_slab"
+    },
+    "title": "Wooden_slab",
+    "description": "Strip Log and collect wooden slab",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "bts:flint_axe",
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": "#minecraft:wooden_slabs"
+          }
+        ]
+      }
+    }
+  }
+}

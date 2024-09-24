@@ -1,0 +1,1 @@
+execute anchored eyes run function bts:item_use/log_peeling

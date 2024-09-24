@@ -1,0 +1,20 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+          "player": {
+            "equipment": {
+              "mainhand": {
+                "items": "#minecraft:axes"
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "bts:item_use/log_peeling_cast"
+    }
+  }
+  

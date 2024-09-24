@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "CCC",
+    "PSP",
+    " S "
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:cobblestone_slab"
+    },
+    "P": {
+      "item": "minecraft:string"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "minecraft:stone_pickaxe",
+    "count": 1,
+    "components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:tool": {
+        "rules": [
+          {
+            "blocks": "#bts:tier1_rock",
+            "speed": 1,
+            "correct_for_drops": true
+          }
+        ],
+        "default_mining_speed": 1,
+        "damage_per_block": 1
+      },
+      "minecraft:item_name": "{\"text\":\"Cobblestone Pickaxe\"}",
+      "minecraft:custom_data": "{\"tag\":\"stone_pickaxe\"}",
+      "minecraft:enchantments": {
+       "levels": {
+         "bts:coal_excavate":1,
+         "bts:stone_excavate":1,
+         "bts:copper_excavate":1
+
+       },
+       "show_in_tooltip": false
+     },
+     "minecraft:enchantment_glint_override": false,
+     "minecraft:rarity": "common",
+     "minecraft:max_damage": 64,
+     "minecraft:attribute_modifiers": {
+       "modifiers": [
+         {
+           "id": "damage",
+           "type": "minecraft:generic.attack_damage",
+           "amount": 2,
+           "operation": "add_value",
+           "slot": "mainhand"
+         }
+       ]
+     }
+   }
+ },
+ "show_notification": true
+}
