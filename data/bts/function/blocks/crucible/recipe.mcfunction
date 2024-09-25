@@ -1,10 +1,8 @@
 execute if block ~ ~-1 ~ hopper run function bts:blocks/hopper_interaction
 
-#steel ingot                                           input 1                                                                  input 2                                                      verify output slot                                                                 unless full                             
-execute if data block ~ ~ ~ Items[{Slot:10b,id:"minecraft:iron_ingot"}] if data block ~ ~ ~ Items[{Slot:11b,id:"minecraft:coal"}] unless data block ~ ~ ~ Items[{Slot:16b}] unless data block ~ ~ ~ Items[{Slot:16b,id:"minecraft:music_disc_11",components:{"minecraft:custom_data":{"tag":"steel_ingot"}},count:64}] run function bts:blocks/crucible/steel_ingot/steel_ingot
-execute if data block ~ ~ ~ Items[{Slot:10b,id:"minecraft:iron_ingot"}] if data block ~ ~ ~ Items[{Slot:11b,id:"minecraft:coal"}] if data block ~ ~ ~ Items[{Slot:16b,id:"minecraft:music_disc_11",components:{"minecraft:custom_data":{"tag":"steel_ingot"}}}] unless data block ~ ~ ~ Items[{Slot:16b,id:"minecraft:music_disc_11",components:{"minecraft:custom_data":{"tag":"steel_ingot"}},count:64}] run function bts:blocks/crucible/steel_ingot/steel_ingot
-
-
+#steel ingot                                   input 1                                            input 2                                                 verify output slot                                                                 unless full                                            craft
+execute if items block ~ ~ ~ container.10 iron_ingot if items block ~ ~ ~ container.11 #bts:coals if items block ~ ~ ~ container.12 #bts:coals unless items block ~ ~ ~ container.16 * unless items block ~ ~ ~ container.16 music_disc_11[minecraft:custom_data={"tag":"steel_ingot"},count=64] run function bts:blocks/crucible/steel_ingot/steel_ingot
+execute if items block ~ ~ ~ container.10 iron_ingot if items block ~ ~ ~ container.11 #bts:coals if items block ~ ~ ~ container.12 #bts:coals if items block ~ ~ ~ container.16 music_disc_11[minecraft:custom_data={"tag":"steel_ingot"}] unless items block ~ ~ ~ container.16 music_disc_11[minecraft:custom_data={"tag":"steel_ingot"},count=64] run function bts:blocks/crucible/steel_ingot/steel_ingot
 
 
 
