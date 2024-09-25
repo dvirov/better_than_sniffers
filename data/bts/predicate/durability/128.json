@@ -1,0 +1,33 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "components": {
+              "minecraft:damage": 128,
+              "minecraft:max_damage": 128
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "offhand": {
+            "components": {
+              "minecraft:damage": 128,
+              "minecraft:max_damage": 128
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,1 +1,0 @@
-give @p barrier[max_stack_size=1,hide_tooltip={}] 1

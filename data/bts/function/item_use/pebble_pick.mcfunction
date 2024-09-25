@@ -1,6 +1,6 @@
 
 
- #particle soul_fire_flame ~ ~ ~ 0 0 0 0 1 force
+ # particle soul_fire_flame ~ ~ ~ 0 0 0 0 1 force
 scoreboard players add @s raycast 1
  #execute unless block ~ ~ ~ #bts:transparent run particle angry_villager ~ ~ ~ 0 0 0 0 1 force
 execute if block ~ ~ ~ stone_button[powered=true] run fill ~ ~ ~ ~ ~ ~ air destroy
