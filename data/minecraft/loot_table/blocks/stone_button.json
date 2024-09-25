@@ -20,7 +20,7 @@
                 "minecraft:item_name":"{\"text\":\"§fPebble\"}",
 
                 "minecraft:enchantments": {
-                  "datapack:pebble_break": 1
+                  "bts:pebble_break": 1
                 },
                 "minecraft:enchantment_glint_override": false,
                 "minecraft:rarity": "common"

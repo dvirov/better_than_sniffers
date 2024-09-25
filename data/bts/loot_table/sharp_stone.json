@@ -19,7 +19,7 @@
                 "minecraft:tool": {
                   "rules": [
                     {
-                      "blocks": "#datapack:leaves",
+                      "blocks": "#bts:leaves",
                       "speed": 4,
                       "correct_for_drops": true
                     }
