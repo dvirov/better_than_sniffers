@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "FF ",
+    " SR",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "F": {
+      "item": "minecraft:cobblestone_slab"
+    },
+    "R": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "id": "minecraft:stone_hoe",
+    "components": {
+      "minecraft:item_name": "{\"text\":\"Cobblestone Hoe\"}",
+      "minecraft:custom_data": "{\"tag\":\"stone_hoe\"}",
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "id": "attack_damage",
+            "type": "minecraft:generic.attack_damage",
+            "amount": 1,
+            "operation": "add_value",
+            "slot": "mainhand"
+          }
+        ],
+        "show_in_tooltip": false
+      },
+      "minecraft:lore": [
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"When in Main Hand:\"}",
+        "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 1 Attack Damege\"}"
+      ],
+      "minecraft:max_damage": 20
+    }
+    
+  },
+  "show_notification": true
+}

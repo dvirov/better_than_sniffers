@@ -11,7 +11,7 @@
       "item": "minecraft:stick"
     },
     "R": {
-      "item": "minecraft:string"
+      "item": "minecraft:cobblestone_slab"
     },
     "F": {
       "item": "minecraft:flint"
@@ -21,8 +21,8 @@
     "id": "minecraft:stone_axe",
     "count": 1,
     "components": {
-      "minecraft:item_name": "{\"text\":\"Flint Axe\"}",
-      "minecraft:custom_data": "{\"tag\":\"flint_axe\"}",
+      "minecraft:item_name": "{\"text\":\"Cobblestone Axe\"}",
+      "minecraft:custom_data": "{\"tag\":\"stone_axe\"}",
       "minecraft:tool": {
         "rules": [
           {
@@ -40,7 +40,7 @@
           {
             "id": "speed",
             "type": "minecraft:generic.attack_damage",
-            "amount": 1,
+            "amount": 1.1,
             "operation": "add_value",
             "slot": "mainhand"
           }

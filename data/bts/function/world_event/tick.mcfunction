@@ -11,7 +11,7 @@ execute if score .season calander matches 4 as @a as @s at @s run function bts:w
 
 
 execute as @a as @s at @s store result score @s ylevel run data get entity @s Pos[1]
-execute as @a as @s at @s if predicate bts:word_event/low_oxygen run function bts:world_event/low_oxygen
+execute as @a[gamemode=survival] as @s at @s if predicate bts:word_event/low_oxygen run function bts:world_event/low_oxygen
 execute as @a as @s at @s if predicate bts:noroof unless score @s ylevel matches 150.. run scoreboard players set @s oxygen_time 0
 
 

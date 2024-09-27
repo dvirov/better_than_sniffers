@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:empty",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:item_frame",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "rarity": "common",
+                "custom_data": {"tag":"fletching"},
+                "minecraft:item_name": "{\"text\":\"Fletching Table\"}",
+                "minecraft:entity_data": {
+                  "id": "minecraft:item_frame", "Tags":["custom_block","fletching"], "Invisible":false, "Invulnerable": true, "Fixed":true, "Silent": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

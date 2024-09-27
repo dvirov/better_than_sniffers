@@ -11,7 +11,7 @@
       "item": "minecraft:stick"
     },
     "R": {
-      "item": "minecraft:string"
+      "tag": "minecraft:wooden_slabs"
     },
     "F": {
       "item": "minecraft:flint"
@@ -21,8 +21,8 @@
     "id": "minecraft:stone_shovel",
     "count": 1,
     "components": {
-      "minecraft:item_name": "{\"text\":\"Flint Shovel\"}",
-      "minecraft:custom_data": "{\"tag\":\"flint_shovel\"}",
+      "minecraft:item_name": "{\"text\":\"Wooden Shovel\"}",
+      "minecraft:custom_data": "{\"tag\":\"wooden_shovel\"}",
       "minecraft:tool": {
         "rules": [
           {

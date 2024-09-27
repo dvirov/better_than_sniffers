@@ -30,7 +30,7 @@
             "correct_for_drops": true
           }
         ],
-        "default_mining_speed": 1.5,
+        "default_mining_speed": 1.1,
         "damage_per_block": 1
       },
       "minecraft:item_name": "{\"color\":\"white\",\"text\":\"Copper Pickaxe\"}",
