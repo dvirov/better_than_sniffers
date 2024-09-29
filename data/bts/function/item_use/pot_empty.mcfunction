@@ -7,4 +7,4 @@ scoreboard players reset @s raycast
 #execute as @n[type=item] at @s run data modify entity @s Item set from block ~ ~-0.7 ~ item
 execute as @n[type=item] at @s run data modify block ~ ~ ~ item set value {id:"minecraft:air"}
 kill @e[type=item,nbt={Tags:["blank_item"],Item:{id:"minecraft:barrier",count:1}}]
-advancement revoke @s only bts:trigger/pot_empty
+#advancement revoke @s only bts:trigger/pot_empty

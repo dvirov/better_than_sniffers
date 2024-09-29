@@ -2,19 +2,23 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "pattern": [
+    "FF",
     "CC",
     "CC"
   ],
   "key": {
     "C": {
       "item": "minecraft:oak_planks"
+    },
+    "F": {
+      "item": "minecraft:flint"
     }
   },
   "result": {
     "id": "minecraft:item_frame",
     "components": {
       "minecraft:entity_data": {
-        "id": "minecraft:item_frame", "Tags":["custom_block","fletching"], "Invisible":false, "Invulnerable": true, "Fixed":true, "Silent": true
+        "id": "minecraft:item_frame", "Tags":["place_fletching"], "Invisible":false, "Invulnerable": true, "Fixed":true, "Silent": true
       },
       "minecraft:item_name": "{\"text\":\"Fletching Table\"}",
       "minecraft:rarity": "common",

@@ -14,7 +14,7 @@
     "id": "minecraft:item_frame",
     "components": {
       "minecraft:entity_data": {
-        "id": "minecraft:item_frame", "Tags":["custom_block","cooking"], "Invisible":false, "Invulnerable": true, "Fixed":true, "Silent": true
+        "id": "minecraft:item_frame", "Tags":["place_cooking"], "Invisible":false, "Invulnerable": true, "Fixed":true, "Silent": true
       },
       "minecraft:item_name": "{\"text\":\"Cooking Pot\"}",
       "minecraft:rarity": "common",

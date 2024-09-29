@@ -5,6 +5,6 @@
     }
   },
   "rewards": {
-    "function": "bts:newplayer"
+    "function": "bts:misc/newplayer"
   }
 }

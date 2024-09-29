@@ -1,6 +1,6 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "minecraft:plains",
+  "biomes": "#bts:rocks",
   "step": "surface_structures",
   "spawn_overrides": {
     "monster": {
@@ -12,9 +12,10 @@
   "start_pool": "bts:camp",
   "size": 10,
   "start_height": {
-    "above_bottom": 0
+    "above_bottom": 64
   },
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
   "max_distance_from_center": 100,
   "use_expansion_hack": false,
-  "liquid_settings": "apply_waterlogging"
+  "liquid_settings": "ignore_waterlogging"
 }

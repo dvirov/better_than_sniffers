@@ -3,11 +3,27 @@
   "terms": [
     {
       "condition": "minecraft:reference",
-      "name": "bts:durabilty/32"
+      "name": "bts:durability/32"
     },
     {
       "condition": "minecraft:reference",
-      "name": "bts:durabilty/64"
+      "name": "bts:durability/64"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "bts:durability/80"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "bts:durability/128"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "bts:durability/250"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "bts:durability/1"
     }
   ]
 }

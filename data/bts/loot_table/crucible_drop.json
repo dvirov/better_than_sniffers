@@ -15,7 +15,7 @@
                 "custom_data": {"tag":"crucible"},
                 "minecraft:item_name": "{\"text\":\"Crucible\"}",
                 "minecraft:entity_data": {
-                  "id": "minecraft:item_frame", "Tags":["custom_block","crucible"], "Invisible":false, "Invulnerable": true, "Fixed":true, "Silent": true
+                  "id": "minecraft:item_frame", "Tags":["place_crucible"], "Invisible":false, "Invulnerable": true, "Fixed":true, "Silent": true
                 }
               }
             }

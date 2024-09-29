@@ -15,7 +15,7 @@
                 "custom_data": {"tag":"cooking"},
                 "minecraft:item_name": "{\"text\":\"Cooking Pot\"}",
                 "minecraft:entity_data": {
-                  "id": "minecraft:item_frame", "Tags":["custom_block","cooking"], "Invisible":false, "Invulnerable": true, "Fixed":true, "Silent": true
+                  "id": "minecraft:item_frame", "Tags":["place_cooking"], "Invisible":false, "Invulnerable": true, "Fixed":true, "Silent": true
                 }
               }
             }

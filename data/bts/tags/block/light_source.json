@@ -1,6 +1,9 @@
 {
   "values": [
     "torch",
-    "lava"
+    "lava",
+    "lava_cauldron",
+    "fire",
+    "lantern"
   ]
 }

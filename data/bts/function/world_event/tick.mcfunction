@@ -1,7 +1,7 @@
 execute as @a at @s if predicate bts:word_event/in_dark run function bts:world_event/in_dark
 execute as @a at @s unless score @s time_in_dark matches ..0 if predicate bts:word_event/in_light run scoreboard players remove @s time_in_dark 1
-execute as @a at @s store success score @s is_near_light_block at @s run clone ~5 ~5 ~5 ~-5 ~-5 ~-5 ~-5 ~-5 ~-5 filtered campfire[lit=true] move
-execute as @a at @s unless score @s is_near_light_block matches 1 store success score @s is_near_light_block at @s run clone ~5 ~5 ~5 ~-5 ~-5 ~-5 ~-5 ~-5 ~-5 filtered #bts:light_source move
+execute as @a at @s store result score @s near_lit_campfire at @s run clone ~5 ~5 ~5 ~-5 ~-5 ~-5 ~-5 ~-5 ~-5 filtered campfire[lit=true] move
+execute as @a at @s store result score @s near_light_block at @s run clone ~5 ~5 ~5 ~-5 ~-5 ~-5 ~-5 ~-5 ~-5 filtered #bts:light_source move 
 
 
 execute if score .season calander matches 1 as @a as @s at @s run function bts:world_event/seasons/fall

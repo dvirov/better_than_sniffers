@@ -6,4 +6,7 @@ item replace entity @p enderchest.0 with structure_void 1
 item replace entity @p enderchest.1 with structure_void 1
 item replace entity @p enderchest.2 with structure_void 1
 scoreboard players set @s bar_sanity_calc 2090
+scoreboard players set @s bar_temprature 1
+scoreboard players set @s bar_stamina 21
+
 recipe give @s *
