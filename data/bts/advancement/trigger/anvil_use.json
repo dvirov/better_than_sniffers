@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "minecraft:mace"
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:interaction",
+          "location": {
+            "block": {
+              "blocks": "#minecraft:anvil"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bts:blocks/anvil/use"
+  }
+}

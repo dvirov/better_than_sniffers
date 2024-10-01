@@ -32,6 +32,8 @@ scoreboard objectives add drying_time dummy
 
 scoreboard objectives add bool dummy
 scoreboard objectives add crafting.progress dummy
+scoreboard objectives add anvil.cd dummy
+
 #scoreboard objectives add barrel.open dummy
 
 

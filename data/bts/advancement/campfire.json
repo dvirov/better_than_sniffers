@@ -16,7 +16,7 @@
             "player": {
               "equipment": {
                 "mainhand": {
-                  "items": "minecraft:blaze_spawn_egg"
+                  "items": "minecraft:item_frame"
                 }
           }
         }

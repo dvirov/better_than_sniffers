@@ -1,20 +1,30 @@
 {
   "criteria": {
-    "requirement": {
+    "example": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
-        "player": {
-          "location": {},
-          "equipment": {
-            "mainhand": {
-              "items": "minecraft:fire_charge"
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:fire_charge"
+              ]
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:campfire"
+              }
             }
           }
-        }
+        ]
       }
     }
   },
   "rewards": {
-    "function": "bts:campfire/lit"
+    "function": "bts:blocks/campfire/lit"
   }
 }

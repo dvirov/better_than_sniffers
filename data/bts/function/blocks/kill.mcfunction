@@ -1,5 +1,8 @@
 execute store success score boolkill bool run kill @e[type=item,nbt={Item:{id:"minecraft:barrier"}}]
-execute as @e[type=block_display,tag=custom_block,tag=crucible] at @s if block ~0.1 ~0.1 ~0.1 air run loot spawn ~ ~ ~ loot bts:crucible_drop
-execute as @e[type=block_display,tag=custom_block,tag=fletching] at @s if block ~0.1 ~0.1 ~0.1 air run loot spawn ~ ~ ~ loot bts:fletching_drop
-execute as @e[type=block_display,tag=custom_block,tag=cooking] at @s if block ~0.1 ~0.1 ~0.1 air run loot spawn ~ ~ ~ loot bts:cooking_drop
-execute as @e[type=block_display,tag=custom_block] at @s if block ~0.1 ~0.1 ~0.1 air run kill @s
+execute as @e[type=block_display,tag=custom_block,tag=crucible] at @s if block ~ ~ ~ air run loot spawn ~ ~ ~ loot bts:custom_block/crucible_drop
+execute as @e[type=block_display,tag=custom_block,tag=fletching] at @s if block ~ ~ ~ air run loot spawn ~ ~ ~ loot bts:custom_block/fletching_drop
+execute as @e[type=block_display,tag=custom_block,tag=cooking] at @s if block ~ ~ ~ air run loot spawn ~ ~ ~ loot bts:custom_block/cooking_drop
+execute as @e[type=interaction,tag=custom_block,tag=anvil] at @s if block ~ ~ ~ air run loot spawn ~ ~ ~ loot bts:custom_block/anvil_drop
+
+
+execute as @e[type=#bts:visuals,tag=custom_block] at @s if block ~ ~ ~ air run kill @s
