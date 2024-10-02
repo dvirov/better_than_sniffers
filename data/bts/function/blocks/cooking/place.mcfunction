@@ -1,5 +1,5 @@
 #run once when trigger from detect
-execute unless block ~ ~ ~ air run return run function bts:blocks/fail
+execute unless block ~ ~ ~ #minecraft:replaceable run return run function bts:blocks/fail
 
 setblock ~ ~ ~ barrel[facing=down]{CustomName:'{"color":"white","text":"\\uF808\\uD002"}'}
 function bts:blocks/cooking/set_grid

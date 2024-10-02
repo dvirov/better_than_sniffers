@@ -1,11 +1,9 @@
 {
   "values": [
-    "minecraft:stick",
+    "stick",
     "bamboo",
-    "#wooden_slabs",
+    "#minecraft:wooden_slabs",
     "wooden_pickaxe",
-    "#saplings"
-
-
+    "#minecraft:saplings"
   ]
 }
