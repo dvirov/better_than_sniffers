@@ -1,8 +1,3 @@
-campfires converted to the new block system
-camps fixed
-more recipes added
-changes with villagers and job sites
-anvil functionality added 
-
-
-fixed bug with transperant barrels 
+animals are now "neutral" instead of "passive"
+some block display brightness errors fixed
+some texture fixes

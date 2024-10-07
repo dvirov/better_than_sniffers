@@ -1,0 +1,16 @@
+execute if score @s brightness.block matches ..0 if predicate bts:misc/light_level/0 run scoreboard players set @s brightness.block 0
+execute if score @s brightness.block matches ..1 if predicate bts:misc/light_level/1 run scoreboard players set @s brightness.block 1
+execute if score @s brightness.block matches ..2 if predicate bts:misc/light_level/2 run scoreboard players set @s brightness.block 2
+execute if score @s brightness.block matches ..3 if predicate bts:misc/light_level/3 run scoreboard players set @s brightness.block 3
+execute if score @s brightness.block matches ..4 if predicate bts:misc/light_level/4 run scoreboard players set @s brightness.block 4
+execute if score @s brightness.block matches ..5 if predicate bts:misc/light_level/5 run scoreboard players set @s brightness.block 5
+execute if score @s brightness.block matches ..6 if predicate bts:misc/light_level/6 run scoreboard players set @s brightness.block 6
+execute if score @s brightness.block matches ..7 if predicate bts:misc/light_level/7 run scoreboard players set @s brightness.block 7
+execute if score @s brightness.block matches ..8 if predicate bts:misc/light_level/8 run scoreboard players set @s brightness.block 8
+execute if score @s brightness.block matches ..9 if predicate bts:misc/light_level/9 run scoreboard players set @s brightness.block 9
+execute if score @s brightness.block matches ..10 if predicate bts:misc/light_level/10 run scoreboard players set @s brightness.block 10
+execute if score @s brightness.block matches ..11 if predicate bts:misc/light_level/11 run scoreboard players set @s brightness.block 11
+execute if score @s brightness.block matches ..12 if predicate bts:misc/light_level/12 run scoreboard players set @s brightness.block 12
+execute if score @s brightness.block matches ..13 if predicate bts:misc/light_level/13 run scoreboard players set @s brightness.block 13
+execute if score @s brightness.block matches ..14 if predicate bts:misc/light_level/14 run scoreboard players set @s brightness.block 14
+execute if score @s brightness.block matches ..15 if predicate bts:misc/light_level/15 run scoreboard players set @s brightness.block 15
