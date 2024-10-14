@@ -1,0 +1,19 @@
+[
+  {
+    "function": "minecraft:set_written_book_pages",
+    "pages": [
+      {
+        "text": "test",
+        "extra": [
+          {
+            "text": "here",
+            "color": "blue"
+          }
+        ]
+      }
+    ],
+    "mode": "replace_section",
+    "offset": 0  ,
+    "size": 1
+  }
+]

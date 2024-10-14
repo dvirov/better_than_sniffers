@@ -1,5 +1,1 @@
-{
-        "values": [
-        "bts:tick"
-     ]
-}
+{"values":["animated_java:global/on_tick","bts:tick"]}

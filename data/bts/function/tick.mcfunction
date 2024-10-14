@@ -6,4 +6,9 @@ execute as @e[type=armor_stand,tag=drying_rack] at @s run function bts:drying_ra
 
 function bts:blocks/tick
 
-function bts:mobs/tick
+execute as @e[type=!player] run function bts:mobs/tick
+
+
+
+
+

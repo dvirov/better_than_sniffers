@@ -61,6 +61,21 @@
           "condition": "minecraft:survives_explosion"
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "bts:sharp_stone"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.3
+        }
+      ]
     }
   ],
   "random_sequence": "minecraft:blocks/dirt"

@@ -1,3 +1,12 @@
-animals are now "neutral" instead of "passive"
-some block display brightness errors fixed
-some texture fixes
+some bug fixes
+added sharp stone to dirt and grass block loot tables
+some recipe fixes
+decorated pot loot table fixed
+log peeling cd fixed
+GUI texture fix for the cooking pot and the fletching table
+
+slime rain event added 
+
+some changes with the excavate enchantments
+
+some experimental features

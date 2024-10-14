@@ -12,9 +12,9 @@
     }
   },
   "result": {
-    "id": "minecraft:cobblestone_slab",
+    "id": "minecraft:cobblestone",
     "components": {
-      "minecraft:custom_data": "{\"tag\":\"cobblestone_slab\"}"
+      "minecraft:custom_data": "{\"tag\":\"cobblestone\"}"
     }
   },
   "show_notification": true

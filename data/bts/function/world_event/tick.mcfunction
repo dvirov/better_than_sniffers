@@ -22,3 +22,8 @@ execute as @a as @s unless score @s bar_stamina matches 21.. if predicate bts:is
 execute as @a as @s run function bts:bars/bars
 
 
+# Slime Rain
+execute if predicate bts:sunrise if predicate bts:word_event/rng0.05 as @a run function bts:world_event/slimerain/start
+execute if score slimerain calander matches 1 as @a at @s positioned ~ 50 ~ run function bts:world_event/slimerain/main
+
+

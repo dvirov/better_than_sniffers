@@ -10,11 +10,11 @@
     "S": {
       "item": "minecraft:stick"
     },
-    "R": {
+    "F": {
       "tag": "minecraft:wooden_slabs"
     },
-    "F": {
-      "item": "minecraft:flint"
+    "R": {
+      "item": "minecraft:string"
     }
   },
   "result": {

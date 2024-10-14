@@ -2,19 +2,19 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "pattern": [
-    "F ",
-    "SR",
-    "S "
+    " F ",
+    " SR",
+    " S "
   ],
   "key": {
     "S": {
       "item": "minecraft:stick"
     },
-    "R": {
+    "F": {
       "item": "minecraft:cobblestone_slab"
     },
-    "F": {
-      "item": "minecraft:flint"
+    "R": {
+      "item": "minecraft:string"
     }
   },
   "result": {

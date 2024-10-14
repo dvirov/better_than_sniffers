@@ -9,6 +9,5 @@ execute if block ~ ~ ~ jungle_log run summon item ~ ~ ~ {Item:{id:"minecraft:jun
 execute if block ~ ~ ~ spruce_log run summon item ~ ~ ~ {Item:{id:"minecraft:spruce_slab",count:1}}
 execute if block ~ ~ ~ dark_oak_log run summon item ~ ~ ~ {Item:{id:"minecraft:dark_oak_slab",count:1}}
 execute if block ~ ~ ~ mangrove_log run summon item ~ ~ ~ {Item:{id:"minecraft:mangrove_slab",count:1}}
-execute unless score @s raycast matches 50 if block ~ ~ ~ #bts:transparent positioned ^ ^ ^.1 run function bts:item_use/log_peeling
+execute unless score @s raycast matches 6 if block ~ ~ ~ #bts:transparent positioned ^ ^ ^1 run function bts:item_use/log_peeling
 scoreboard players reset @s raycast
-advancement revoke @s only bts:trigger/log_peeling

@@ -4,4 +4,6 @@ execute as @e[type=item_frame,tag=place_cooking] run loot spawn ~ ~ ~ loot bts:c
 execute as @e[type=item_frame,tag=place_ampfire] run loot spawn ~ ~ ~ loot bts:custom_block/campfire_drop
 execute as @e[type=item_frame,tag=place_anvil] run loot spawn ~ ~ ~ loot bts:custom_block/anvil_drop
 
+
+
 kill @s

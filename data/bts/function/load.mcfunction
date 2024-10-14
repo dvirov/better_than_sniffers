@@ -9,6 +9,7 @@ scoreboard objectives add near_light_block dummy
 scoreboard objectives add near_lit_campfire dummy
 scoreboard objectives add air air
 scoreboard objectives add campfire_place dummy
+scoreboard objectives add timer dummy
 
 gamerule doInsomnia false
 gamerule naturalRegeneration false
