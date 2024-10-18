@@ -1,0 +1,3 @@
+$title @s actionbar [{"interpret":true,"nbt":"sanity","storage":"minecraft:$(UUID0)$(UUID1)$(UUID2)$(UUID3)"},{"interpret":true,"nbt":"temperature","storage":"minecraft:$(UUID0)$(UUID1)$(UUID2)$(UUID3)"},{"interpret":true,"nbt":"stamina","storage":"minecraft:$(UUID0)$(UUID1)$(UUID2)$(UUID3)"}]
+#$say my id is $(UUID0)$(UUID1)$(UUID2)$(UUID3)
+#$function bts:misc/newbars2 with storage $(UUID0)$(UUID1)$(UUID2)$(UUID3)

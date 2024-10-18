@@ -1,0 +1,1 @@
+function bts:world_event/slimerain/end

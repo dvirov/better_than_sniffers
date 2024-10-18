@@ -19,11 +19,15 @@ execute as @a as @s at @s if predicate bts:noroof unless score @s ylevel matches
 execute as @a as @s at @s run function bts:world_event/bars_calc/temperature
 execute as @a as @s if predicate bts:is_running run function bts:world_event/bars_calc/stamina
 execute as @a as @s unless score @s bar_stamina matches 21.. if predicate bts:is_standing run function bts:world_event/bars_calc/stamina_regen
-execute as @a as @s run function bts:bars/bars
+#execute as @a as @s run function bts:bars/bars
 
 
 # Slime Rain
-execute if predicate bts:sunrise if predicate bts:word_event/rng0.05 as @a run function bts:world_event/slimerain/start
+execute unless score slimerain calander matches 1 if predicate bts:is_day if predicate bts:word_event/rng0.00000529072539 as @a run function bts:world_event/slimerain/start
 execute if score slimerain calander matches 1 as @a at @s positioned ~ 50 ~ run function bts:world_event/slimerain/main
 
+
+
+
+execute if predicate bts:nightfall run function bts:world_event/day_end
 

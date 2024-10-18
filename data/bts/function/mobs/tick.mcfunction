@@ -9,4 +9,4 @@ kill @s[type=zombified_piglin,tag=ai,predicate=!bts:is_passanger]
 
 # Slime Rain 
 execute as @s[type=slime,tag=slimerain] run function bts:world_event/slimerain/timer
-execute as @s[type=minecraft:slime,name=slime,nbt={Size:0}] run tp @s ~ -100 ~
+execute as @s[type=slime,name=slime,nbt={Size:0}] run function bts:mobs/silent_kill

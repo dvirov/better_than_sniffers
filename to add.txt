@@ -9,10 +9,10 @@ flint>wood>stone>copper>iron>steel>
 ages:
 flint V
 Wood V
-cobblestone
-copper
+cobblestone V
+copper V
 bronze ?
-iron
+iron V
 steel
 gold
 diamond

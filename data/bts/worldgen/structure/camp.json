@@ -8,7 +8,7 @@
       "spawns": []
     }
   },
-  "terrain_adaptation": "beard_thin",
+  "terrain_adaptation": "none",
   "start_pool": "bts:camp",
   "size": 10,
   "start_height": {
