@@ -6,9 +6,7 @@
     "S"
   ],
   "key": {
-    "S": {
-      "item": "minecraft:iron_block"
-    }
+    "S":"minecraft:iron_block"
   },
   "result": {
     "id": "minecraft:iron_ingot",

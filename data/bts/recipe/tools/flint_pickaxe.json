@@ -7,20 +7,15 @@
     " S "
   ],
   "key": {
-    "S": {
-      "item": "minecraft:stick"
-    },
-    "R": {
-      "item": "minecraft:string"
-    },
-    "F": {
-      "item": "minecraft:flint"
-    }
+    "S":"minecraft:stick",
+    "R":"minecraft:string",
+    "F":"minecraft:flint"
   },
   "result": {
     "id": "minecraft:stone_pickaxe",
     "count": 1,
     "components": {
+      "item_model":"bts:flint_pickaxe",
       "minecraft:item_name": "{\"color\":\"white\",\"text\":\"Flint Pickaxe\"}",
       "minecraft:custom_data": "{\"tag\":\"flint_pickaxe\"}",
       "minecraft:enchantments": {
@@ -36,14 +31,13 @@
         "modifiers": [
           {
             "id": "damage",
-            "type": "minecraft:generic.attack_damage",
+            "type": "minecraft:attack_damage",
             "amount": 1,
             "operation": "add_value",
             "slot": "mainhand"
           }
         ]
-      }
-    }
+      }}
   },
   "show_notification": true
 }

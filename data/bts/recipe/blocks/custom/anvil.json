@@ -7,20 +7,17 @@
     "III"
   ],
   "key": {
-    "B": {
-      "item": "minecraft:iron_block"
-    },
-    "I": {
-      "item": "minecraft:iron_ingot"
-    }
+    "B":"minecraft:iron_block",
+    "I":"minecraft:iron_ingot"
   },
   "result": {
     "id": "minecraft:item_frame",
     "components": {
+      "item_model":"anvil",
       "minecraft:entity_data": {
         "id": "minecraft:item_frame", "Tags":["place_anvil"], "Invisible":false, "Invulnerable": true, "Fixed":true, "Silent": true
       },
-      "minecraft:item_name": "{\"text\":\"Anvil\"}",
+      "minecraft:custom_name": "{\"text\":\"Anvil\",\"italic\":false}",
       "minecraft:rarity": "common",
       "custom_data": {"anvil":"1b"}
     }

@@ -2,17 +2,13 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "pattern": [
-    "   ",
+    "###",
     "III",
     "ICI"
   ],
   "key": {
-    "C": {
-      "item": "minecraft:furnace"
-    },
-    "I": {
-      "item": "minecraft:copper_ingot"
-    }
+    "C":"minecraft:furnace",
+    "I":"minecraft:copper_ingot"
   },
   "result": {
     "id": "minecraft:blast_furnace",

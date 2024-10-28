@@ -3,13 +3,11 @@
   "category": "misc",
   "group": "boat",
   "key": {
-    "#": {
-      "item": "minecraft:bamboo_planks"
-    }
+    "P":"minecraft:bamboo_planks"
   },
   "pattern": [
-    "# #",
-    "###"
+    "P P",
+    "PPP"
   ],
   "result": {
     "count": 1,

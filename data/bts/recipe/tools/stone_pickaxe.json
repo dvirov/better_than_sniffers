@@ -7,20 +7,15 @@
     " S "
   ],
   "key": {
-    "C": {
-      "item": "minecraft:cobblestone_slab"
-    },
-    "P": {
-      "item": "minecraft:string"
-    },
-    "S": {
-      "item": "minecraft:stick"
-    }
+    "C":"minecraft:cobblestone_slab",
+    "P":"minecraft:string",
+    "S":"minecraft:stick"
   },
   "result": {
     "id": "minecraft:stone_pickaxe",
     "count": 1,
     "components": {
+      "item_model":"stone_pickaxe",
       "minecraft:max_stack_size": 1,
       "minecraft:tool": {
         "rules": [
@@ -33,7 +28,7 @@
         "default_mining_speed": 1,
         "damage_per_block": 1
       },
-      "minecraft:item_name": "{\"text\":\"Cobblestone Pickaxe\"}",
+      "minecraft:item_name": "{\"color\":\"white\",\"text\":\"Cobblestone Pickaxe\"}",
       "minecraft:custom_data": "{\"tag\":\"stone_pickaxe\"}",
       "minecraft:enchantments": {
        "levels": {
@@ -51,7 +46,7 @@
        "modifiers": [
          {
            "id": "damage",
-           "type": "minecraft:generic.attack_damage",
+           "type": "minecraft:attack_damage",
            "amount": 2,
            "operation": "add_value",
            "slot": "mainhand"

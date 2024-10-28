@@ -1,6 +1,5 @@
 {
   "values": [
-    "minecraft:mob_attack",
     "minecraft:explosion",
     "minecraft:player_explosion",
     "minecraft:bad_respawn_point",

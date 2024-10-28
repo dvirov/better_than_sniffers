@@ -7,15 +7,9 @@
     "S "
   ],
   "key": {
-    "S": {
-      "item": "minecraft:stick"
-    },
-    "F": {
-      "tag": "minecraft:wooden_slabs"
-    },
-    "R": {
-      "item": "minecraft:string"
-    }
+    "S":"minecraft:stick",
+    "F": "#minecraft:wooden_slabs",
+    "R":"minecraft:string"
   },
   "result": {
     "id": "minecraft:stone_shovel",
@@ -34,6 +28,5 @@
         "default_mining_speed": 1,
         "damage_per_block": 1
       }
-    }
   }
 }

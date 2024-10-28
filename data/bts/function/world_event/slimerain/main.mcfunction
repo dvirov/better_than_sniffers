@@ -1,3 +1,4 @@
+particle item_slime ~ ~-50 ~ ~10 ~30 ~10 0 50 normal
 
 execute if predicate bts:word_event/rng0.01 positioned ~ ~ ~ run function bts:world_event/slimerain/summon
 

@@ -6,12 +6,8 @@
     "PR"
   ],
   "key": {
-    "R": {
-      "item": "minecraft:hanging_roots"
-    },
-    "P": {
-      "item": "minecraft:petrified_oak_slab"
-    }
+    "R":"minecraft:hanging_roots",
+    "P":"minecraft:petrified_oak_slab"
   },
   "result": {
     "id": "minecraft:rooted_dirt"

@@ -6,15 +6,9 @@
     "FP"
   ],
   "key": {
-    "S": {
-      "item": "minecraft:stick"
-    },
-    "P": {
-      "item": "minecraft:string"
-    },
-    "F": {
-      "item": "minecraft:flint"
-    }
+    "S":"minecraft:stick",
+    "P":"minecraft:string",
+    "F":"minecraft:flint"
   },
   "result": {
     "id": "minecraft:stone_axe",
@@ -28,15 +22,14 @@
         "modifiers": [
           {
             "id": "reach",
-            "type": "minecraft:player.block_interaction_range",
+            "type": "minecraft:block_interaction_range",
             "amount": -3.5,
             "operation": "add_value",
             "slot": "mainhand"
           }
         ],
         "show_in_tooltip": false
-      }
-    }
+      }}
   },
   "show_notification": true
 }

@@ -1,6 +1,6 @@
 {
     "pack": {
-      "pack_format": 48,
+      "pack_format":57,
       "description": "Better than Sniffers By dvirov"
     },
     "filter": {
@@ -8,10 +8,6 @@
         {
           "namespace": "minecraft",
           "path": "recipe/*"
-        },
-        {
-          "namespace": "minecraft",
-          "path": "loot_table/*"
         },
         {
           "namespace": "minecraft",

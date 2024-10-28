@@ -6,14 +6,11 @@
     "SSS"
   ],
   "key": {
-    "S": {
-      "item": "minecraft:string"
-    }
+    "S":"minecraft:string"
   },
   "result": {
     "id": "minecraft:cobweb",
     "components": {
       "minecraft:item_name": "{\"text\":\"Net\"}"
-    }
   }
 }

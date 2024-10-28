@@ -11,9 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
+                "item_model":"cauldron",
                 "rarity": "uncommon",
                 "custom_data": {"tag":"crucible"},
-                "minecraft:item_name": "{\"text\":\"Crucible\"}",
+                "minecraft:custom_name": "{\"text\":\"Crucible\",\"italic\":false}",
                 "minecraft:entity_data": {
                   "id": "minecraft:item_frame", "Tags":["place_crucible"], "Invisible":false, "Invulnerable": true, "Fixed":true, "Silent": true
                 }

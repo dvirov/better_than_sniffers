@@ -6,9 +6,7 @@
     "L L"
   ],
   "key": {
-    "L": {
-      "item": "minecraft:leather"
-    }
+    "L":"minecraft:leather"
   },
   "result": {
     "id": "minecraft:leather_helmet"

@@ -6,9 +6,7 @@
     "CC"
   ],
   "key": {
-    "C": {
-      "item": "minecraft:clay_ball"
-    }
+    "C":"minecraft:clay_ball"
   },
   "result": {
     "id": "minecraft:petrified_oak_slab",

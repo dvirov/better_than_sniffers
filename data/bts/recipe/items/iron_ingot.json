@@ -8,9 +8,7 @@
     "SSS"
   ],
   "key": {
-    "S": {
-      "item": "minecraft:iron_nugget"
-    }
+    "S":"minecraft:iron_nugget"
   },
   "result": {
     "id": "minecraft:iron_ingot"

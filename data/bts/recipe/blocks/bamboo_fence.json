@@ -1,18 +1,14 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "building",
   "group": "wooden_fence",
   "key": {
-    "#": {
-      "item": "minecraft:stick"
-    },
-    "W": {
-      "item": "minecraft:bamboo_planks"
-    }
+    "S":"minecraft:stick",
+    "W":"minecraft:bamboo_slab"
   },
   "pattern": [
-    "W#W",
-    "W#W"
+    "SSS",
+    "SWS"
   ],
   "result": {
     "count": 3,

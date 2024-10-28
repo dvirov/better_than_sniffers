@@ -6,14 +6,11 @@
     " I "
   ],
   "key": {
-    "I": {
-      "item": "minecraft:iron_ingot"
-    }
+    "I":"minecraft:iron_ingot"
   },
   "result": {
     "id": "minecraft:music_disc_stal",
     "components": {
       "!minecraft:jukebox_playable": {}
-    }
   }
 }

@@ -1,18 +1,15 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {
-      "item": "minecraft:stick"
-    },
-    {
-      "item": "minecraft:stick"
-    }
+   "minecraft:stick",
+   "minecraft:stick"
   ],
   "result": {
     "id": "minecraft:fire_charge",
     "components": {
       "minecraft:item_name": "{\"text\":\"Fire Plough\"}",
       "minecraft:custom_data": "{\"tag\":\"fire_plough\"}"
-    }
+   }
   }
 }
+

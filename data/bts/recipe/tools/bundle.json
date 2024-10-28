@@ -7,12 +7,8 @@
     "RRR"
   ],
   "key": {
-    "S": {
-      "item": "minecraft:string"
-    },
-    "R": {
-      "item": "minecraft:leather"
-    }
+    "S":"minecraft:string",
+    "R":"minecraft:leather"
   },
   "result": {
     "id": "minecraft:bundle"

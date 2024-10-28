@@ -7,12 +7,8 @@
     "SPS"
   ],
   "key": {
-    "P": {
-      "item": "minecraft:cherry_slab"
-    },
-    "S": {
-      "item": "minecraft:stick"
-    }
+    "P":"minecraft:cherry_slab",
+    "S":"minecraft:stick"
   },
   "result": {
     "id": "minecraft:cherry_fence",

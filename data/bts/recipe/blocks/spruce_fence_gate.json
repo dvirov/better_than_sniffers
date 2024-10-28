@@ -8,12 +8,8 @@
     
   ],
   "key": {
-    "P": {
-      "item": "minecraft:spruce_slab"
-    },
-    "S": {
-      "item": "minecraft:stick"
-    }
+    "P":"minecraft:spruce_slab",
+    "S":"minecraft:stick"
   },
   "result": {
     "id": "minecraft:spruce_fence_gate",

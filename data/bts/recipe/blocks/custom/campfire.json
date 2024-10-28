@@ -7,20 +7,17 @@
     "WWW"
   ],
   "key": {
-    "S": {
-      "item": "minecraft:stick"
-    },
-    "W": {
-      "tag": "minecraft:wooden_slabs"
-    }
+    "S":"minecraft:stick",
+    "W": "#minecraft:wooden_slabs"
   },
   "result": {
     "id": "minecraft:item_frame",
     "components": {
+      "item_model":"campfire",
       "minecraft:entity_data": {
         "id": "minecraft:item_frame", "Tags":["place_campfire"], "Invisible":false, "Invulnerable": true, "Fixed":true, "Silent": true
       },
-      "minecraft:item_name": "{\"text\":\"Campfire\"}",
+      "minecraft:custom_name": "{\"text\":\"Campfire\",\"italic\":false}",
       "minecraft:rarity": "common",
       "custom_data": {"tag":"campfire"}
     }

@@ -5,9 +5,7 @@
     "X"
   ],
   "key": {
-    "X": {
-      "item": "minecraft:nether_star"
-    }
+    "X":"minecraft:nether_star"
   },
   "result": {
     "id": "minecraft:paper",
@@ -50,7 +48,6 @@
         ]
       },
       "minecraft:max_stack_size": 1
-    }
   },
   "show_notification": true
 }

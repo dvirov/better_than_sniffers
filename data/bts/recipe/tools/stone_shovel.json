@@ -7,15 +7,9 @@
     " S "
   ],
   "key": {
-    "S": {
-      "item": "minecraft:stick"
-    },
-    "F": {
-      "item": "minecraft:cobblestone_slab"
-    },
-    "R": {
-      "item": "minecraft:string"
-    }
+    "S":"minecraft:stick",
+    "F":"minecraft:cobblestone_slab",
+    "R":"minecraft:string"
   },
   "result": {
     "id": "minecraft:stone_shovel",
@@ -34,6 +28,5 @@
         "default_mining_speed": 1,
         "damage_per_block": 1
       }
-    }
   }
-}
+}}

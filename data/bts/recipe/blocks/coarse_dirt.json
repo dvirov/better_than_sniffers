@@ -6,12 +6,8 @@
     "PR"
   ],
   "key": {
-    "R": {
-      "item": "minecraft:dead_bush"
-    },
-    "P": {
-      "item": "minecraft:petrified_oak_slab"
-    }
+    "R":"minecraft:dead_bush",
+    "P":"minecraft:petrified_oak_slab"
   },
   "result": {
     "id": "minecraft:rooted_dirt"

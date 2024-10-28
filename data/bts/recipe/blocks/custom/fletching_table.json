@@ -7,20 +7,17 @@
     "CC"
   ],
   "key": {
-    "C": {
-      "item": "minecraft:oak_planks"
-    },
-    "F": {
-      "item": "minecraft:flint"
-    }
+    "C": "#planks",
+    "F":"minecraft:flint"
   },
   "result": {
     "id": "minecraft:item_frame",
     "components": {
+      "item_model":"fletching_table",
       "minecraft:entity_data": {
         "id": "minecraft:item_frame", "Tags":["place_fletching"], "Invisible":false, "Invulnerable": true, "Fixed":true, "Silent": true
       },
-      "minecraft:item_name": "{\"text\":\"Fletching Table\"}",
+      "minecraft:custom_name": "{\"text\":\"Fletching Table\",\"italic\":false}",
       "minecraft:rarity": "common",
       "custom_data": {"tag":"fletching"}
     }

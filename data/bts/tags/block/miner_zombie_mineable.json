@@ -1,0 +1,42 @@
+{
+  "values": [
+    "dirt",
+    "grass_block",
+    "gravel",
+    "sand",
+    "#doors",
+    "#planks",
+    "stone",
+    "deepslate",
+    "tall_grass",
+    "short_grass",
+    "#banners",
+    "#wool",
+    "#wool_carpets",
+    "#terracotta",
+    "#bts:foliage",
+    "#minecraft:slabs",
+    "#minecraft:walls",
+    "#minecraft:fences",
+    "#minecraft:saplings",
+    "#wooden_buttons",
+    "#minecraft:stone_buttons",
+    "flower_pot",
+    "campfire",
+    "glass_pane",
+    "#impermeable",
+    "iron_bars",
+    "#leaves",
+    "#flowers",
+    "cobweb",
+    "#logs",
+    "chain",
+    "cobbled_deepslate",
+    "cobblestone",
+    "mossy_cobblestone"
+
+
+
+
+    ]
+}

@@ -6,17 +6,16 @@
     "CCC"
   ],
   "key": {
-    "C": {
-      "item": "minecraft:brick"
-    }
+    "C":"minecraft:brick"
   },
   "result": {
     "id": "minecraft:item_frame",
     "components": {
+      "item_model":"cauldron",
       "minecraft:entity_data": {
         "id": "minecraft:item_frame", "Tags":["place_cooking"], "Invisible":false, "Invulnerable": true, "Fixed":true, "Silent": true
       },
-      "minecraft:item_name": "{\"text\":\"Cooking Pot\"}",
+      "minecraft:custom_name": "{\"text\":\"Cooking Pot\",\"italic\":false}",
       "minecraft:rarity": "common",
       "custom_data": {"tag":"cooking"}
     }

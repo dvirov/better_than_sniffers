@@ -31,7 +31,7 @@
           "condition": "minecraft:entity_scores",
           "entity": "this",
           "scores": {
-            "is_near_light_block": 0
+            "near_light_block": 0
           }
         }
       ]

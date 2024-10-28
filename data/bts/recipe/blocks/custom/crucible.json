@@ -7,17 +7,16 @@
     "CCC"
   ],
   "key": {
-    "C": {
-      "item": "minecraft:iron_ingot"
-    }
+    "C":"minecraft:iron_ingot"
   },
   "result": {
     "id": "minecraft:item_frame",
     "components": {
+      "item_model":"cauldron",
       "minecraft:entity_data": {
         "id": "minecraft:item_frame", "Tags":["place_crucible"], "Invisible":false, "Invulnerable": true, "Fixed":true, "Silent": true
       },
-      "minecraft:item_name": "{\"text\":\"Crucible\"}",
+      "minecraft:custom_name": "{\"text\":\"Crucible\",\"italic\":false}",
       "minecraft:rarity": "uncommon",
       "custom_data": {"tag":"crucible"}
     }

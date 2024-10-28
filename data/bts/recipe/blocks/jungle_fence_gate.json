@@ -8,12 +8,8 @@
     
   ],
   "key": {
-    "P": {
-      "item": "minecraft:jungle_slab"
-    },
-    "S": {
-      "item": "minecraft:stick"
-    }
+    "P":"minecraft:jungle_slab",
+    "S":"minecraft:stick"
   },
   "result": {
     "id": "minecraft:jungle_fence_gate",

@@ -7,20 +7,15 @@
     " S "
   ],
   "key": {
-    "C": {
-      "item": "minecraft:iron_ingot"
-    },
-    "P": {
-      "item": "minecraft:string"
-    },
-    "S": {
-      "item": "minecraft:stick"
-    }
+    "C":"minecraft:iron_ingot",
+    "P":"minecraft:string",
+    "S":"minecraft:stick"
   },
   "result": {
     "id": "minecraft:stone_pickaxe",
     "count": 1,
     "components": {
+      "item_model":"iron_pickaxe",
       "minecraft:max_stack_size": 1,
       "minecraft:tool": {
         "rules": [
@@ -52,14 +47,13 @@
         "modifiers": [
           {
             "id": "damage",
-            "type": "minecraft:generic.attack_damage",
+            "type": "minecraft:attack_damage",
             "amount": 2.5,
             "operation": "add_value",
             "slot": "mainhand"
           }
         ]
-      }
-    }
+      }}
   },
   "show_notification": true
 }

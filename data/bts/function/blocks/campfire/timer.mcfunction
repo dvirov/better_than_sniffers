@@ -10,3 +10,6 @@ execute on vehicle at @s if predicate bts:misc/campfire_off if entity @s[tag=lit
 
 
 execute on vehicle at @s if block ~ ~ ~ campfire[lit=true] if items entity @s weapon.mainhand #bts:campfire_fuel run function bts:blocks/campfire/fuel
+
+execute unless block ~ ~0.2 ~ minecraft:campfire on vehicle run kill @s
+execute unless block ~ ~0.2 ~ minecraft:campfire run kill @s

@@ -7,15 +7,9 @@
     "S "
   ],
   "key": {
-    "S": {
-      "item": "minecraft:stick"
-    },
-    "R": {
-      "item": "minecraft:string"
-    },
-    "F": {
-      "item": "minecraft:flint"
-    }
+    "S":"minecraft:stick",
+    "R":"minecraft:string",
+    "F":"minecraft:flint"
   },
   "result": {
     "id": "minecraft:stone_shovel",
@@ -34,6 +28,5 @@
         "default_mining_speed": 1,
         "damage_per_block": 1
       }
-    }
   }
 }

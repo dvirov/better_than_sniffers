@@ -8,9 +8,7 @@
     "SSS"
   ],
   "key": {
-    "S": {
-      "item": "minecraft:iron_ingot"
-    }
+    "S":"minecraft:iron_ingot"
   },
   "result": {
     "id": "minecraft:iron_block"

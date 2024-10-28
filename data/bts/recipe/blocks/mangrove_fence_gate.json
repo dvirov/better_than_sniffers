@@ -8,12 +8,8 @@
     
   ],
   "key": {
-    "P": {
-      "item": "minecraft:mangrove_slab"
-    },
-    "S": {
-      "item": "minecraft:stick"
-    }
+    "P":"minecraft:mangrove_slab",
+    "S":"minecraft:stick"
   },
   "result": {
     "id": "minecraft:mangrove_fence_gate",

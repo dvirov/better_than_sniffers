@@ -7,20 +7,15 @@
     " S "
   ],
   "key": {
-    "S": {
-      "item": "minecraft:stick"
-    },
-    "R": {
-      "item": "minecraft:string"
-    },
-    "F": {
-      "tag": "minecraft:wooden_slabs"
-    }
+    "S":"minecraft:stick",
+    "R":"minecraft:string",
+    "F": "#minecraft:wooden_slabs"
   },
   "result": {
     "id": "minecraft:wooden_pickaxe",
     "count": 1,
     "components": {
+      "item_model":"wooden_pickaxe",
       "minecraft:item_name": "{\"color\":\"white\",\"text\":\"Wooden Pickaxe\"}",
       "minecraft:custom_data": "{\"tag\":\"wooden_pickaxe\"}",
       "minecraft:enchantments": {
@@ -37,14 +32,13 @@
         "modifiers": [
           {
             "id": "damage",
-            "type": "minecraft:generic.attack_damage",
+            "type": "minecraft:attack_damage",
             "amount": 1.5,
             "operation": "add_value",
             "slot": "mainhand"
           }
         ]
-      }
-    }
+      }}
   },
   "show_notification": true
 }

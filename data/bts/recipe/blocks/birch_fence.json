@@ -7,12 +7,8 @@
     "SPS"
   ],
   "key": {
-    "P": {
-      "item": "minecraft:birch_slab"
-    },
-    "S": {
-      "item": "minecraft:stick"
-    }
+    "P":"minecraft:birch_slab",
+    "S":"minecraft:stick"
   },
   "result": {
     "id": "minecraft:birch_fence",

@@ -7,15 +7,9 @@
     " S "
   ],
   "key": {
-    "S": {
-      "item": "minecraft:stick"
-    },
-    "F": {
-      "tag": "minecraft:wooden_slabs"
-    },
-    "R": {
-      "item": "minecraft:string"
-    }
+    "S":"minecraft:stick",
+    "F": "#minecraft:wooden_slabs",
+    "R":"minecraft:string"
   },
   "result": {
     "id": "minecraft:stone_axe",
@@ -39,14 +33,13 @@
         "modifiers": [
           {
             "id": "speed",
-            "type": "minecraft:generic.attack_damage",
+            "type": "minecraft:attack_damage",
             "amount": 1.1,
             "operation": "add_value",
             "slot": "mainhand"
           }
         ]
-      }
-    }
+      }}
   },
   "show_notification": true
 }

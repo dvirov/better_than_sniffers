@@ -107,7 +107,7 @@
     "water_creature": []
   },
   "spawn_costs": {},
-  "carvers": {},
+  "carvers": [],
   "features": [
     [
       "minecraft:freeze_top_layer"

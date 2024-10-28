@@ -8,12 +8,8 @@
     
   ],
   "key": {
-    "P": {
-      "item": "minecraft:oak_slab"
-    },
-    "S": {
-      "item": "minecraft:stick"
-    }
+    "P":"minecraft:oak_slab",
+    "S":"minecraft:stick"
   },
   "result": {
     "id": "minecraft:oak_fence_gate",

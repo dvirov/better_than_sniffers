@@ -7,9 +7,7 @@
     "BBB"
   ],
   "key": {
-    "B": {
-      "tag": "minecraft:wooden_slabs"
-    }
+    "B": "#minecraft:wooden_slabs"
   },
   "result": {
     "id": "minecraft:cauldron",

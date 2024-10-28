@@ -7,15 +7,9 @@
     " SR"
   ],
   "key": {
-    "S": {
-      "item": "minecraft:stick"
-    },
-    "F": {
-      "item": "minecraft:cobblestone_slab"
-    },
-    "R": {
-      "item": "minecraft:string"
-    }
+    "S":"minecraft:stick",
+    "F":"minecraft:cobblestone_slab",
+    "R":"minecraft:string"
   },
   "result": {
     "id": "minecraft:stone_sword",
@@ -25,7 +19,7 @@
         "modifiers": [
           {
             "id": "attack_damage",
-            "type": "minecraft:generic.attack_damage",
+            "type": "minecraft:attack_damage",
             "amount": 3.6,
             "operation": "add_value",
             "slot": "mainhand"
@@ -39,8 +33,7 @@
         "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 3.6 Attack Damege\"}"
       ],
       "minecraft:custom_data": "{\"tag\":\"stone_sword\"}",
-      "minecraft:max_damage": 30
-    }
+      "minecraft:max_damage": 30}
   },
   "show_notification": true
 }

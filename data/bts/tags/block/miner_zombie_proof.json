@@ -1,0 +1,13 @@
+{
+  "values": [
+    "bedrock",
+    "barrier",
+    "barrel",
+    "obsidian",
+    "chest",
+    "#beds",
+    "end_portal_frame",
+    "#portals",
+    "crying_obsidian"
+    ]
+}

@@ -1,8 +1,8 @@
-function bts:blocks/kill
+execute as @e[type=block_display,tag=custom_block] run function bts:blocks/kill
 
-execute as @a as @s run function bts:blocks/crucible/clear
-execute as @a as @s run function bts:blocks/fletching/clear
-execute as @a as @s run function bts:blocks/cooking/clear
+execute as @a run function bts:blocks/crucible/clear
+execute as @a run function bts:blocks/fletching/clear
+execute as @a run function bts:blocks/cooking/clear
 
 #execute as @a if score @s barrel.open matches 1 run playsound block.iron_trapdoor.open block @s ~ ~ ~ 2
 #execute as @a if score @s barrel.open matches 1.. run scoreboard players set @s barrel.open 0
