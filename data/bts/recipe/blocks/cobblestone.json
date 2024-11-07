@@ -10,10 +10,7 @@
     "S":"minecraft:cobblestone_slab"
   },
   "result": {
-    "id": "minecraft:cobblestone",
-    "components": {
-      "minecraft:custom_data": "{\"tag\":\"cobblestone\"}"
-    }
+    "id": "minecraft:cobblestone"
   },
   "show_notification": true
 }

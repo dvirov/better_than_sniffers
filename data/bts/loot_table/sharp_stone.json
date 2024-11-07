@@ -15,7 +15,7 @@
                 "minecraft:max_stack_size": 1,
                 "minecraft:enchantment_glint_override": false,
                 "minecraft:rarity": "common",
-                "minecraft:item_name": "{\"text\":\"Sharp Stone\"}",
+                "minecraft:item_name": "\"Sharp Stone\"",
                 "minecraft:tool": {
                   "rules": [
                     {
@@ -28,7 +28,7 @@
                 },
                 "minecraft:max_damage": 7,
                 "minecraft:damage": 0,
-                "minecraft:custom_data": "{\"tag\":\"sharp_stone\"}"
+                "minecraft:custom_data": "{sharp_stone:1b}"
               }
             }
           ]

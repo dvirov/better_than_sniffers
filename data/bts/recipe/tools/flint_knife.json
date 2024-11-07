@@ -35,6 +35,7 @@
           "rules": [
             {
               "blocks": "#minecraft:foliage",
+              "speed": 1,
               "correct_for_drops": true
             }
           ],

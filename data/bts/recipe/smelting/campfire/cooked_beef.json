@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:campfire_cooking",
+    "category": "food",
+    "ingredient": "minecraft:beef",
+    "result": {
+      "id": "minecraft:cooked_beef"
+    },
+    "cookingtime": 2000
+  }

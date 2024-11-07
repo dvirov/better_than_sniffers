@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:campfire_cooking",
+    "category": "food",
+    "ingredient": "minecraft:chicken",
+    "result": {
+      "id": "minecraft:cooked_chicken"
+    },
+    "cookingtime": 2000
+  }
+  

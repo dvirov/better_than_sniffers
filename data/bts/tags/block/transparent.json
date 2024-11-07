@@ -1,5 +1,7 @@
 {
   "values": [
+    "water",
+    "lava",
     "minecraft:air",
     "#bts:foliage",
     "#minecraft:slabs",

@@ -1,1 +1,1 @@
-function bts:world_event/slimerain/end
+execute if score slimerain calander matches 1 run function bts:world_event/slimerain/end

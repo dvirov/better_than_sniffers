@@ -4,10 +4,10 @@ scoreboard players set @s temperature_calc 0
 
 
 execute if predicate bts:is_night if predicate bts:noroof run scoreboard players remove @s temperature_calc 30
-execute if predicate bts:is_day if predicate bts:noroof run scoreboard players add @s temperature_calc 30
+execute if predicate bts:is_day if predicate bts:noroof run scoreboard players add @s temperature_calc 15
 
-execute if predicate bts:is_raining if predicate bts:noroof run scoreboard players remove @s temperature_calc 30
-execute if predicate bts:is_raining if predicate bts:word_event/cold_biome if predicate bts:noroof run scoreboard players remove @s temperature_calc 50
+execute if predicate bts:is_raining if predicate bts:noroof run scoreboard players remove @s temperature_calc 15
+execute if predicate bts:is_raining if predicate bts:word_event/cold_biome if predicate bts:noroof run scoreboard players remove @s temperature_calc 15
 
 execute if predicate bts:is_in_water run scoreboard players remove @s temperature_calc 10
 
@@ -24,8 +24,8 @@ execute if predicate bts:is_on_ice run scoreboard players remove @s temperature_
  #biome check
 execute if predicate bts:word_event/cold_biome run scoreboard players remove @s temperature_calc 50
 execute if predicate bts:word_event/warm_biome run scoreboard players add @s temperature_calc 20
-execute unless predicate bts:is_night if predicate bts:word_event/hot_biome run scoreboard players add @s temperature_calc 50
-execute if predicate bts:is_night if predicate bts:word_event/hot_biome run scoreboard players remove @s temperature_calc 50
+execute unless predicate bts:is_night if predicate bts:word_event/hot_biome run scoreboard players add @s temperature_calc 20
+execute if predicate bts:is_night if predicate bts:word_event/hot_biome run scoreboard players remove @s temperature_calc 20
 
 
  #fall

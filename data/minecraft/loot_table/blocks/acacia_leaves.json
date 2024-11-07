@@ -16,7 +16,7 @@
                   "predicate": {
                     "items": "minecraft:flint",
                     "components": {
-                      "minecraft:item_name": "{\"text\":\"Sharp Stone\"}"
+                      "minecraft:custom_data": "{sharp_stone:1b}"
                     }
                   }
                 },
@@ -45,7 +45,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:oak_sapling",
+          "name": "minecraft:acacia_sapling",
           "conditions": [
             {
               "condition": "minecraft:all_of",

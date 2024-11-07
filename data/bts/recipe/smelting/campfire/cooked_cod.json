@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:campfire_cooking",
+    "category": "food",
+    "ingredient": "minecraft:cod",
+    "result": {
+      "id": "minecraft:cooked_cod"
+    },
+    "cookingtime": 2000
+  }
+  

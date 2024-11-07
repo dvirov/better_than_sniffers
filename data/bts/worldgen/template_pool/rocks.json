@@ -48,7 +48,7 @@
   "processors": "minecraft:empty"
 }
 },{
-    "weight": 4,
+    "weight": 8,
     "element": {
         "override_liquid_settings": "apply_waterlogging",
         "element_type": "minecraft:single_pool_element",
@@ -67,7 +67,7 @@
   "processors": "minecraft:empty"
 }
 },{
-    "weight": 4,
+    "weight": 7,
     "element": {
         "override_liquid_settings": "apply_waterlogging",
         "element_type": "minecraft:single_pool_element",
@@ -76,7 +76,7 @@
   "processors": "minecraft:empty"
 }
 },{
-    "weight": 4,
+    "weight": 8,
     "element": {
         "override_liquid_settings": "apply_waterlogging",
         "element_type": "minecraft:single_pool_element",

@@ -1,5 +1,7 @@
 {
     "values": [
+        "#bts:all_flowers",
+        "#bts:crops",
         "minecraft:short_grass",
         "minecraft:tall_grass",
         "minecraft:fern",

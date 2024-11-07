@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:campfire_cooking",
+    "category": "food",
+    "ingredient": "minecraft:porkchop",
+    "result": {
+      "id": "minecraft:cooked_porkchop"
+    },
+    "cookingtime": 2000
+  }
+  

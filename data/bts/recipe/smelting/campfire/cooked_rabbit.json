@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:campfire_cooking",
+    "category": "food",
+    "ingredient": "minecraft:rabbit",
+    "result": {
+      "id": "minecraft:cooked_rabbit"
+    },
+    "cookingtime": 2000
+  }
+  

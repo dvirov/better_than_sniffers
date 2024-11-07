@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:campfire_cooking",
+    "category": "food",
+    "ingredient": "minecraft:mutton",
+    "result": {
+      "id": "minecraft:cooked_mutton"
+    },
+    "cookingtime": 2000
+  }
+  
