@@ -7,6 +7,7 @@
   "result": {
     "id": "minecraft:fire_charge",
     "components": {
+      "item_model":"bts:fire_plough",
       "minecraft:item_name": "{\"text\":\"Fire Plough\"}",
       "minecraft:custom_data": "{\"tag\":\"fire_plough\"}"
    }

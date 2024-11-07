@@ -24,7 +24,8 @@
                   "predicate": {
                     "items": "minecraft:stone_sword",
                     "components": {
-                      "minecraft:custom_data": "{\"tag\":\"flint_knife\"}"                    }
+                      "minecraft:custom_data": "{\"tag\":\"flint_knife\"}"
+                    }
                   }
                 },
                 {
@@ -32,6 +33,56 @@
                   "chance": 0.1
                 }
               ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wheat_seeds",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.03
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:beetroot_seeds",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.01
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:melon_seeds",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.006
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pumpkin_seeds",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.01
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bts:custom_block/cotton_seeds",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.08
             }
           ]
         }

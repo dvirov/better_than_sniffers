@@ -2,58 +2,61 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "pattern": [
-    "CCC",
-    "PSP",
+    "FFF",
+    "RSR",
     " S "
   ],
   "key": {
-    "C":"minecraft:copper_ingot",
-    "P":"minecraft:string",
-    "S":"minecraft:stick"
+    "S": "minecraft:stick",
+    "R": "minecraft:string",
+    "F": "minecraft:copper_ingot"
   },
   "result": {
     "id": "minecraft:stone_pickaxe",
     "count": 1,
     "components": {
-      "item_model":"bts:copper_pickaxe",
-      "minecraft:max_stack_size": 1,
+      "item_model": "bts:copper_pickaxe",
+      "minecraft:item_name": "\"Copper Pickaxe\"",
+      "minecraft:custom_data": "{flint_pickaxe:1b,mine_coal:1b,mine_stone:1b,mine_copper:1b,mine_iron:1b}",
+      "minecraft:max_damage": 32,
       "minecraft:tool": {
         "rules": [
           {
-            "blocks": "#bts:tier1_rock",
+            "blocks": "#bts:tier3_rock",
             "speed": 1,
             "correct_for_drops": true
           }
         ],
-        "default_mining_speed": 1.1,
+        "default_mining_speed": 1,
         "damage_per_block": 1
       },
-      "minecraft:item_name": "{\"color\":\"white\",\"text\":\"Copper Pickaxe\"}",
-      "minecraft:custom_data": "{\"tag\":\"copper_pickaxe\"}",
-       "minecraft:enchantments": {
-        "levels": {
-          "bts:coal_excavate":1,
-          "bts:stone_excavate":1,
-          "bts:copper_excavate":1,
-          "bts:iron_excavate":1
+      "minecraft:lore": [
+        "\"\"",
+          "{\"color\":\"gray\",\"italic\":false,\"text\":\"When in Main Hand:\"}",
+          "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 1.6 Attack Damege\"}",
+          "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 1.2 Attack Speed\"}"
 
-        },
-        "show_in_tooltip": false
-      },
-      "minecraft:enchantment_glint_override": false,
-      "minecraft:rarity": "common",
-      "minecraft:max_damage": 64,
+        ],
       "minecraft:attribute_modifiers": {
         "modifiers": [
           {
             "id": "damage",
             "type": "minecraft:attack_damage",
-            "amount": 2,
+            "amount": 1.6,
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "id": "attack_speed",
+            "type": "minecraft:attack_speed",
+            "amount": -2.8,
             "operation": "add_value",
             "slot": "mainhand"
           }
-        ]
-      }}
+        ],
+        "show_in_tooltip": false
+      }
+    }
   },
   "show_notification": true
 }

@@ -29,6 +29,7 @@
       },
       "minecraft:custom_name": "{\"italic\":false,\"text\":\"Flint Sword\"}",
       "minecraft:lore": [
+        "\"\"",
         "{\"color\":\"gray\",\"italic\":false,\"text\":\"When in Main Hand:\"}",
         "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 3 Attack Damege\"}"
       ],

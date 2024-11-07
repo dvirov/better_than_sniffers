@@ -2,7 +2,7 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "rolls": 3,
+      "rolls": 1,
       "bonus_rolls": 0,
       "entries": [
         {
@@ -125,6 +125,21 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_5",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "\"Polar Bear Fur\"",
+                "minecraft:item_model": "bts:white_bear_fur",
+                "max_stack_size": 64,
+                "!minecraft:rarity": {},
+                "!minecraft:jukebox_playable": {}
+              }
+            }]
         }
       ]
     }

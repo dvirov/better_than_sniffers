@@ -4,7 +4,10 @@
       "description": "Better than Sniffers By dvirov"
     },
     "filter": {
-      "block": [
+      "block": [{
+        "namespace": "minecraft",
+        "path": "loot_table/*"
+      },
         {
           "namespace": "minecraft",
           "path": "recipe/*"

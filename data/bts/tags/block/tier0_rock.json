@@ -1,7 +1,8 @@
 {
     "values": [
         "minecraft:stone_button",
-        "minecraft:cobblestone_slab"
+        "minecraft:cobblestone_slab",
+        "coal_ore"
 
     ]
 

@@ -1,4 +1,4 @@
-attribute @s gravity base set 0.009
-scoreboard players remove @s bar_stamina 1
+attribute @s gravity base set 0.03
+scoreboard players remove @s bar_stamina_cd 10
 #stopsound @s
 playsound minecraft:block.stone.step

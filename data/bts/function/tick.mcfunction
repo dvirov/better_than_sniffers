@@ -6,6 +6,7 @@ execute as @a if score @s deathdetector >= .1 values run function bts:misc/respa
 
 function bts:blocks/tick
 
+execute as @e[type=#bts:visuals,tag=custom_block] run function bts:blocks/kill
 execute as @e[type=!player,type=!#bts:visuals] run function bts:mobs/tick
 
 

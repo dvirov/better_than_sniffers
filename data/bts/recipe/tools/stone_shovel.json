@@ -20,7 +20,7 @@
       "minecraft:tool": {
         "rules": [
           {
-            "blocks": "#bts:tire1_dirt",
+            "blocks": "#bts:tier1_dirt",
             "speed": 1,
             "correct_for_drops": true
           }

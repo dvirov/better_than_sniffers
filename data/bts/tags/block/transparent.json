@@ -10,6 +10,7 @@
     "#minecraft:stone_buttons",
     "flower_pot",
     "campfire",
-    "glass_pane"
+    "glass_pane",
+    "lever"
     ]
 }

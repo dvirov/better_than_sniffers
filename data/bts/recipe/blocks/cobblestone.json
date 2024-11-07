@@ -2,12 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "SS",
-    "SS"
+    "S",
+    "S"
     
   ],
   "key": {
-    "S":"minecraft:stone_button"
+    "S":"minecraft:cobblestone_slab"
   },
   "result": {
     "id": "minecraft:cobblestone",

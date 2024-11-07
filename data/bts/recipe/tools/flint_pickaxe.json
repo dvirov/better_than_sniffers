@@ -3,30 +3,40 @@
   "category": "equipment",
   "pattern": [
     "FFF",
-    " SR",
+    "RS ",
     " S "
   ],
   "key": {
-    "S":"minecraft:stick",
-    "R":"minecraft:string",
-    "F":"minecraft:flint"
+    "S": "minecraft:stick",
+    "R": "minecraft:string",
+    "F": "minecraft:flint"
   },
   "result": {
     "id": "minecraft:stone_pickaxe",
     "count": 1,
     "components": {
-      "item_model":"bts:flint_pickaxe",
-      "minecraft:item_name": "{\"color\":\"white\",\"text\":\"Flint Pickaxe\"}",
-      "minecraft:custom_data": "{\"tag\":\"flint_pickaxe\"}",
-      "minecraft:enchantments": {
-        "levels": {
-          "bts:coal_excavate":1
-        },
-        "show_in_tooltip": false
-      },
-      "minecraft:enchantment_glint_override": false,
-      "minecraft:rarity": "common",
+      "item_model": "bts:flint_pickaxe",
+      "minecraft:item_name": "\"Flint Pickaxe\"",
+      "minecraft:custom_data": "{flint_pickaxe:1b,mine_coal:1b}",
       "minecraft:max_damage": 32,
+      "minecraft:tool": {
+        "rules": [
+          {
+            "blocks": "#bts:tier0_rock",
+            "speed": 1,
+            "correct_for_drops": true
+          }
+        ],
+        "default_mining_speed": 1,
+        "damage_per_block": 1
+      },
+      "minecraft:lore": [
+        "\"\"",
+          "{\"color\":\"gray\",\"italic\":false,\"text\":\"When in Main Hand:\"}",
+          "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 1 Attack Damege\"}",
+          "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 1.2 Attack Speed\"}"
+
+        ],
       "minecraft:attribute_modifiers": {
         "modifiers": [
           {
@@ -35,9 +45,18 @@
             "amount": 1,
             "operation": "add_value",
             "slot": "mainhand"
+          },
+          {
+            "id": "attack_speed",
+            "type": "minecraft:attack_speed",
+            "amount": -2.8,
+            "operation": "add_value",
+            "slot": "mainhand"
           }
-        ]
-      }}
+        ],
+        "show_in_tooltip": false
+      }
+    }
   },
   "show_notification": true
 }

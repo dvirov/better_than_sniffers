@@ -1,0 +1,25 @@
+{
+    "values": [
+
+      "minecraft:evoker",
+      "minecraft:pillager",
+      "minecraft:vindicator",
+      "minecraft:illusioner",
+      "minecraft:witch",
+      "minecraft:skeleton",
+      "minecraft:stray",
+      "minecraft:wither_skeleton",
+      "minecraft:bogged",
+      "minecraft:wither",
+      "minecraft:blaze",
+      "minecraft:breeze",
+      "minecraft:zombie",
+      "minecraft:zombie_villager",
+      "minecraft:zombified_piglin",
+      "minecraft:drowned",
+      "minecraft:husk",
+      "minecraft:piglin",
+      "minecraft:piglin_brute"
+
+    ]
+  }

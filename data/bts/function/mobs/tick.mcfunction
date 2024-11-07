@@ -4,20 +4,22 @@ execute if entity @s[type=#bts:ai_neutral,tag=!scanned] at @s run function bts:m
 
 execute if entity @s[type=#bts:ai_neutral,nbt={HurtTime:10s}] run function bts:mobs/attack
 
-#execute if entity @s[type=#bts:ai_neutral,tag=scanned] if predicate bts:is_in_water run tag @s remove scanned
 
 execute if entity @s[tag=ai,predicate=!bts:is_passanger] run function bts:mobs/silent_kill
 
 
 # Slime Rain 
 execute if entity @s[type=slime,tag=slimerain] run function bts:world_event/slimerain/timer
-#execute if entity @s[type=slime,name=slime,nbt={Size:0}] run function bts:mobs/silent_kill
+
+
+#monsters behavior
 
 execute if entity @s[type=zombie,tag=!scanned] run function bts:mobs/miner_zombie
 execute if entity @s[type=zombie,tag=scanned] at @s if items entity @s weapon iron_pickaxe run function bts:mobs/miner_zombie_mine
 
-#execute if entity @s[tag=parkour] run scoreboard players add @s timer 1
-#execute if entity @s[tag=parkour] if score @s timer matches 40 run kill @s
+
+execute if entity @s[type=#bts:monster_riders] if predicate bts:word_event/rng0.01 at @s if entity @e[type=#bts:monsters_can_ride_on,distance=..1.5,predicate=!bts:is_vehicle] run ride @s mount @n[type=#bts:monsters_can_ride_on]
+execute if entity @s[type=#bts:monster_riders,predicate=bts:is_passanger,tag=!ai] if predicate bts:word_event/rng0.001 run ride @s dismount
 
 
 

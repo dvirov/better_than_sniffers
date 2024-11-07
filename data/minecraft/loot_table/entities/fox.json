@@ -1,4 +1,80 @@
 {
   "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_5",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "\"White Fox Fur\"",
+                "minecraft:item_model": "bts:snow_fox_fur",
+                "max_stack_size": 64,
+                "!minecraft:rarity": {},
+                "!minecraft:jukebox_playable": {}
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "minecraft:fox",
+                  "variant": "snow"
+                }
+              }
+            },
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_5",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "\"Red Fox Fur\"",
+                "minecraft:item_model": "bts:fox_fur",
+                "max_stack_size": 64,
+                "!minecraft:rarity": {},
+                "!minecraft:jukebox_playable": {}
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "minecraft:fox",
+                  "variant": "red"
+                }
+              }
+            },
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.8
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "random_sequence": "minecraft:entities/fox"
 }
