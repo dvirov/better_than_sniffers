@@ -14,17 +14,26 @@
         },
         {
           "namespace": "minecraft",
-          "path": "enchantment/*"
-        },
-        {
-          "namespace": "minecraft",
-          "path": "tags/*"
-        },
-        {
-          "namespace": "minecraft",
           "path": "advancement/*"
+        },
+        {
+          "namespace": "minecraft",
+          "path": "tags/enchantment/in_enchanting_table"
+        },
+        {
+          "namespace": "minecraft",
+          "path": "tags/enchantment/on_random_loot"
+        },
+        {
+          "namespace": "minecraft",
+          "path": "tags/point_of_interest_type/*"
+        },
+        {
+          "namespace": "minecraft",
+          "path": "tags/damage_type/*"
         }
       ]
+      
     }
   }
   

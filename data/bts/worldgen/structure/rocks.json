@@ -1,13 +1,19 @@
 {
   "type": "minecraft:jigsaw",
   "biomes": "#bts:rocks",
-  "step": "surface_structures",
+  "step": "top_layer_modification",
   "spawn_overrides": {},
   "terrain_adaptation": "beard_thin",
   "start_pool": "bts:rocks",
   "size": 1,
   "start_height": {
-    "above_bottom": 64
+    "type": "minecraft:trapezoid",
+    "min_inclusive": {
+      "absolute": 0
+    },
+    "max_inclusive": {
+      "absolute": 0
+    }
   },
   "project_start_to_heightmap": "WORLD_SURFACE_WG",
   "max_distance_from_center": 1,
