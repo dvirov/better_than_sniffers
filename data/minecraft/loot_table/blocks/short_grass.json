@@ -24,7 +24,7 @@
                   "predicate": {
                     "items": "minecraft:stone_sword",
                     "components": {
-                      "minecraft:custom_data": "{\"tag\":\"flint_knife\"}"
+                      "minecraft:custom_data": "{flint_knife:1b}"
                     }
                   }
                 },

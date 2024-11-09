@@ -3,37 +3,60 @@
   "category": "equipment",
   "pattern": [
     "FF ",
-    " SR",
+    "RS ",
     " S "
   ],
   "key": {
-    "S":"minecraft:stick",
-    "F":"minecraft:flint",
-    "R":"minecraft:string"
+    "S": "minecraft:stick",
+    "R": "minecraft:string",
+    "F": "minecraft:iron_ingot"
   },
   "result": {
-    "id": "minecraft:stone_hoe",
+    "id": "minecraft:stone_pickaxe",
+    "count": 1,
     "components": {
-      "minecraft:item_name": "{\"text\":\"Flint Hoe\"}",
-      
+      "item_model": "stone_hoe",
+      "minecraft:item_name": "\"Flint Hoe\"",
+      "minecraft:custom_data": "{flint_hoe:1b}",
+      "minecraft:max_damage": 20,
+      "minecraft:tool": {
+        "rules": [
+          {
+            "blocks": "air",
+            "speed": 1,
+            "correct_for_drops": true
+          }
+        ],
+        "default_mining_speed": 1,
+        "damage_per_block": 1
+      },
+      "minecraft:lore": [
+        "\"\"",
+          "{\"color\":\"gray\",\"italic\":false,\"text\":\"When in Main Hand:\"}",
+          "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 1 Attack Damege\"}",
+          "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 1 Attack Speed\"}"
+
+        ],
       "minecraft:attribute_modifiers": {
         "modifiers": [
           {
-            "id": "attack_damage",
+            "id": "damage",
             "type": "minecraft:attack_damage",
             "amount": 1,
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "id": "attack_speed",
+            "type": "minecraft:attack_speed",
+            "amount": -2,
             "operation": "add_value",
             "slot": "mainhand"
           }
         ],
         "show_in_tooltip": false
-      },
-      "minecraft:lore": [
-        "{\"color\":\"gray\",\"italic\":false,\"text\":\"When in Main Hand:\"}",
-        "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 1 Attack Damege\"}"
-      ],
-      "minecraft:max_damage": 10
-    
+      }
+    }
   },
   "show_notification": true
 }

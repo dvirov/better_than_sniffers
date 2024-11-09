@@ -29,10 +29,11 @@
       },
       "minecraft:custom_name": "{\"italic\":false,\"text\":\"Cobblestone Sword\"}",
       "minecraft:lore": [
+        "\"\"",
         "{\"color\":\"gray\",\"italic\":false,\"text\":\"When in Main Hand:\"}",
         "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 3.6 Attack Damege\"}"
       ],
-      "minecraft:custom_data": "{\"tag\":\"stone_sword\"}",
+      "minecraft:custom_data": "{stone_sword:1b}",
       "minecraft:max_damage": 30}
   },
   "show_notification": true

@@ -12,11 +12,11 @@
     "R":"minecraft:string"
   },
   "result": {
-    "id": "minecraft:stone_axe",
+    "id": "minecraft:wooden_axe",
     "count": 1,
     "components": {
-      "minecraft:item_name": "{\"text\":\"Wooden Axe\"}",
-      "minecraft:custom_data": "{\"tag\":\"wooden_axe\"}",
+      "minecraft:item_name": "\"Wooden Axe\"",
+      "minecraft:custom_data": "{wooden_axe:1b}",
       "minecraft:tool": {
         "rules": [
           {

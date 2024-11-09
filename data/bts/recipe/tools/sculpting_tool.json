@@ -16,8 +16,8 @@
     "components": {
       "minecraft:max_stack_size": 1,
       "minecraft:max_damage": 1,
-      "minecraft:item_name": "{\"text\":\"Sculpture Tool\"}",
-      "minecraft:custom_data": "{\"tag\":\"sculpture_tool\"}",
+      "minecraft:item_name": "\"Sculpture Tool\"",
+      "minecraft:custom_data": "{sculpture_tool:1b}",
       "minecraft:attribute_modifiers": {
         "modifiers": [
           {

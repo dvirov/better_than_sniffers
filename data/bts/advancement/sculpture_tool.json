@@ -19,7 +19,7 @@
           {
             "items": "minecraft:stone_axe",
             "components": {
-              "minecraft:item_name": "{\"text\":\"Sculpture Tool\"}"
+              "minecraft:custom_data": "{sculpture_tool:1b}"
             }
           }
         ]

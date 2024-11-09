@@ -15,8 +15,8 @@
     "id": "minecraft:stone_shovel",
     "count": 1,
     "components": {
-      "minecraft:item_name": "{\"text\":\"Wooden Shovel\"}",
-      "minecraft:custom_data": "{\"tag\":\"wooden_shovel\"}",
+      "minecraft:item_name": "\"Wooden Shovel\"",
+      "minecraft:custom_data": "{wooden_shovel:1b}",
       "minecraft:tool": {
         "rules": [
           {

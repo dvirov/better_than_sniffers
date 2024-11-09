@@ -6,7 +6,7 @@
         "item": {
           "items": "minecraft:phantom_membrane",
           "components": {
-            "minecraft:item_name": "{\"text\":\"Weave\"}"
+            "minecraft:item_name": "\"Weave\""
           }
         }
       }

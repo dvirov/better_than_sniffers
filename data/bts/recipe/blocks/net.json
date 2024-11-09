@@ -11,6 +11,7 @@
   "result": {
     "id": "minecraft:cobweb",
     "components": {
-      "minecraft:item_name": "{\"text\":\"Net\"}"
+      "minecraft:item_name": "\"Net\""
   }
+}
 }

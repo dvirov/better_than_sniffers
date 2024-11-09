@@ -12,9 +12,9 @@
     "R":"minecraft:string"
   },
   "result": {
-    "id": "minecraft:stone_hoe",
+    "id": "minecraft:wooden_hoe",
     "components": {
-      "minecraft:item_name": "{\"text\":\"Wooden Hoe\"}",
+      "minecraft:item_name": "\"Wooden Hoe\"",
       
       "minecraft:attribute_modifiers": {
         "modifiers": [
@@ -29,6 +29,7 @@
         "show_in_tooltip": false
       },
       "minecraft:lore": [
+        "\"\"",
         "{\"color\":\"gray\",\"italic\":false,\"text\":\"When in Main Hand:\"}",
         "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 1 Attack Damege\"}"
       ],

@@ -15,8 +15,8 @@
     "id": "minecraft:stone_axe",
     "count": 1,
     "components": {
-      "minecraft:item_name": "{\"text\":\"Cobblestone Axe\"}",
-      "minecraft:custom_data": "{\"tag\":\"stone_axe\"}",
+      "minecraft:item_name": "\"Cobblestone Axe\"",
+      "minecraft:custom_data": "{stone_axe:1b}",
       "minecraft:tool": {
         "rules": [
           {

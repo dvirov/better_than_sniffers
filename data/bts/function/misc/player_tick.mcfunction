@@ -1,5 +1,6 @@
 function bts:parkour/tick
-execute unless items entity @s armor.feet * run item replace entity @s armor.feet with barrier[max_stack_size=1,custom_model_data=1,equippable={slot:"feet",dispensable:false,swappable:true,damage_on_hurt:false},hide_tooltip={}] 1
+execute unless items entity @s armor.feet *[custom_data={clear:1b}] run clear @s *[custom_data={clear:1b}]
+execute unless items entity @s armor.feet * run item replace entity @s armor.feet with barrier[custom_data={clear:1b}, max_stack_size=1,item_model=air,equippable={slot:"feet",dispensable:false,swappable:true,damage_on_hurt:false},hide_tooltip={}] 1
 function bts:bars/effects/temperature_freeze
 data modify storage bts:main temp set from entity @s UUID
 data modify storage bts:main args.UUID0 set from storage bts:main temp[0]

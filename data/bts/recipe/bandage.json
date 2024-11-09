@@ -12,7 +12,7 @@
     "id": "minecraft:paper",
     "count": 1,
     "components": {
-      "minecraft:item_name": "{\"text\":\"Bandage\"}",
+      "minecraft:item_name": "\"Bandage\"",
       "minecraft:consumable": {
         "consume_seconds": 4,
         "animation": "crossbow",

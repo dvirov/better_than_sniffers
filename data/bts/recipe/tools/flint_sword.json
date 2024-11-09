@@ -33,7 +33,7 @@
         "{\"color\":\"gray\",\"italic\":false,\"text\":\"When in Main Hand:\"}",
         "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 3 Attack Damege\"}"
       ],
-      "minecraft:custom_data": "{\"tag\":\"flint_sword\"}",
+      "minecraft:custom_data": "{flint_sword:1b}",
       "minecraft:tool": {
         "rules": [],
         "damage_per_block": 1

@@ -8,7 +8,7 @@
               "mainhand": {
                 "items": "minecraft:stone_axe",
                 "components": {
-                  "minecraft:custom_data": "{\"tag\":\"sculpture_tool\"}"
+                  "minecraft:custom_data": "{sculpture_tool:1b}"
                 }
               }
             }

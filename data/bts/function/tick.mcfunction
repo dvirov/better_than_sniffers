@@ -1,3 +1,5 @@
+# main tick command
+
 function bts:calander/tick
 function bts:blocks/campfire/tick
 function bts:world_event/tick
