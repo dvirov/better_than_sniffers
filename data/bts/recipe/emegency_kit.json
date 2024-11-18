@@ -8,7 +8,7 @@
     "X": "minecraft:nether_star"
   },
   "result": {
-    "id": "minecraft:paper",
+    "id": "minecraft:nether_star",
     "count": 1,
     "components": {
       "minecraft:item_name": "\"Emergency kit\"",

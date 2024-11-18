@@ -13,7 +13,7 @@
               "components": {
                 "item_model":"anvil",
                 "rarity": "common",
-                "custom_data": {"anvil":"1b"},
+                "custom_data": "{anvil:1b}",
                 "minecraft:custom_name": "{\"text\":\"Anvil\",\"italic\":false}",
                 "minecraft:entity_data": {
                   "id": "minecraft:item_frame", "Tags":["place_anvil"], "Invisible":false, "Invulnerable": true, "Fixed":true, "Silent": true

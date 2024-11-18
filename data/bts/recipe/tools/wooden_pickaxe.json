@@ -12,7 +12,7 @@
     "F": "#minecraft:wooden_slabs"
   },
   "result": {
-    "id": "minecraft:stone_pickaxe",
+    "id": "minecraft:wooden_pickaxe",
     "count": 1,
     "components": {
       "item_model": "wooden_pickaxe",
@@ -23,7 +23,7 @@
         "rules": [
           {
             "blocks": "#bts:tier1_rock",
-            "speed": 1,
+            "speed": 1.3,
             "correct_for_drops": true
           }
         ],

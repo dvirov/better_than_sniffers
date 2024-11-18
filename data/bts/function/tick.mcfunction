@@ -12,5 +12,5 @@ execute as @e[type=#bts:visuals,tag=custom_block] run function bts:blocks/kill
 execute as @e[type=!player,type=!#bts:visuals] run function bts:mobs/tick
 
 
-execute as @a[gamemode=survival] at @s run function bts:misc/player_tick
+execute as @a at @s run function bts:misc/player_tick
 

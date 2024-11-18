@@ -12,6 +12,7 @@
     "id": "minecraft:paper",
     "count": 1,
     "components": {
+      "item_model": "bts:bandage",
       "minecraft:item_name": "\"Bandage\"",
       "minecraft:consumable": {
         "consume_seconds": 4,

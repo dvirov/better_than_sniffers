@@ -9,13 +9,13 @@
   "key": {
     "S": "minecraft:stick",
     "R": "minecraft:string",
-    "F": "minecraft:iron_ingot"
+    "F": "minecraft:flint"
   },
   "result": {
     "id": "minecraft:stone_pickaxe",
     "count": 1,
     "components": {
-      "item_model": "stone_hoe",
+      "item_model": "bts:flint_hoe",
       "minecraft:item_name": "\"Flint Hoe\"",
       "minecraft:custom_data": "{flint_hoe:1b}",
       "minecraft:max_damage": 20,

@@ -15,6 +15,7 @@
     "id": "minecraft:stone_sword",
     "count": 1,
     "components": {
+      "item_model": "bts:flint_sword",
       "minecraft:attribute_modifiers": {
         "modifiers": [
           {

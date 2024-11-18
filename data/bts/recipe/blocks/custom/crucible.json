@@ -18,7 +18,7 @@
       },
       "minecraft:custom_name": "{\"text\":\"Crucible\",\"italic\":false}",
       "minecraft:rarity": "uncommon",
-      "custom_data": {"tag":"crucible"}
+      "custom_data": "{crucible:1b}"
     }
   },
   "show_notification": true

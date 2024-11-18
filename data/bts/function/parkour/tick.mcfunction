@@ -1,5 +1,7 @@
 attribute @s gravity base set 0.08
 execute if score @s bar_stamina matches 0 run return 0
+
+# Wall run
 execute if predicate bts:parkour/wall_run rotated ~ 0 unless block ^-1 ^ ^ #bts:transparent if block ~ ~-1.2 ~ #bts:transparent run function bts:parkour/wall_run
 execute if predicate bts:parkour/wall_run rotated ~ 0 unless block ^1 ^ ^ #bts:transparent if block ~ ~-1.2 ~ #bts:transparent run function bts:parkour/wall_run
 execute if predicate bts:parkour/wall_run rotated ~ 0 unless block ^ ^ ^1 #bts:transparent if block ~ ~-1.2 ~ #bts:transparent run function bts:parkour/wall_run

@@ -12,9 +12,10 @@
     "R":"minecraft:string"
   },
   "result": {
-    "id": "minecraft:stone_shovel",
+    "id": "minecraft:wooden_shovel",
     "count": 1,
     "components": {
+      "item_model":"wooden_shovel",
       "minecraft:item_name": "\"Wooden Shovel\"",
       "minecraft:custom_data": "{wooden_shovel:1b}",
       "minecraft:tool": {

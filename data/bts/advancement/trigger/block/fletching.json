@@ -11,7 +11,7 @@
                   "minecraft:item_frame"
                 ],
                 "components": {
-                  "minecraft:custom_data": "{\"tag\":\"fletching\"}"
+                  "minecraft:custom_data": "{fletching:1b}"
                 }
               }
             }

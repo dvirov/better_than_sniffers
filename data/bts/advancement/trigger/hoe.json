@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": "{hoe:1b}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bts:item_use/hoe"
+  }
+}

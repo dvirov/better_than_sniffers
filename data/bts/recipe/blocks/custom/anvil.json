@@ -19,7 +19,7 @@
       },
       "minecraft:custom_name": "{\"text\":\"Anvil\",\"italic\":false}",
       "minecraft:rarity": "common",
-      "custom_data": {"anvil":"1b"}
+      "custom_data": "{anvil:1b}"
     }
   },
   "show_notification": true

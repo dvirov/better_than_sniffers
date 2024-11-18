@@ -23,7 +23,7 @@
         "rules": [
           {
             "blocks": "#bts:tier3_rock",
-            "speed": 1,
+            "speed": 1.9,
             "correct_for_drops": true
           }
         ],

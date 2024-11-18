@@ -1,4 +1,35 @@
 {
   "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rabbit",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "\"Frog leg\"",
+                "minecraft:item_model": "rabbit",
+                "minecraft:consumable": {
+                  "consume_seconds": 1.6,
+                  "animation": "eat",
+                  "has_consume_particles": true
+                },
+                "minecraft:food": {
+                  "nutrition": 2,
+                  "saturation": 2
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "random_sequence": "minecraft:entities/frog"
 }

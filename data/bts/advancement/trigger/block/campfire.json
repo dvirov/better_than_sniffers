@@ -11,7 +11,7 @@
                   "minecraft:item_frame"
                 ],
                 "components": {
-                  "minecraft:custom_data": "{\"tag\":\"campfire\"}"
+                  "minecraft:custom_data": "{campfire:1b}"
                 }
               }
             }

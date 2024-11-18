@@ -17,7 +17,7 @@
       },
       "minecraft:custom_name": "{\"text\":\"Cooking Pot\",\"italic\":false}",
       "minecraft:rarity": "common",
-      "custom_data": {"tag":"cooking"}
+      "custom_data": "{cooking:1b}"
     }
   },
   "show_notification": true

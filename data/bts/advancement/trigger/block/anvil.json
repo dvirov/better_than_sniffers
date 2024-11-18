@@ -11,7 +11,7 @@
                   "minecraft:item_frame"
                 ],
                 "components": {
-                  "minecraft:custom_data": "{\"anvil\":\"1b\"}"
+                  "minecraft:custom_data": "{anvil:1b}"
                 }
               }
             }

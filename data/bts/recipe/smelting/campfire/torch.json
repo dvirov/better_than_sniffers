@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": "minecraft:stick",
+  "result": {
+    "id": "minecraft:torch",
+    "components": {
+      "minecraft:max_damage": 100,
+      "damage": 1,
+      "minecraft:max_stack_size": 1
+    }
+  },
+  "cookingtime": 500
+}

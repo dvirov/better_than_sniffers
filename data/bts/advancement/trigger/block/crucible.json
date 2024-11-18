@@ -11,7 +11,7 @@
                   "minecraft:item_frame"
                 ],
                 "components": {
-                  "minecraft:custom_data": "{\"tag\":\"crucible\"}"
+                  "minecraft:custom_data": "{crucible:1b}"
                 }
               }
             }

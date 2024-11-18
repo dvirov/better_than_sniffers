@@ -15,6 +15,7 @@
     "id": "minecraft:stone_axe",
     "count": 1,
     "components": {
+      "item_model":"bts:flint_axe",
       "minecraft:item_name": "{\"text\":\"Flint Axe\"}",
       "minecraft:custom_data": "{\"tag\":\"flint_axe\"}",
       "minecraft:tool": {

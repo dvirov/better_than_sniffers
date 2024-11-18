@@ -11,7 +11,7 @@
                   "minecraft:item_frame"
                 ],
                 "components": {
-                  "minecraft:custom_data": "{\"cotton_seeds\":\"1b\"}"
+                  "minecraft:custom_data": "{cotton_seeds:1b}"
                 }
               }
             }

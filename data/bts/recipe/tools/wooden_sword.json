@@ -12,7 +12,7 @@
     "R":"minecraft:string"
   },
   "result": {
-    "id": "minecraft:stone_sword",
+    "id": "minecraft:wooden_sword",
     "count": 1,
     "components": {
       "minecraft:attribute_modifiers": {

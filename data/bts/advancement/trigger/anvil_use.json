@@ -6,17 +6,14 @@
         "player": {
           "equipment": {
             "mainhand": {
-              "items": "minecraft:mace"
+              "components": {
+                "minecraft:custom_data": "{hammer:1b}"
+              }
             }
           }
         },
         "entity": {
-          "type": "minecraft:interaction",
-          "location": {
-            "block": {
-              "blocks": "#minecraft:anvil"
-            }
-          }
+          "type": "minecraft:interaction"
         }
       }
     }

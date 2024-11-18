@@ -13,7 +13,7 @@
               "components": {
                 "item_model":"fletching_table",
                 "rarity": "common",
-                "custom_data": {"tag":"fletching"},
+                "custom_data": "{fletching:1b}",
                 "minecraft:custom_name": "{\"text\":\"Fletching Table\",\"italic\":false}",
                 "minecraft:entity_data": {
                   "id": "minecraft:item_frame", "Tags":["place_fletching"], "Invisible":false, "Invulnerable": true, "Fixed":true, "Silent": true

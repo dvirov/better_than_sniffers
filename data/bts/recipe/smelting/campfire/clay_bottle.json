@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient":"minecraft:debug_stick",
+  "result": {
+    "id": "minecraft:glass_bottle",
+    "components": {
+    }
+  },
+  "cookingtime": 10000
+}

@@ -1,11 +1,7 @@
-temperature effects added
-bug fixes
-new crop type - cotton
-new monsters behavior - monsters can ride on horses and similar animals
-new parkour ability - it is possible to climb on edge of walls if you press sneak in the right moment
-updated textures for some GUIs
----
-more bug fixes 
-fixed problem with compatability to fabric API 
+added textures and models for some items
+added dynamic lights system (beta)
+added SFX system 
+some code improvements
 
+hoe hravest mechanic WIP
 

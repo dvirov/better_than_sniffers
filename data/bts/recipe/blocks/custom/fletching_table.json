@@ -19,7 +19,7 @@
       },
       "minecraft:custom_name": "{\"text\":\"Fletching Table\",\"italic\":false}",
       "minecraft:rarity": "common",
-      "custom_data": {"tag":"fletching"}
+      "custom_data": "{fletching:1b}"
     }
   },
   "show_notification": true

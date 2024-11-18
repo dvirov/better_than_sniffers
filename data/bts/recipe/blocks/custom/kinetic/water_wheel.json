@@ -17,7 +17,7 @@
       },
       "minecraft:item_name": "{\"text\":\"Water Wheel\"}",
       "minecraft:rarity": "common",
-      "custom_data": {"water_wheel":"1b"}}
+      "custom_data": {"water_wheel":1b}}
   },
   "show_notification": true
 }

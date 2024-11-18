@@ -14,6 +14,7 @@
     "id": "minecraft:stone_axe",
     "count": 1,
     "components": {
+      "item_model":"bts:sculpting_tool",
       "minecraft:max_stack_size": 1,
       "minecraft:max_damage": 1,
       "minecraft:item_name": "\"Sculpture Tool\"",

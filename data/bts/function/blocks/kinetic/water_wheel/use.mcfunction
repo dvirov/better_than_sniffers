@@ -6,4 +6,3 @@ execute as @e[type=interaction,distance=..6] run function bts:blocks/anvil/find_
 
 scoreboard players set @s anvil.cd 30
 tag @s remove this
-say hit

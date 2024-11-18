@@ -1,6 +1,6 @@
-(
-"parcool" and improved stamina system - 1.21.2
-textures and models for items - 1.21.2
+textures
+hammer + model
+
 
 
 flint>wood>stone>copper>iron>steel>
@@ -13,7 +13,7 @@ cobblestone V
 copper V
 bronze ?
 iron V
-steel
+steel V
 gold
 diamond
 netherite
@@ -32,14 +32,6 @@ tools
 polish and sand paper like in create
 
 >loot tables for 
-
-
-mud
-mud bricks
-bricks
-
-
-
 
 
 

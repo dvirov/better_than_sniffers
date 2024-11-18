@@ -1,14 +1,14 @@
 {
     "display": {
       "icon": {
-        "id": "minecraft:skeleton_skull",
+        "id": "minecraft:player_head",
         "components": {
-          "minecraft:custom_model_data": 45300
+          "profile":"dvirov"
         }
       },
-      "title": "Better Than Sniffers",
+      "title": "§fBetter Than Sniffers",
       "description": "Created by dvirov ",
-      "background": "minecraft:textures/block/andesite.png",
+      "background": "minecraft:textures/block/1barrel_bottom.png",
       "announce_to_chat": false
 
     },
@@ -18,4 +18,3 @@
       }
     }
   }
-  

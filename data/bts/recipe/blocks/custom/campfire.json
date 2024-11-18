@@ -19,7 +19,7 @@
       },
       "minecraft:custom_name": "{\"text\":\"Campfire\",\"italic\":false}",
       "minecraft:rarity": "common",
-      "custom_data": {"tag":"campfire"}
+      "custom_data": "{campfire:1b}"
     }
   },
   "show_notification": true

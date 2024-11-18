@@ -13,7 +13,7 @@
     "id": "minecraft:stone_sword",
     "count": 1,
     "components": {
-      "item_model": "stone_sword",
+      "item_model": "bts:flint_knife",
       "minecraft:item_name": "\"Flint Knife\"",
       "minecraft:custom_data": "{flint_knife:1b}",
       "minecraft:max_damage": 30,

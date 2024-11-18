@@ -1,4 +1,4 @@
-execute as @a at @s if predicate bts:word_event/in_dark run function bts:world_event/in_dark
+#execute as @a at @s if predicate bts:word_event/in_dark run function bts:world_event/in_dark
 execute as @a at @s unless score @s time_in_dark matches ..0 if predicate bts:word_event/in_light run scoreboard players remove @s time_in_dark 1
 execute as @a at @s store result score @s near_lit_campfire at @s run clone ~5 ~5 ~5 ~-5 ~-5 ~-5 ~-5 ~-5 ~-5 filtered campfire[lit=true] move
 execute as @a at @s store result score @s near_light_block at @s run clone ~5 ~5 ~5 ~-5 ~-5 ~-5 ~-5 ~-5 ~-5 filtered #bts:light_source move 
@@ -24,7 +24,7 @@ execute as @a unless score @s bar_stamina matches 21.. if predicate bts:is_stand
 
 # Slime Rain
 execute unless score slimerain calander matches 1 if predicate bts:is_day if predicate bts:word_event/rng0.00000529072539 as @a run function bts:world_event/slimerain/start
-execute if score slimerain calander matches 1 as @a at @s positioned ~ 50 ~ run function bts:world_event/slimerain/main
+execute if score slimerain calander matches 1 as @a at @s positioned ~ ~50 ~ run function bts:world_event/slimerain/main
 
 
 

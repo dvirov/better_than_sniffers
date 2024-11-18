@@ -1,4 +1,5 @@
 function bts:calander/load
+function bts:world_event/sound/load
 scoreboard objectives add deathdetector deathCount
 scoreboard objectives add raycast dummy
 scoreboard objectives add scuklpting dummy
@@ -34,6 +35,7 @@ scoreboard objectives add drying_time dummy
 scoreboard objectives add bool dummy
 scoreboard objectives add crafting.progress dummy
 scoreboard objectives add anvil.cd dummy
+scoreboard objectives add anvil.hit dummy
 
 scoreboard objectives add brightness.block dummy
 

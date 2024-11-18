@@ -1,9 +1,6 @@
 {
-  "condition": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "location": {
-      "can_see_sky": true
-    }
-  }
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "can_see_sky": true
+      }
 }

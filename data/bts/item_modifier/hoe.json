@@ -1,0 +1,26 @@
+[
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:consumable": {
+        "consume_seconds": 0.3,
+        "animation": "brush",
+        "sound": "minecraft:item.hoe.till",
+        "has_consume_particles": false
+      },
+      "minecraft:use_remainder": {
+        "id": "minecraft:stone_hoe",
+        "components": {
+          "minecraft:consumable": {
+            "consume_seconds": 0.3,
+            "animation": "brush",
+            "sound": "minecraft:item.hoe.till",
+            "has_consume_particles": false
+          },
+          "minecraft:custom_data": "{hoe:1b}"
+        }
+      },
+      "minecraft:custom_data": "{hoe:1b}"
+    }
+  }
+]
