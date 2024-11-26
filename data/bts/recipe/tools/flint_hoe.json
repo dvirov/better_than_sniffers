@@ -12,12 +12,12 @@
     "F": "minecraft:flint"
   },
   "result": {
-    "id": "minecraft:stone_pickaxe",
+    "id": "minecraft:stone_hoe",
     "count": 1,
     "components": {
       "item_model": "bts:flint_hoe",
       "minecraft:item_name": "\"Flint Hoe\"",
-      "minecraft:custom_data": "{flint_hoe:1b}",
+      "minecraft:custom_data": "{hoe:1b,flint_hoe:1b}",
       "minecraft:max_damage": 20,
       "minecraft:tool": {
         "rules": [
@@ -34,7 +34,7 @@
         "\"\"",
           "{\"color\":\"gray\",\"italic\":false,\"text\":\"When in Main Hand:\"}",
           "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 1 Attack Damege\"}",
-          "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 1 Attack Speed\"}"
+          "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 2 Attack Speed\"}"
 
         ],
       "minecraft:attribute_modifiers": {

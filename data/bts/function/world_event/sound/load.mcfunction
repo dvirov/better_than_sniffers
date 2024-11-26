@@ -7,5 +7,6 @@ scoreboard players add @a weather.rain 0
 scoreboard objectives add ambiant.time dummy
 scoreboard players add @a ambiant.time 0
 
+scoreboard objectives add step.main dummy
 
 

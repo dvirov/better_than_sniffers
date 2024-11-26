@@ -6,9 +6,9 @@
           "profile":"dvirov"
         }
       },
-      "title": "§fBetter Than Sniffers",
+      "title": "Better Than Sniffers",
       "description": "Created by dvirov ",
-      "background": "minecraft:textures/block/1barrel_bottom.png",
+      "background": "minecraft:textures/transparent.png",
       "announce_to_chat": false
 
     },

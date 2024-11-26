@@ -7,7 +7,7 @@
         "override_liquid_settings": "apply_waterlogging",
 				"element_type": "minecraft:single_pool_element",
 				"location": "bts:rock0",
-				"projection": "rigid",
+				"projection": "terrain_matching",
           "processors": "minecraft:empty"
         }
       },
@@ -17,7 +17,7 @@
         "override_liquid_settings": "apply_waterlogging",
             "element_type": "minecraft:single_pool_element",
             "location": "bts:rock1",
-            "projection": "rigid",
+            "projection": "terrain_matching",
       "processors": "minecraft:empty"
     }
   },{
@@ -26,7 +26,7 @@
         "override_liquid_settings": "apply_waterlogging",
         "element_type": "minecraft:single_pool_element",
         "location": "bts:rock2",
-        "projection": "rigid",
+        "projection": "terrain_matching",
   "processors": "minecraft:empty"
 }
 },{
@@ -35,7 +35,7 @@
         "override_liquid_settings": "apply_waterlogging",
         "element_type": "minecraft:single_pool_element",
         "location": "bts:rock3",
-        "projection": "rigid",
+        "projection": "terrain_matching",
   "processors": "minecraft:empty"
 }
 },{
@@ -44,7 +44,7 @@
         "override_liquid_settings": "apply_waterlogging",
         "element_type": "minecraft:single_pool_element",
         "location": "bts:rock4",
-        "projection": "rigid",
+        "projection": "terrain_matching",
   "processors": "minecraft:empty"
 }
 },{
@@ -53,7 +53,7 @@
         "override_liquid_settings": "apply_waterlogging",
         "element_type": "minecraft:single_pool_element",
         "location": "bts:rock5",
-        "projection": "rigid",
+        "projection": "terrain_matching",
   "processors": "minecraft:empty"
 }
 },
@@ -63,7 +63,7 @@
         "override_liquid_settings": "apply_waterlogging",
         "element_type": "minecraft:single_pool_element",
         "location": "bts:rock6",
-        "projection": "rigid",
+        "projection": "terrain_matching",
   "processors": "minecraft:empty"
 }
 },{
@@ -72,7 +72,7 @@
         "override_liquid_settings": "apply_waterlogging",
         "element_type": "minecraft:single_pool_element",
         "location": "bts:rock7",
-        "projection": "rigid",
+        "projection": "terrain_matching",
   "processors": "minecraft:empty"
 }
 },{
@@ -81,7 +81,7 @@
         "override_liquid_settings": "apply_waterlogging",
         "element_type": "minecraft:single_pool_element",
         "location": "bts:rock8",
-        "projection": "rigid",
+        "projection": "terrain_matching",
   "processors": "minecraft:empty"
 }
 }

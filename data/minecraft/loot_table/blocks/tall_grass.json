@@ -11,28 +11,26 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": "{\"text\":\"Plant Fiber\"}"
+                "minecraft:item_name": "\"Plant Fiber\""
               }
             }
           ],
           "conditions": [
             {
               "condition": "minecraft:all_of",
-              "terms": [
-                {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "items": "minecraft:stone_sword",
-                    "components": {
-                      "minecraft:custom_data": "{flint_knife:1b}"
-                    }
-                  }
-                },
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.1
+              "terms": []
+            },
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "predicates": {
+                  "minecraft:custom_data": "{knife:1b}"
                 }
-              ]
+              }
+            },
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
             }
           ]
         },
@@ -42,7 +40,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.03
+              "chance": 0.02
             }
           ]
         },
@@ -52,7 +50,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.01
+              "chance": 0.001
             }
           ]
         },
@@ -62,7 +60,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.006
+              "chance": 0.004
             }
           ]
         },
@@ -72,7 +70,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.01
+              "chance": 0.005
             }
           ]
         },
@@ -82,7 +80,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.08
+              "chance": 0.03
             }
           ]
         }

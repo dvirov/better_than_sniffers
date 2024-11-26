@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "bts:spider_nest",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 16,
+    "separation": 10,
+    "salt": 145577023
+  }
+}

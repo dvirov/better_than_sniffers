@@ -1,9 +1,12 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:stone_pickaxe"
+      "id": "minecraft:stone_pickaxe",
+      "components": {
+        "item_model": "bts:flint_pickaxe"
+      }
     },
-    "title": "Coal Extractor",
+    "title": "Flint Pickaxe",
     "description": "Craft Coal extractor and get your first Coal",
     "frame": "task",
     "show_toast": true,

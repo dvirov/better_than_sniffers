@@ -1,26 +1,42 @@
 {
-      "display": {
-        "icon": {
-          "id": "minecraft:campfire"
-        },
-        "title": "Warm Up",
-        "description": "Craft and Place Campfire",
-        "frame": "task",
-        "show_toast": true
+  "display": {
+    "icon": {
+      "id": "minecraft:campfire"
+    },
+    "title": "Warm Up",
+    "description": "Craft and Place Campfire",
+    "frame": "task",
+    "show_toast": true
+  },
+  "parent": "bts:crafting_table",
+    "criteria": {
+      "2": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "bts:blocks/custom/campfire"
+        }
       },
-      "parent": "bts:crafting_table",
-      "criteria": {
-        "requirement": {
-          "trigger": "minecraft:item_used_on_block",
-          "conditions": {
-            "player": {
-              "equipment": {
-                "mainhand": {
-                  "items": "minecraft:item_frame"
+      "example": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+          "location": [
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "items": [
+                  "minecraft:item_frame"
+                ],
+                "components": {
+                  "minecraft:custom_data": "{campfire:1b}"
                 }
-          }
+              }
+            }
+          ]
         }
       }
-   }
+    },
+    "rewards": {
+      "function": "bts:blocks/campfire/detect"
+    }
   }
-}
+  

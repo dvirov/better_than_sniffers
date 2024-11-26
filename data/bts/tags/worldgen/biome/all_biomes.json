@@ -1,0 +1,11 @@
+{
+    "values": [
+        "#bts:underground",
+        "#bts:rocks",
+        "#bts:biome",
+        "#bts:hot_biome",
+        "#bts:cold_biome",
+        "#bts:warm_biome",
+        "#is_ocean"
+    ]
+  }

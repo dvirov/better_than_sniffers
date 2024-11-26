@@ -14,7 +14,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": "\"Frog leg\"",
-                "minecraft:item_model": "rabbit",
+                "minecraft:item_model": "bts:frog_leg",
                 "minecraft:consumable": {
                   "consume_seconds": 1.6,
                   "animation": "eat",

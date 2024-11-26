@@ -1,7 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:stone_axe"
+      "id": "minecraft:stone_axe",
+      "components": {
+        "item_model": "bts:sculpting_tool"
+      }
     },
     "title": "Sculpture Tool",
     "description": "Craft Sculpture Tool",

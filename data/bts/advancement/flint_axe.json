@@ -1,7 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:stone_axe"
+      "id": "minecraft:stone_axe",
+      "components": {
+        "item_model": "bts:flint_axe"
+      }
     },
     "title": "Flint axe",
     "description": "Craft Flint axe with 2sticks 3 sharp stones and 1string",
@@ -19,7 +22,7 @@
           {
             "items": "minecraft:stone_axe",
             "components": {
-              "minecraft:item_name": "{\"text\":\"Flint Axe\"}"
+              "minecraft:item_name": "\"Flint Axe\""
             }
           }
         ]

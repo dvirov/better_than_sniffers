@@ -1,7 +1,10 @@
-added textures and models for some items
-added dynamic lights system (beta)
-added SFX system 
-some code improvements
+miner zombies more accurate 
+nerf to bamboo
+flint hoe fixed
+new underground dungen - spider nest
+new experimental features
 
-hoe hravest mechanic WIP
+bug fixes:
+the grid in the custom craftings not restored if players use Q to drop the items
+campfires have chance to stay lit after the timer end
 

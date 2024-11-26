@@ -6,7 +6,7 @@
         "minecraft:custom_model_data": 45302
       }
     },
-    "title": "Shater it !",
+    "title": "Ooga Booga !",
     "description": "smash the pebbles on hard surface",
     "hidden": false
   },
@@ -19,7 +19,7 @@
           {
             "items": "minecraft:flint",
             "components": {
-              "minecraft:item_name": "{\"text\":\"Sharp Stone\"}"
+              "minecraft:item_name": "\"Sharp Stone\""
             }
           }
         ]

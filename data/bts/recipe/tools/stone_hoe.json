@@ -8,33 +8,55 @@
   ],
   "key": {
     "S":"minecraft:stick",
-    "F":"minecraft:cobblestone_slab",
+    "F":"minecraft:cobblestone",
     "R":"minecraft:string"
   },
   "result": {
     "id": "minecraft:stone_hoe",
+    "count": 1,
     "components": {
-      "minecraft:item_name": "\"Cobblestone Hoe\"",
-      "minecraft:custom_data": "{stone_hoe:1b}",
+      "item_model": "stone_hoe",
+      "minecraft:item_name": "\"Stone Hoe\"",
+      "minecraft:custom_data": "{hoe:1b,stone_hoe:1b}",
+      "minecraft:max_damage": 32,
+      "minecraft:tool": {
+        "rules": [
+          {
+            "blocks": "air",
+            "speed": 1,
+            "correct_for_drops": true
+          }
+        ],
+        "default_mining_speed": 1,
+        "damage_per_block": 1
+      },
+      "minecraft:lore": [
+        "\"\"",
+          "{\"color\":\"gray\",\"italic\":false,\"text\":\"When in Main Hand:\"}",
+          "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 1.4 Attack Damege\"}",
+          "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 2 Attack Speed\"}"
+
+        ],
       "minecraft:attribute_modifiers": {
         "modifiers": [
           {
-            "id": "attack_damage",
+            "id": "damage",
             "type": "minecraft:attack_damage",
-            "amount": 1,
+            "amount": 1.4,
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "id": "attack_speed",
+            "type": "minecraft:attack_speed",
+            "amount": -2,
             "operation": "add_value",
             "slot": "mainhand"
           }
         ],
         "show_in_tooltip": false
-      },
-      "minecraft:lore": [
-        "\"\"",
-        "{\"color\":\"gray\",\"italic\":false,\"text\":\"When in Main Hand:\"}",
-        "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 1 Attack Damege\"}"
-      ],
-      "minecraft:max_damage": 20
-    
-  }},
+      }
+    }
+  },
   "show_notification": true
 }

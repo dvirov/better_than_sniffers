@@ -3,7 +3,10 @@
     "category": "food",
     "ingredient": "minecraft:beef",
     "result": {
-      "id": "minecraft:cooked_beef"
+      "id": "minecraft:cooked_beef",
+      "components": {
+      "custom_data": "{vanila_cooked_food:1b}"
+      }
     },
     "cookingtime": 2000
   }

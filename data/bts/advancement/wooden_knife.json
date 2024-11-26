@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_sword",
+      "components": {
+        "item_model": "bts:wooden_knife"
+      }
+    },
+    "title": "Wooden Knife",
+    "description": "Craft Wooden knife",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "bts:flint_knife",
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": "minecraft:stone_sword",
+            "components": {
+              "minecraft:item_name": "\"Wooden Knife\""
+            }
+          }
+        ]
+      }
+    }
+  }
+}

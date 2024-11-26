@@ -3,7 +3,10 @@
     "category": "food",
     "ingredient": "minecraft:porkchop",
     "result": {
-      "id": "minecraft:cooked_porkchop"
+      "id": "minecraft:cooked_porkchop",
+      "components": {
+      "custom_data": "{vanila_cooked_food:1b}"
+      }
     },
     "cookingtime": 2000
   }

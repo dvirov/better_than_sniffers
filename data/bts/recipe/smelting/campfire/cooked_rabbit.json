@@ -3,7 +3,10 @@
     "category": "food",
     "ingredient": "minecraft:rabbit",
     "result": {
-      "id": "minecraft:cooked_rabbit"
+      "id": "minecraft:cooked_rabbit",
+      "components": {
+      "custom_data": "{vanila_cooked_food:1b}"
+      }
     },
     "cookingtime": 2000
   }

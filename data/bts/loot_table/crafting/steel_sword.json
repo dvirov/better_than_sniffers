@@ -5,20 +5,20 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:stone_pickaxe",
+          "name": "minecraft:stone_sword",
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "bts:steel_sword",
                 "minecraft:item_name": "\"Steel Sword\"",
-                "minecraft:custom_data": "{steel_sword:1b}",
+                "minecraft:custom_data": "{sword:1b,steel_sword:1b}",
                 "minecraft:max_damage": 200,
                 
                 "minecraft:lore": [
                   "\"\"",
                   "{\"color\":\"gray\",\"italic\":false,\"text\":\"When in Main Hand:\"}",
-                  "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 5.5 Attack Damege\"}",
+                  "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 4.5 Attack Damege\"}",
                   "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 1.6 Attack Speed\"}"
                 ],
                 "minecraft:attribute_modifiers": {
@@ -26,7 +26,7 @@
                     {
                       "id": "damage",
                       "type": "minecraft:attack_damage",
-                      "amount": 5.5,
+                      "amount": 4.5,
                       "operation": "add_value",
                       "slot": "mainhand"
                     },

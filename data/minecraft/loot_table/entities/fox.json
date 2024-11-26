@@ -6,16 +6,14 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:music_disc_5",
+          "name": "minecraft:leather",
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": "\"White Fox Fur\"",
                 "minecraft:item_model": "bts:snow_fox_fur",
-                "max_stack_size": 64,
-                "!minecraft:rarity": {},
-                "!minecraft:jukebox_playable": {}
+                "max_stack_size": 64
               }
             }
           ],
@@ -43,16 +41,14 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:music_disc_5",
+          "name": "minecraft:leather",
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": "\"Red Fox Fur\"",
                 "minecraft:item_model": "bts:fox_fur",
-                "max_stack_size": 64,
-                "!minecraft:rarity": {},
-                "!minecraft:jukebox_playable": {}
+                "max_stack_size": 64
               }
             }
           ],

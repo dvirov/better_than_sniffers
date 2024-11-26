@@ -1,0 +1,20 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:player_head",
+        "components": {
+          "profile":"dvirov"
+        }
+      },
+      "title": "Challenges",
+      "description": "Created by dvirov ",
+      "background": "minecraft:textures/transparent.png",
+      "announce_to_chat": false
+
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick"
+      }
+    }
+  }

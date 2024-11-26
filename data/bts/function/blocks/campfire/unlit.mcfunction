@@ -11,4 +11,6 @@ setblock 0 -64 0 bedrock
 
 tag @s remove litme
 scoreboard players reset @s campfire_time_ticks
-function bts:blocks/light_update
+
+# can cause problems
+#function bts:blocks/light_update

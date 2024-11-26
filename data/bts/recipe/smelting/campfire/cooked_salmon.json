@@ -3,7 +3,10 @@
     "category": "food",
     "ingredient": "minecraft:salmon",
     "result": {
-      "id": "minecraft:cooked_salmon"
+      "id": "minecraft:cooked_salmon",
+      "components": {
+      "custom_data": "{vanila_cooked_food:1b}"
+      }
     },
     "cookingtime": 2000
   }

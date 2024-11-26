@@ -17,7 +17,7 @@
     "components": {
       "item_model": "stone_pickaxe",
       "minecraft:item_name": "\"Stone Pickaxe\"",
-      "minecraft:custom_data": "{flint_pickaxe:1b,mine_coal:1b,mine_stone:1b,mine_copper:1b}",
+      "minecraft:custom_data": "{pickaxe:1b, stone_pickaxe:1b,mine_coal:1b,mine_stone:1b,mine_copper:1b}",
       "minecraft:max_damage": 32,
       "minecraft:tool": {
         "rules": [

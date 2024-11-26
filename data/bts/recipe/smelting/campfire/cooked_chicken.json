@@ -3,7 +3,10 @@
     "category": "food",
     "ingredient": "minecraft:chicken",
     "result": {
-      "id": "minecraft:cooked_chicken"
+      "id": "minecraft:cooked_chicken",
+      "components": {
+      "custom_data": "{vanila_cooked_food:1b}"
+      }
     },
     "cookingtime": 2000
   }

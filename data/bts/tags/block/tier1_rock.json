@@ -2,6 +2,7 @@
     "values": [
         "minecraft:cobblestone",
         "minecraft:stone",
+        "stone_slab",
         "#bts:tier0_rock"
 
     ]

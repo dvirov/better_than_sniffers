@@ -4,7 +4,10 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": "#bts:cooked_food"
+          "items": "#bts:cooked_food",
+          "predicates": {
+            "minecraft:custom_data": "{vanila_cooked_food:1b}"
+          }
         }
       }
     }

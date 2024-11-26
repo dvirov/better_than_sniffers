@@ -8,33 +8,45 @@
   ],
   "key": {
     "S":"minecraft:stick",
-    "F":"minecraft:cobblestone_slab",
+    "F":"minecraft:cobblestone",
     "R":"minecraft:string"
   },
   "result": {
     "id": "minecraft:stone_sword",
     "count": 1,
     "components": {
+      "item_model": "stone_sword",
+      "minecraft:item_name": "\"Stone Sword\"",
+      "minecraft:custom_data": "{sword:1b,stone_sword:1b}", 
+      "minecraft:max_damage": 30,
+
+      "minecraft:lore": [
+        "\"\"",
+          "{\"color\":\"gray\",\"italic\":false,\"text\":\"When in Main Hand:\"}",
+          "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 3.6 Attack Damege\"}",
+          "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 1.6 Attack Speed\"}"
+
+        ],
       "minecraft:attribute_modifiers": {
         "modifiers": [
           {
-            "id": "attack_damage",
+            "id": "damage",
             "type": "minecraft:attack_damage",
             "amount": 3.6,
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "id": "attack_speed",
+            "type": "minecraft:attack_speed",
+            "amount": -2.4,
             "operation": "add_value",
             "slot": "mainhand"
           }
         ],
         "show_in_tooltip": false
-      },
-      "minecraft:custom_name": "{\"italic\":false,\"text\":\"Cobblestone Sword\"}",
-      "minecraft:lore": [
-        "\"\"",
-        "{\"color\":\"gray\",\"italic\":false,\"text\":\"When in Main Hand:\"}",
-        "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 3.6 Attack Damege\"}"
-      ],
-      "minecraft:custom_data": "{stone_sword:1b}",
-      "minecraft:max_damage": 30}
+      }
+    }
   },
   "show_notification": true
 }

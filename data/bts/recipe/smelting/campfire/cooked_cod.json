@@ -3,7 +3,10 @@
     "category": "food",
     "ingredient": "minecraft:cod",
     "result": {
-      "id": "minecraft:cooked_cod"
+      "id": "minecraft:cooked_cod",
+      "components": {
+      "custom_data": "{vanila_cooked_food:1b}"
+      }
     },
     "cookingtime": 2000
   }

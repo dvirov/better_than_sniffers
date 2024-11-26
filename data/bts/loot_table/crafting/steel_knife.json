@@ -1,0 +1,50 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "bts:steel_knife",
+                "minecraft:item_name": "\"Steel Knife\"",
+                "minecraft:custom_data": "{knife:1b,steel_knife:1b}",
+                "minecraft:max_damage": 200,
+                
+                "minecraft:lore": [
+                  "\"\"",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"When in Main Hand:\"}",
+                  "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 3 Attack Damege\"}",
+                  "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 2 Attack Speed\"}"
+                ],
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "damage",
+                      "type": "minecraft:attack_damage",
+                      "amount": 3,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "attack_speed",
+                      "type": "minecraft:attack_speed",
+                      "amount": -2,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

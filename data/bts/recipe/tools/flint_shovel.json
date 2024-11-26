@@ -17,7 +17,7 @@
     "components": {
       "item_model": "bts:flint_shovel",
       "minecraft:item_name": "\"Flint Shovel\"",
-      "minecraft:custom_data": "{flint_shovel:1b}",
+      "minecraft:custom_data": "{shovel:1b,flint_shovel:1b}",
       "minecraft:max_damage": 32,
       "minecraft:tool": {
         "rules": [

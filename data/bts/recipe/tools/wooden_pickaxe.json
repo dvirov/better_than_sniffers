@@ -17,7 +17,7 @@
     "components": {
       "item_model": "wooden_pickaxe",
       "minecraft:item_name": "\"Wooden Pickaxe\"",
-      "minecraft:custom_data": "{wooden_pickaxe:1b,mine_coal:1b,mine_stone:1b}",
+      "minecraft:custom_data": "{pickaxe:1b, wooden_pickaxe:1b,mine_coal:1b,mine_stone:1b}",
       "minecraft:max_damage": 32,
       "minecraft:tool": {
         "rules": [

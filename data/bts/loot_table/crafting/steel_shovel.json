@@ -5,14 +5,14 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:stone_pickaxe",
+          "name": "minecraft:stone_shovel",
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "bts:steel_shovel",
                 "minecraft:item_name": "\"Steel Shovel\"",
-                "minecraft:custom_data": "{steel_shovel:1b}",
+                "minecraft:custom_data": "{shovel:1b,steel_shovel:1b}",
                 "minecraft:max_damage": 200,
                 "minecraft:tool": {
                   "rules": [
@@ -27,7 +27,7 @@
                 "minecraft:lore": [
                   "\"\"",
                   "{\"color\":\"gray\",\"italic\":false,\"text\":\"When in Main Hand:\"}",
-                  "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 2.3 Attack Damege\"}",
+                  "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 2 Attack Damege\"}",
                   "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 1 Attack Speed\"}"
                 ],
                 "minecraft:attribute_modifiers": {
@@ -35,7 +35,7 @@
                     {
                       "id": "damage",
                       "type": "minecraft:attack_damage",
-                      "amount": 2.3,
+                      "amount": 2,
                       "operation": "add_value",
                       "slot": "mainhand"
                     },

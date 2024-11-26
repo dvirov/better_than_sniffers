@@ -13,8 +13,7 @@
         {
           "function": "minecraft:set_components",
           "components": {
-            "minecraft:item_name": "{\"text\":\"Plant Fiber\"}",
-            "minecraft:custom_model_data": 45304
+            "minecraft:item_name": "\"Plant Fiber\""
           }
         }
       ]

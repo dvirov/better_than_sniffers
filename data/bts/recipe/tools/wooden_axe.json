@@ -15,12 +15,14 @@
     "id": "minecraft:wooden_axe",
     "count": 1,
     "components": {
+      "item_model": "wooden_axe",
       "minecraft:item_name": "\"Wooden Axe\"",
-      "minecraft:custom_data": "{wooden_axe:1b}",
+      "minecraft:custom_data": "{axe:1b,wooden_axe:1b}",
+      "minecraft:max_damage": 32,
       "minecraft:tool": {
         "rules": [
           {
-            "blocks": "#bts:tier1_wood",
+            "blocks": "#bts:tier2_wood",
             "speed": 1,
             "correct_for_drops": true
           }
@@ -28,18 +30,33 @@
         "default_mining_speed": 1,
         "damage_per_block": 1
       },
-      "minecraft:max_damage": 32,
+      "minecraft:lore": [
+        "\"\"",
+          "{\"color\":\"gray\",\"italic\":false,\"text\":\"When in Main Hand:\"}",
+          "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 4.3 Attack Damege\"}",
+          "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 0.8 Attack Speed\"}"
+
+        ],
       "minecraft:attribute_modifiers": {
         "modifiers": [
           {
-            "id": "speed",
+            "id": "damage",
             "type": "minecraft:attack_damage",
-            "amount": 1.1,
+            "amount": 4.3,
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "id": "attack_speed",
+            "type": "minecraft:attack_speed",
+            "amount": -3.2,
             "operation": "add_value",
             "slot": "mainhand"
           }
-        ]
-      }}
+        ],
+        "show_in_tooltip": false
+      }
+    }
   },
   "show_notification": true
 }

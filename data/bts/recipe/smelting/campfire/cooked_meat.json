@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "ingredient": "minecraft:structure_block",
+  "result": {
+    "id": "minecraft:cooked_beef",
+    "components": {
+      "item_name": "\"Cooked Meat\"",
+      "item_model": "bts:cooked_meat"
+    }
+  },
+  "cookingtime": 2000
+}

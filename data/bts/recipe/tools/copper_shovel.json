@@ -1,0 +1,62 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " F ",
+    " SR",
+    " S "
+  ],
+  "key": {
+    "S":"minecraft:stick",
+    "F":"minecraft:copper_ingot",
+    "R":"minecraft:string"
+  },
+  "result": {
+    "id": "minecraft:stone_shovel",
+    "count": 1,
+    "components": {
+      "item_model": "bts:copper_shovel",
+      "minecraft:item_name": "\"Copper Shovel\"",
+      "minecraft:custom_data": "{shovel:1b,copper_shovel:1b}",
+      "minecraft:max_damage": 32,
+      "minecraft:tool": {
+        "rules": [
+          {
+            "blocks": "#bts:tier3_dirt",
+            "speed": 1,
+            "correct_for_drops": true
+          }
+        ],
+        "default_mining_speed": 1,
+        "damage_per_block": 1
+      },
+      "minecraft:lore": [
+        "\"\"",
+          "{\"color\":\"gray\",\"italic\":false,\"text\":\"When in Main Hand:\"}",
+          "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 1.6 Attack Damege\"}",
+          "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 1.2 Attack Speed\"}"
+
+        ],
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "id": "damage",
+            "type": "minecraft:attack_damage",
+            "amount": 1.6 ,
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "id": "attack_speed",
+            "type": "minecraft:attack_speed",
+            "amount": -2.8,
+            "operation": "add_value",
+            "slot": "mainhand"
+          }
+        ],
+        "show_in_tooltip": false
+      }
+    }
+  },
+  "show_notification": true
+}

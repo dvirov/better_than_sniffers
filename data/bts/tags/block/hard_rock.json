@@ -1,7 +1,9 @@
 {
     "values": [
+            "#bts:tier5_rock",
             "minecraft:stone",
             "minecraft:cobblestone",
+            "cobblestone_slab",
             "minecraft:mossy_cobblestone",
             "minecraft:obsidian"
     ]

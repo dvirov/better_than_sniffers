@@ -3,7 +3,10 @@
     "category": "food",
     "ingredient": "minecraft:mutton",
     "result": {
-      "id": "minecraft:cooked_mutton"
+      "id": "minecraft:cooked_mutton",
+      "components": {
+      "custom_data": "{vanila_cooked_food:1b}"
+      }
     },
     "cookingtime": 2000
   }

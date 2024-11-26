@@ -1,0 +1,32 @@
+{
+  "parent": "bts:guide",
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:item_model": "bts:cooked_meat"
+          }
+        }
+      }
+    },
+    "2": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:item_model": "bts:raw_meat"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [[
+    "1",
+    "2"
+  ]],
+  "rewards": {
+    "function": "bts:world_event/bars_calc/sanity_decrease"
+  }
+}

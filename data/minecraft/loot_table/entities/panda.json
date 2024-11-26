@@ -2,21 +2,36 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "bonus_rolls": 0.0,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "weight": 1,
+          "quality": 1,
           "functions": [
             {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "\"Raw Meat\"",
+                "minecraft:item_model": "bts:raw_meat",
+                "minecraft:consumable": {
+                  "consume_seconds": 1.6,
+                  "animation": "eat",
+                  "has_consume_particles": true
+                },
+                "minecraft:food": {
+                  "nutrition": 2,
+                  "saturation": 2
+                },
+                "!minecraft:bundle_contents": {},
+                "!rarity":{} 
+                
+              }
             }
-          ],
-          "name": "minecraft:bamboo"
+          ]
         }
-      ],
-      "rolls": 1.0
+      ]
     }
   ],
   "random_sequence": "minecraft:entities/panda"

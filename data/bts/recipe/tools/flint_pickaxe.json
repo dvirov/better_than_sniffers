@@ -17,7 +17,7 @@
     "components": {
       "item_model": "bts:flint_pickaxe",
       "minecraft:item_name": "\"Flint Pickaxe\"",
-      "minecraft:custom_data": "{flint_pickaxe:1b,mine_coal:1b}",
+      "minecraft:custom_data": "{pickaxe:1b,flint_pickaxe:1b,mine_coal:1b}",
       "minecraft:max_damage": 32,
       "minecraft:tool": {
         "rules": [

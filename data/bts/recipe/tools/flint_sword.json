@@ -16,30 +16,37 @@
     "count": 1,
     "components": {
       "item_model": "bts:flint_sword",
+      "minecraft:item_name": "\"Flint Sword\"",
+      "minecraft:custom_data": "{sword:1b,flint_sword:1b}", 
+      "minecraft:max_damage": 30,
+
+      "minecraft:lore": [
+        "\"\"",
+          "{\"color\":\"gray\",\"italic\":false,\"text\":\"When in Main Hand:\"}",
+          "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 3 Attack Damege\"}",
+          "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 1.6 Attack Speed\"}"
+
+        ],
       "minecraft:attribute_modifiers": {
         "modifiers": [
           {
-            "id": "attack_damage",
+            "id": "damage",
             "type": "minecraft:attack_damage",
             "amount": 3,
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "id": "attack_speed",
+            "type": "minecraft:attack_speed",
+            "amount": -2.4,
             "operation": "add_value",
             "slot": "mainhand"
           }
         ],
         "show_in_tooltip": false
-      },
-      "minecraft:custom_name": "{\"italic\":false,\"text\":\"Flint Sword\"}",
-      "minecraft:lore": [
-        "\"\"",
-        "{\"color\":\"gray\",\"italic\":false,\"text\":\"When in Main Hand:\"}",
-        "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 3 Attack Damege\"}"
-      ],
-      "minecraft:custom_data": "{flint_sword:1b}",
-      "minecraft:tool": {
-        "rules": [],
-        "damage_per_block": 1
-      },
-      "minecraft:max_damage": 10
-  }},
+      }
+    }
+  },
   "show_notification": true
 }
