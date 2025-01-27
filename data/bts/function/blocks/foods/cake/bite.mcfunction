@@ -5,4 +5,3 @@ execute as @e[distance=..10,type=item_display,tag=cake] at @s if block ~ ~-.1 ~ 
 execute as @e[distance=..10,type=item_display,tag=cake] at @s if block ~ ~-.1 ~ cake[bites=4] run item modify entity @s container.0 [{"function":"minecraft:set_components","components":{"minecraft:item_model":"bts:cake/cake_slice4"}}]
 execute as @e[distance=..10,type=item_display,tag=cake] at @s if block ~ ~-.1 ~ cake[bites=5] run item modify entity @s container.0 [{"function":"minecraft:set_components","components":{"minecraft:item_model":"bts:cake/cake_slice5"}}]
 execute as @e[distance=..10,type=item_display,tag=cake] at @s if block ~ ~-.1 ~ cake[bites=6] run item modify entity @s container.0 [{"function":"minecraft:set_components","components":{"minecraft:item_model":"bts:cake/cake_slice6"}}]
-say bite
