@@ -1,5 +1,18 @@
 function bts:calander/load
 function bts:world_event/sound/load
+
+team add blue
+team modify blue color blue
+
+scoreboard objectives add tp_timer dummy
+scoreboard objectives add fieldboss dummy
+
+scoreboard objectives add eat.vegetables dummy
+scoreboard objectives add eat.fruit dummy
+scoreboard objectives add eat.cooked.meat dummy
+scoreboard objectives add eat.raw.meat dummy
+
+
 scoreboard objectives add deathdetector deathCount
 scoreboard objectives add raycast dummy
 scoreboard objectives add scuklpting dummy

@@ -23,3 +23,5 @@ execute if entity @s[type=#bts:monster_riders,predicate=bts:is_passanger,tag=!ai
 
 
 
+#bosses
+execute if entity @s[type=slime,tag=slime_king] at @s run function bts:world_event/slimerain/slime_king_tp

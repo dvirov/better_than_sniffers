@@ -26,3 +26,4 @@ item replace block ~ ~ ~ container.23 with barrier[item_model="air",max_stack_si
 item replace block ~ ~ ~ container.24 with barrier[item_model="air",max_stack_size=1,hide_tooltip={},custom_data={fletching:1b}] 1
 item replace block ~ ~ ~ container.25 with barrier[item_model="air",max_stack_size=1,hide_tooltip={},custom_data={fletching:1b}] 1
 item replace block ~ ~ ~ container.26 with barrier[item_model="air",max_stack_size=1,hide_tooltip={},custom_data={fletching:1b}] 1
+

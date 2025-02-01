@@ -20,7 +20,7 @@
               "function": "minecraft:filtered",
               "item_filter": {
                 "components": {
-                  "custom_name": "{\"color\":\"white\",\"text\":\"\uF808\uD001\"}"
+                  "custom_name": "[\"Fletching   \",{\"color\":\"white\",\"text\":\"  \\uF801\\uF80A\\uF80A\\uF808\\uD001\"}]"
                 }
               },
               "modifier": [
@@ -38,7 +38,7 @@
                     "minecraft:custom_name": "{\"text\":\"Fletching Table\",\"italic\":false}",
                     "minecraft:item_model": "fletching_table",
                     "minecraft:rarity": "common",
-                    "minecraft:custom_data": "{\"tag\":\"fletching\"}",
+                    "custom_data": "{fletching:1b}",
                     "minecraft:entity_data": {
                       "id": "minecraft:item_frame", "Tags":["place_fletching"], "Invisible":false, "Invulnerable": true, "Fixed":true, "Silent": true
                     }
@@ -51,7 +51,7 @@
               "function": "minecraft:filtered",
               "item_filter": {
                 "components": {
-                  "custom_name": "{\"color\":\"white\",\"text\":\"\uF808\uD000\"}"
+                  "custom_name": "[\"Crucible      \",{\"color\":\"white\",\"text\":\"\\uF801\\uF80B\\uF808\\uD000\"}]"
                 }
               },
               "modifier": [
@@ -69,7 +69,7 @@
                     "minecraft:custom_name": "{\"text\":\"Crucible\",\"italic\":false}",
                     "minecraft:item_model": "cauldron",
                     "minecraft:rarity": "uncommon",
-                    "minecraft:custom_data": "{\"tag\":\"crucible\"}",
+                    "minecraft:custom_data": "{crucible:1b}",
                     "minecraft:entity_data": {
                       "id": "minecraft:item_frame", "Tags":["place_crucible"], "Invisible":false, "Invulnerable": true, "Fixed":true, "Silent": true
                     }
@@ -82,7 +82,7 @@
               "function": "minecraft:filtered",
               "item_filter": {
                 "components": {
-                  "custom_name": "{\"color\":\"white\",\"text\":\"\uF808\uD002\"}"
+                  "custom_name": "[\"Cooking Pot  \",{\"color\":\"white\",\"text\":\"\\uF801\\uF80B\\uF808\\uD002\"}]"
                 }
               },
               "modifier": [
@@ -100,7 +100,7 @@
                     "minecraft:custom_name": "{\"text\":\"Cooking Pot\",\"italic\":false}",
                     "minecraft:item_model": "cauldron",
                     "minecraft:rarity": "common",
-                    "minecraft:custom_data": "{\"tag\":\"cooking\"}",
+                    "minecraft:custom_data": "{cooking:1b}",
                     "minecraft:entity_data": {
                       "id": "minecraft:item_frame", "Tags":["place_cooking"], "Invisible":false, "Invulnerable": true, "Fixed":true, "Silent": true
                     }

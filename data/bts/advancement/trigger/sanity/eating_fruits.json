@@ -1,0 +1,16 @@
+{
+  "parent": "bts:guide",
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "#bts:fruits"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bts:world_event/bars_calc/sanity_food"
+  }
+}

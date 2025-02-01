@@ -1,0 +1,5 @@
+tellraw @a {"color":"aqua","italic":false,"text":"Slime king has appeared"}
+scoreboard players set slimeking fieldboss 1
+
+summon slime ~ ~ ~ {Glowing:1b,CustomNameVisible:1b,DeathLootTable:"bts:mobs/slime_king",Team:"blue",Health:50f,Size:2,Tags:["slime_king"],CustomName:'{"color":"dark_blue","italic":false,"text":"Slime King"}',active_effects:[{id:"minecraft:fire_resistance",amplifier:1,duration:-1,show_particles:0b},{id:"minecraft:water_breathing",amplifier:1,duration:-1,show_particles:0b},{id:"minecraft:oozing",amplifier:1,duration:-1,show_particles:0b},{id:"minecraft:regeneration",amplifier:1,duration:-1,show_particles:0b}],attributes:[{id:"minecraft:armor",base:10},{id:"minecraft:armor_toughness",base:5},{id:"minecraft:attack_damage",base:1},{id:"minecraft:follow_range",base:100},{id:"minecraft:gravity",base:2},{id:"minecraft:jump_strength",base:1},{id:"minecraft:max_health",base:50},{id:"minecraft:movement_speed",base:1},{id:"minecraft:safe_fall_distance",base:100},{id:"minecraft:scale",base:4},{id:"minecraft:movement_efficiency",base:1}]}
+

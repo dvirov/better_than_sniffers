@@ -1,10 +1,7 @@
 {
     "display": {
       "icon": {
-        "id": "minecraft:stone_button",
-        "components": {
-          "minecraft:custom_model_data": 45301
-        }
+        "id": "minecraft:stone_button"
       },
       "title": "Pebble collector",
       "description": "Collect some Pebbles",
@@ -17,10 +14,7 @@
         "conditions": {
           "items": [
             {
-              "items": "minecraft:stone_button",
-              "components": {
-                "minecraft:custom_model_data": 45301
-              }
+              "items": "minecraft:stone_button"
             }
           ]
         }

@@ -2,6 +2,8 @@ function bts:parkour/tick
 function bts:misc/dynamic_lights/main
 function bts:world_event/sound/tick
 
+execute if predicate bts:sunrise run function bts:world_event/bars_calc/sanity_food_restore
+
 execute unless items entity @s armor.feet *[custom_data={clear:1b}] run clear @s *[custom_data={clear:1b}]
 execute unless items entity @s armor.feet * run item replace entity @s armor.feet with barrier[custom_data={clear:1b}, max_stack_size=1,item_model="bts:empty_armor_slot_boots",equippable={slot:"feet",dispensable:false,swappable:true,damage_on_hurt:false},hide_tooltip={}] 1
 function bts:bars/effects/temperature_freeze
