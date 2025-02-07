@@ -1,6 +1,6 @@
 function bts:calander/load
 function bts:world_event/sound/load
-
+function bts:mobs/load
 team add blue
 team modify blue color blue
 

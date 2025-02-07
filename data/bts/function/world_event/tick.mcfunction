@@ -18,7 +18,8 @@ execute as @a at @s if predicate bts:noroof unless score @s ylevel matches 150..
 
 execute as @a[gamemode=survival] at @s run function bts:world_event/bars_calc/temperature
 execute as @a[gamemode=survival] if predicate bts:is_running run function bts:world_event/bars_calc/stamina
-execute as @a unless score @s bar_stamina matches 21.. if predicate bts:is_standing run function bts:world_event/bars_calc/stamina_regen
+execute as @a[gamemode=survival] if predicate bts:is_jumping run function bts:world_event/bars_calc/stamina
+execute as @a unless score @s bar_stamina matches 21.. unless predicate bts:is_running unless predicate bts:is_jumping run function bts:world_event/bars_calc/stamina_regen
 #execute as @a run function bts:bars/bars
 
 

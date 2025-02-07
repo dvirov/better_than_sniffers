@@ -10,7 +10,7 @@
     "F": "#wooden_slabs"
   },
   "result": {
-    "id": "minecraft:stone_sword",
+    "id": "minecraft:shears",
     "count": 1,
     "components": {
       "item_model": "bts:wooden_knife",

@@ -12,15 +12,20 @@ execute if entity @s[tag=ai,predicate=!bts:is_passanger] run function bts:mobs/s
 execute if entity @s[type=slime,tag=slimerain] run function bts:world_event/slimerain/timer
 
 
-#monsters behavior
+###monsters behavior
+execute as @e[type=#bts:monsters,tag=!attributes_added] run function bts:mobs/monster_attributes
 
+# MINER ZOMBIE
 execute if entity @s[type=zombie,tag=!scanned] run function bts:mobs/miner_zombie
 execute if entity @s[type=zombie,tag=scanned] at @s if items entity @s weapon iron_pickaxe run function bts:mobs/miner_zombie_mine
 
-
+# ZOMBIE RIDER
 execute if entity @s[type=#bts:monster_riders] if predicate bts:word_event/rng0.01 at @s if entity @e[type=#bts:monsters_can_ride_on,distance=..1.5,predicate=!bts:is_vehicle] run ride @s mount @n[type=#bts:monsters_can_ride_on]
 execute if entity @s[type=#bts:monster_riders,predicate=bts:is_passanger,tag=!ai] if predicate bts:word_event/rng0.001 run ride @s dismount
 
+# SPIDER SHOOTING WEB
+execute if entity @s[type=spider] at @s run function bts:mobs/spider_shoot_throw
+execute as @e[type=falling_block,tag=motion_projectile,tag=!motion_added] at @s rotated as @n[type=spider] run function bts:mobs/apply_motion
 
 
 #bosses

@@ -1,7 +1,7 @@
 {
     "pack": {
       "pack_format":61,
-      "description": "Better than Sniffers By dvirov Beta 0.3.9"
+      "description": "Better than Sniffers By dvirov Beta 0.4.0"
     },
     "filter": {
       "block": [{

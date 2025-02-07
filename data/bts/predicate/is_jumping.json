@@ -3,10 +3,9 @@
   "entity": "this",
   "predicate": {
     "movement": {
-      "speed": {},
-      "horizontal_speed": {
-        "min": 4.5,
-        "max": 100
+      "vertical_speed": {
+        "min": 1,
+        "max": 5
       }
     }
   }

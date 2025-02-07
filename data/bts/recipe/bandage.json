@@ -24,6 +24,13 @@
             "type": "minecraft:apply_effects",
             "effects": [
               {
+                "id": "minecraft:hunger",
+                "duration": 100,
+                "ambient": false,
+                "show_particles": false,
+                "show_icon": false
+              },
+              {
                 "id": "minecraft:regeneration",
                 "amplifier": 0,
                 "duration": 100,
@@ -35,6 +42,10 @@
             "probability": 1
           }
         ]
+      },
+      "minecraft:use_cooldown": {
+        "seconds": 5,
+        "cooldown_group": "heal1"
       }
     }
   },

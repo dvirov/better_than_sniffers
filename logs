@@ -1,10 +1,10 @@
-New Boss - The Slime King
-(have chance to appear in slime rain)
-improved use sound for bandages
+### Features:
+- spiders can shoot cobwebs
+- greater follow range to most hostile and passive mobs
+- bandages now have use cooldown and apply hunger un use
+- stamina now drain a little bit faster
+- some recipe changes
 
-New Food-Sanity system 
-if the player eating only similar foods his Sanity will decrease over time
 
-Bug Fixes :
-custom blocks droping barrel 
-advancement not showing
+###  Bug Fixes :
+- knife not consum durabillity when breaking grass

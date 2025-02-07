@@ -10,7 +10,7 @@
     "F": "minecraft:flint"
   },
   "result": {
-    "id": "minecraft:stone_sword",
+    "id": "minecraft:shears",
     "count": 1,
     "components": {
       "item_model": "bts:flint_knife",
