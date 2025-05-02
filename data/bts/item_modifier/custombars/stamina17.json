@@ -2,7 +2,7 @@
   {
     "function": "minecraft:set_components",
     "components": {
-      "minecraft:item_name": "\" \uE008\uE009\uE010\uE010\uE010\uE010\uE010\uE010\uE010\uE010\""
+      "minecraft:item_name": " \uE008\uE009\uE010\uE010\uE010\uE010\uE010\uE010\uE010\uE010"
     }
   }
 ]

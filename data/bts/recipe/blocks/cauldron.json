@@ -12,7 +12,7 @@
   "result": {
     "id": "minecraft:cauldron",
     "components": {
-      "minecraft:item_name": "{\"text\":\"Wooden Cauldron\"}"
+      "minecraft:item_name": {"text":"Wooden Cauldron"}
     }
   },
   "show_notification": true

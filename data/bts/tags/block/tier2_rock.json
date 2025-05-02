@@ -2,7 +2,8 @@
     "values": [
         "#bts:tier1_rock",
         "copper_ore",
-        "furnace"
+        "furnace",
+        "dripstone_block"
     ]
 
 }

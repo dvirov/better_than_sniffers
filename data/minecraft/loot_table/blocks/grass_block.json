@@ -43,7 +43,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": "{\"text\":\"Dirt Ball\"}"
+                "minecraft:item_name": {"text":"Dirt Ball"}
               }
             },
             {

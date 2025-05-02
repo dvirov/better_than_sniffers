@@ -2,7 +2,7 @@
   {
     "function": "minecraft:set_components",
     "components": {
-      "minecraft:item_name": "\"     \uF80B\uF809\uA020        \""
+      "minecraft:item_name": "     \uF80B\uF809\uA020        "
     }
   }
 ]

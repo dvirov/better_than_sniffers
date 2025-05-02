@@ -31,7 +31,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": "\"Raw Meat\"",
+                "minecraft:item_name": "Raw Meat",
                 "minecraft:item_model": "bts:raw_meat",
                 "minecraft:consumable": {
                   "consume_seconds": 1.6,

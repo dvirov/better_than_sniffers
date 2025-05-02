@@ -9,4 +9,4 @@ execute if score @s time_in_dark matches 600 if predicate bts:word_event/rng0.2 
 execute if score @s time_in_dark matches 600 if predicate bts:word_event/rng0.2 run return run tellraw @s {"color":"red","text":"A horrible chill runs down your spine"}
 execute if score @s time_in_dark matches 600 if predicate bts:word_event/rng0.2 run return run tellraw @s {"color":"red","text":"Your mind goes numb"}
 
-execute if score @s time_in_dark matches 600 run tellraw @p {"color":"red","text":"\"It seems you spend too much time in the dark And your insanity begins to rise "} 
+execute if score @s time_in_dark matches 600 run tellraw @p {"color":"red","text":"It seems you spend too much time in the dark And your insanity begins to rise "} 

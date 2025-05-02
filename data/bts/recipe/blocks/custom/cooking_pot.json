@@ -15,7 +15,7 @@
       "minecraft:entity_data": {
         "id": "minecraft:item_frame", "Tags":["place_cooking"], "Invisible":false, "Invulnerable": true, "Fixed":true, "Silent": true
       },
-      "minecraft:custom_name": "{\"text\":\"Cooking Pot\",\"italic\":false}",
+      "minecraft:custom_name": {"text":"Cooking Pot","italic":false},
       "minecraft:rarity": "common",
       "custom_data": "{cooking:1b}"
     }

@@ -22,7 +22,7 @@
           {
             "items": "minecraft:stone_sword",
             "components": {
-              "minecraft:item_name": "\"Flint Knife\""
+              "minecraft:item_name": "Flint Knife"
             }
           }
         ]

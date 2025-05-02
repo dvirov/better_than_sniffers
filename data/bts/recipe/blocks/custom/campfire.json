@@ -17,7 +17,7 @@
       "minecraft:entity_data": {
         "id": "minecraft:item_frame", "Tags":["place_campfire"], "Invisible":false, "Invulnerable": true, "Fixed":true, "Silent": true
       },
-      "minecraft:custom_name": "{\"text\":\"Campfire\",\"italic\":false}",
+      "minecraft:custom_name": {"text":"Campfire","italic":false},
       "minecraft:rarity": "common",
       "custom_data": "{campfire:1b}"
     }

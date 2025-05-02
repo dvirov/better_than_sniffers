@@ -5,7 +5,7 @@
   "result": {
     "id": "minecraft:cooked_beef",
     "components": {
-      "item_name": "\"Cooked Meat\"",
+      "item_name": "Cooked Meat",
       "item_model": "bts:cooked_meat"
     }
   },

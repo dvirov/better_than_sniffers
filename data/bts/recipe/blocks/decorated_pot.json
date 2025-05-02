@@ -12,7 +12,7 @@
   "result": {
     "id": "minecraft:decorated_pot",
     "components": {
-      "minecraft:item_name": "{\"text\":\"Storage Pot\"}"
+      "minecraft:item_name": {"text":"Storage Pot"}
     }
   },
   "show_notification": true

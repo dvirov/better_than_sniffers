@@ -17,10 +17,9 @@
       "item_model":"bts:sculpting_tool",
       "minecraft:max_stack_size": 1,
       "minecraft:max_damage": 1,
-      "minecraft:item_name": "\"Sculpture Tool\"",
+      "minecraft:item_name": "Sculpture Tool",
       "minecraft:custom_data": "{sculpture_tool:1b}",
-      "minecraft:attribute_modifiers": {
-        "modifiers": [
+      "minecraft:attribute_modifiers": [
           {
             "id": "reach",
             "type": "minecraft:block_interaction_range",
@@ -29,8 +28,12 @@
             "slot": "mainhand"
           }
         ],
-        "show_in_tooltip": false
-      }}
-  },
-  "show_notification": true
-}
+        "minecraft:tooltip_display": {
+          "hidden_components": [
+            "minecraft:attribute_modifiers"
+          ]
+        }
+      }
+    },
+    "show_notification": true
+  }

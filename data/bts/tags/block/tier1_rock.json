@@ -3,7 +3,8 @@
         "minecraft:cobblestone",
         "minecraft:stone",
         "stone_slab",
-        "#bts:tier0_rock"
+        "#bts:tier0_rock",
+        "pointed_dripstone"
 
     ]
 

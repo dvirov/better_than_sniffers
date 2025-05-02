@@ -1,6 +1,6 @@
 #run as text disply
 
-data merge entity @s {text:'[{"color":"red","italic":false,"score":{"name":"@s","objective":"campfire_time"}},{"color":"gold","italic":true,"text":"s"}]'}
+data merge entity @s {text:[{"color":"red","italic":false,"score":{"name":"@s","objective":"campfire_time"}},{"color":"gold","italic":true,"text":"s"}]}
 
 execute store result score @s campfire_time_ticks on vehicle run scoreboard players get @s campfire_time_ticks
 execute store result score @s campfire_time on vehicle run scoreboard players get @s campfire_time

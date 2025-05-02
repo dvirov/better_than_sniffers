@@ -11,7 +11,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "bts:steel_shovel",
-                "minecraft:item_name": "\"Steel Shovel\"",
+                "minecraft:item_name": "Steel Shovel",
                 "minecraft:custom_data": "{shovel:1b,steel_shovel:1b}",
                 "minecraft:max_damage": 200,
                 "minecraft:tool": {
@@ -25,13 +25,12 @@
                   "default_mining_speed": 1
                 },
                 "minecraft:lore": [
-                  "\"\"",
-                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"When in Main Hand:\"}",
-                  "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 2 Attack Damege\"}",
-                  "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 1 Attack Speed\"}"
+                  "",
+                  {"color":"gray","italic":false,"text":"When in Main Hand:"},
+                  {"color":"dark_green","italic":false,"text":" 2 Attack Damege"},
+                  {"color":"dark_green","italic":false,"text":" 1 Attack Speed"}
                 ],
-                "minecraft:attribute_modifiers": {
-                  "modifiers": [
+                "minecraft:attribute_modifiers": [
                     {
                       "id": "damage",
                       "type": "minecraft:attack_damage",
@@ -47,7 +46,10 @@
                       "slot": "mainhand"
                     }
                   ],
-                  "show_in_tooltip": false
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:attribute_modifiers"
+                  ]
                 }
               }
             }

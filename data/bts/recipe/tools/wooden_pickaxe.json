@@ -16,7 +16,7 @@
     "count": 1,
     "components": {
       "item_model": "wooden_pickaxe",
-      "minecraft:item_name": "\"Wooden Pickaxe\"",
+      "minecraft:item_name": "Wooden Pickaxe",
       "minecraft:custom_data": "{pickaxe:1b, wooden_pickaxe:1b,mine_coal:1b,mine_stone:1b}",
       "minecraft:max_damage": 32,
       "minecraft:tool": {
@@ -31,13 +31,12 @@
         "damage_per_block": 1
       },
       "minecraft:lore": [
-        "\"\"",
-        "{\"color\":\"gray\",\"italic\":false,\"text\":\"When in Main Hand:\"}",
-        "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 1.2 Attack Damege\"}",
-        "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 1.2 Attack Speed\"}"
+        "",
+        {"color":"gray","italic":false,"text":"When in Main Hand:"},
+        {"color":"dark_green","italic":false,"text":" 1.2 Attack Damege"},
+        {"color":"dark_green","italic":false,"text":" 1.2 Attack Speed"}
       ],
-      "minecraft:attribute_modifiers": {
-        "modifiers": [
+      "minecraft:attribute_modifiers": [
           {
             "id": "damage",
             "type": "minecraft:attack_damage",
@@ -53,7 +52,10 @@
             "slot": "mainhand"
           }
         ],
-        "show_in_tooltip": false
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
       }
     }
   },

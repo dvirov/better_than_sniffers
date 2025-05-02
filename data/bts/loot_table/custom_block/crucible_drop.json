@@ -11,12 +11,22 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "item_model":"cauldron",
+                "item_model": "cauldron",
                 "rarity": "uncommon",
                 "custom_data": "{crucible:1b}",
-                "minecraft:custom_name": "{\"text\":\"Crucible\",\"italic\":false}",
+                "minecraft:custom_name": {
+                  "text": "Crucible",
+                  "italic": false
+                },
                 "minecraft:entity_data": {
-                  "id": "minecraft:item_frame", "Tags":["place_crucible"], "Invisible":false, "Invulnerable": true, "Fixed":true, "Silent": true
+                  "id": "minecraft:item_frame",
+                  "Tags": [
+                    "place_crucible"
+                  ],
+                  "Invisible": false,
+                  "Invulnerable": true,
+                  "Fixed": true,
+                  "Silent": true
                 }
               }
             }

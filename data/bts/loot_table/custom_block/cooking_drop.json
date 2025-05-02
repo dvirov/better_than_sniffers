@@ -11,12 +11,22 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "item_model":"cauldron",
+                "item_model": "cauldron",
                 "rarity": "common",
                 "custom_data": "{cooking:1b}",
-                "minecraft:custom_name": "{\"text\":\"Cooking Pot\",\"italic\":false}",
+                "minecraft:custom_name": {
+                  "text": "Cooking Pot",
+                  "italic": false
+                },
                 "minecraft:entity_data": {
-                  "id": "minecraft:item_frame", "Tags":["place_cooking"], "Invisible":false, "Invulnerable": true, "Fixed":true, "Silent": true
+                  "id": "minecraft:item_frame",
+                  "Tags": [
+                    "place_cooking"
+                  ],
+                  "Invisible": false,
+                  "Invulnerable": true,
+                  "Fixed": true,
+                  "Silent": true
                 }
               }
             }

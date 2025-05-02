@@ -33,7 +33,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": "{\"text\":\"Storage Pot\"}"
+                "minecraft:item_name": {"text":"Storage Pot"}
               }
             }
           ]
@@ -115,7 +115,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": "{\"text\":\"Plant Fiber\"}"
+                "minecraft:item_name": {"text":"Plant Fiber"}
               }
             }
           ],

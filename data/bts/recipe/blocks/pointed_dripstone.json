@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "D"
+  ],
+  "key": {
+    "D": [
+      "minecraft:dripstone_block"
+    ]
+  },
+  "result": {
+    "id": "minecraft:pointed_dripstone",
+    "count": 2
+  },
+  "show_notification": true
+}

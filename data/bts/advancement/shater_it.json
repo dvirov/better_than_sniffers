@@ -16,7 +16,7 @@
           {
             "items": "minecraft:flint",
             "components": {
-              "minecraft:item_name": "\"Sharp Stone\""
+              "minecraft:item_name": "Sharp Stone"
             }
           }
         ]

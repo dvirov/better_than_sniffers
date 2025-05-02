@@ -11,12 +11,23 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "item_model":"campfire",
+                "item_model": "campfire",
                 "rarity": "common",
                 "custom_data": "{campfire:1b}",
-                "minecraft:custom_name": "{\"text\":\"Campfire\",\"italic\":false}",
+                "minecraft:custom_name": {
+                  "text": "Campfire",
+                  "type": "text",
+                  "italic": false
+                },
                 "minecraft:entity_data": {
-                  "id": "minecraft:item_frame", "Tags":["place_campfire"], "Invisible":false, "Invulnerable": true, "Fixed":true, "Silent": true
+                  "id": "minecraft:item_frame",
+                  "Tags": [
+                    "place_campfire"
+                  ],
+                  "Invisible": false,
+                  "Invulnerable": true,
+                  "Fixed": true,
+                  "Silent": true
                 }
               }
             }

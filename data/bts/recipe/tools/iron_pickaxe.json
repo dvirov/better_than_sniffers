@@ -16,7 +16,7 @@
     "count": 1,
     "components": {
       "item_model": "iron_pickaxe",
-      "minecraft:item_name": "\"Iron Pickaxe\"",
+      "minecraft:item_name": "Iron Pickaxe",
       "minecraft:custom_data": "{pickaxe:1b,iron_pickaxe:1b,mine_coal:1b,mine_stone:1b,mine_copper:1b,mine_iron:1b}",
       "minecraft:max_damage": 100,
       "minecraft:tool": {
@@ -31,14 +31,13 @@
         "damage_per_block": 1
       },
       "minecraft:lore": [
-        "\"\"",
-          "{\"color\":\"gray\",\"italic\":false,\"text\":\"When in Main Hand:\"}",
-          "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 1.8 Attack Damege\"}",
-          "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 1.2 Attack Speed\"}"
+        "",
+          {"color":"gray","italic":false,"text":"When in Main Hand:"},
+          {"color":"dark_green","italic":false,"text":" 1.8 Attack Damege"},
+          {"color":"dark_green","italic":false,"text":" 1.2 Attack Speed"}
 
         ],
-      "minecraft:attribute_modifiers": {
-        "modifiers": [
+      "minecraft:attribute_modifiers": [
           {
             "id": "damage",
             "type": "minecraft:attack_damage",
@@ -54,7 +53,10 @@
             "slot": "mainhand"
           }
         ],
-        "show_in_tooltip": false
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
       }
     }
   },

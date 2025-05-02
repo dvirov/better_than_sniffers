@@ -17,7 +17,7 @@
               "!minecraft:jukebox_playable": {},
               "minecraft:item_model": "bts:cotton",
               "minecraft:custom_data": "{cotton:1b}",
-              "minecraft:custom_name": "{\"text\":\"Cotton\",\"italic\":false}"
+              "minecraft:custom_name": {"text":"Cotton","italic":false}
             }
           }
         ]

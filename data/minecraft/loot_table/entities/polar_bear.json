@@ -133,7 +133,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": "\"Polar Bear Fur\"",
+                "minecraft:item_name": "Polar Bear Fur",
                 "minecraft:item_model": "bts:white_bear_fur",
                 "max_stack_size": 64,
                 "!minecraft:rarity": {},

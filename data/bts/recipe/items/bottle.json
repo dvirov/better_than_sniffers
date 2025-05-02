@@ -12,7 +12,7 @@
     "id": "minecraft:debug_stick",
     "components": {
       "item_model": "bts:clay_bottle",
-      "item_name": "\"incomplete clay bottle\"",
+      "item_name": "incomplete clay bottle",
       "rarity": "common"
     
     }

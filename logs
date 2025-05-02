@@ -1,10 +1,11 @@
 ### Features:
-- spiders can shoot cobwebs
-- greater follow range to most hostile and passive mobs
-- bandages now have use cooldown and apply hunger un use
-- stamina now drain a little bit faster
-- some recipe changes
+- added dripstone loottables and recipes
+-
+-
+-
 
 
 ###  Bug Fixes :
-- knife not consum durabillity when breaking grass
+- custom blocks not droping the correct item
+-
+-

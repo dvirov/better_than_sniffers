@@ -17,11 +17,10 @@
     "count": 1,
     "components": {
       "item_model": "bts:hammer",
-      "minecraft:item_name": "\"Hammer\"",
+      "minecraft:item_name": "Hammer",
       "minecraft:custom_data": "{hammer:1b}",
       "minecraft:max_damage": 10,
-      "minecraft:attribute_modifiers": {
-        "modifiers": [
+      "minecraft:attribute_modifiers": [
           {
             "id": "damage",
             "type": "minecraft:attack_damage",
@@ -37,7 +36,10 @@
             "slot": "mainhand"
           }
         ],
-        "show_in_tooltip": false
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
       }
     }
   },
