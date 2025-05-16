@@ -9,7 +9,51 @@
     "L": "minecraft:leather"
   },
   "result": {
-    "id": "minecraft:leather_boots"
+    "id": "minecraft:leather_boots",
+    "components": {
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:armor",
+          "id": "bts:boots",
+          "amount": 1,
+          "operation": "add_value",
+          "slot": "feet"
+        },
+        {
+          "type": "minecraft:max_absorption",
+          "id": "bts:boots",
+          "amount": 4,
+          "operation": "add_value",
+          "slot": "feet"
+        }
+      ],
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      },
+      "minecraft:lore": [
+        {
+          "text": ""
+        },
+        {
+          "text": "When on Feet:",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+1 Armor",
+          "color": "blue",
+          "italic": false
+        },
+        {
+          "text": "+4 Insulation",
+          "color": "blue",
+          "italic": false
+        }
+      ]
+    },
+    "count": 1
   },
   "show_notification": true
 }

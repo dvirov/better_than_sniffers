@@ -10,7 +10,51 @@
     "L":"minecraft:leather"
   },
   "result": {
-    "id": "minecraft:leather_chestplate"
+    "id": "minecraft:leather_chestplate",
+    "components": {
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:armor",
+          "id": "bts:chest",
+          "amount": 3,
+          "operation": "add_value",
+          "slot": "chest"
+        },
+        {
+          "type": "minecraft:max_absorption",
+          "id": "bts:chest",
+          "amount": 8,
+          "operation": "add_value",
+          "slot": "chest"
+        }
+      ],
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      },
+      "minecraft:lore": [
+        {
+          "text": ""
+        },
+        {
+          "text": "When on Body:",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+3 Armor",
+          "color": "blue",
+          "italic": false
+        },
+        {
+          "text": "+8 Insulation",
+          "color": "blue",
+          "italic": false
+        }
+      ]
+    },
+    "count": 1
   },
   "show_notification": true
 }

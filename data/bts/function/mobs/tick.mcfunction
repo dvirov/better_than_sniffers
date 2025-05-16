@@ -1,8 +1,8 @@
 
 # Animals AI
-execute if entity @s[type=#bts:ai_neutral,tag=!scanned] at @s run function bts:mobs/scan
+execute if entity @s[type=#bts:ai_neutral,tag=!scanned,tag=!tammed] at @s run function bts:mobs/scan
 
-execute if entity @s[type=#bts:ai_neutral,nbt={HurtTime:10s}] run function bts:mobs/attack
+execute if entity @s[type=#bts:ai_neutral,tag=is_nutral,nbt={HurtTime:10s}] run function bts:mobs/attack
 
 
 execute if entity @s[tag=ai,predicate=!bts:is_passanger] run function bts:mobs/silent_kill

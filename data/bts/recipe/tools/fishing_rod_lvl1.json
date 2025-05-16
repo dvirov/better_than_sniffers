@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "X": "minecraft:string",
+    "I": "minecraft:iron_nugget"
+  },
+  "pattern": [
+    "  #",
+    " #X",
+    "# I"
+  ],
+  "result": {
+    "components": {
+      "minecraft:max_damage": 32
+    },
+    "count": 1,
+    "id": "minecraft:fishing_rod"
+  },
+  "show_notification": true
+}

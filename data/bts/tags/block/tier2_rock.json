@@ -3,7 +3,8 @@
         "#bts:tier1_rock",
         "copper_ore",
         "furnace",
-        "dripstone_block"
+        "dripstone_block",
+        "chain"
     ]
 
 }

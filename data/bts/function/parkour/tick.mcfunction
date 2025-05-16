@@ -12,3 +12,4 @@ execute if entity @s[tag=roll] run function bts:parkour/roll
 
 # wall edge climb
 execute if entity @s[x_rotation=-30..30] anchored eyes if block ~ ~-.5 ~ #bts:transparent if block ^ ^ ^1 #bts:transparent unless block ^ ^-1 ^.5 #bts:transparent run function bts:parkour/wall_climb
+

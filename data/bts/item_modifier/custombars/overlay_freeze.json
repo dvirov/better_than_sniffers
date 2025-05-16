@@ -1,12 +1,147 @@
 [
-    {
-      "function": "minecraft:set_components",
-      "components": {
-        "minecraft:equippable": {
-          "slot": "feet",
-          "camera_overlay": "misc/powder_snow_outline"
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:equippable": {
+        "slot": "feet",
+        "equip_sound": "minecraft:item.armor.equip_netherite",
+        "asset_id": "minecraft:netherite",
+        "camera_overlay": "misc/powder_snow_outline",
+        "swappable": true
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "feet": {
+              "items": "minecraft:netherite_boots"
+            }
+          }
         }
       }
-    }
-  ]
-  
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:equippable": {
+        "slot": "feet",
+        "equip_sound": "minecraft:item.armor.equip_diamond",
+        "asset_id": "minecraft:diamond",
+        "camera_overlay": "misc/powder_snow_outline"
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "feet": {
+              "items": "minecraft:diamond_boots"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:equippable": {
+        "slot": "feet",
+        "equip_sound": "minecraft:item.armor.equip_gold",
+        "asset_id": "minecraft:gold",
+        "camera_overlay": "misc/powder_snow_outline"
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "feet": {
+              "items": "minecraft:golden_boots"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:equippable": {
+        "slot": "feet",
+        "equip_sound": "minecraft:item.armor.equip_chain",
+        "asset_id": "minecraft:chainmail",
+        "camera_overlay": "misc/powder_snow_outline"
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "feet": {
+              "items": "minecraft:chainmail_boots"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:equippable": {
+        "slot": "feet",
+        "equip_sound": "minecraft:item.armor.equip_iron",
+        "asset_id": "minecraft:iron",
+        "camera_overlay": "misc/powder_snow_outline"
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "feet": {
+              "items": "minecraft:iron_boots"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:equippable": {
+        "slot": "feet",
+        "equip_sound": "minecraft:item.armor.equip_leather",
+        "asset_id": "minecraft:leather",
+        "camera_overlay": "misc/powder_snow_outline"
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "feet": {
+              "items": "minecraft:leather_boots"
+            }
+          }
+        }
+      }
+    ]
+  }
+]

@@ -98,7 +98,8 @@
       "minecraft:patch_firefly_bush_near_water"
     ],
     [
-      "minecraft:freeze_top_layer"
+      "minecraft:freeze_top_layer",
+      "bts:pebbels"
     ]
   ],
   "has_precipitation": false,

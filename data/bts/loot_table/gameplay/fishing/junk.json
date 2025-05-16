@@ -2,7 +2,7 @@
   "type": "minecraft:fishing",
   "pools": [
     {
-      "bonus_rolls": 0.0,
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -17,7 +17,7 @@
               "damage": {
                 "type": "minecraft:uniform",
                 "max": 0.9,
-                "min": 0.0
+                "min": 0
               },
               "function": "minecraft:set_damage"
             }
@@ -37,35 +37,8 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:set_potion",
-              "id": "minecraft:water"
-            }
-          ],
-          "name": "minecraft:potion",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:string",
           "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "damage": {
-                "type": "minecraft:uniform",
-                "max": 0.9,
-                "min": 0.0
-              },
-              "function": "minecraft:set_damage"
-            }
-          ],
-          "name": "minecraft:fishing_rod",
-          "weight": 2
         },
         {
           "type": "minecraft:item",
@@ -82,16 +55,11 @@
           "functions": [
             {
               "add": false,
-              "count": 10.0,
+              "count": 10,
               "function": "minecraft:set_count"
             }
           ],
           "name": "minecraft:ink_sac"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:tripwire_hook",
-          "weight": 10
         },
         {
           "type": "minecraft:item",
@@ -116,7 +84,7 @@
           "weight": 10
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ],
   "random_sequence": "minecraft:gameplay/fishing/junk"

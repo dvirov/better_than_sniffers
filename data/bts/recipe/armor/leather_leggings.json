@@ -10,7 +10,51 @@
     "L":"minecraft:leather"
   },
   "result": {
-    "id": "minecraft:leather_leggings"
+    "id": "minecraft:leather_leggings",
+    "components": {
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:armor",
+          "id": "bts:legs",
+          "amount": 2,
+          "operation": "add_value",
+          "slot": "legs"
+        },
+        {
+          "type": "minecraft:max_absorption",
+          "id": "bts:legs",
+          "amount": 7,
+          "operation": "add_value",
+          "slot": "legs"
+        }
+      ],
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      },
+      "minecraft:lore": [
+        {
+          "text": ""
+        },
+        {
+          "text": "When on Legs:",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+2 Armor",
+          "color": "blue",
+          "italic": false
+        },
+        {
+          "text": "+7 Insulation",
+          "color": "blue",
+          "italic": false
+        }
+      ]
+    },
+    "count": 1
   },
   "show_notification": true
 }

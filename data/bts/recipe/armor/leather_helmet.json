@@ -6,10 +6,54 @@
     "L L"
   ],
   "key": {
-    "L":"minecraft:leather"
+    "L": "minecraft:leather"
   },
   "result": {
-    "id": "minecraft:leather_helmet"
+    "id": "minecraft:leather_helmet",
+    "components": {
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:armor",
+          "id": "bts:head",
+          "amount": 1,
+          "operation": "add_value",
+          "slot": "head"
+        },
+        {
+          "type": "minecraft:max_absorption",
+          "id": "bts:head",
+          "amount": 5,
+          "operation": "add_value",
+          "slot": "head"
+        }
+      ],
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      },
+      "minecraft:lore": [
+        {
+          "text": ""
+        },
+        {
+          "text": "When on Head:",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+1 Armor",
+          "color": "blue",
+          "italic": false
+        },
+        {
+          "text": "+5 Insulation",
+          "color": "blue",
+          "italic": false
+        }
+      ]
+    },
+    "count": 1
   },
   "show_notification": true
 }

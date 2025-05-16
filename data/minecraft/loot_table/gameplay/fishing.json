@@ -2,12 +2,12 @@
   "type": "minecraft:fishing",
   "pools": [
     {
-      "bonus_rolls": 0.0,
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:loot_table",
           "quality": -2,
-          "value": "minecraft:gameplay/fishing/junk",
+          "value": "bts:gameplay/fishing/junk",
           "weight": 10
         },
         {
@@ -25,17 +25,17 @@
             }
           ],
           "quality": 2,
-          "value": "minecraft:gameplay/fishing/treasure",
+          "value": "bts:gameplay/fishing/treasure",
           "weight": 5
         },
         {
           "type": "minecraft:loot_table",
           "quality": -1,
-          "value": "minecraft:gameplay/fishing/fish",
+          "value": "bts:gameplay/fishing/fish",
           "weight": 85
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ],
   "random_sequence": "minecraft:gameplay/fishing"

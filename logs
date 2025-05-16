@@ -1,11 +1,19 @@
 ### Features:
-- added dripstone loottables and recipes
--
--
--
+- dripstone loottables and recipes
+- some changes to worldgen (rocks and pebbels)
+- leaf litter loottable
+- chains recipe,loottable and can be climbed
+- anvil recipe is much cheaper now
+- you can now "tame" animals by feeding them - tamed animals and their babies wont attack the player 
+- much more loottable to common natural blocks
+- new stat to armor called "insulation" that makes the player to change temperature slower
+- fishing rod recipe and loottable 
+- 
 
 
 ###  Bug Fixes :
 - custom blocks not droping the correct item
--
--
+- somtimes campfires can get stuck as lit 
+- fixed bug with sculpture tool and particle
+- 
+- 

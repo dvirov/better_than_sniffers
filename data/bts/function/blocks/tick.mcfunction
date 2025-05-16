@@ -6,6 +6,7 @@ execute as @a run function bts:blocks/cooking/clear
 execute as @e[type=item_display,tag=custom_block,tag=cotton_plant] at @s run function bts:blocks/tick_grow
 
 
+function bts:blocks/campfire/tick
 
 
 
@@ -15,3 +16,6 @@ execute as @e[type=block_display,tag=custom_block,tag=cooking] at @s positioned 
 
 execute as @a if score @s anvil.cd matches 1.. run scoreboard players remove @s anvil.cd 1
 
+
+scoreboard players add .20tick.delay delay 1
+execute if score .20tick.delay delay matches 21.. run scoreboard players set .20tick.delay delay 0

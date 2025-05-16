@@ -8,7 +8,7 @@
       },
       "title": "Better Than Sniffers",
       "description": "Created by dvirov ",
-      "background": "minecraft:textures/transparent",
+      "background": "bts:transparent",
       "announce_to_chat": false
 
     },

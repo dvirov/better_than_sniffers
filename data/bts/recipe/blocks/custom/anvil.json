@@ -7,8 +7,8 @@
     "III"
   ],
   "key": {
-    "B":"minecraft:iron_block",
-    "I":"minecraft:iron_ingot"
+    "B":"minecraft:iron_ingot",
+    "I":"minecraft:iron_nugget"
   },
   "result": {
     "id": "minecraft:item_frame",

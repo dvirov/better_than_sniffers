@@ -1,14 +1,17 @@
-execute if score @s bar_temperature < @s temperature_calc run scoreboard players add @s bar_temperature 1
-execute if score @s bar_temperature > @s temperature_calc run scoreboard players remove @s bar_temperature 1
+
+
 scoreboard players set @s temperature_calc 0
 
 
+#day or night
 execute if predicate bts:is_night if predicate bts:noroof run scoreboard players remove @s temperature_calc 30
 execute if predicate bts:is_day if predicate bts:noroof run scoreboard players add @s temperature_calc 15
 
+#if rainy
 execute if predicate bts:is_raining if predicate bts:noroof run scoreboard players remove @s temperature_calc 15
 execute if predicate bts:is_raining if predicate bts:word_event/cold_biome if predicate bts:noroof run scoreboard players remove @s temperature_calc 15
 
+#if in water
 execute if predicate bts:is_in_water run scoreboard players remove @s temperature_calc 10
 
 scoreboard players operation @s temperature_calc += @s near_light_block

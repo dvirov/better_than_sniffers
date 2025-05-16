@@ -4,6 +4,10 @@ function bts:mobs/load
 team add blue
 team modify blue color blue
 
+
+scoreboard objectives add delay dummy
+
+
 scoreboard objectives add tp_timer dummy
 scoreboard objectives add fieldboss dummy
 
@@ -34,6 +38,8 @@ scoreboard objectives add bar_stamina_cd dummy
 
 scoreboard objectives add bar_temperature dummy
 scoreboard objectives add temperature_calc dummy
+scoreboard objectives add insulation_vaule dummy
+scoreboard objectives add temperature_insulation_delay dummy
 
 
 scoreboard objectives add bar_sanity dummy

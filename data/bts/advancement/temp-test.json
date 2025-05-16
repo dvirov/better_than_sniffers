@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:husbandry/root",
+  "criteria": {},
+  "requirements": [],
+  "sends_telemetry_event": true
+}

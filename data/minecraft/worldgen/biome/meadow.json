@@ -92,7 +92,8 @@
       "minecraft:wildflowers_meadow"
     ],
     [
-      "minecraft:freeze_top_layer"
+      "minecraft:freeze_top_layer",
+      "bts:pebbels"
     ]
   ],
   "has_precipitation": true,

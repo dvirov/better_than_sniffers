@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:fishing_rod_hooked"
+    }
+  },
+  "rewards": {
+    "function": "bts:misc/fishing_event"
+  }
+}
