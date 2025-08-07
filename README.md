@@ -1,6 +1,6 @@
 ![better than sniffers logo](https://cdn.modrinth.com/data/cached_images/c80a00843574d965576770c05f885c570e1bd47d.png)
-# We advanced to 1.21.3 !
-## 1.21.1 is no longer supported !
+# We advanced to 1.21.8 !
+## only the latest release is supported !
 
 Better than Sniffers is a datapack inspierd by the mod "better than wolves" 
 the goal of this pack is to recreate the survival experience in more realistic and more challanging way.
@@ -9,9 +9,25 @@ Notice the bug? Want to suggest a feature ?
 [Github](https://github.com/dvirov/better_than_sniffers/issues/new/choose)|
 [discord](https://discord.gg/gXSEPRdydK)
 
-
 <details>
-<summary>More information (WIP)</summary>
+<summary>Where to find the resourcepack?
+</summary>
+
+
+Go to the [version page](https://modrinth.com/datapack/better_than_sniffers/versions) and find the version you want that labeled as datapack.
+
+Click on the version and fine the attached files at the bottom and download the file named "Better than Sniffers-RP".
+
+please keep in mind that every RP version work only with the matching DP version
+Have fun !
+## 
+## ![resourcepack tutorial 1](https://cdn.modrinth.com/data/cached_images/75f2041aa9c17479ae1a975c365a87ed9775564e.png)
+## 
+![resourcepack tutorial 2](https://cdn.modrinth.com/data/cached_images/a52219fb630936127b13e93e4b99c482de4335b7.png)
+
+
+</details>
+
 
 
 
@@ -151,26 +167,9 @@ To use it you have to place a steel ingot in it and hit it with a hammer
 
 
 
-</details>
 
 
 
 
-### Features: 
-- resourcepack
-- stamina system  
-- Sanity system
-- temperature system 
-- crafting overhaul
-- custom blocks and GUIs
-- loot tables overhoul
-- advancements overhaul
-- progression line overhaul
-- campfires needs fuel 
-- decorated pots can be emptied with shift R-click
-- darkness is dangerus
-- no air in deep caves (WIP)
-- custom structures 
- and much more
 
 
