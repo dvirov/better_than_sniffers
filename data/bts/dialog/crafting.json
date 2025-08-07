@@ -1,0 +1,169 @@
+{
+  "type": "minecraft:confirmation",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        "Crafting\n",
+        "all the new Crafting stations"
+      ],
+      "width": 250
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "Anvil",
+          "color": "gray",
+          "font": "minecraft:default",
+          "click_event": {
+            "action": "show_dialog",
+            "dialog": "bts:crafting/anvil"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": "Click to open Anvil category"
+          }
+        },
+        {
+          "text": "                    ",
+          "type": "text",
+          "font": "minecraft:default",
+          "click_event": {
+            "action": "custom",
+            "id": "1"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": ""
+        }
+        },
+        {
+          "text": "Campfire",
+          "font": "minecraft:default",
+          "click_event": {
+            "action": "show_dialog",
+            "dialog": "bts:crafting/campfire"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": "Click to open Campfire category"
+          }
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "Fletching table",
+          "type": "text",
+          "color": "gray",
+          "font": "minecraft:default",
+          "click_event": {
+            "action": "show_dialog",
+            "dialog": "bts:crafting/fletching"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": "Click to open Fletching category"
+          }
+        },
+        {
+          "text": "        ",
+          "type": "text",
+          "font": "minecraft:default",
+          "click_event": {
+          "action": "change_page",
+          "page": 1
+        },
+          "hover_event": {
+            "action": "show_text",
+            "value": ""
+          }
+        },
+        {
+          "text": "Crucible",
+          "color": "gray",
+          "font": "minecraft:default",
+          "click_event": {
+            "action": "show_dialog",
+            "dialog": "bts:crafting/crucible"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": "Click to open Crucible category"
+          }
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "Cooking Pot",
+          "color": "gray",
+          "font": "minecraft:default",
+          "click_event": {
+            "action": "show_dialog",
+            "dialog": "bts:crafting/cooking"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": "Click to open Cooking category"
+          }
+        },
+        
+        {
+          "text": "      ",
+          "type": "text",
+          "font": "minecraft:default",
+          "click_event": {
+          "action": "change_page",
+          "page": 1
+        },
+          "hover_event": {
+            "action": "show_text",
+            "value": ""
+          }
+        },
+        {
+          "text": "Alchemy table",
+          "color": "gray",
+          "font": "minecraft:default",
+          "click_event": {
+            "action": "show_dialog",
+            "dialog": "bts:crafting/alchemy"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": "Click to open Alchemy category"
+          }
+        }
+      ]
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "title": [
+    "   뀁뀂  뀃뀄뀅뀆뀇      뀈",
+    "                  낡낢낣낤낥낦낧남",
+    "                  낱낲낳내낵낶낷낸",
+    "                  냁냂냃냄 냅냆냇냈"
+  ],
+  "after_action": "none",
+  "yes": {
+    "label": "Close",
+    "action": {
+      "type": "minecraft:run_command",
+      "command": "trigger close.dialog"
+    }
+  },
+  "no": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "bts:main"
+    }
+  }
+}

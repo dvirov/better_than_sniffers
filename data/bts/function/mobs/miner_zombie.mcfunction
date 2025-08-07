@@ -1,2 +1,4 @@
 tag @s add scanned
-execute if predicate bts:word_event/rng0.05 run item replace entity @s weapon.mainhand with iron_pickaxe[attribute_modifiers={modifiers:[{id:"follow_range",type:"follow_range",amount:100,operation:"add_value"},{id:"block_break_speed",type:"block_break_speed",amount:-10,operation:"add_value"}],show_in_tooltip:false}] 1
+execute if predicate bts:word_event/rng0.05 run item replace entity @s weapon.mainhand with iron_pickaxe[attribute_modifiers=[{id:"follow_range",type:"follow_range",amount:100,operation:"add_value"},{id:"block_break_speed",type:"block_break_speed",amount:-10,operation:"add_value"}],tooltip_display={hidden_components:["attribute_modifiers"]}] 1
+
+

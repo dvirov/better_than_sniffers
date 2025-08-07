@@ -4,6 +4,8 @@ function bts:mobs/load
 team add blue
 team modify blue color blue
 
+scoreboard objectives add close.dialog trigger
+scoreboard players enable @a close.dialog
 
 scoreboard objectives add delay dummy
 
@@ -32,6 +34,9 @@ scoreboard objectives add timer dummy
 gamerule doInsomnia false
 gamerule naturalRegeneration false
 gamerule snowAccumulationHeight 7
+gamerule waterSourceConversion false
+#gamerule reducedDebugInfo true
+#gamerule sendCommandFeedback false
 
 scoreboard objectives add bar_stamina dummy
 scoreboard objectives add bar_stamina_cd dummy

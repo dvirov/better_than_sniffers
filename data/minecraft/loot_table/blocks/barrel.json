@@ -21,6 +21,54 @@
               "item_filter": {
                 "components": {
                   "minecraft:custom_name": {
+                    "text": "Alchemy",
+                    "extra": [
+                      {
+                        "color": "white",
+                        "text": "        \uF807\uF80A\uF80A\uF808\uD003"
+                      }
+                    ]
+                  }
+                }
+              },
+              "modifier": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": 1
+                },
+                {
+                  "function": "minecraft:set_item",
+                  "item": "minecraft:item_frame"
+                },
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "item_model": "brewing_stand",
+                    "rarity": "uncommon",
+                    "custom_data": "{alchemy:1b}",
+                    "minecraft:custom_name": {
+                      "text": "Alchemy Table",
+                      "italic": false
+                    },
+                    "minecraft:entity_data": {
+                      "id": "minecraft:item_frame",
+                      "Tags": [
+                        "place_alchemy"
+                      ],
+                      "Invisible": false,
+                      "Invulnerable": true,
+                      "Fixed": true,
+                      "Silent": true
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:filtered",
+              "item_filter": {
+                "components": {
+                  "minecraft:custom_name": {
                     "text": "Fletching",
                     "extra": [
                       {

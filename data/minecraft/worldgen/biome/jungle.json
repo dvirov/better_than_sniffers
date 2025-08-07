@@ -96,7 +96,8 @@
     ],
     [
       "minecraft:freeze_top_layer",
-      "bts:pebbels"
+      "bts:pebbels",
+      "bts:crater"
     ]
   ],
   "has_precipitation": true,

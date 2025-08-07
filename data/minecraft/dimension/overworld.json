@@ -4,6 +4,71 @@
     "type": "minecraft:noise",
     "biome_source": {
       "biomes": [
+
+
+        {
+          "biome": "bts:sniffer_garden",
+          "parameters": {
+            "continentalness": [
+              -0.1,
+              0.5
+            ],
+            "depth": 0.0,
+            "erosion": [
+              0.1,
+              0.65
+            ],
+            "humidity": [
+              -0.7,
+              0.7
+            ],
+            "offset": 0.0,
+            "temperature": [
+              -0.2,
+              0.4
+            ],
+            "weirdness": [
+              -1,
+              -0.55
+            ]
+          }
+        },
+        {
+          "biome": "bts:sniffer_garden_extreme",
+          "parameters": {
+            "continentalness": [
+              0,
+              0.5
+            ],
+            "depth": 0.0,
+            "erosion": [
+              0.1,
+              0.35
+            ],
+            "humidity": [
+              -0.7,
+              0.7
+            ],
+            "offset": 0.0,
+            "temperature": [
+              -0.2,
+              0.4
+            ],
+            "weirdness": [
+              -1,
+              -0.65
+            ]
+          }
+        },
+
+
+
+
+
+
+
+
+
         {
           "biome": "minecraft:mushroom_fields",
           "parameters": {

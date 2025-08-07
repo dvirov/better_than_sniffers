@@ -6,7 +6,15 @@
         "minecraft:tall_grass",
         "minecraft:fern",
         "minecraft:large_fern",
-        "minecraft:seagrass"
+        "leaf_litter",
+        "minecraft:seagrass",
+        "moss_carpet",
+        "vine",
+        "cocoa",
+        "pale_moss_carpet",
+        "pale_hanging_moss",
+        "bush",
+        "dead_bush"
 
     ]
 

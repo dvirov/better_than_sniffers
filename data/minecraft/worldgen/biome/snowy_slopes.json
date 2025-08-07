@@ -77,7 +77,8 @@
       "minecraft:ore_emerald"
     ],
     [
-      "minecraft:ore_infested"
+      "minecraft:ore_infested",
+      "bts:crater"
     ],
     [
       "minecraft:spring_water",

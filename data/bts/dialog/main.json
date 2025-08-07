@@ -1,0 +1,152 @@
+{
+  "type": "minecraft:confirmation",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": " Better than Sniffers Wiki"
+        },
+        {
+          "text": "\ni",
+          "type": "text",
+          "color": "#afaef4",
+          "shadow_color": 4539717,
+          "font": "minecraft:include/unifont",
+          "bold": true,
+          "underlined": true,
+          "hover_event": {
+            "action": "show_text",
+            "value": {
+              "text": "Designed for GUI scale x3, errors may occur if diffrent scale is used"
+            }
+          }
+        },
+        "\n Choose category you want to learn about "
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "Worldgen",
+          "strikethrough": true,
+          "color": "green",
+          "font": "minecraft:default",
+          "click_event": {
+            "action": "show_dialog",
+            "dialog": "bts:worldgen"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": "click to open"
+          }
+        },
+        {
+          "text": "        ",
+          "strikethrough": false ,
+          "type": "text",
+          "font": "minecraft:default",
+          "click_event": {
+            "action": "custom",
+            "id": "1"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": ""
+        }
+        },
+        {
+          "text": "Gameplay",
+          "type": "text",
+          "strikethrough": true,
+          "color": "aqua",
+          "font": "minecraft:default",
+          "click_event": {
+            "action": "show_dialog",
+            "dialog": "bts:gameplay"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": "click to open"
+          }
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "Crafting",
+          "type": "text",
+          "color": "gold",
+          "font": "minecraft:default",
+          "click_event": {
+            "action": "show_dialog",
+            "dialog": "bts:crafting"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": "click to open"
+          }
+        },
+        {
+          "text": "          ",
+          "type": "text",
+          "font": "minecraft:default",
+          "click_event": {
+            "action": "custom",
+            "id": "1"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": ""
+        }
+        },
+        {
+          "text": "Tools",
+          "strikethrough": false,
+          "type": "text",
+          "color": "dark_red",
+          "font": "minecraft:default",
+          "click_event": {
+            "action": "show_dialog",
+            "dialog": "bts:tools"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": "click to open"
+          }
+        }
+      ]
+    }
+  ],
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "external_title": {
+    "translate": "menu.pause.title.text",
+    "fallback": "Open Wiki"
+  },
+  "title": [
+    "   뀁뀂  뀃뀄뀅뀆뀇      뀈",
+    "                  낡낢낣낤낥낦낧남",
+    "                  낱낲낳내낵낶낷낸",
+    "                  냁냂냃냄 냅냆냇냈"
+  ],
+    "after_action": "none",
+  "yes": {
+    "label": "Close",
+    "action": {
+      "type": "minecraft:run_command",
+      "command": "trigger close.dialog"
+    }
+  },
+  "no": {
+    "label": "Soon",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "bts:main"
+    }
+  }
+}

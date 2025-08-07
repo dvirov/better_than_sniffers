@@ -2,7 +2,13 @@
   "type": "minecraft:smelting",
   "ingredient": "minecraft:raw_copper",
   "result": {
-    "id": "minecraft:copper_ingot"
+    "id": "minecraft:copper_ingot",
+    "components": {
+      "minecraft:custom_data": {
+        "copper_ingot": 1,
+        "crucible_made": 1
+      }
+    }
   },
   "cookingtime": 2000
 }

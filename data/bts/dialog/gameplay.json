@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:confirmation",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        ""
+      ]
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:nether_star"
+      },
+      "description": "Structures",
+      "width": 256
+    }
+  ],
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "title": [
+    "   \uF80A\uF803\uB001\uB002\uF80A  \uB003\uB004\uF801\uB005\uB006\uB007\uF80A\uF804      \uB008",
+    "\uF80A\uF805                  \uF80E\uF80C\uF80B\uF809\uF807\uB0A1\uB0A2\uB0A3\uB0A4\uB0A5\uB0A6\uB0A7\uF80A\uF804\uB0A8",
+    "\uF80A\uF805                  \uF80E\uF80C\uF80B\uF809\uF807\uB0B1\uB0B2\uB0B3\uB0B4\uB0B5\uB0B6\uB0B7\uF80A\uF804\uB0B8",
+    "\uF80A\uF805                  \uF80E\uF80C\uF80B\uF809\uF807\uB0C1\uF801\uB0C2\uB0C3\uB0C4 \uB0C5\uB0C6\uF80A\uF804\uB0C7\uF801\uB0C8"
+  ],
+    "after_action": "none",
+  "yes": {
+    "label": "Close",
+    "action": {
+      "type": "minecraft:run_command",
+      "command": "trigger close.dialog"
+    }
+  },
+  "no": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "bts:main"
+    }
+  }
+}

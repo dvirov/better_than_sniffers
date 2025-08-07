@@ -22,10 +22,8 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "type_specific": {
-                  "type": "minecraft:fox",
-                  "variant": "snow"
-                }
+                "type": "minecraft:fox",
+                "nbt": "{Type:\"snow\"}"
               }
             },
             {
@@ -57,10 +55,8 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "type_specific": {
-                  "type": "minecraft:fox",
-                  "variant": "red"
-                }
+                "type": "minecraft:fox",
+                "nbt": "{Type:red}"
               }
             },
             {

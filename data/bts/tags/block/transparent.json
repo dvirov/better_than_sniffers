@@ -5,16 +5,25 @@
     "minecraft:air",
     "#bts:foliage",
     "#minecraft:slabs",
+    "#stairs",
     "#minecraft:walls",
     "#minecraft:fences",
+    "#fence_gates",
+    "#doors",
+    "#trapdoors",
     "#minecraft:saplings",
     "#wooden_buttons",
-    "#minecraft:stone_buttons",
+    "#stone_buttons",
     "#impermeable",
+    "#wool_carpets",
     "flower_pot",
     "campfire",
     "glass_pane",
     "lever",
-    "torch"
+    "torch",
+    "tripwire",
+    "tripwire_hook",
+    "resin_clump",
+     "snow"
     ]
 }

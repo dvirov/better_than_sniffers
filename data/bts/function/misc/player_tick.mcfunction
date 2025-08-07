@@ -10,7 +10,7 @@ execute unless items entity @s armor.feet * run item replace entity @s armor.fee
 function bts:bars/effects/temperature_freeze
 
 
-
+execute if score @s close.dialog matches 1.. run function bts:dialog/close_dialog
 
 
 execute if entity @s[gamemode=!survival] run return 0

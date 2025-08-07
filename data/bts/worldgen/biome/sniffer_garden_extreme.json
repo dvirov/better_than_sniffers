@@ -1,0 +1,105 @@
+{
+  "temperature": 0.5,
+  "downfall": 0.4,
+  "has_precipitation": true,
+  "creature_spawn_probability": 0.999,
+  "effects": {
+    "sky_color": 5100900,
+    "fog_color": 9625021,
+    "water_color": 6324946,
+    "water_fog_color": 2573928,
+    "grass_color": 4424802,
+    "foliage_color": 5753738,
+    "dry_foliage_color": 14012749,
+    "mood_sound": {
+      "sound": "minecraft:entity.sniffer.happy",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 0
+    },
+    "additions_sound": {
+      "sound": "minecraft:entity.sniffer.idle",
+      "tick_chance": 0.001
+    },
+    "music": []
+  },
+  "spawners": {
+    "creature": [
+      {
+        "type": "minecraft:sniffer",
+        "weight": 100,
+        "minCount": 5,
+        "maxCount": 100
+      }
+    ]
+  },
+  "spawn_costs": {
+  },
+  "carvers": [],
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_underground",
+      "minecraft:lake_lava_surface"
+    ],
+    [
+      "minecraft:amethyst_geode"
+    ],
+    [
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
+    ],
+    [],
+    [],
+    [
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "minecraft:ore_granite_upper",
+      "minecraft:ore_granite_lower",
+      "minecraft:ore_diorite_upper",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_tuff",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_medium",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper",
+      "minecraft:underwater_magma",
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel",
+      "minecraft:ore_emerald"
+    ],
+    [
+      "minecraft:ore_infested"
+    ],
+    [
+      "minecraft:spring_water",
+      "minecraft:spring_lava",
+      "minecraft:spring_lava_frozen"
+    ],
+    [
+      "minecraft:glow_lichen",
+      "bts:sniffer_garden_vegetation",
+      "bts:sniffer_garden_vegetation_extreme",
+      "minecraft:patch_pumpkin"
+    ],
+    [
+      "minecraft:freeze_top_layer",
+      "bts:pebbels"
+    ]
+  ]
+}

@@ -10,6 +10,8 @@ scoreboard players set @s bar_temperature 1
 scoreboard players set @s bar_stamina 21
 scoreboard players add @s anvil.cd 0
 
+scoreboard players enable @s close.dialog
+
 recipe give @s *
 
 

@@ -20,7 +20,7 @@
         "player": [],
         "items": [
           {
-            "items": "minecraft:stone_sword",
+            "items": "minecraft:shears",
             "components": {
               "minecraft:item_name": "Wooden Knife"
             }

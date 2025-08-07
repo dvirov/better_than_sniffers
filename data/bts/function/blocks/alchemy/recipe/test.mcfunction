@@ -1,0 +1,36 @@
+execute if score @s crafting.progress matches 21..42 run item replace block ~ ~ ~ container.26 with barrier[item_model="bts:alc_arrow",custom_model_data={floats:[1]},max_stack_size=1,tooltip_display={hide_tooltip:true},custom_data={alchemy:1b}]
+execute if score @s crafting.progress matches 42..64 run item replace block ~ ~ ~ container.26 with barrier[item_model="bts:alc_arrow",custom_model_data={floats:[2]},max_stack_size=1,tooltip_display={hide_tooltip:true},custom_data={alchemy:1b}]
+execute if score @s crafting.progress matches 64..86 run item replace block ~ ~ ~ container.26 with barrier[item_model="bts:alc_arrow",custom_model_data={floats:[3]},max_stack_size=1,tooltip_display={hide_tooltip:true},custom_data={alchemy:1b}]
+execute if score @s crafting.progress matches 86..108 run item replace block ~ ~ ~ container.26 with barrier[item_model="bts:alc_arrow",custom_model_data={floats:[4]},max_stack_size=1,tooltip_display={hide_tooltip:true},custom_data={alchemy:1b}]
+execute if score @s crafting.progress matches 108..130 run item replace block ~ ~ ~ container.26 with barrier[item_model="bts:alc_arrow",custom_model_data={floats:[5]},max_stack_size=1,tooltip_display={hide_tooltip:true},custom_data={alchemy:1b}]
+execute if score @s crafting.progress matches 130..152 run item replace block ~ ~ ~ container.26 with barrier[item_model="bts:alc_arrow",custom_model_data={floats:[6]},max_stack_size=1,tooltip_display={hide_tooltip:true},custom_data={alchemy:1b}]
+execute if score @s crafting.progress matches 152..174 run item replace block ~ ~ ~ container.26 with barrier[item_model="bts:alc_arrow",custom_model_data={floats:[7]},max_stack_size=1,tooltip_display={hide_tooltip:true},custom_data={alchemy:1b}]
+execute if score @s crafting.progress matches 174..196 run item replace block ~ ~ ~ container.26 with barrier[item_model="bts:alc_arrow",custom_model_data={floats:[8]},max_stack_size=1,tooltip_display={hide_tooltip:true},custom_data={alchemy:1b}]
+execute if score @s crafting.progress matches 196..218 run item replace block ~ ~ ~ container.26 with barrier[item_model="bts:alc_arrow",custom_model_data={floats:[9]},max_stack_size=1,tooltip_display={hide_tooltip:true},custom_data={alchemy:1b}]
+execute if score @s crafting.progress matches 218..240 run item replace block ~ ~ ~ container.26 with barrier[item_model="bts:alc_arrow",custom_model_data={floats:[10]},max_stack_size=1,tooltip_display={hide_tooltip:true},custom_data={alchemy:1b}]
+execute if score @s crafting.progress matches 240..262 run item replace block ~ ~ ~ container.26 with barrier[item_model="bts:alc_arrow",custom_model_data={floats:[11]},max_stack_size=1,tooltip_display={hide_tooltip:true},custom_data={alchemy:1b}]
+execute if score @s crafting.progress matches 262..284 run item replace block ~ ~ ~ container.26 with barrier[item_model="bts:alc_arrow",custom_model_data={floats:[12]},max_stack_size=1,tooltip_display={hide_tooltip:true},custom_data={alchemy:1b}]
+execute if score @s crafting.progress matches 284..306 run item replace block ~ ~ ~ container.26 with barrier[item_model="bts:alc_arrow",custom_model_data={floats:[13]},max_stack_size=1,tooltip_display={hide_tooltip:true},custom_data={alchemy:1b}]
+execute if score @s crafting.progress matches 306..328 run item replace block ~ ~ ~ container.26 with barrier[item_model="bts:alc_arrow",custom_model_data={floats:[14]},max_stack_size=1,tooltip_display={hide_tooltip:true},custom_data={alchemy:1b}]
+execute if score @s crafting.progress matches 328..350 run item replace block ~ ~ ~ container.26 with barrier[item_model="bts:alc_arrow",custom_model_data={floats:[15]},max_stack_size=1,tooltip_display={hide_tooltip:true},custom_data={alchemy:1b}]
+execute if score @s crafting.progress matches 350..372 run item replace block ~ ~ ~ container.26 with barrier[item_model="bts:alc_arrow",custom_model_data={floats:[16]},max_stack_size=1,tooltip_display={hide_tooltip:true},custom_data={alchemy:1b}]
+execute if score @s crafting.progress matches 372..394 run item replace block ~ ~ ~ container.26 with barrier[item_model="bts:alc_arrow",custom_model_data={floats:[17]},max_stack_size=1,tooltip_display={hide_tooltip:true},custom_data={alchemy:1b}]
+execute if score @s crafting.progress matches 394..420 run item replace block ~ ~ ~ container.26 with barrier[item_model="bts:alc_arrow",custom_model_data={floats:[18]},max_stack_size=1,tooltip_display={hide_tooltip:true},custom_data={alchemy:1b}]
+
+
+particle smoke ~0 ~0 ~0 0.13 0 0.13 0 1
+
+
+
+execute unless score @s crafting.progress matches 420 run return run function bts:blocks/crafting_time
+scoreboard players set @s crafting.progress 0
+item replace block ~ ~ ~ container.26 with barrier[item_model="air",max_stack_size=1,tooltip_display={hide_tooltip:true},custom_data={alchemy:1b}] 1
+execute if items block ~ ~ ~ container.22 glow_berries run item modify block ~ ~ ~ container.22 bts:add1
+execute unless items block ~ ~ ~ container.22 glow_berries run item replace block ~ ~ ~ container.22 with glow_berries[custom_data={glow_berries:1b}] 1
+item modify block ~ ~ ~ container.3 bts:delete_item
+item modify block ~ ~ ~ container.4 bts:delete_item
+item modify block ~ ~ ~ container.5 bts:delete_item
+item modify block ~ ~ ~ container.11 bts:delete_item
+item modify block ~ ~ ~ container.15 bts:delete_item
+
+playsound minecraft:block.brewing_stand.brew ambient @a[distance=..4] ~ ~ ~

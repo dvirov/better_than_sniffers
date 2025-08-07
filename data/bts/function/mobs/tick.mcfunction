@@ -7,6 +7,7 @@ execute if entity @s[type=#bts:ai_neutral,tag=is_nutral,nbt={HurtTime:10s}] run 
 
 execute if entity @s[tag=ai,predicate=!bts:is_passanger] run function bts:mobs/silent_kill
 
+execute if entity @s[type=#bts:small,tag=!scanned] run function bts:mobs/shrink
 
 # Slime Rain 
 execute if entity @s[type=slime,tag=slimerain] run function bts:world_event/slimerain/timer
@@ -16,8 +17,8 @@ execute if entity @s[type=slime,tag=slimerain] run function bts:world_event/slim
 execute as @e[type=#bts:monsters,tag=!attributes_added] run function bts:mobs/monster_attributes
 
 # MINER ZOMBIE
-execute if entity @s[type=zombie,tag=!scanned] run function bts:mobs/miner_zombie
-execute if entity @s[type=zombie,tag=scanned] at @s if items entity @s weapon iron_pickaxe run function bts:mobs/miner_zombie_mine
+execute if entity @s[type=#bts:miner_zombies,tag=!scanned] run function bts:mobs/miner_zombie
+execute if entity @s[type=#bts:miner_zombies,tag=scanned] at @s if items entity @s weapon iron_pickaxe run function bts:mobs/miner_zombie_mine
 
 # ZOMBIE RIDER
 execute if entity @s[type=#bts:monster_riders] if predicate bts:word_event/rng0.01 at @s if entity @e[type=#bts:monsters_can_ride_on,distance=..1.5,predicate=!bts:is_vehicle] run ride @s mount @n[type=#bts:monsters_can_ride_on]

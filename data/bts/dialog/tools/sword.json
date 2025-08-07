@@ -1,0 +1,282 @@
+{
+  "type": "minecraft:confirmation",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        "Tools\n",
+        "Sword"
+      ],
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "Sword",
+          "color": "gray",
+          "font": "minecraft:default",
+          "click_event": {
+            "action": "show_dialog",
+            "dialog": "bts:tools/sword"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": "Click to learn about Sword"
+          }
+        },
+        {
+          "text": "    ",
+          "type": "text",
+          "font": "minecraft:default",
+          "click_event": {
+            "action": "custom",
+            "id": "1"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": ""
+          }
+        },
+        {
+          "text": "Knife",
+          "font": "minecraft:default",
+          "click_event": {
+            "action": "show_dialog",
+            "dialog": "bts:tools/knife"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": "Click to learn about Knife"
+          }
+        },
+        {
+          "text": "    ",
+          "strikethrough": false,
+          "type": "text",
+          "font": "minecraft:default",
+          "click_event": {
+            "action": "custom",
+            "id": "1"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": ""
+          }
+        },
+        {
+          "text": "Pickaxe",
+          "color": "gray",
+          "font": "minecraft:default",
+          "click_event": {
+            "action": "show_dialog",
+            "dialog": "bts:tools/pickaxe"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": "Click to learn about Pickaxe"
+          }
+        },
+        {
+          "text": "    ",
+          "type": "text",
+          "font": "minecraft:default",
+          "click_event": {
+            "action": "custom",
+            "id": "1"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": ""
+          }
+        },
+        {
+          "text": "Axe",
+          "font": "minecraft:default",
+          "click_event": {
+            "action": "show_dialog",
+            "dialog": "bts:tools/axe"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": "Click to learn about Axe"
+          }
+        },
+        {
+          "text": "    ",
+          "type": "text",
+          "font": "minecraft:default",
+          "click_event": {
+            "action": "custom",
+            "id": "1"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": ""
+          }
+        },
+        {
+          "text": "Sculpture Tool",
+          "color": "gray",
+          "font": "minecraft:default",
+          "click_event": {
+            "action": "show_dialog",
+            "dialog": "bts:tools/sculpture_tool"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": "Click to learn about Sculpture Tool"
+          }
+        },
+        {
+          "text": "\nFire Plough",
+          "color": "gray",
+          "font": "minecraft:default",
+          "click_event": {
+            "action": "show_dialog",
+            "dialog": "bts:tools/fire_plough"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": "Click to learn about Fire Plough"
+          }
+        },
+        {
+          "text": "    ",
+          "type": "text",
+          "font": "minecraft:default",
+          "click_event": {
+            "action": "custom",
+            "id": "1"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": ""
+          }
+        },
+        {
+          "text": "Shovel",
+          "type": "text",
+          "color": "gray",
+          "font": "minecraft:default",
+          "click_event": {
+            "action": "show_dialog",
+            "dialog": "bts:tools/shovel"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": "Click to learn about Shovel"
+          }
+        },
+        {
+          "text": "    ",
+          "type": "text",
+          "font": "minecraft:default",
+          "click_event": {
+            "action": "change_page",
+            "page": 1
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": ""
+          }
+        },
+        {
+          "text": "Hoe",
+          "color": "gray",
+          "font": "minecraft:default",
+          "click_event": {
+            "action": "show_dialog",
+            "dialog": "bts:tools/hoe"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": "Click to learn about Hoe"
+          }
+        },
+        {
+          "text": "    ",
+          "type": "text",
+          "font": "minecraft:default",
+          "click_event": {
+            "action": "custom",
+            "id": "1"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": ""
+          }
+        },
+        {
+          "text": "Fishing Rod",
+          "color": "gray",
+          "font": "minecraft:default",
+          "click_event": {
+            "action": "show_dialog",
+            "dialog": "bts:tools/fishing_rod"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": "Click to learn about Fishing Rod"
+          }
+        },
+        {
+          "text": "    ",
+          "type": "text",
+          "font": "minecraft:default",
+          "click_event": {
+            "action": "custom",
+            "id": "1"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": ""
+          }
+        },
+        {
+          "text": "Hammer",
+          "font": "minecraft:default",
+          "click_event": {
+            "action": "show_dialog",
+            "dialog": "bts:tools/hammer"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": "Click to learn about Hammer"
+          }
+        }
+      ],
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents":[
+        "",
+        "really ?"
+      ]
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "title": [
+    "   뀁뀂  뀃뀄뀅뀆뀇      뀈",
+    "                  낡낢낣낤낥낦낧남",
+    "                  낱낲낳내낵낶낷낸",
+    "                  냁냂냃냄 냅냆냇냈"
+  ],
+  "after_action": "none",
+  "yes": {
+    "label": "Close",
+    "action": {
+      "type": "minecraft:run_command",
+      "command": "trigger close.dialog"
+    }
+  },
+  "no": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "bts:tools"
+    }
+  }
+}

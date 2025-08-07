@@ -78,7 +78,8 @@
       "minecraft:underwater_magma",
       "minecraft:disk_clay"
     ],
-    [],
+    [
+      "bts:crater"],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava"
