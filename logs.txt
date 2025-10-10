@@ -12,19 +12,19 @@
 - sleeping restores sanity
 - added colors recipes
 - added beds recipes
-- added recipes for signs, trapdoors, colored bundels
-- disabeling villager trades (temporary)
+- added recipes for signs, trapdoors, colored bundles
+- disabling villager trades (temporary)
 - creepers will explode if they touch fire
 - new health system
 - reworked the anvil crafting. now the anvil have gui 
-- when stepping on leave theres small chance to destroy it (player/mobs)
+- when stepping on leave there is small chance to destroy it (player/mobs)
 - removed recipe for bricks
 - clay is now placeable - when placed for long time it dry into brick
 - changes in loot tabels of dirt types - now those blocks drop dirt instead of "dirt balls"
 - removed recipe for dirt slab
 - added recipe for glass (sand in blast furnace)
 - bottles are now back to be made from glass instead of clay(maybe temporary)
-- now monsters can climb on climbable blocks(ladder,vine,etc)
+- now monsters can climb on climbable blocks(ladder, vine, etc)
 - added special fish types to fishing   
 - added more items into fishing loot table
 
