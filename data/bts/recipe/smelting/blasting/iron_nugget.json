@@ -2,13 +2,7 @@
   "type": "minecraft:blasting",
   "ingredient":"minecraft:raw_iron",
   "result": {
-    "id": "minecraft:iron_nugget",
-    "components": {
-      "minecraft:custom_data": {
-        "iron_ingot": 1,
-        "crucible_made": 1
-      }
-    }
+    "id": "minecraft:iron_nugget"
   },
-  "cookingtime": 1000
+  "cookingtime": 1600
 }

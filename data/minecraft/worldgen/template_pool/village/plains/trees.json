@@ -3,11 +3,12 @@
     {
       "element": {
         "element_type": "minecraft:feature_pool_element",
-        "feature": "minecraft:oak",
+        "feature": "bts:village_trees/plains",
         "projection": "rigid"
       },
       "weight": 1
     }
   ],
-  "fallback": "minecraft:empty"
+  "fallback": "minecraft:empty",
+  "name": "minecraft:village/plains/trees"
 }

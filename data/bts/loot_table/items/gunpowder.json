@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gunpowder",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "id":"gunpowder",
+                  "ponder_id":"",
+                  "type":"item",
+                  "alchemy": {
+                    "category":"modifier",
+                    "quality": 1
+                  }
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Alchemy ingredient",
+                    "color": "dark_purple",
+                    "italic": false
+                  }
+                ],
+                "!rarity":{} 
+                
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:items/gunpowder"
+}

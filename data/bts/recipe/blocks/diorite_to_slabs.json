@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    [
+      "minecraft:diorite"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:diorite_slab",
+    "count": 4
+  }
+}

@@ -17,13 +17,19 @@
     "components": {
       "item_model": "bts:copper_shovel",
       "minecraft:item_name": "Copper Shovel",
-      "minecraft:custom_data": "{shovel:1b,copper_shovel:1b}",
-      "minecraft:max_damage": 32,
+      "minecraft:custom_data": {
+                  "id":"copper_shovel",
+                  "ponder_id":"tools/shovel",
+                  "type":"shovel",
+                  "material":"copper"
+
+      },
+      "minecraft:max_damage": 96,
       "minecraft:tool": {
         "rules": [
           {
             "blocks": "#bts:tier3_dirt",
-            "speed": 1,
+            "speed": 1.9,
             "correct_for_drops": true
           }
         ],
@@ -33,7 +39,7 @@
       "minecraft:lore": [
         "",
           {"color":"gray","italic":false,"text":"When in Main Hand:"},
-          {"color":"dark_green","italic":false,"text":" 1.6 Attack Damege"},
+          {"color":"dark_green","italic":false,"text":" 1.6 Attack Damage"},
           {"color":"dark_green","italic":false,"text":" 1.2 Attack Speed"}
 
         ],

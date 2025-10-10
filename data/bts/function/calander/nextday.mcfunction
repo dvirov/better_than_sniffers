@@ -1,17 +1,42 @@
-scoreboard players add .day calander 1
-scoreboard players add .dayinweek calander 1
-scoreboard players add .dayinmonth calander 1
-scoreboard players add .moonphase calander 1
+# run from tick function
+scoreboard players add @a close.dialog 9999
 
 
+## calculate calander
+## prevent reset by mistake 
+execute store result score .calander.clc temp run time query day
+execute if score .calander.clc temp < .day calander run return fail
 
+#### calculations
+execute store result score .day calander run time query day
 
-execute if score .dayinweek calander matches 8 run scoreboard players set .dayinweek calander 1
-execute if score .dayinmonth calander matches 16 run scoreboard players set .season calander 1
-execute if score .season calander matches 5 run scoreboard players add .year calander 1
-execute if score .season calander matches 5 run scoreboard players set .season calander 1
-execute if score .moonphase calander matches 9 run scoreboard players set .moonphase calander 1
+# calculate moonphase
+# 8 days cycle
+scoreboard players operation .moonphase calander = .day calander
+scoreboard players operation .moonphase calander %= .8 values
+scoreboard players operation .moonphase calander += .1 values
 
+# calculate day in week 
+# 7 days cycle 
+scoreboard players operation .dayinweek calander = .day calander
+scoreboard players operation .dayinweek calander %= .7 values
+scoreboard players operation .dayinweek calander += .1 values
 
-effect clear @a darkness
+# calculate day in month 
+# 16 days cycle 
+scoreboard players operation .dayinmonth calander = .day calander
+scoreboard players operation .dayinmonth calander %= .16 values
+scoreboard players operation .dayinmonth calander += .1 values
+
+# calculate day in year 
+# 64 days cycle 
+scoreboard players operation .dayinyear calander = .day calander
+scoreboard players operation .dayinyear calander %= .64 values
+scoreboard players operation .dayinyear calander += .1 values
+
+# define seasons
+execute if score .dayinyear calander matches 1..16 run scoreboard players set .season calander 1
+execute if score .dayinyear calander matches 17..32 run scoreboard players set .season calander 2
+execute if score .dayinyear calander matches 33..48 run scoreboard players set .season calander 3
+execute if score .dayinyear calander matches 49..64 run scoreboard players set .season calander 4
 

@@ -17,13 +17,19 @@
     "components": {
       "item_model": "bts:copper_axe",
       "minecraft:item_name": "Copper Axe",
-      "minecraft:custom_data": "{axe:1b,Copper_axe:1b}",
-      "minecraft:max_damage": 32,
+      "minecraft:custom_data": {
+                  "id":"copper_axe",
+                  "ponder_id":"tools/axe",
+                  "type":"axe",
+                  "material":"copper"
+ 
+      },
+      "minecraft:max_damage": 96,
       "minecraft:tool": {
         "rules": [
           {
             "blocks": "#bts:tier3_wood",
-            "speed": 1,
+            "speed": 1.9,
             "correct_for_drops": true
           }
         ],
@@ -33,7 +39,7 @@
       "minecraft:lore": [
         "",
           {"color":"gray","italic":false,"text":"When in Main Hand:"},
-          {"color":"dark_green","italic":false,"text":" 4.9 Attack Damege"},
+          {"color":"dark_green","italic":false,"text":" 4.9 Attack Damage"},
           {"color":"dark_green","italic":false,"text":" 0.8 Attack Speed"}
 
         ],

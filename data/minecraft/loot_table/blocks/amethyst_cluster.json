@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:alternatives",
+              "children": [
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "bts:items/amethyst_shard",
+                  "functions": [
+                    {
+                      "add": false,
+                      "count": {
+                        "min": 0,
+                        "max": 2
+                      },
+                      "function": "minecraft:set_count"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:blocks/amethyst_cluster"
+}

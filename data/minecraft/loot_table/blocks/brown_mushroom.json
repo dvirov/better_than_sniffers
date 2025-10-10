@@ -10,8 +10,8 @@
       ],
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:brown_mushroom"
+          "type": "minecraft:loot_table",
+          "value": "bts:items/brown_mushroom"
         }
       ],
       "rolls": 1.0

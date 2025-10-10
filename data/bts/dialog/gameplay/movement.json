@@ -1,0 +1,65 @@
+{
+  "type": "minecraft:confirmation",
+  "title": [
+    "   뀁뀂  뀃뀄뀅뀆뀇      뀈",
+    "                  낡낢낣낤낥낦낧남",
+    "                  낱낲낳내낵낶낷낸",
+    "                  냁냂냃냄 냅냆냇냈"
+  ],
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Movement",
+        "extra": [
+          [
+            "\n\n",
+            "In Better than Sniffers the player movments are a little diffrent from vanila ",
+            "\n",
+            "All changes will be listed here.",
+            "\n\n"
+          ],
+          [
+            "All movements exept walking requires stamina. ",
+            "Your stamina bar is displayed above the hunger bar. If the baris not displayed, it means it is full.",
+            "\n\n",
+            "Jump height decreased to exactly 1 block .",
+            "\n\n",
+            "Chains are now climbable.",
+            "\n\n",
+            "Wall Run :",
+            "\n",
+            "if  you run paralel to wall while there are no block beneath and you press forword+sprint you can run alongside the wall for short period",
+            "\n\n",
+            "Wall edge climb : (unstable)",
+            "\n",
+            "Press Seank+jump while loking paralel to the ground and have edge of wall in front of you ",
+            "\n\n",
+            "Roll : (experimental)",
+            "\n",
+            "Press Left+righ and exctly before you touch the ground while falling from high place",
+            " to negate all fall damage"
+          ]
+        ]
+      },
+      "width": 250
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "none",
+  "yes": {
+    "label": "Close",
+    "action": {
+      "type": "minecraft:run_command",
+      "command": "trigger close.dialog"
+    }
+  },
+  "no": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "bts:gameplay"
+    }
+  }
+}

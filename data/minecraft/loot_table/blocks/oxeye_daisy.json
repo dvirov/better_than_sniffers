@@ -10,8 +10,8 @@
       ],
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:oxeye_daisy"
+          "type": "minecraft:loot_table",
+          "value": "bts:items/oxeye_daisy"
         }
       ],
       "rolls": 1.0

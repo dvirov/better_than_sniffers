@@ -10,8 +10,8 @@
       ],
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:torchflower"
+          "type": "minecraft:loot_table",
+          "value": "bts:items/torchflower"
         }
       ],
       "rolls": 1.0

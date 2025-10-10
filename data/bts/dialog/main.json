@@ -18,7 +18,7 @@
           "hover_event": {
             "action": "show_text",
             "value": {
-              "text": "Designed for GUI scale x3, errors may occur if diffrent scale is used"
+              "text": "Designed for GUI scale x3 on 1920x1080, errors may occur if diffrent scale is used"
             }
           }
         },
@@ -30,8 +30,9 @@
       "contents": [
         {
           "text": "Worldgen",
-          "strikethrough": true,
-          "color": "green",
+          "strikethrough": false,
+          "bold": true,
+          "color": "#92d416",
           "font": "minecraft:default",
           "click_event": {
             "action": "show_dialog",
@@ -44,7 +45,7 @@
         },
         {
           "text": "        ",
-          "strikethrough": false ,
+          "strikethrough": false,
           "type": "text",
           "font": "minecraft:default",
           "click_event": {
@@ -54,13 +55,13 @@
           "hover_event": {
             "action": "show_text",
             "value": ""
-        }
+          }
         },
         {
           "text": "Gameplay",
           "type": "text",
-          "strikethrough": true,
-          "color": "aqua",
+          "strikethrough": false,
+          "color": "#92d416",
           "font": "minecraft:default",
           "click_event": {
             "action": "show_dialog",
@@ -78,8 +79,9 @@
       "contents": [
         {
           "text": "Crafting",
+          "bold": true,
           "type": "text",
-          "color": "gold",
+          "color": "#92d416",
           "font": "minecraft:default",
           "click_event": {
             "action": "show_dialog",
@@ -101,13 +103,14 @@
           "hover_event": {
             "action": "show_text",
             "value": ""
-        }
+          }
         },
         {
           "text": "Tools",
           "strikethrough": false,
+          "bold": true,
           "type": "text",
-          "color": "dark_red",
+          "color": "#92d416",
           "font": "minecraft:default",
           "click_event": {
             "action": "show_dialog",
@@ -119,9 +122,75 @@
           }
         }
       ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "Dimensions",
+          "strikethrough": true,
+          "bold": true,
+          "type": "text",
+          "color": "#92d416",
+          "font": "minecraft:default",
+          "click_event": {
+            "action": "show_dialog",
+            "dialog": "bts:main"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": "click to open"
+          }
+        },
+        {
+          "text": "          ",
+          "strikethrough": false,
+          "type": "text",
+          "font": "minecraft:default",
+          "click_event": {
+            "action": "custom",
+            "id": "1"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": ""
+          }
+        },
+        {
+          "text": "Misc",
+          "strikethrough": true,
+          "bold": true,
+          "type": "text",
+          "color": "#92d416",
+          "font": "minecraft:default",
+          "click_event": {
+            "action": "show_dialog",
+            "dialog": "bts:main"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": "click to open"
+          }
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Credits",
+        "color": "gold",
+        "bold": true,
+        "click_event": {
+          "action": "show_dialog",
+          "dialog": "bts:credits"
+        },
+        "hover_event": {
+          "action": "show_text",
+          "value": "see credits"
+        }
+      }
     }
   ],
-  "inputs": [],
   "can_close_with_escape": true,
   "pause": false,
   "external_title": {
@@ -134,19 +203,22 @@
     "                  낱낲낳내낵낶낷낸",
     "                  냁냂냃냄 냅냆냇냈"
   ],
-    "after_action": "none",
-  "yes": {
+  "after_action": "none",
+  "no": {
     "label": "Close",
     "action": {
       "type": "minecraft:run_command",
       "command": "trigger close.dialog"
     }
   },
-  "no": {
-    "label": "Soon",
+  "yes": {
+    "label": "Ponder",
+    "tooltip": {
+      "text": "Opens the page that corresponds to the item you are holding."
+    },
     "action": {
-      "type": "minecraft:show_dialog",
-      "dialog": "bts:main"
+      "type": "minecraft:run_command",
+      "command": "trigger close.dialog set 9000"
     }
   }
 }

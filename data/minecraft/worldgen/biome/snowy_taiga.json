@@ -19,11 +19,12 @@
     "water_fog_color": 329011
   },
   "features": [
-    [],
     [
-      "minecraft:lake_lava_underground",
-      "minecraft:lake_lava_surface"
+      "bts:snowy_taiga/podzol/blobs"
     ],
+    [
+      "minecraft:lake_lava_underground"
+    ], 
     [
       "minecraft:amethyst_geode"
     ],
@@ -34,7 +35,9 @@
     [],
     [],
     [
-      "minecraft:ore_dirt",
+      "bts:ore_dirt",
+      "bts:ore_gravel_lower",
+      "bts:ore_gravel_upper",
       "minecraft:ore_gravel",
       "minecraft:ore_granite_upper",
       "minecraft:ore_granite_lower",
@@ -53,38 +56,49 @@
       "minecraft:ore_redstone",
       "minecraft:ore_redstone_lower",
       "minecraft:ore_diamond",
-      "minecraft:ore_diamond_medium",
       "minecraft:ore_diamond_large",
       "minecraft:ore_diamond_buried",
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
-      "minecraft:underwater_magma",
+      "bts:underwater_magma",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
-      "minecraft:disk_gravel"
+      "minecraft:disk_gravel",
+      "bts:salt"    ],
+    [
+      "bts:snowy_taiga/andesite/steep",
+      "bts:crater"
     ],
     [
-      "bts:crater"],
-    [
       "minecraft:spring_water",
-      "minecraft:spring_lava"
+      "minecraft:spring_lava",
+      "bts:taiga/spikes",
+      "bts:snowy_taiga/rocks",
+      "bts:snowy_taiga/fallen_trees"
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:patch_large_fern",
-      "minecraft:trees_taiga",
-      "minecraft:flower_default",
-      "minecraft:patch_grass_taiga_2",
-      "minecraft:brown_mushroom_taiga",
-      "minecraft:red_mushroom_taiga",
-      "minecraft:patch_pumpkin",
-      "minecraft:patch_sugar_cane",
-      "minecraft:patch_firefly_bush_near_water",
-      "minecraft:patch_berry_rare"
+      "bts:snowy_taiga/grass",
+      "bts:snowy_taiga/large_fern",
+      "bts:snowy_taiga/trees/layer_1",
+      "bts:snowy_taiga/trees/layer_2",
+      "bts:snowy_taiga/trees/layer_3",
+      "bts:snowy_taiga/trees/layer_4",
+      "bts:snowy_taiga/flowers",
+      "bts:snowy_taiga/brown_mushroom",
+      "bts:snowy_taiga/red_mushroom",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "bts:patch_sugar_cane_rare",
+      "bts:patch_pumpkin",
+      "bts:patch_firefly_bush_rare",
+      "bts:snowy_taiga/berry_bush"
     ],
     [
       "minecraft:freeze_top_layer",
+      "bts:bottom/stone_slab",
+      "bts:bottom/snow",
       "bts:pebbels"
     ]
   ],

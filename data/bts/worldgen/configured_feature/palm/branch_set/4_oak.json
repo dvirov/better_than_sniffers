@@ -1,0 +1,23 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": "bts:palm/branch/4_oak_east",
+        "placement": []
+      },
+      {
+        "feature": "bts:palm/branch/4_oak_south",
+        "placement": []
+      },
+      {
+        "feature": "bts:palm/branch/4_oak_west",
+        "placement": []
+      },
+      {
+        "feature": "bts:palm/branch/4_oak_north",
+        "placement": []
+      }
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

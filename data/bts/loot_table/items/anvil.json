@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:empty",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:item_frame",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "item_model": "anvil",
+                "rarity": "uncommon",
+                "custom_data": {
+                  "anvil":true,
+                  "id": "anvil",
+                  "ponder_id": "crafting/anvil",
+                  "type": "custom_block"
+                },
+                "minecraft:custom_name": {
+                  "text": "Anvil",
+                  "italic": false
+                },
+                "minecraft:entity_data": {
+                  "id": "minecraft:item_frame",
+                  "Tags": [
+                    "place_anvil",
+                    "custom_block"
+                  ],
+                  "Invisible": true,
+                  "Invulnerable": true,
+                  "Fixed": true,
+                  "Silent": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

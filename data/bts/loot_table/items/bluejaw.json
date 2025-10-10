@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:generic",
+  "functions": [],
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tropical_fish",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 1,
+                  "saturation": 0.1
+                },
+                "minecraft:item_name": "Bluejaw",
+                "minecraft:item_model": "bts:bluejaw",
+                "custom_data": {
+                  "id":"bluejaw",
+                  "ponder_id":"",
+                  "type":"item"
+
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:items/bluejaw"
+}

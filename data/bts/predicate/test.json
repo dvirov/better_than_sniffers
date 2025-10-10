@@ -1,13 +1,11 @@
 {
-  "condition": "minecraft:entity_properties",
-  "entity": "this",
+  "condition": "minecraft:damage_source_properties",
   "predicate": {
-    "type_specific": {
-      "type": "minecraft:player",
-      "input": {
-        "forward": true
+    "tags": [
+      {
+        "id": "bypasses_cooldown",
+        "expected": true
       }
-    },
-    "flags": {}
+    ]
   }
 }

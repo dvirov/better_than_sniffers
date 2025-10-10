@@ -34,9 +34,6 @@
           ]
         }
       }
-    },
-    "rewards": {
-      "function": "bts:blocks/campfire/detect"
     }
   }
   

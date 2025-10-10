@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:generic",
+  "functions": [],
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mangrove_slab",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+               "item_model": "bts:mangrove_bark",
+                "rarity": "common",
+                "item_name": "Mangrove Bark"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:items/mangrove_bark"
+}

@@ -20,7 +20,7 @@
           "min_delay": 12000,
           "replace_current_music": false,
           "sound": "minecraft:music.overworld.old_growth_taiga"
-        },
+        }, 
         "weight": 1
       }
     ],
@@ -30,14 +30,16 @@
     "water_fog_color": 329011
   },
   "features": [
-    [],
     [
-      "minecraft:lake_lava_underground",
-      "minecraft:lake_lava_surface"
+      "bts:old_pine_taiga/grass_block/1",
+      "bts:old_pine_taiga/grass_block/2",
+      "bts:old_pine_taiga/coarse_dirt"
     ],
     [
-      "minecraft:amethyst_geode",
-      "minecraft:forest_rock"
+      "minecraft:lake_lava_underground"
+    ],
+    [
+      "minecraft:amethyst_geode"
     ],
     [
       "minecraft:monster_room",
@@ -46,8 +48,9 @@
     [],
     [],
     [
-      "minecraft:ore_dirt",
-      "minecraft:ore_gravel",
+      "bts:ore_dirt",
+      "bts:ore_gravel_lower",
+      "bts:ore_gravel_upper",
       "minecraft:ore_granite_upper",
       "minecraft:ore_granite_lower",
       "minecraft:ore_diorite_upper",
@@ -65,40 +68,53 @@
       "minecraft:ore_redstone",
       "minecraft:ore_redstone_lower",
       "minecraft:ore_diamond",
-      "minecraft:ore_diamond_medium",
       "minecraft:ore_diamond_large",
       "minecraft:ore_diamond_buried",
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
-      "minecraft:underwater_magma",
+      "bts:underwater_magma",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
-      "minecraft:disk_gravel"
+      "minecraft:disk_gravel",
+      "bts:salt"    ],
+    [
+      "bts:old_pine_taiga/tuff/steep",
+      "bts:old_pine_taiga/tuff/slope",
+      "bts:old_pine_taiga/tuff/blobs",
+      "bts:crater"
     ],
-    [],
     [
       "minecraft:spring_water",
-      "minecraft:spring_lava"
+      "minecraft:spring_lava",
+      "bts:old_pine_taiga/rocks"
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:patch_large_fern",
-      "minecraft:trees_old_growth_pine_taiga",
-      "minecraft:flower_default",
-      "minecraft:patch_grass_taiga",
-      "minecraft:patch_dead_bush",
-      "minecraft:brown_mushroom_old_growth",
-      "minecraft:red_mushroom_old_growth",
+      "bts:old_pine_taiga/grass/layer_1",
+      "bts:old_pine_taiga/grass/layer_2",
+      "bts:old_pine_taiga/grass/layer_3",
+      "bts:old_pine_taiga/large_fern",
+      "bts:old_pine_taiga/trees/big",
+      "bts:old_pine_taiga/trees/small",
+      "bts:old_pine_taiga/fallen_trees",
+      "bts:old_pine_taiga/dead_bush/layer_1",
+      "bts:old_pine_taiga/dead_bush/layer_2",
+      "bts:old_pine_taiga/flowers",
+      "bts:old_pine_taiga/brown_mushroom",
+      "bts:old_pine_taiga/red_mushroom",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
-      "minecraft:patch_pumpkin",
-      "minecraft:patch_sugar_cane",
-      "minecraft:patch_firefly_bush_near_water",
-      "minecraft:patch_berry_common"
+      "bts:patch_sugar_cane",
+      "bts:patch_pumpkin",
+      "bts:patch_firefly_bush",
+      "bts:old_pine_taiga/berry_bush",
+      "bts:birch_forest/moss_patch"
     ],
     [
       "minecraft:freeze_top_layer",
+      "bts:bottom/stone_slab",
+      "bts:bottom/snow",
       "bts:pebbels"
     ]
   ],

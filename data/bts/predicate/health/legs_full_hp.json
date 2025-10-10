@@ -1,0 +1,33 @@
+[
+  {
+    "condition": "minecraft:all_of",
+    "terms": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "L.leg",
+          "scale": 1
+        },
+        "range": {
+          "min": 3,
+          "max": 999
+        }
+      },
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "R.leg",
+          "scale": 1
+        },
+        "range": {
+          "min": 3,
+          "max": 999
+        }
+      }
+    ]
+  }
+]

@@ -2,7 +2,7 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "bonus_rolls": 0.0,
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -14,19 +14,19 @@
           "weight": 4
         },
         {
-          "type": "minecraft:item",
+          "type": "minecraft:loot_table",
+          "value": "bts:items/potato",
           "functions": [
             {
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 7.0,
-                "min": 1.0
+                "max": 3,
+                "min": 1
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:potato",
           "weight": 10
         },
         {
@@ -36,8 +36,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
+                "max": 4,
+                "min": 1
               },
               "function": "minecraft:set_count"
             }
@@ -52,8 +52,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 5.0,
-                "min": 1.0
+                "max": 5,
+                "min": 1
               },
               "function": "minecraft:set_count"
             }
@@ -70,19 +70,19 @@
           "name": "minecraft:furnace"
         },
         {
-          "type": "minecraft:item",
+          "type": "minecraft:loot_table",
+          "value": "bts:items/emerald",
           "functions": [
             {
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
+                "max": 4,
+                "min": 1
               },
               "function": "minecraft:set_count"
             }
-          ],
-          "name": "minecraft:emerald"
+          ]
         },
         {
           "type": "minecraft:item",
@@ -91,8 +91,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 7.0,
-                "min": 1.0
+                "max": 7,
+                "min": 1
               },
               "function": "minecraft:set_count"
             }
@@ -107,8 +107,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
+                "max": 2,
+                "min": 1
               },
               "function": "minecraft:set_count"
             }
@@ -119,9 +119,30 @@
       ],
       "rolls": {
         "type": "minecraft:uniform",
-        "max": 8.0,
-        "min": 3.0
+        "max": 8,
+        "min": 3
       }
+    },
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": 1,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:bundle"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 2
+        }
+      ],
+      "rolls": 1
     }
   ],
   "random_sequence": "minecraft:chests/village/village_snowy_house"

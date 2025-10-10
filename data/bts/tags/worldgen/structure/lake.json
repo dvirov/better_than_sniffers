@@ -1,0 +1,32 @@
+{
+  "values": [
+    "bts:lake_bamboo_jungle",
+    "bts:lake_birch",
+    "bts:lake_dark_forest",
+    "bts:lake_flower_forest",
+    "bts:lake_forest",
+    "bts:lake_jungle",
+    "bts:lake_meadow",
+    "bts:lake_mushroom_fields",
+    "bts:lake_old_birch",
+    "bts:lake_old_pine_taiga",
+    "bts:lake_old_spruce_taiga",
+    "bts:lake_plains",
+    "bts:lake_savanna",
+    "bts:lake_savanna_plateau",
+    "bts:lake_snowy_plains",
+    "bts:lake_snowy_taiga",
+    "bts:lake_sparse_jungle",
+    "bts:lake_sunflower_plains",
+    "bts:lake_taiga",
+    "bts:lake_windswept_savanna",
+    "bts:lake_gravel/common",
+    "bts:lake_gravel/large",
+    "bts:lake_gravel/normal",
+    "bts:lake_sand/common",
+    "bts:lake_sand/large",
+    "bts:lake_sand/normal",
+    "bts:lake_frozen/common",
+    "bts:lake_frozen/normal"
+  ]
+}

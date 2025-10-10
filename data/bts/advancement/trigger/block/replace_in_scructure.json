@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "minecraft_trials_edition": {
+      "trigger": "minecraft:location"
+    }
+  },
+  "rewards": {
+    "function": "bts:blocks/replace_in_structure"
+  }
+}

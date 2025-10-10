@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "dye",
+  "ingredients": [
+    [
+      "orange_tulip",
+      "torchflower",
+      "carrot"
+    ]
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:orange_dye"
+  }
+}

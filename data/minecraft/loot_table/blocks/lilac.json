@@ -10,7 +10,7 @@
       ],
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "minecraft:loot_table",
           "conditions": [
             {
               "block": "minecraft:lilac",
@@ -20,7 +20,7 @@
               }
             }
           ],
-          "name": "minecraft:lilac"
+          "value": "bts:items/lilac"
         }
       ],
       "rolls": 1.0

@@ -13,7 +13,7 @@
               "components": {
                 "item_model": "cauldron",
                 "rarity": "uncommon",
-                "custom_data": "{crucible:1b}",
+                "custom_data": "{custom_block:1b,crucible:1b}",
                 "minecraft:custom_name": {
                   "text": "Crucible",
                   "italic": false
@@ -21,9 +21,10 @@
                 "minecraft:entity_data": {
                   "id": "minecraft:item_frame",
                   "Tags": [
-                    "place_crucible"
+                    "place_crucible",
+                    "custom_block"
                   ],
-                  "Invisible": false,
+                  "Invisible": true,
                   "Invulnerable": true,
                   "Fixed": true,
                   "Silent": true

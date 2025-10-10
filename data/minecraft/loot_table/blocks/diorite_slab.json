@@ -1,0 +1,107 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "conditions": [
+                {
+                  "block": "minecraft:diorite_slab",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "type": "double",
+                    "waterlogged": "false"
+                  }
+                }
+              ],
+              "count": 2,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:diorite_slab"
+        }
+      ],
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:diorite_slab",
+            "properties": {
+              "type": "double",
+              "waterlogged": "true"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "bts:items/salt",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              }
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "functions": [],
+      "conditions": [
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "minecraft:diorite_slab",
+          "properties": {
+            "type": "double",
+            "waterlogged": "true"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:air",
+                "minecraft:custom_data": "{place_air:1b}"
+              }
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "functions": [],
+      "conditions": [
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "minecraft:diorite_slab",
+          "properties": {
+            "type": "double",
+            "waterlogged": "true"
+          }
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:blocks/diorite_slab"
+}

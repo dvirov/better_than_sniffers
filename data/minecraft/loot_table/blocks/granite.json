@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:granite"
+          "name": "minecraft:granite_slab"
         }
       ],
       "rolls": 1

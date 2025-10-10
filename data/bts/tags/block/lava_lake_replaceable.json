@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:sandstone",
+    "minecraft:smooth_sandstone",
+    "minecraft:red_sandstone",
+    "minecraft:smooth_red_sandstone",
+    "#bts:terracotta",
+    "#bts:stone",
+    "#bts:dirt_and_snow"
+  ]
+}

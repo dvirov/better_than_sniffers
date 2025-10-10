@@ -7,7 +7,7 @@
       }
     },
     "title": "Flint axe",
-    "description": "Craft Flint axe with 2sticks 3 sharp stones and 1string",
+    "description": "Craft Flint axe with 2 sticks 3 sharp stones and 1string",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true

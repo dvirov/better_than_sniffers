@@ -2,30 +2,260 @@
   "type": "minecraft:fishing",
   "pools": [
     {
-      "bonus_rolls": 0.0,
+      "bonus_rolls": 0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:cod",
+          "type": "minecraft:loot_table",
+          "value": "bts:items/cod",
           "weight": 60
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:salmon",
+          "type": "minecraft:loot_table",
+          "value": "bts:items/salmon",
           "weight": 25
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:tropical_fish",
+          "name": "tropical_fish",
           "weight": 2
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:pufferfish",
-          "weight": 13
+          "weight": 13,
+          "conditions": [
+            {
+              "condition": "minecraft:all_of",
+              "terms": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:fishing_hook",
+                      "in_open_water": true
+                    },
+                    "location": {
+                      "biomes": "minecraft:warm_ocean"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bts:items/golden_sunfish",
+          "conditions": [
+            {
+              "condition": "minecraft:all_of",
+              "terms": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:fishing_hook",
+                      "in_open_water": true
+                    },
+                    "location": {
+                      "biomes": "minecraft:desert"
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "offsetY": 1,
+                  "predicate": {
+                    "can_see_sky": true
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bts:items/stormeel",
+          "weight": 15,
+          "conditions": [
+            {
+              "condition": "minecraft:all_of",
+              "terms": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:fishing_hook",
+                      "in_open_water": true
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:weather_check",
+                  "thundering": true
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "offsetY": 1,
+                  "predicate": {
+                    "can_see_sky": true
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bts:items/bluejaw",
+          "conditions": [
+            {
+              "condition": "minecraft:all_of",
+              "terms": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                      "biomes": "minecraft:mangrove_swamp"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bts:items/tiger_koi",
+          "conditions": [
+            {
+              "condition": "minecraft:all_of",
+              "terms": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:fishing_hook",
+                      "in_open_water": true
+                    },
+                    "location": {
+                      "biomes": "#minecraft:is_jungle"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bts:items/seaspider",
+          "conditions": [
+            {
+              "condition": "minecraft:all_of",
+              "terms": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:fishing_hook",
+                      "in_open_water": true
+                    },
+                    "location": {
+                      "biomes": "#minecraft:is_ocean"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bts:items/slimegill",
+          "weight": 15,
+          "conditions": [
+            {
+              "condition": "minecraft:all_of",
+              "terms": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:fishing_hook",
+                      "in_open_water": true
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "offsetY": 1,
+                  "predicate": {
+                    "can_see_sky": true
+                  }
+                },
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "slimerain"
+                    },
+                    "score": "calander",
+                    "scale": 1
+                  },
+                  "range": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bts:items/rockfish",
+          "conditions": [
+            {
+              "condition": "minecraft:all_of",
+              "terms": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:fishing_hook",
+                      "in_open_water": true
+                    },
+                    "location": {
+                      "position": {
+                        "y": {
+                          "min": -80,
+                          "max": 50
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "offsetY": 1,
+                  "predicate": {
+                    "can_see_sky": false
+                  }
+                }
+              ]
+            }
+          ]
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ],
   "random_sequence": "minecraft:gameplay/fishing/fish"

@@ -1,0 +1,85 @@
+[
+  {
+    "condition": "minecraft:all_of",
+    "terms": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "Head",
+          "scale": 1
+        },
+        "range": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "L.arm",
+          "scale": 1
+        },
+        "range": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "Body",
+          "scale": 1
+        },
+        "range": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "R.arm",
+          "scale": 1
+        },
+        "range": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "L.leg",
+          "scale": 1
+        },
+        "range": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "R.leg",
+          "scale": 1
+        },
+        "range": {
+          "min": 0,
+          "max": 0
+        }
+      }
+    ]
+  }
+]

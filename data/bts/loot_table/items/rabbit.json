@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:generic",
+  "functions": [],
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rabbit",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 3,
+                  "saturation": 0.6
+                },
+                "minecraft:custom_data": {
+                  "id":"rabbit",
+                  "ponder_id":"",
+                  "type":"item",
+                  "cooking_values": {
+                    "name": "Rabbit",
+                    "nutrition": 400,
+                    "saturation": 160
+                  }
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Cooking ingredient",
+                    "color": "dark_purple",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:items/rabbit"
+}

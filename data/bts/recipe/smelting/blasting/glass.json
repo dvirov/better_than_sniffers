@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": "#bts:sand",
+  "result": {
+    "id": "minecraft:glass",
+    "components": {
+      "minecraft:custom_data": {
+      }
+    }
+  },
+  "cookingtime": 2500
+}

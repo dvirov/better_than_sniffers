@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "id":"emerald",
+                  "ponder_id":"",
+                  "type":"item",
+                  "alchemy": {
+                    "category":"catalyst",
+                    "break_chance": "0.7",
+                    "quality": 2
+                  }
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Alchemy ingredient",
+                    "color": "dark_purple",
+                    "italic": false
+                  }
+                ],
+                "!rarity":{} 
+                
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:items/emerald"
+}

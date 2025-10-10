@@ -17,8 +17,14 @@
     "components": {
       "item_model": "bts:copper_hoe",
       "minecraft:item_name": "Copper Hoe",
-      "minecraft:custom_data": "{hoe:1b,copper_hoe:1b}",
-      "minecraft:max_damage": 32,
+      "minecraft:custom_data": {
+                  "id":"copper_hoe",
+                  "ponder_id":"tools/hoe",
+                  "type":"hoe",
+                  "material":"copper"
+
+      },
+      "minecraft:max_damage": 96,
       "minecraft:tool": {
         "rules": [
           {
@@ -33,7 +39,7 @@
       "minecraft:lore": [
         "",
           {"color":"gray","italic":false,"text":"When in Main Hand:"},
-          {"color":"dark_green","italic":false,"text":" 1.6 Attack Damege"},
+          {"color":"dark_green","italic":false,"text":" 1.6 Attack Damage"},
           {"color":"dark_green","italic":false,"text":" 2 Attack Speed"}
 
         ],

@@ -17,13 +17,19 @@
     "components": {
       "item_model": "bts:flint_shovel",
       "minecraft:item_name": "Flint Shovel",
-      "minecraft:custom_data": "{shovel:1b,flint_shovel:1b}",
-      "minecraft:max_damage": 32,
+      "minecraft:custom_data": {
+                  "id":"flint_shovel",
+                  "ponder_id":"tools/shovel",
+                  "type":"shovel",
+                  "material":"flint"
+
+      },
+      "minecraft:max_damage": 16,
       "minecraft:tool": {
         "rules": [
           {
             "blocks": "#bts:tier1_dirt",
-            "speed": 1,
+            "speed": 1.1,
             "correct_for_drops": true
           }
         ],
@@ -33,7 +39,7 @@
       "minecraft:lore": [
         "",
           {"color":"gray","italic":false,"text":"When in Main Hand:"},
-          {"color":"dark_green","italic":false,"text":" 1 Attack Damege"},
+          {"color":"dark_green","italic":false,"text":" 1 Attack Damage"},
           {"color":"dark_green","italic":false,"text":" 1.2 Attack Speed"}
 
         ],

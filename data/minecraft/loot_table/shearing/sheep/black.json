@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:shearing",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:black_carpet",
+          "functions": []
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+      },
+      "functions": [],
+      "conditions": []
+    }
+  ],
+  "random_sequence": "minecraft:shearing/sheep/black"
+}

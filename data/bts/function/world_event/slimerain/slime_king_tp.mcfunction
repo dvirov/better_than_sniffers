@@ -7,7 +7,7 @@ execute if score @s tp_timer matches 203 run attribute @s minecraft:scale modifi
 execute if score @s tp_timer matches 204 run attribute @s minecraft:scale modifier add 5 -0.5 add_multiplied_total
 execute if score @s tp_timer matches 205 run attribute @s minecraft:scale modifier add 6 -0.6 add_multiplied_total
 execute if score @s tp_timer matches 205 run effect give @s invisibility 1 1 true
-execute if score @s tp_timer matches 220 run tp @s @p[gamemode=survival]
+execute if score @s tp_timer matches 220 run tp @s @p[gamemode=survival,distance=..10]
 
 execute if score @s tp_timer matches 221 run attribute @s minecraft:scale modifier remove minecraft:1
 execute if score @s tp_timer matches 222 run attribute @s minecraft:scale modifier remove minecraft:2

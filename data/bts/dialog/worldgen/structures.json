@@ -1,23 +1,69 @@
 {
-  "type": "minecraft:notice",
+  "type": "minecraft:confirmation",
   "title": [
-    "   \uF80A\uF803\uB001\uB002\uF80A  \uB003\uB004\uF801\uB005\uB006\uB007\uF80A\uF804      \uB008",
-    "\uF80A\uF805                  \uF80E\uF80C\uF80B\uF809\uF807\uB0A1\uB0A2\uB0A3\uB0A4\uB0A5\uB0A6\uB0A7\uF80A\uF804\uB0A8",
-    "\uF80A\uF805                  \uF80E\uF80C\uF80B\uF809\uF807\uB0B1\uB0B2\uB0B3\uB0B4\uB0B5\uB0B6\uB0B7\uF80A\uF804\uB0B8",
-    "\uF80A\uF805                  \uF80E\uF80C\uF80B\uF809\uF807\uB0C1\uF801\uB0C2\uB0C3\uB0C4 \uB0C5\uB0C6\uF80A\uF804\uB0C7\uF801\uB0C8"
+    "   뀁뀂  뀃뀄뀅뀆뀇      뀈",
+    "                  낡낢낣낤낥낦낧남",
+    "                  낱낲낳내낵낶낷낸",
+    "                  냁냂냃냄 냅냆냇냈"
   ],
-  "body": {
-    "type": "minecraft:item",
-    "item": {
-      "id": "minecraft:acacia_log",
-      "components": {
-        "minecraft:item_model": "bts:arrow",
-        "minecraft:custom_model_data": {
-          "floats": [
-            1
-          ]
-        }
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Learn about structurs in the world"
       }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "Pillagers Camp    ",
+          "color": "#92d416",
+          "bold": true,
+          "click_event": {
+            "action": "show_dialog",
+            "dialog": "bts:worldgen/structures/pillagers_camp"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": "Learn"
+          }
+        },
+        {
+          "text": "        ",
+          "strikethrough": false,
+          "click_event": {
+            "action": "custom",
+            "id": "1"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": ""
+          }
+        },
+        {
+          "text": "soon",
+          "color": "dark_red",
+          "strikethrough": true
+        }
+      ]
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "none",
+  "yes": {
+    "label": "Close",
+    "action": {
+      "type": "minecraft:run_command",
+      "command": "trigger close.dialog"
+    }
+  },
+  "no": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "bts:worldgen"
     }
   }
 }

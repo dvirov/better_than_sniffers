@@ -15,13 +15,23 @@
     "components": {
       "item_model": "bts:stone_knife",
       "minecraft:item_name": "Stone Knife",
-      "minecraft:custom_data": "{knife:1b,stone_knife:1b}", 
-      "minecraft:max_damage": 30,
+      "minecraft:custom_data": {
+                  "id":"stone_knife",
+                  "ponder_id":"tools/knife",
+                  "type":"knife",
+                  "material":"stone"
+      }, 
+      "minecraft:max_damage": 64,
       "minecraft:tool": {
         "rules": [
           {
             "blocks": "#bts:foliage",
-            "speed": 1,
+            "speed": 1.6,
+            "correct_for_drops": true
+          },
+          {
+            "blocks": "cobweb",
+            "speed": 10,
             "correct_for_drops": true
           }
         ],
@@ -31,7 +41,7 @@
       "minecraft:lore": [
         "",
           {"color":"gray","italic":false,"text":"When in Main Hand:"},
-          {"color":"dark_green","italic":false,"text":" 1.8 Attack Damege"},
+          {"color":"dark_green","italic":false,"text":" 1.8 Attack Damage"},
           {"color":"dark_green","italic":false,"text":" 2 Attack Speed"}
 
         ],

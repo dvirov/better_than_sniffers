@@ -1,0 +1,131 @@
+{
+  "type": "minecraft:notice",
+  "title": [
+    "   뀁뀂  뀃뀄뀅뀆뀇      뀈",
+    "                  낡낢낣낤낥낦낧남",
+    "                  낱낲낳내낵낶낷낸",
+    "                  냁냂냃냄 냅냆냇냈"
+  ],
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Datapack & Resourcepack by :",
+        "extra": [
+          {
+            "text": " dvirov",
+            "color": "aqua"
+          },
+          "\n",
+          {
+            "text": "discord",
+            "color": "blue",
+            "click_event": {
+              "action": "open_url",
+              "url": "https://discord.gg/FDjMCFRaJk"
+            },
+            "hover_event": {
+              "action": "show_text",
+              "value": "click to open link"
+            }
+          },
+          " | ",
+          {
+            "text": "Youtube",
+            "color": "red",
+            "click_event": {
+              "action": "open_url",
+              "url": "https://www.youtube.com/channel/UCKWA1gQk0kwkcnY31ADOQ9g"
+            },
+            "hover_event": {
+              "action": "show_text",
+              "value": "click to open link"
+            }
+          }
+        ],
+        "color": "dark_aqua"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Special thanks to :",
+        "extra": [
+          {
+            "text": "\nYoutubers: \n(for great tutorials)",
+            "color": "red"
+          },
+          {
+            "text": "\n CloudWolf ",
+            "color": "aqua"
+          },
+          {
+            "text": "\n conure",
+            "color": "aqua"
+          },
+          {
+            "text": "\n Legitimoose",
+            "color": "aqua"
+          }
+        ],
+        "color": "dark_aqua"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "links to resources and projects used partly or fully on this pack :",
+        "extra": [
+          {
+            "text": "\n Arboria ",
+            "color": "aqua",
+            "click_event": {
+              "action": "open_url",
+              "url": "https://modrinth.com/datapack/arboria/gallery"
+            },
+            "hover_event": {
+              "action": "show_text",
+              "value": "open link"
+            }
+          },
+          {
+            "text": "\n Clucking Ducks",
+            "color": "aqua",
+            "click_event": {
+              "action": "open_url",
+              "url": "https://modrinth.com/datapack/"
+            },
+            "hover_event": {
+              "action": "show_text",
+              "value": "open link"
+            }
+          },
+          {
+            "text": "\n ShaderSelectorV3",
+            "color": "aqua",
+            "click_event": {
+              "action": "open_url",
+              "url": "https://github.com/HalbFettKaese/ShaderSelectorV3"
+            },
+            "hover_event": {
+              "action": "show_text",
+              "value": "open link"
+            }
+          }
+        ],
+        "color": "dark_aqua"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "If you think you deserve credit and i forgot you please contact me on discord and ill fix it",
+        "color": "dark_red"
+      }
+    }
+  ],
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close"
+}

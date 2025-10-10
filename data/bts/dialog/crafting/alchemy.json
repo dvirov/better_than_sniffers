@@ -36,7 +36,7 @@
           "hover_event": {
             "action": "show_text",
             "value": ""
-        }
+          }
         },
         {
           "text": "Campfire",
@@ -74,9 +74,9 @@
           "type": "text",
           "font": "minecraft:default",
           "click_event": {
-          "action": "change_page",
-          "page": 1
-        },
+            "action": "change_page",
+            "page": 1
+          },
           "hover_event": {
             "action": "show_text",
             "value": ""
@@ -113,15 +113,14 @@
             "value": "Click to open Cooking category"
           }
         },
-        
         {
           "text": "      ",
           "type": "text",
           "font": "minecraft:default",
           "click_event": {
-          "action": "change_page",
-          "page": 1
-        },
+            "action": "change_page",
+            "page": 1
+          },
           "hover_event": {
             "action": "show_text",
             "value": ""
@@ -148,8 +147,21 @@
         "I don't really expect many of you to appreciate the subtle science and exact art that is potion-making\n",
         "Here you can bottle fame, brew glory, and even put a stopper in death.\n",
         "you can mix varius ingredients into potions or modifying items\n",
-        "for now only test recipes exist \n",
-        ""
+        "for now only potion recipes exist \n",
+        {
+          "text": "Potion template",
+          "hover_event": {
+            "action": "show_item",
+            "id": "minecraft:barrier",
+            "components": {
+              "minecraft:tooltip_style": "bts:empty",
+              "minecraft:item_name": {
+                "text": "\uA001",
+                "font": "bts:images"
+              }
+            }
+          }
+        }
       ],
       "width": 250
     }

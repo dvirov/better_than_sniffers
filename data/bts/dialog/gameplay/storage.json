@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:confirmation",
+  "title": [
+    "   뀁뀂  뀃뀄뀅뀆뀇      뀈",
+    "                  낡낢낣낤낥낦낧남",
+    "                  낱낲낳내낵낶낷낸",
+    "                  냁냂냃냄 냅냆냇냈"
+  ],
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Storage",
+        "extra": [
+          "\n\n",
+          "Collecting goods is great and all  but you also need place to store them right ? ",
+          "\n",
+          "Depending on your resources, you can create different storage blocks with varying amounts of space within them.",
+          "\n\n",
+          "Storage Pot :",
+          "\n",
+          "The storage pot is the most basic form of storage block",
+          "\n",
+          "it can store 1 type of item and can only store up to the stack limit",
+          "\n",
+          "R-Click with item to store it inside ",
+          "\n",
+          "Shift+R-Click to retrive the items"
+        ]
+      },
+      "width": 250
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "none",
+  "yes": {
+    "label": "Close",
+    "action": {
+      "type": "minecraft:run_command",
+      "command": "trigger close.dialog"
+    }
+  },
+  "no": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "bts:gameplay"
+    }
+  }
+}

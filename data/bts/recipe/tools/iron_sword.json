@@ -17,13 +17,18 @@
     "components": {
       "item_model": "iron_sword",
       "minecraft:item_name": "iron Sword",
-      "minecraft:custom_data": "{sword:1b,iron_sword:1b}", 
-      "minecraft:max_damage": 30,
+      "minecraft:custom_data": {
+                  "id":"iron_sword",
+                  "ponder_id":"tools/sword",
+                  "type":"sword",
+                  "material":"iron"
+      }, 
+      "minecraft:max_damage": 128,
 
       "minecraft:lore": [
         "",
           {"color":"gray","italic":false,"text":"When in Main Hand:"},
-          {"color":"dark_green","italic":false,"text":" 4.2 Attack Damege"},
+          {"color":"dark_green","italic":false,"text":" 4.2 Attack Damage"},
           {"color":"dark_green","italic":false,"text":" 1.6 Attack Speed"}
 
         ],

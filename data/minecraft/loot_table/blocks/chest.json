@@ -38,7 +38,7 @@
                     "minecraft:custom_name": {"text":"Fletching Table","italic":false},
                     "minecraft:item_model": "fletching_table",
                     "minecraft:rarity": "common",
-                    "custom_data": "{fletching:1b}",
+                    "custom_data": "{custom_block:1b,fletching:1b}",
                     "minecraft:entity_data": {
                       "id": "minecraft:item_frame",
                       "Tags": [

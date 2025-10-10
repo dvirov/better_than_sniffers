@@ -1,0 +1,300 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:barrel",
+          "functions": [
+            {
+              "function": "minecraft:copy_components",
+              "source": "block_entity",
+              "include": [
+                "minecraft:custom_name"
+              ]
+            },
+            {
+              "function": "minecraft:filtered",
+              "item_filter": {
+                "components": {
+                  "minecraft:custom_name": {
+                    "text": "Alchemy",
+                    "extra": [
+                      {
+                        "color": "white",
+                        "text": "        \uF807\uF80A\uF80A\uF808\uD003"
+                      }
+                    ]
+                  }
+                }
+              },
+              "modifier": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": 1
+                },
+                {
+                  "function": "minecraft:set_item",
+                  "item": "minecraft:item_frame"
+                },
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "item_model": "brewing_stand",
+                    "rarity": "uncommon",
+                    "custom_data": {
+                      "alchemy":true,
+                      "id": "alchemy_table",
+                      "ponder_id": "crafting/alchemy",
+                     "type": "custom_block"
+                },
+                    "minecraft:custom_name": {
+                      "text": "Alchemy Table",
+                      "italic": false
+                    },
+                    "minecraft:entity_data": {
+                      "id": "minecraft:item_frame",
+                      "Tags": [
+                        "place_alchemy",
+                        "custom_block"
+                      ],
+                      "Invisible": true,
+                      "Invulnerable": true,
+                      "Fixed": true,
+                      "Silent": true
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:filtered",
+              "item_filter": {
+                "components": {
+                  "minecraft:custom_name": {
+                    "text": "Anvil",
+                    "extra": [
+                      {
+                        "color": "white",
+                        "text": "            \uF807\uF80A\uF80A\uF808\uD004"
+                      }
+                    ]
+                  }
+                }
+              },
+              "modifier": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": 1
+                },
+                {
+                  "function": "minecraft:set_item",
+                  "item": "minecraft:item_frame"
+                },
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "item_model": "anvil",
+                    "rarity": "uncommon",
+                    "custom_data": {
+                      "anvil":true,
+                      "id": "anvil",
+                      "ponder_id": "crafting/anvil",
+                      "type": "custom_block"
+                },
+                    "minecraft:custom_name": {
+                      "text": "Anvil",
+                      "italic": false
+                    },
+                    "minecraft:entity_data": {
+                      "id": "minecraft:item_frame",
+                      "Tags": [
+                        "place_anvil",
+                        "custom_block"
+                      ],
+                      "Invisible": true,
+                      "Invulnerable": true,
+                      "Fixed": true,
+                      "Silent": true
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:filtered",
+              "item_filter": {
+                "components": {
+                  "minecraft:custom_name": {
+                    "text": "Fletching",
+                    "extra": [
+                      {
+                        "color": "white",
+                        "text": "     \uF801\uF80A\uF80A\uF808\uD001"
+                      }
+                    ]
+                  }
+                }
+              },
+              "modifier": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": 1
+                },
+                {
+                  "function": "minecraft:set_item",
+                  "item": "minecraft:item_frame"
+                },
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                "item_model": "fletching_table",
+                "rarity": "common",
+                "custom_data": {
+                  "fletching":true,
+                  "id": "fletching_table",
+                  "ponder_id": "crafting/fletching",
+                  "type": "custom_block"
+                },
+                "minecraft:custom_name": {
+                  "text": "Fletching Table",
+                  "italic": false
+                },
+                "minecraft:entity_data": {
+                  "id": "minecraft:item_frame",
+                  "Tags": [
+                    "place_fletching",
+                    "custom_block"
+                  ],
+                  "Invisible": true,
+                  "Invulnerable": true,
+                  "Fixed": true,
+                  "Silent": true
+                }
+              }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:filtered",
+              "item_filter": {
+                "components": {
+                  "minecraft:custom_name": {
+                    "text": "Crucible",
+                    "extra": [
+                      {
+                        "color": "white",
+                        "text": "      \uF801\uF80B\uF808\uD000"
+                      }
+                    ]
+                  }
+                }
+              },
+              "modifier": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": 1
+                },
+                {
+                  "function": "minecraft:set_item",
+                  "item": "minecraft:item_frame"
+                },
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "item_model": "cauldron",
+                    "rarity": "uncommon",
+                    "custom_data": {
+                      "crucible":true,
+                      "id": "crucible",
+                      "ponder_id": "crafting/crucible",
+                      "type": "custom_block"
+                },
+                    "minecraft:custom_name": {
+                      "text": "Crucible",
+                      "italic": false
+                    },
+                    "minecraft:entity_data": {
+                      "id": "minecraft:item_frame",
+                      "Tags": [
+                        "place_crucible",
+                        "custom_block"
+                      ],
+                      "Invisible": true,
+                      "Invulnerable": true,
+                      "Fixed": true,
+                      "Silent": true
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:filtered",
+              "item_filter": {
+                "components": {
+                  "minecraft:custom_name": {
+                    "text": "Cooking Pot",
+                    "extra": [
+                      {
+                        "color": "white",
+                        "text": "  \uF801\uF80B\uF808\uD002"
+                      }
+                    ]
+                  }
+                }
+              },
+              "modifier": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": 1
+                },
+                {
+                  "function": "minecraft:set_item",
+                  "item": "minecraft:item_frame"
+                },
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "item_model": "cauldron",
+                    "rarity": "common",
+                    "custom_data": {
+                      "cooking":true,
+                      "id": "cooking_pot", 
+                      "ponder_id": "crafting/cooking",
+                      "type": "custom_block"
+                },
+                    "minecraft:custom_name": {
+                      "text": "Cooking Pot",
+                      "italic": false
+                    },
+                    "minecraft:entity_data": {
+                      "id": "minecraft:item_frame",
+                      "Tags": [
+                        "place_cooking",
+                        "custom_block"
+                      ],
+                      "Invisible": true,
+                      "Invulnerable": true,
+                      "Fixed": true,
+                      "Silent": true
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:blocks/barrel"
+}

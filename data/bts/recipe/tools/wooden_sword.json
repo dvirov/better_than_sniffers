@@ -17,13 +17,18 @@
     "components": {
       "item_model": "wooden_sword",
       "minecraft:item_name": "Wooden Sword",
-      "minecraft:custom_data": "{sword:1b,wooden_sword:1b}", 
-      "minecraft:max_damage": 30,
+      "minecraft:custom_data": {
+                  "id":"wooden_sword",
+                  "ponder_id":"tools/sword",
+                  "type":"sword",
+                  "material":"wood"
+      },
+      "minecraft:max_damage": 48,
 
       "minecraft:lore": [
         "",
           {"color":"gray","italic":false,"text":"When in Main Hand:"},
-          {"color":"dark_green","italic":false,"text":" 3.3 Attack Damege"},
+          {"color":"dark_green","italic":false,"text":" 3.3 Attack Damage"},
           {"color":"dark_green","italic":false,"text":" 1.6 Attack Speed"}
 
         ],

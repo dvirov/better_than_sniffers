@@ -9,7 +9,12 @@
     "components": {
       "item_model":"bts:fire_plough",
       "minecraft:item_name": "Fire Plough",
-      "minecraft:custom_data": "{fire_plough:1b}"
+      "minecraft:custom_data": {
+                  "id":"fire_plough",
+                  "ponder_id":"tools/fire_plough",
+                  "type":"item"
+
+      }
    }
   }
 }

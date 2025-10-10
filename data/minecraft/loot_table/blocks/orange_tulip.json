@@ -10,8 +10,8 @@
       ],
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:orange_tulip"
+          "type": "minecraft:loot_table",
+          "value": "bts:items/orange_tulip"
         }
       ],
       "rolls": 1.0

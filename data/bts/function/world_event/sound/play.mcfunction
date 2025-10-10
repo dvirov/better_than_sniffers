@@ -1,4 +1,7 @@
 ## run as player tick
+
+
+
 execute if predicate bts:is_night if predicate bts:noroof run function bts:world_event/sound/play/night.nature
 execute unless predicate bts:is_night run function bts:world_event/sound/stop/ambient.time
 

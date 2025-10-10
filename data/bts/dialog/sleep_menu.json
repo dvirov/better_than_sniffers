@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:notice",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "The game is not paused !\n\n while you sleep you restore small amounts of sanity over time"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Dream about the wiki",
+        "click_event": {
+          "action": "show_dialog",
+          "dialog": "bts:main"
+        },
+        "hover_event": {
+          "action": "show_text",
+          "value": "Open wiki"
+        }
+      }
+    }
+  ],
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "external_title": {
+    "translate": "menu.pause.title.text",
+    "fallback": "Open Wiki"
+  },
+  "title": [
+    "   뀁뀂  뀃뀄뀅뀆뀇      뀈",
+    "                  낡낢낣낤낥낦낧남",
+    "                  낱낲낳내낵낶낷낸",
+    "                  냁냂냃냄 냅냆냇냈"
+  ],
+  "after_action": "none",
+  "action": {
+    "label": "Leave Bed",
+    "width": 200,
+    "action": {
+      "type": "minecraft:run_command",
+      "command": "trigger close.dialog set 9999"
+    }
+  }
+}

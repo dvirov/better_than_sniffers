@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:generic",
+  "functions": [],
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:red_mushroom",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "id":"red_mucshroom",
+                  "ponder_id":"",
+                  "type":"item",
+                  "cooking_values": {
+                    "name": "Red Mushroom",
+                    "nutrition": 30,
+                    "saturation": 25
+                  },
+                  "alchemy": {
+                    "category": "herb",
+                    "color1":"red",
+                    "color2":"red",
+                    "effect1":"nausea",
+                    "effect2":"hunger",
+                    "name1":"Nausea",
+                    "name2": "Hunger",
+                    "quality": 1
+                  }
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Cooking ingredient",
+                    "color": "dark_purple",
+                    "italic": false
+                  },
+                  {
+                    "text": "Alchemy ingredient",
+                    "color": "dark_purple",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:items/red_mucshroom"
+}

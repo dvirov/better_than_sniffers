@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "bts:items/rice"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bts:items/cotton_seeds"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:blocks/wheat"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:blocks/beetroots"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:blocks/torchflower_crop"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:blocks/melon_stem"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:blocks/pumpkin_stem"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/all_seeds"
+}

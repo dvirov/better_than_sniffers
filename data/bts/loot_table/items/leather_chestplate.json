@@ -1,0 +1,70 @@
+{
+  "type": "minecraft:generic",
+  "functions": [],
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+               "custom_data":{
+                  "id":"leather_chestplate",
+                  "ponder_id":"",
+                  "type":"chestplate",
+                  "material":"leather"
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:armor",
+          "id": "bts:chest",
+          "amount": 3,
+          "operation": "add_value",
+          "slot": "chest"
+        },
+        {
+          "type": "minecraft:max_absorption",
+          "id": "bts:chest",
+          "amount": 8,
+          "operation": "add_value",
+          "slot": "chest"
+        }
+      ],
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      },
+      "minecraft:lore": [
+        {
+          "text": ""
+        },
+        {
+          "text": "When on Body:",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+3 Armor",
+          "color": "blue",
+          "italic": false
+        },
+        {
+          "text": "+8 Insulation",
+          "color": "blue",
+          "italic": false
+        }
+      ]
+    }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:items/leather_chestplate"
+}

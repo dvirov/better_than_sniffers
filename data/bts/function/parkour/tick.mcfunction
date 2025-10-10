@@ -1,3 +1,5 @@
+#run from player_tick function
+
 attribute @s gravity base set 0.08
 execute if score @s bar_stamina matches 0 run return 0
 

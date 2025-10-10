@@ -2,7 +2,7 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "bonus_rolls": 0.0,
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -11,29 +11,13 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
+                "max": 5,
+                "min": 1
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:diamond",
-          "weight": 3
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 5.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:iron_ingot",
+          "name": "minecraft:iron_nugget",
           "weight": 10
         },
         {
@@ -43,13 +27,13 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
+                "max": 3,
+                "min": 1
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:gold_ingot",
+          "name": "minecraft:gold_nugget",
           "weight": 5
         },
         {
@@ -59,8 +43,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
+                "max": 3,
+                "min": 1
               },
               "function": "minecraft:set_count"
             }
@@ -75,8 +59,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
+                "max": 3,
+                "min": 1
               },
               "function": "minecraft:set_count"
             }
@@ -86,43 +70,13 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_pickaxe",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_sword",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_chestplate",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_helmet",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_leggings",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_boots",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
           "functions": [
             {
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 7.0,
-                "min": 3.0
+                "max": 2,
+                "min": 1
               },
               "function": "minecraft:set_count"
             }
@@ -137,8 +91,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 7.0,
-                "min": 3.0
+                "max": 7,
+                "min": 3
               },
               "function": "minecraft:set_count"
             }
@@ -166,9 +120,30 @@
       ],
       "rolls": {
         "type": "minecraft:uniform",
-        "max": 8.0,
-        "min": 3.0
+        "max": 8,
+        "min": 3
       }
+    },
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": 1,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:bundle"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 2
+        }
+      ],
+      "rolls": 1
     }
   ],
   "random_sequence": "minecraft:chests/village/village_weaponsmith"

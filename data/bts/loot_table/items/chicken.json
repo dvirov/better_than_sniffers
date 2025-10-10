@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:generic",
+  "functions": [],
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chicken",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 1,
+                  "saturation": 0.3
+                },
+                "minecraft:custom_data": {
+                  "id":"chicken",
+                  "ponder_id":"",
+                  "type":"item",
+                  "cooking_values": {
+                    "name": "Chicken",
+                    "nutrition": 210,
+                    "saturation": 90
+                  }
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Cooking ingredient",
+                    "color": "dark_purple",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:items/chicken"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "S S",
+    " S "
+  ],
+  "key": {
+    "S":"#wooden_slabs"
+  },
+  "result": {
+    "id": "minecraft:bowl",
+    "components": {
+    }
+  }
+}

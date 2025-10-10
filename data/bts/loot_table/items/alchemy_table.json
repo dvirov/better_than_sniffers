@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:empty",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:item_frame",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "item_model": "brewing_stand",
+                "rarity": "uncommon",
+                "custom_data": {
+                  "alchemy":true,
+                  "id": "alchemy_table",
+                  "ponder_id": "crafting/alchemy",
+                  "type": "custom_block"
+                },
+                "minecraft:custom_name": {
+                  "text": "Alchemy Table",
+                  "italic": false
+                },
+                "minecraft:entity_data": {
+                  "id": "minecraft:item_frame",
+                  "Tags": [
+                    "place_alchemy",
+                    "custom_block"
+                  ],
+                  "Invisible": true,
+                  "Invulnerable": true,
+                  "Fixed": true,
+                  "Silent": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

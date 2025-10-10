@@ -18,11 +18,15 @@
     "water_color": 4159204,
     "water_fog_color": 329011
   },
-  "features": [
-    [],
+  "features": [ 
     [
-      "minecraft:lake_lava_underground",
-      "minecraft:lake_lava_surface"
+      "bts:windswept_savanna/coarse_dirt/blobs",
+      "bts:windswept_savanna/grass_block/blobs",
+      "bts:windswept_savanna/coarse_dirt/specks",
+      "bts:windswept_savanna/grass_block/specks"
+    ],
+    [
+      "minecraft:lake_lava_underground"
     ],
     [
       "minecraft:amethyst_geode"
@@ -34,8 +38,9 @@
     [],
     [],
     [
-      "minecraft:ore_dirt",
-      "minecraft:ore_gravel",
+      "bts:ore_dirt",
+      "bts:ore_gravel_lower",
+      "bts:ore_gravel_upper",
       "minecraft:ore_granite_upper",
       "minecraft:ore_granite_lower",
       "minecraft:ore_diorite_upper",
@@ -53,36 +58,51 @@
       "minecraft:ore_redstone",
       "minecraft:ore_redstone_lower",
       "minecraft:ore_diamond",
-      "minecraft:ore_diamond_medium",
       "minecraft:ore_diamond_large",
       "minecraft:ore_diamond_buried",
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
-      "minecraft:underwater_magma",
+      "bts:underwater_magma",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
-      "minecraft:disk_gravel"
+      "minecraft:disk_gravel",
+      "bts:salt"    ],
+    [
+      "bts:windswept_savanna/granite/big_all",
+      "bts:windswept_savanna/granite/big_stone",
+      "bts:windswept_savanna/granite/small_all",
+      "bts:windswept_savanna/granite/small_stone",
+      "bts:savanna_plateau/granite/steep",
+      "bts:crater"
     ],
     [
-      "bts:crater"],
-    [
       "minecraft:spring_water",
-      "minecraft:spring_lava"
+      "minecraft:spring_lava",
+      "bts:savanna_plateau/rocks/layer_1",
+      "bts:savanna_plateau/rocks/layer_2",
+      "bts:savanna_plateau/rocks/layer_3"
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:trees_windswept_savanna",
-      "minecraft:flower_default",
-      "minecraft:patch_grass_normal",
+      "bts:windswept_savanna/grass/layer_1",
+      "bts:windswept_savanna/grass/layer_2",
+      "bts:windswept_savanna/grass/layer_3",
+      "bts:windswept_savanna/trees/layer_1",
+      "bts:windswept_savanna/trees/layer_2",
+      "bts:windswept_savanna/trees/layer_3",
+      "bts:windswept_savanna/trees/layer_4",
+      "bts:savanna/flowers",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
-      "minecraft:patch_pumpkin",
-      "minecraft:patch_sugar_cane",
-      "minecraft:patch_firefly_bush_near_water"
+      "bts:patch_sugar_cane",
+      "bts:patch_pumpkin",
+      "bts:patch_firefly_bush_rare"
     ],
     [
       "minecraft:freeze_top_layer",
+      "bts:bottom/stone_slab",
+      "bts:bottom/snow",
       "bts:pebbels"
     ]
   ],

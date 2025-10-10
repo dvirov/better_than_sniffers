@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:generic",
+  "functions": [],
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:porkchop",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 3,
+                  "saturation": 0.6
+                },
+                "minecraft:custom_data": {
+                  "id":"porkchop",
+                  "ponder_id":"",
+                  "type":"item",
+                  "cooking_values": {
+                    "name": "Porkchop",
+                    "nutrition": 400,
+                    "saturation": 110
+                  }
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Cooking ingredient",
+                    "color": "dark_purple",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:items/porkchop"
+}

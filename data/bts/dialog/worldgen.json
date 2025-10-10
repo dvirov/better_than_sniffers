@@ -4,7 +4,8 @@
     {
       "type": "minecraft:plain_message",
       "contents": [
-        "Worldgen \n",
+        "Worldgen",
+        "\n",
         "all categories related to world generation  "
       ],
       "width": 250
@@ -16,25 +17,37 @@
           "text": "Structures",
           "color": "#92d416",
           "bold": true,
+          "underlined": false,
           "click_event": {
             "action": "show_dialog",
             "dialog": "bts:worldgen/structures"
           },
           "hover_event": {
             "action": "show_text",
-            "value": "Click to open Structures category"
+            "value": "Click to open"
           }
         },
         {
-          "text": "          Features",
-          "bold": true,
+          "text": "          ",
           "click_event": {
-            "action": "show_dialog",
-            "dialog": "bts:worldgen/structures"
+            "action": "custom",
+            "id": "1"
           },
           "hover_event": {
             "action": "show_text",
-            "value": "Click to open Features category"
+            "value": ""
+          }
+        },
+        {
+          "text": "Biomes",
+          "bold": true,
+          "click_event": {
+            "action": "show_dialog",
+            "dialog": "bts:worldgen/biomes"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": "Click to open"
           }
         }
       ]
@@ -43,10 +56,10 @@
   "can_close_with_escape": true,
   "pause": false,
   "title": [
-    "   \uF80A\uF803\uB001\uB002\uF80A  \uB003\uB004\uF801\uB005\uB006\uB007\uF80A\uF804      \uB008",
-    "\uF80A\uF805                  \uF80E\uF80C\uF80B\uF809\uF807\uB0A1\uB0A2\uB0A3\uB0A4\uB0A5\uB0A6\uB0A7\uF80A\uF804\uB0A8",
-    "\uF80A\uF805                  \uF80E\uF80C\uF80B\uF809\uF807\uB0B1\uB0B2\uB0B3\uB0B4\uB0B5\uB0B6\uB0B7\uF80A\uF804\uB0B8",
-    "\uF80A\uF805                  \uF80E\uF80C\uF80B\uF809\uF807\uB0C1\uF801\uB0C2\uB0C3\uB0C4 \uB0C5\uB0C6\uF80A\uF804\uB0C7\uF801\uB0C8"
+    "   뀁뀂  뀃뀄뀅뀆뀇      뀈",
+    "                  낡낢낣낤낥낦낧남",
+    "                  낱낲낳내낵낶낷낸",
+    "                  냁냂냃냄 냅냆냇냈"
   ],
   "after_action": "none",
   "yes": {

@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:heart_pottery_sherd"
+    },
+    "title": "Legends Never Die",
+    "description": "Don't die even once in this playthrough",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "bts:challenges/challenges",
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

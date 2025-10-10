@@ -5,8 +5,8 @@
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:emerald",
+          "type": "minecraft:loot_table",
+          "value": "bts:items/emerald",
           "weight": 2
         },
         {
@@ -15,8 +15,8 @@
           "weight": 2
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:wooden_hoe",
+          "type": "minecraft:loot_table",
+          "value": "bts:items/wooden_hoe",
           "weight": 2
         },
         {

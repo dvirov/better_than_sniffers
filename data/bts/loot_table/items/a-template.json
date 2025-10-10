@@ -1,0 +1,63 @@
+{
+  "type": "minecraft:generic",
+  "functions": [],
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:allay_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 1,
+                  "saturation": 0.1
+                },
+                "minecraft:custom_data": {
+                  "id": "spider_eye",
+                  "ponder_id": "",
+                  "type": "item",
+                  "cooking_values": {
+                    "name": "Spider Eye",
+                    "nutrition": 100,
+                    "saturation": 50
+                  },
+                  "alchemy": {
+                    "category": "main",
+                    "name1": "Poison",
+                    "effect1": "poison",
+                    "color1": "red",
+                    "quality": 2
+                  }
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Cooking ingredient",
+                    "color": "dark_purple",
+                    "italic": false
+                  },
+                  {
+                    "text": "Alchemy ingredient",
+                    "color": "dark_purple",
+                    "italic": false
+                  }
+                ],
+                "minecraft:item_name": "test",
+                "minecraft:item_model": "barrier",
+                 "!minecraft:attribute_modifiers": {},
+                "!minecraft:break_sound": {},
+                "!minecraft:enchantments": {},
+                "!repair_cost": {},
+                "!entity_data": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:items/spider_eye"
+}

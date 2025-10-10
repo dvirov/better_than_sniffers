@@ -18,9 +18,9 @@
     "water_color": 4159204,
     "water_fog_color": 329011
   },
-  "features": [
+  "features": [ 
     [],
-    [
+    [ 
       "minecraft:lake_lava_underground",
       "minecraft:lake_lava_surface"
     ],
@@ -34,11 +34,12 @@
     [],
     [],
     [
-      "minecraft:ore_dirt",
-      "minecraft:ore_gravel",
-      "minecraft:ore_granite_upper",
+      "bts:stony_peaks/ore_dirt",
+      "bts:ore_gravel_lower",
+      "bts:ore_gravel_upper",
+      "bts:stony_peaks/ore_granite_upper",
       "minecraft:ore_granite_lower",
-      "minecraft:ore_diorite_upper",
+      "bts:stony_peaks/ore_diorite_upper",
       "minecraft:ore_diorite_lower",
       "minecraft:ore_andesite_upper",
       "minecraft:ore_andesite_lower",
@@ -53,19 +54,25 @@
       "minecraft:ore_redstone",
       "minecraft:ore_redstone_lower",
       "minecraft:ore_diamond",
-      "minecraft:ore_diamond_medium",
       "minecraft:ore_diamond_large",
       "minecraft:ore_diamond_buried",
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
-      "minecraft:underwater_magma",
+      "bts:underwater_magma",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
-      "minecraft:disk_gravel"
-    ],
+      "minecraft:disk_gravel",
+      "bts:salt"    ],
     [
-      "bts:crater"],
+      "bts:stony_peaks/diorite/steep",
+      "bts:stony_peaks/diorite/blobs",
+      "bts:stony_peaks/diorite/specks",
+      "bts:stony_peaks/stone/steep",
+      "bts:stony_peaks/stone/slope",
+      "bts:stony_peaks/cobblestone/blobs",
+      "bts:stony_peaks/cobblestone/specks"
+    ],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava"
@@ -76,12 +83,14 @@
       "minecraft:patch_grass_badlands",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
-      "minecraft:patch_pumpkin",
-      "minecraft:patch_sugar_cane",
-      "minecraft:patch_firefly_bush_near_water"
+      "bts:patch_sugar_cane_rare",
+      "bts:patch_pumpkin_rare",
+      "bts:patch_firefly_bush_rare"
     ],
     [
       "minecraft:freeze_top_layer",
+      "bts:bottom/stone_slab",
+      "bts:bottom/snow",
       "bts:pebbels"
     ]
   ],

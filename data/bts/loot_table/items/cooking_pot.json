@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:empty",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:item_frame",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "item_model": "cauldron",
+                "rarity": "common",
+                "custom_data": {
+                  "cooking":true,
+                  "id": "cooking_pot",
+                  "ponder_id": "crafting/cooking",
+                  "type": "custom_block"
+                },
+                "minecraft:custom_name": {
+                  "text": "Cooking Pot",
+                  "italic": false
+                },
+                "minecraft:entity_data": {
+                  "id": "minecraft:item_frame",
+                  "Tags": [
+                    "place_cooking",
+                    "custom_block"
+                  ],
+                  "Invisible": true,
+                  "Invulnerable": true,
+                  "Fixed": true,
+                  "Silent": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -13,6 +13,12 @@
   ],
   "result": {
     "components": {
+      "custom_data": {
+                  "id":"fishing_rod",
+                  "ponder_id":"tools/fishing_rod",
+                  "type":"item"
+        
+      },
       "minecraft:max_damage": 32
     },
     "count": 1,

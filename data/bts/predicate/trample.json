@@ -1,0 +1,30 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "#bts:trample_leaves",
+        "movement": {
+          "horizontal_speed": {
+            "min": 2,
+            "max": 99
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:random_chance",
+      "chance": 0.005
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "blocks": "#bts:can_trample"
+        }
+      }
+    }
+  ]
+}

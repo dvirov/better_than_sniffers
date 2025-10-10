@@ -10,8 +10,8 @@
       ],
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:blue_orchid"
+          "type": "minecraft:loot_table",
+          "value": "bts:items/blue_orchid"
         }
       ],
       "rolls": 1.0

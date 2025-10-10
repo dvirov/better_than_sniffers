@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:sand",
+    "minecraft:red_sand",
+    "minecraft:sandstone",
+    "minecraft:red_sandstone",
+    "minecraft:cactus",
+    "#bts:dirt",
+    "#bts:stone",
+    "#minecraft:mineable/axe",
+    "#minecraft:mineable/hoe",
+    "#minecraft:mineable/pickaxe",
+    "#minecraft:mineable/shovel",
+    "#minecraft:features_cannot_replace"
+  ]
+}

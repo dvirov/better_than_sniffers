@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:generic",
+  "functions": [],
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rabbit_foot",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 4,
+                  "saturation": 0.8
+                },
+                "minecraft:custom_data": {
+                  "id":"rabbit_foot",
+                  "ponder_id":"",
+                  "type":"item",
+                  "cooking_values": {
+                    "name": "Rabbit Foot",
+                    "nutrition": 410,
+                    "saturation": 170
+                  }
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Cooking ingredient",
+                    "color": "dark_purple",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:items/rabbit_foot"
+}

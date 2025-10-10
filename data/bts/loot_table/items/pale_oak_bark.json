@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:generic",
+  "functions": [],
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pale_oak_slab",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+               "item_model": "bts:pale_oak_bark",
+                "rarity": "common",
+                "item_name": "Pale Oak Bark"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:items/pale_oak_bark"
+}

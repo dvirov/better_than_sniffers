@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "equipment",
+  "input": "#minecraft:bundles",
+  "material": "minecraft:white_carpet",
+  "result": {
+    "id": "minecraft:bundle"
+  }
+}

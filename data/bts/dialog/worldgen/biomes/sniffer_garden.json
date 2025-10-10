@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:confirmation",
+  "title": [
+    "   뀁뀂  뀃뀄뀅뀆뀇      뀈",
+    "                  낡낢낣낤낥낦낧남",
+    "                  낱낲낳내낵낶낷낸",
+    "                  냁냂냃냄 냅냆냇냈"
+  ],
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Sniffer Garden",
+        "extra": [
+          "\n\n",
+          "The Sniffer Garden is a special biome that has been preserved since ancient times. ",
+          "\n",
+          "It is the only place in the world where the sniffers have  yet to become extinct.",
+          "\n",
+          " In addition, it has a pleasant temperature throughout the year and apparently no monsters appear there."
+        ]
+      }
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "none",
+  "yes": {
+    "label": "Close",
+    "action": {
+      "type": "minecraft:run_command",
+      "command": "trigger close.dialog"
+    }
+  },
+  "no": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "bts:worldgen/structures"
+    }
+  }
+}

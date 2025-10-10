@@ -1,0 +1,71 @@
+{
+  "type": "minecraft:generic",
+  "functions": [],
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_hoe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+      "item_model": "iron_hoe",
+      "minecraft:item_name": "Iron Hoe",
+      "minecraft:custom_data": {
+                  "id":"iron_hoe",
+                  "ponder_id":"tools/hoe",
+                  "type":"hoe",
+                  "material":"iron"
+      },
+      "minecraft:max_damage": 128,
+      "minecraft:tool": {
+        "rules": [
+          {
+            "blocks": "air",
+            "speed": 1,
+            "correct_for_drops": true
+          }
+        ],
+        "default_mining_speed": 1,
+        "damage_per_block": 1
+      },
+      "minecraft:lore": [
+        "",
+          {"color":"gray","italic":false,"text":"When in Main Hand:"},
+          {"color":"dark_green","italic":false,"text":" 1.8 Attack Damage"},
+          {"color":"dark_green","italic":false,"text":" 2 Attack Speed"}
+
+        ],
+      "minecraft:attribute_modifiers": [
+          {
+            "id": "damage",
+            "type": "minecraft:attack_damage",
+            "amount": 1.8,
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "id": "attack_speed",
+            "type": "minecraft:attack_speed",
+            "amount": -2,
+            "operation": "add_value",
+            "slot": "mainhand"
+          }
+        ],
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      }
+    }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:items/iron_hoe"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": "#logs_that_burn",
+  "result": {
+    "id": "minecraft:coal",
+    "components": {
+      "minecraft:item_model": "charcoal"
+    }
+  },
+  "cookingtime": 500
+}

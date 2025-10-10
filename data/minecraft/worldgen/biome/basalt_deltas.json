@@ -2,7 +2,7 @@
   "carvers": "minecraft:nether_cave",
   "downfall": 0.0,
   "effects": {
-    "additions_sound": {
+    "additions_sound": { 
       "sound": "minecraft:ambient.basalt_deltas.additions",
       "tick_chance": 0.0111
     },

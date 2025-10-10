@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "dye",
+  "ingredients": [
+    [
+      "allium",
+      "pitcher_plant"
+    ]
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:purple_dye"
+  }
+}

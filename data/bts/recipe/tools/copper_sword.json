@@ -17,13 +17,19 @@
     "components": {
       "item_model": "bts:copper_sword",
       "minecraft:item_name": "Copper Sword",
-      "minecraft:custom_data": "{sword:1b,copper_sword:1b}", 
-      "minecraft:max_damage": 30,
+      "minecraft:custom_data": {
+                  "id":"copper_sword",
+                  "ponder_id":"tools/sword",
+                  "type":"sword",
+                  "material":"copper"
+
+      }, 
+      "minecraft:max_damage": 96,
 
       "minecraft:lore": [
           "",
           {"color":"gray","italic":false,"text":"When in Main Hand:"},
-          {"color":"dark_green","italic":false,"text":" 3.9 Attack Damege"},
+          {"color":"dark_green","italic":false,"text":" 3.9 Attack Damage"},
           {"color":"dark_green","italic":false,"text":" 1.6 Attack Speed"}
 
         ],

@@ -1,7 +1,9 @@
 {
   "values": [
+    "light",
     "water",
     "lava",
+    "#pressure_plates",
     "minecraft:air",
     "#bts:foliage",
     "#minecraft:slabs",
@@ -24,6 +26,27 @@
     "tripwire",
     "tripwire_hook",
     "resin_clump",
-     "snow"
+    "chain",
+    "iron_bars",
+    "pointed_dripstone",
+    "ladder",
+    "#campfires",
+    "snow",
+    "lantern",
+    "soul_lantern",
+    "grindstone",
+    "stonecutter",
+    "bell",
+    "brewing_stand",
+    "scaffolding",
+    "#all_hanging_signs",
+    "#beds",
+    "#candles",
+    "lectern",
+    "sculk_sensor",
+    "sculk_vein",
+    "lightning_rod",
+    "#rails"
+
     ]
 }

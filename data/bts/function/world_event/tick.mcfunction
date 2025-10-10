@@ -1,10 +1,4 @@
-#execute as @a at @s if predicate bts:word_event/in_dark run function bts:world_event/in_dark
-
-#count heat sources nearby
-execute as @a at @s unless score @s time_in_dark matches ..0 if predicate bts:word_event/in_light run scoreboard players remove @s time_in_dark 1
-execute as @a at @s store result score @s near_lit_campfire at @s run clone ~5 ~5 ~5 ~-5 ~-5 ~-5 ~-5 ~-5 ~-5 filtered campfire[lit=true] move
-execute as @a at @s store result score @s near_light_block at @s run clone ~5 ~5 ~5 ~-5 ~-5 ~-5 ~-5 ~-5 ~-5 filtered #bts:light_source move 
-
+# run from player tick
 
 execute if score .season calander matches 1 as @a at @s run function bts:world_event/seasons/fall
 execute if score .season calander matches 2 as @a at @s run function bts:world_event/seasons/winter
@@ -13,20 +7,19 @@ execute if score .season calander matches 4 as @a at @s run function bts:world_e
 
 
 #execute as @a at @s store result score @s ylevel run data get entity @s Pos[1]
-#execute as @a[gamemode=survival] at @s if predicate bts:word_event/low_oxygen run function bts:world_event/low_oxygen
+#execute as @a[gamemode=survival] at @s if predicate bts:world_event/low_oxygen run function bts:world_event/low_oxygen
 #execute as @a at @s if predicate bts:noroof unless score @s ylevel matches 150.. run scoreboard players set @s oxygen_time 0
 
 
 
-execute as @a[gamemode=survival] at @s run function bts:world_event/bars_calc/temperature_insulation_delay
-execute as @a[gamemode=survival] if predicate bts:is_running run function bts:world_event/bars_calc/stamina
-execute as @a[gamemode=survival] if predicate bts:is_jumping run function bts:world_event/bars_calc/stamina
-execute as @a unless score @s bar_stamina matches 21.. unless predicate bts:is_running unless predicate bts:is_jumping run function bts:world_event/bars_calc/stamina_regen
-#execute as @a run function bts:bars/bars
+execute as @s[gamemode=survival] at @s run function bts:world_event/bars_calc/temperature_insulation_delay
+execute as @s[gamemode=survival] if predicate bts:is_running run function bts:world_event/bars_calc/stamina
+execute as @s[gamemode=survival] if predicate bts:is_jumping run function bts:world_event/bars_calc/stamina
+execute unless score @s bar_stamina matches 21.. unless predicate bts:is_running unless predicate bts:is_jumping run function bts:world_event/bars_calc/stamina_regen
 
 
 # Slime Rain
-execute unless score slimerain calander matches 1 if predicate bts:is_day if predicate bts:sunrise if predicate bts:word_event/rng0.001 as @a run function bts:world_event/slimerain/start
+execute unless score slimerain calander matches 1 if predicate bts:is_day if predicate bts:sunrise if predicate bts:world_event/rng0.001 as @a run function bts:world_event/slimerain/start
 execute if score slimerain calander matches 1 as @a at @s positioned ~ ~50 ~ run function bts:world_event/slimerain/main
 
 

@@ -1,0 +1,8 @@
+{
+  "config": {
+    "features": [
+      "bts:lake/mushroom_fields_pond"
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

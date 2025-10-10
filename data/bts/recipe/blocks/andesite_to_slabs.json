@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    [
+      "minecraft:andesite"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:andesite_slab",
+    "count": 4
+  }
+}

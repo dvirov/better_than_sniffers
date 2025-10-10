@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:confirmation",
+  "title": [
+    "   뀁뀂  뀃뀄뀅뀆뀇      뀈",
+    "                  낡낢낣낤낥낦낧남",
+    "                  낱낲낳내낵낶낷낸",
+    "                  냁냂냃냄 냅냆냇냈"
+  ],
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Monsters",
+        "extra": [
+          "\n\n",
+          "The world is a dangerous place. Monsters lurk in the shadows, waiting for the unwary player to fall into their trap.",
+          "\n",
+          "But while the players feel safe in the upper world, during the day, protected by the warm rays of the sun, the monsters don't sit idle, they evolve.",
+          "\n\n",
+          "Miner Zombie : ",
+          "\n",
+          "The miner zombie is a rare variant of the regular zombie , it can mine block and break through walls in order to find somthing to eat",
+          "\n",
+          "it can apear as zombie or husk and it will hold pickaxe in the hand",
+          "\n\n",
+          "Spider :",
+          "\n",
+          "The spiders learned how to throw cobwebs ! ",
+          "once they cought you its game over....",
+          ""
+        ]
+      },
+      "width": 250
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "none",
+  "yes": {
+    "label": "Close",
+    "action": {
+      "type": "minecraft:run_command",
+      "command": "trigger close.dialog"
+    }
+  },
+  "no": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "bts:gameplay"
+    }
+  }
+}

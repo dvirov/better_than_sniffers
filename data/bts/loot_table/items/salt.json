@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sugar",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "item_name":"Salt",
+                "minecraft:custom_data": {
+                  "id":"salt",
+                  "ponder_id":"",
+                  "type":"item",
+                  "alchemy": {
+                    "category":"modifier",
+                    "quality": 1
+                  }
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Alchemy ingredient",
+                    "color": "dark_purple",
+                    "italic": false
+                  }
+                ],
+                "!rarity":{} 
+                
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:items/salt"
+}

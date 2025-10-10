@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "CCC",
+    "CCC"
+  ],
+  "key": {
+    "C": "white_carpet"
+  },
+  "result": {
+    "id": "minecraft:white_wool",
+    "count": 1
+  }
+}

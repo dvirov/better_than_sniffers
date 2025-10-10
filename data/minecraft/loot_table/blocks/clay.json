@@ -9,17 +9,38 @@
           "children": [
             {
               "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "minecraft:silk_touch",
+                          "levels": {
+                            "min": 1
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "name": "minecraft:clay"
+            },
+            {
+              "type": "minecraft:loot_table",
+              "value": "bts:items/clay_ball",
               "functions": [
                 {
                   "add": false,
-                  "count": 1,
+                  "count": 4,
                   "function": "minecraft:set_count"
                 },
                 {
                   "function": "minecraft:explosion_decay"
                 }
-              ],
-              "name": "minecraft:clay"
+              ]
             }
           ]
         }

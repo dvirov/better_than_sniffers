@@ -1,0 +1,8 @@
+{
+  "config": {
+    "features": [
+      "bts:lake/lava_volcano"
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

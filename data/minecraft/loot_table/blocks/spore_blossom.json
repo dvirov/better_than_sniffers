@@ -10,8 +10,8 @@
       ],
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:spore_blossom"
+          "type": "minecraft:loot_table",
+          "value": "bts:items/spore_blossom"
         }
       ],
       "rolls": 1.0

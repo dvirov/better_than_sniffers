@@ -146,7 +146,8 @@
       "type": "minecraft:plain_message",
       "contents": [
         "The anvil opens the next level of gear.\n",
-        "put the material you want to craft with(steel) in the middle and choose template, then craft hammer and hit the anvil few times"
+        "put the material you want to craft with(steel) in the grid then craft hammer and hit the anvil few times\n",
+        "when the item is ready it drop on top of the anvil"
       ],
       "width": 250
     }

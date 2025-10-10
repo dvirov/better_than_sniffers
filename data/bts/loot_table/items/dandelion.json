@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:generic",
+  "functions": [],
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dandelion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "id":"dandelion",
+                  "ponder_id":"",
+                  "type":"item",
+                  "alchemy": {
+                    "category": "herb",
+                    "color1":"blue",
+                    "color2":"red",
+                    "effect1":"saturation",
+                    "effect2":"hunger",
+                    "name1":"Saturation",
+                    "name2": "Hunger",
+                    "quality": 1
+                  }
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Alchemy ingredient",
+                    "color": "dark_purple",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:items/dandelion"
+}

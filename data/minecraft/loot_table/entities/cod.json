@@ -5,7 +5,7 @@
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "minecraft:loot_table",
           "functions": [
             {
               "conditions": [
@@ -44,7 +44,7 @@
               "function": "minecraft:furnace_smelt"
             }
           ],
-          "name": "minecraft:cod"
+          "value": "bts:items/cod"
         }
       ],
       "rolls": 1.0

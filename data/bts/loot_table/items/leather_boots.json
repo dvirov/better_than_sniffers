@@ -1,0 +1,70 @@
+{
+  "type": "minecraft:generic",
+  "functions": [],
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_boots",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+               "custom_data":{
+                  "id":"leather_boots",
+                  "ponder_id":"",
+                  "type":"boots",
+                  "material":"leather"
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:armor",
+          "id": "bts:boots",
+          "amount": 1,
+          "operation": "add_value",
+          "slot": "feet"
+        },
+        {
+          "type": "minecraft:max_absorption",
+          "id": "bts:boots",
+          "amount": 4,
+          "operation": "add_value",
+          "slot": "feet"
+        }
+      ],
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      },
+      "minecraft:lore": [
+        {
+          "text": ""
+        },
+        {
+          "text": "When on Feet:",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+1 Armor",
+          "color": "blue",
+          "italic": false
+        },
+        {
+          "text": "+4 Insulation",
+          "color": "blue",
+          "italic": false
+        }
+      ]
+    }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:items/leather_boots"
+}

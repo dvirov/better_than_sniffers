@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rabbit_hide",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "Bat Wing",
+                "minecraft:item_model": "bts:bat_wing",
+                "minecraft:consumable": {
+                  "consume_seconds": 1.6,
+                  "animation": "eat",
+                  "has_consume_particles": true
+                },
+                "minecraft:food": {
+                  "nutrition": 2,
+                  "saturation": 2
+                },
+                "custom_data": {
+                  "id":"bat_wing",
+                  "ponder_id":"",
+                  "type":"item"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:items/bat_wing"
+}

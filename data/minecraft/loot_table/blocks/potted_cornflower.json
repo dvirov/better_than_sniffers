@@ -25,8 +25,8 @@
       ],
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:cornflower"
+          "type": "minecraft:loot_table",
+          "value": "bts:items/cornflower"
         }
       ],
       "rolls": 1.0

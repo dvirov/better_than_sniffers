@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "dye",
+  "ingredients": [
+    [
+      "pink_petals",
+      "pink_tulip",
+      "cactus_flower",
+      "peony"
+    ]
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:pink_dye"
+  }
+}

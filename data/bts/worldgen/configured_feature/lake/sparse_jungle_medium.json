@@ -1,0 +1,8 @@
+{
+  "config": {
+    "features": [
+      "bts:lake/sparse_jungle_medium"
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

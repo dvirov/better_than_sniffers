@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:generic",
+  "functions": [],
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oxeye_daisy",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "id":"oxeye_daisy",
+                  "ponder_id":"",
+                  "type":"item",
+                  "alchemy": {
+                    "category": "herb",
+                    "color1":"blue",
+                    "color2":"red",
+                    "effect1":"regeneration",
+                    "effect2":"poison",
+                    "name1":"Regeneration",
+                    "name2": "Poison",
+                    "quality": 1
+                  }
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Alchemy ingredient",
+                    "color": "dark_purple",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:items/oxeye_daisy"
+}

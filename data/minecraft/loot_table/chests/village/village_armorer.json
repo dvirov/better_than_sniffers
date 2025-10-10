@@ -2,7 +2,7 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "bonus_rolls": 0.0,
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -11,13 +11,13 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
+                "max": 3,
+                "min": 1
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:iron_ingot",
+          "name": "minecraft:iron_nugget",
           "weight": 2
         },
         {
@@ -27,8 +27,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
+                "max": 2,
+                "min": 1
               },
               "function": "minecraft:set_count"
             }
@@ -37,18 +37,14 @@
           "weight": 4
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_helmet"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:emerald"
+          "type": "minecraft:loot_table",
+          "value": "bts:items/emerald"
         }
       ],
       "rolls": {
         "type": "minecraft:uniform",
-        "max": 5.0,
-        "min": 1.0
+        "max": 5,
+        "min": 1
       }
     }
   ],

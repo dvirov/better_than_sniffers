@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "dye",
+  "ingredients": [
+    [
+      "sea_pickle"
+    ]
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:green_dye"
+  }
+}

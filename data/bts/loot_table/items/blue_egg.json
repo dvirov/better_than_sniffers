@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:generic",
+  "functions": [],
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blue_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                
+                "minecraft:custom_data": {
+                  "id":"blue_egg",
+                  "ponder_id":"",
+                  "type":"item",
+                  "cooking_values": {
+                    "name": "Egg",
+                    "nutrition": 50,
+                    "saturation": 20
+                  }
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Cooking ingredient",
+                    "color": "dark_purple",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:items/blue_egg"
+}

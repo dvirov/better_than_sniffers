@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "Bee Sting",
+                "minecraft:item_model": "bts:bee_sting",
+                "max_stack_size": 64,
+                "minecraft:custom_data": {
+                  "id":"bee_sting",
+                  "ponder_id":"",
+                  "type":"item",
+                  "alchemy": {
+                    "category": "main",
+                    "color1": "red",
+                    "effect1":"poison",
+                    "name1":"Poison",
+                    "quality": 1
+                  }
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Alchemy ingredient",
+                    "color": "dark_purple",
+                    "italic": false
+                  }
+                ],
+                "!jukebox_playable":{},
+                "!rarity":{} 
+                
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:items/bee_sting"
+}

@@ -1,0 +1,23 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": "bts:sequoia/branch/4_east",
+        "placement": []
+      },
+      {
+        "feature": "bts:sequoia/branch/4_south",
+        "placement": []
+      },
+      {
+        "feature": "bts:sequoia/branch/4_west",
+        "placement": []
+      },
+      {
+        "feature": "bts:sequoia/branch/4_north",
+        "placement": []
+      }
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

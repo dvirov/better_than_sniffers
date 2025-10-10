@@ -17,8 +17,16 @@
     "components": {
       "item_model": "stone_pickaxe",
       "minecraft:item_name": "Stone Pickaxe",
-      "minecraft:custom_data": "{pickaxe:1b, stone_pickaxe:1b,mine_coal:1b,mine_stone:1b,mine_copper:1b}",
-      "minecraft:max_damage": 32,
+      "minecraft:custom_data": {
+                  "id":"stone_pickaxe",
+                  "ponder_id":"tools/pickaxe",
+                  "type":"pickaxe",
+                  "material":"stone",
+                  "mine_coal":true,
+                  "mine_stone":true,
+                  "mine_copper":true
+      },
+      "minecraft:max_damage": 64,
       "minecraft:tool": {
         "rules": [
           {
@@ -33,7 +41,7 @@
       "minecraft:lore": [
         "",
           {"color":"gray","italic":false,"text":"When in Main Hand:"},
-          {"color":"dark_green","italic":false,"text":" 1.4 Attack Damege"},
+          {"color":"dark_green","italic":false,"text":" 1.4 Attack Damage"},
           {"color":"dark_green","italic":false,"text":" 1.2 Attack Speed"}
 
         ],

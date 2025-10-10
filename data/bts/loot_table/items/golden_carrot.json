@@ -1,0 +1,56 @@
+{
+  "type": "minecraft:generic",
+  "functions": [],
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_carrot",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 5,
+                  "saturation": 6.5
+                },
+                "minecraft:custom_data": {
+                  "id":"golden_carrot",
+                  "ponder_id":"",
+                  "type":"item",
+                  "cooking_values": {
+                    "name": "Golden Carrot",
+                    "nutrition": 550,
+                    "saturation": 700
+                  },
+                  "alchemy": {
+                    "category": "main",
+                    "color1": "blue",
+                    "effect1": "night_vision",
+                    "name1":"Night Vision",
+                    "quality": 4
+                  }
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Cooking ingredient",
+                    "color": "dark_purple",
+                    "italic": false
+                  },
+                  {
+                    "text": "Alchemy ingredient",
+                    "color": "dark_purple",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:items/golden_carrot"
+}

@@ -19,10 +19,11 @@
     "water_fog_color": 329011
   },
   "features": [
-    [],
+    [ 
+      "bts:windswept_hills/coarse_dirt"
+    ],
     [
-      "minecraft:lake_lava_underground",
-      "minecraft:lake_lava_surface"
+      "minecraft:lake_lava_underground"
     ],
     [
       "minecraft:amethyst_geode"
@@ -34,11 +35,12 @@
     [],
     [],
     [
-      "minecraft:ore_dirt",
-      "minecraft:ore_gravel",
-      "minecraft:ore_granite_upper",
+      "bts:stony_peaks/ore_dirt",
+      "bts:ore_gravel_lower",
+      "bts:ore_gravel_upper",
+      "bts:stony_peaks/ore_granite_upper",
       "minecraft:ore_granite_lower",
-      "minecraft:ore_diorite_upper",
+      "bts:stony_peaks/ore_diorite_upper",
       "minecraft:ore_diorite_lower",
       "minecraft:ore_andesite_upper",
       "minecraft:ore_andesite_lower",
@@ -53,13 +55,12 @@
       "minecraft:ore_redstone",
       "minecraft:ore_redstone_lower",
       "minecraft:ore_diamond",
-      "minecraft:ore_diamond_medium",
       "minecraft:ore_diamond_large",
       "minecraft:ore_diamond_buried",
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
-      "minecraft:underwater_magma",
+      "bts:underwater_magma",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
       "minecraft:disk_gravel",
@@ -67,26 +68,32 @@
     ],
     [
       "minecraft:ore_infested",
+      "bts:meadow/stone/steep",
+      "bts:meadow/stone/slope",
       "bts:crater"
     ],
     [
       "minecraft:spring_water",
-      "minecraft:spring_lava"
+      "minecraft:spring_lava",
+      "bts:meadow/rocks",
+      "bts:windswept_hills/stones",
+      "bts:windswept_hills/fallen_trees/all"
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:trees_windswept_forest",
-      "minecraft:patch_bush",
-      "minecraft:flower_default",
-      "minecraft:patch_grass_badlands",
+      "bts:windswept_hills/grass",
+      "bts:windswept_hills/trees/all",
+      "bts:windswept_hills/flowers",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
-      "minecraft:patch_pumpkin",
-      "minecraft:patch_sugar_cane",
-      "minecraft:patch_firefly_bush_near_water"
+      "bts:patch_sugar_cane",
+      "bts:patch_pumpkin",
+      "bts:patch_firefly_bush_rare"
     ],
     [
       "minecraft:freeze_top_layer",
+      "bts:bottom/stone_slab",
+      "bts:bottom/snow",
       "bts:pebbels"
     ]
   ],

@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "healing_data": {}
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bts:item_use/misc/heal"
+  }
+}

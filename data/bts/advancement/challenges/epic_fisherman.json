@@ -1,0 +1,155 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tropical_fish"
+    },
+    "title": "Epic Fisherman",
+    "description": "Collect all the fish types in the game",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "bts:challenges/challenges",
+  "criteria": {
+    "golden_sunfish": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "id": "golden_sunfish"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stormeel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "id": "stormeel"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "tiger_koi": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "id": "tiger_koi"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "seaspider": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "id": "seaspider"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "slimegill": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "id": "slimegill"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "cod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "id": "cod"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "bluejaw": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "id": "bluejaw"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "salmon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "id": "salmon"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "tropical_fish": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "id": "tropical_fish"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "rockfish": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "id": "rockfish"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

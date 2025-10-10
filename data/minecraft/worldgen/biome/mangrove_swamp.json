@@ -16,7 +16,7 @@
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000
     },
-    "music": [
+    "music": [ 
       {
         "data": {
           "max_delay": 24000,
@@ -33,10 +33,11 @@
     "water_fog_color": 5077600
   },
   "features": [
-    [],
     [
-      "minecraft:lake_lava_underground",
-      "minecraft:lake_lava_surface"
+      "bts:mangrove_swamp/grass_block"
+    ],
+    [
+      "minecraft:lake_lava_underground"
     ],
     [
       "minecraft:amethyst_geode"
@@ -50,6 +51,9 @@
     [],
     [],
     [
+      "bts:ore_dirt",
+      "bts:ore_gravel_lower",
+      "bts:ore_gravel_upper",
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
       "minecraft:ore_granite_upper",
@@ -69,32 +73,41 @@
       "minecraft:ore_redstone",
       "minecraft:ore_redstone_lower",
       "minecraft:ore_diamond",
-      "minecraft:ore_diamond_medium",
       "minecraft:ore_diamond_large",
       "minecraft:ore_diamond_buried",
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
-      "minecraft:underwater_magma",
-      "minecraft:disk_grass",
-      "minecraft:disk_clay"
+      "bts:underwater_magma",
+      "bts:swamp/disk_clay"
     ],
-    [],
+    [
+      "bts:mangrove_swamp/puddle"
+    ],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava"
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:trees_mangrove",
-      "minecraft:patch_grass_normal",
-      "minecraft:patch_dead_bush",
-      "minecraft:patch_waterlily",
-      "minecraft:seagrass_swamp",
-      "minecraft:patch_firefly_bush_near_water"
+      "bts:mangrove_swamp/grass/layer_1",
+      "bts:mangrove_swamp/grass/layer_2",
+      "bts:mangrove_swamp/dead_bush/layer_1",
+      "bts:mangrove_swamp/dead_bush/layer_2",
+      "bts:mangrove_swamp/trees",
+      "bts:mangrove_swamp/fallen_trees/surface",
+      "bts:mangrove_swamp/fallen_trees/underwater",
+      "bts:forest/moss_patch",
+      "bts:mangrove_swamp/lily_pad/all",
+      "bts:mangrove_swamp/lily_pad/shallow",
+      "bts:swamp/seagrass",
+      "bts:mangrove_swamp/firefly_bush/normal",
+      "bts:mangrove_swamp/firefly_bush/near_water"
     ],
     [
       "minecraft:freeze_top_layer",
+      "bts:bottom/stone_slab",
+      "bts:bottom/snow",
       "bts:pebbels"
     ]
   ],

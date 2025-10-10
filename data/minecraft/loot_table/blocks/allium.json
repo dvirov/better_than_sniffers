@@ -2,7 +2,7 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "bonus_rolls": 0.0,
+      "bonus_rolls": 0,
       "conditions": [
         {
           "condition": "minecraft:survives_explosion"
@@ -10,11 +10,11 @@
       ],
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:allium"
+          "type": "minecraft:loot_table",
+          "value": "bts:items/allium"
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ],
   "random_sequence": "minecraft:blocks/allium"

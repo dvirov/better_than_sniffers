@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:generic",
+  "functions": [],
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oak_slab",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+               "item_model": "bts:oak_bark",
+                "rarity": "common",
+                "item_name": "Oak Bark"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:items/oak_bark"
+}

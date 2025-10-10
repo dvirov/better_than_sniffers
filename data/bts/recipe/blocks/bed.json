@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "WWW",
+    "PPP"
+  ],
+  "key": {
+    "W": "#bts:all_wool",
+    "P": "#wooden_fences"
+  },
+  "result": {
+    "id": "minecraft:white_bed",
+    "count": 1
+  }
+}

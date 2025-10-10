@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:generic",
+  "functions": [],
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pink_tulip",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "id":"pink_tulip",
+                  "ponder_id":"",
+                  "type":"item",
+                  "alchemy": {
+                    "category": "herb",
+                    "color1":"white",
+                    "color2":"red",
+                    "effect1":"antidote",
+                    "effect2":"wither",
+                    "name1":"Antidote",
+                    "name2": "wither",
+                    "quality": 1
+                  }
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Alchemy ingredient",
+                    "color": "dark_purple",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:items/pink_tulip"
+}

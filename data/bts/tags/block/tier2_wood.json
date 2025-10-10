@@ -1,7 +1,9 @@
 {
     "values": [
         "#bts:tier1_wood",
-        "barrel"
+        "cauldron",
+        "barrel",
+        "#campfires"
 
 
     ]

@@ -1,0 +1,8 @@
+{
+  "config": {
+    "features": [
+      "bts:lake/sand_pond"
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

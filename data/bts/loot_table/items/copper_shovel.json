@@ -1,0 +1,72 @@
+{
+  "type": "minecraft:generic",
+  "functions": [],
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_shovel",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+      "item_model": "bts:copper_shovel",
+      "minecraft:item_name": "Copper Shovel",
+      "minecraft:custom_data": {
+                  "id":"copper_shovel",
+                  "ponder_id":"tools/shovel",
+                  "type":"shovel",
+                  "material":"copper"
+
+      },
+      "minecraft:max_damage": 96,
+      "minecraft:tool": {
+        "rules": [
+          {
+            "blocks": "#bts:tier3_dirt",
+            "speed": 1.9,
+            "correct_for_drops": true
+          }
+        ],
+        "default_mining_speed": 1,
+        "damage_per_block": 1
+      },
+      "minecraft:lore": [
+        "",
+          {"color":"gray","italic":false,"text":"When in Main Hand:"},
+          {"color":"dark_green","italic":false,"text":" 1.6 Attack Damage"},
+          {"color":"dark_green","italic":false,"text":" 1.2 Attack Speed"}
+
+        ],
+      "minecraft:attribute_modifiers": [
+          {
+            "id": "damage",
+            "type": "minecraft:attack_damage",
+            "amount": 1.6 ,
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "id": "attack_speed",
+            "type": "minecraft:attack_speed",
+            "amount": -2.8,
+            "operation": "add_value",
+            "slot": "mainhand"
+          }
+        ],
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      }
+    }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:items/copper_shovel"
+}

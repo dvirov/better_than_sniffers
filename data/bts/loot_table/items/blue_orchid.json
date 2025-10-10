@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:generic",
+  "functions": [],
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blue_orchid",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "id":"blue_orchid",
+                  "ponder_id":"",
+                  "type":"item",
+                  "alchemy": {
+                    "category": "herb",
+                    "color1":"blue",
+                    "color2":"red",
+                    "effect1":"speed",
+                    "effect2":"instant_damage",
+                    "name1":"Speed",
+                    "name2": "Instant Damage",
+                    "quality": 1
+                  }
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Alchemy ingredient",
+                    "color": "dark_purple",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:items/blue_orchid"
+}

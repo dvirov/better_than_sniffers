@@ -9,8 +9,9 @@
 execute unless score @s bar_temperature matches ..-70 run return 0
 #item modify entity @s armor.feet bts:custombars/overlay_freeze
 
-title @p title {"shadow_color":-503377390,"text":"\uD100"}
-title @p times 0 3s 1s
+#data modify storage screen main_effect append value "\uD100"
+
+#title @p times 0 3s 1s
 
 execute if score @s bar_temperature matches ..-70 run effect give @s slowness 1 0 true
 execute if score @s bar_temperature matches ..-80 run effect give @s slowness 1 1 true

@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:generic",
+  "functions": [],
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pink_petals",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "id":"pink_petals",
+                  "ponder_id":"",
+                  "type":"item",
+                  "alchemy": {
+                    "category": "herb",
+                    "color1":"blue",
+                    "color2":"red",
+                    "effect1":"jump_boost",
+                    "effect2":"mining_fatigue",
+                    "name1":"Jump Boost",
+                    "name2": "Mining Fatigue",
+                    "quality": 2
+                  }
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Alchemy ingredient",
+                    "color": "dark_purple",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:items/pink_petals"
+}

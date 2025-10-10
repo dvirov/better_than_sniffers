@@ -9,8 +9,8 @@
             "type": "minecraft:alternatives",
             "children": [
               {
-                "type": "minecraft:item",
-                "name": "minecraft:beetroot",
+                "type": "minecraft:loot_table",
+                "value": "bts:items/beetroot",
                 "conditions": [
                   {
                     "condition": "minecraft:block_state_property",

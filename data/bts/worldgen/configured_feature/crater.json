@@ -12,7 +12,6 @@
       "filling_provider": {
         "type": "minecraft:weighted_state_provider",
         "entries": [
-          
           {
             "weight": 15,
             "data": {
@@ -81,9 +80,9 @@
       }
     },
     "crack": {
-      "base_crack_size": 0,
-      "crack_point_offset": 0,
-      "generate_crack_chance": 0
+      "base_crack_size": 1,
+      "crack_point_offset": 1,
+      "generate_crack_chance": 1
     },
     "distribution_points": {
       "type": "minecraft:uniform",

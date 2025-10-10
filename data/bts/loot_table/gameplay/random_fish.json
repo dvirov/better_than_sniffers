@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "bts:items/cod"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bts:items/tropical_fish"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bts:items/salmon"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bts:items/bluejaw"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bts:items/golden_sunfish"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bts:items/rockfish"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bts:items/seaspider"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bts:items/slimegill"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bts:items/tiger_koi"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bts:items/stormeel"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "random_map"
+}

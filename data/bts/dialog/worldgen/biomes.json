@@ -1,0 +1,69 @@
+{
+  "type": "minecraft:confirmation",
+  "title": [
+    "   뀁뀂  뀃뀄뀅뀆뀇      뀈",
+    "                  낡낢낣낤낥낦낧남",
+    "                  낱낲낳내낵낶낷낸",
+    "                  냁냂냃냄 냅냆냇냈"
+  ],
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Learn about biomes in the world"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "Sniffer Garden",
+          "color": "#92d416",
+          "bold": true,
+          "click_event": {
+            "action": "show_dialog",
+            "dialog": "bts:worldgen/biomes/sniffer_garden"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": "Learn"
+          }
+        },
+        {
+          "text": "        ",
+          "strikethrough": false,
+          "click_event": {
+            "action": "custom",
+            "id": "1"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": ""
+          }
+        },
+        {
+          "text": "soon",
+          "color": "dark_red",
+          "strikethrough": true
+        }
+      ]
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "none",
+  "yes": {
+    "label": "Close",
+    "action": {
+      "type": "minecraft:run_command",
+      "command": "trigger close.dialog"
+    }
+  },
+  "no": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "bts:worldgen"
+    }
+  }
+}

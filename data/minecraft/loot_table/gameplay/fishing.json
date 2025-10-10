@@ -30,9 +30,21 @@
         },
         {
           "type": "minecraft:loot_table",
-          "quality": -1,
+          "quality": 1,
           "value": "bts:gameplay/fishing/fish",
-          "weight": 85
+          "weight": 35,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "minecraft:fishing_hook",
+                  "in_open_water": true  
+                }
+              }
+            }
+          ]
         }
       ],
       "rolls": 1

@@ -5,7 +5,7 @@
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "minecraft:loot_table",
           "functions": [
             {
               "add": false,
@@ -26,7 +26,7 @@
               "function": "minecraft:enchanted_count_increase"
             }
           ],
-          "name": "minecraft:rotten_flesh"
+          "value": "bts:items/rotten_flesh"
         }
       ],
       "rolls": 1.0
@@ -54,11 +54,11 @@
           "name": "minecraft:iron_ingot"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:carrot"
+          "type": "minecraft:loot_table",
+          "value": "bts:items/carrot"
         },
         {
-          "type": "minecraft:item",
+          "type": "minecraft:loot_table",
           "functions": [
             {
               "conditions": [
@@ -97,7 +97,7 @@
               "function": "minecraft:furnace_smelt"
             }
           ],
-          "name": "minecraft:potato"
+          "value": "bts:items/potato"
         }
       ],
       "rolls": 1.0

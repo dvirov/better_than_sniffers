@@ -1,0 +1,72 @@
+{
+  "type": "minecraft:generic",
+  "functions": [],
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shears",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+      "item_model": "bts:copper_knife",
+      "minecraft:item_name": "Copper Knife",
+      "minecraft:custom_data": {
+                  "id":"copper_knife",
+                  "ponder_id":"tools/knife",
+                  "type":"knife",
+                  "material":"copper"
+
+      },
+      "minecraft:max_damage": 96,
+      "minecraft:tool": {
+        "rules": [
+          {
+            "blocks": "#bts:foliage",
+            "speed": 1,
+            "correct_for_drops": true
+          }
+        ],
+        "default_mining_speed": 1,
+        "damage_per_block": 1
+      },
+      "minecraft:lore": [
+        "",
+          {"color":"gray","italic":false,"text":"When in Main Hand:"},
+          {"color":"dark_green","italic":false,"text":" 2.2 Attack Damage"},
+          {"color":"dark_green","italic":false,"text":" 2 Attack Speed"}
+
+        ],
+      "minecraft:attribute_modifiers": [
+          {
+            "id": "damage",
+            "type": "minecraft:attack_damage",
+            "amount": 2.2,
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "id": "attack_speed",
+            "type": "minecraft:attack_speed",
+            "amount": -2,
+            "operation": "add_value",
+            "slot": "mainhand"
+          }
+        ],
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      }
+    }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:items/copper_knife"
+}

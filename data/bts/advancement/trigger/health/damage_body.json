@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "bts:damage_body",
+                "expected": true
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bts:world_event/health/damage/damage_body"
+  }
+}

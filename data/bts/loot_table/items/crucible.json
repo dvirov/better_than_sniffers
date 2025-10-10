@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:empty",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:item_frame",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "item_model": "cauldron",
+                "rarity": "uncommon",
+                "custom_data": {
+                  "crucible":true,
+                  "id": "crucible",
+                  "ponder_id": "crafting/crucible",
+                  "type": "custom_block"
+                },
+                "minecraft:custom_name": {
+                  "text": "Crucible",
+                  "italic": false
+                },
+                "minecraft:entity_data": {
+                  "id": "minecraft:item_frame",
+                  "Tags": [
+                    "place_crucible",
+                    "custom_block"
+                  ],
+                  "Invisible": true,
+                  "Invulnerable": true,
+                  "Fixed": true,
+                  "Silent": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

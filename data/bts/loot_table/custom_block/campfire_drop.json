@@ -13,7 +13,7 @@
               "components": {
                 "item_model": "campfire",
                 "rarity": "common",
-                "custom_data": "{campfire:1b}",
+                "custom_data": "{custom_block:1b,campfire:1b}",
                 "minecraft:custom_name": {
                   "text": "Campfire",
                   "type": "text",
@@ -22,12 +22,14 @@
                 "minecraft:entity_data": {
                   "id": "minecraft:item_frame",
                   "Tags": [
+                    "custom_block",
                     "place_campfire"
                   ],
-                  "Invisible": false,
+                  "Invisible": true,
                   "Invulnerable": true,
                   "Fixed": true,
                   "Silent": true
+                  
                 }
               }
             }

@@ -19,10 +19,11 @@
     "water_fog_color": 329011
   },
   "features": [
-    [],
     [
-      "minecraft:lake_lava_underground",
-      "minecraft:lake_lava_surface"
+      "bts:sunflower_plains/coarse_dirt"
+    ],
+    [
+      "minecraft:lake_lava_underground"
     ],
     [
       "minecraft:amethyst_geode"
@@ -34,8 +35,9 @@
     [],
     [],
     [
-      "minecraft:ore_dirt",
-      "minecraft:ore_gravel",
+      "bts:ore_dirt",
+      "bts:ore_gravel_lower",
+      "bts:ore_gravel_upper",
       "minecraft:ore_granite_upper",
       "minecraft:ore_granite_lower",
       "minecraft:ore_diorite_upper",
@@ -53,38 +55,64 @@
       "minecraft:ore_redstone",
       "minecraft:ore_redstone_lower",
       "minecraft:ore_diamond",
-      "minecraft:ore_diamond_medium",
       "minecraft:ore_diamond_large",
       "minecraft:ore_diamond_buried",
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
-      "minecraft:underwater_magma",
+      "bts:underwater_magma",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
-      "minecraft:disk_gravel"
-    ],
+      "minecraft:disk_gravel",
+      "bts:salt"    ],
     [
-      "bts:crater"],
+      "bts:plains/spring",
+      "bts:plains/stone/steep",
+      "bts:plains/stone/slope",
+      "bts:crater"
+    ],
     [
       "minecraft:spring_water",
-      "minecraft:spring_lava"
-    ],
+      "minecraft:spring_lava",
+      "bts:plains/spikes",
+      "bts:sunflower_plains/rocks/layer_1",
+      "bts:sunflower_plains/rocks/layer_2",
+      "bts:sunflower_plains/rocks/layer_3",
+      "bts:sunflower_plains/rocks/layer_4"
+    ], 
     [
       "minecraft:glow_lichen",
-      "minecraft:patch_tall_grass_2",
-      "minecraft:patch_sunflower",
-      "minecraft:trees_plains",
-      "minecraft:flower_plains",
-      "minecraft:patch_grass_plain",
+      "bts:sunflower_plains/grass/layer_1",
+      "bts:sunflower_plains/grass/layer_2",
+      "bts:sunflower_plains/grass/layer_3",
+      "bts:sunflower_plains/grass/layer_4",
+      "bts:sunflower_plains/tall_grass/layer_1",
+      "bts:sunflower_plains/tall_grass/layer_2",
+      "bts:sunflower_plains/trees/layer_1",
+      "bts:sunflower_plains/trees/layer_2",
+      "bts:sunflower_plains/trees/layer_3",
+      "bts:sunflower_plains/trees/layer_4",
+      "bts:sunflower_plains/wheat",
+      "bts:sunflower_plains/sunflower/layer_1",
+      "bts:sunflower_plains/sunflower/layer_2",
+      "bts:sunflower_plains/sunflower/layer_3",
+      "bts:plains/flowers/bonemeal",
+      "bts:sunflower_plains/flowers/layer_1",
+      "bts:sunflower_plains/flowers/layer_2",
+      "bts:sunflower_plains/flowers/layer_3",
+      "bts:sunflower_plains/flowers/layer_4",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
-      "minecraft:patch_pumpkin",
-      "minecraft:patch_sugar_cane",
-      "minecraft:patch_firefly_bush_near_water"
+      "bts:patch_sugar_cane",
+      "bts:patch_pumpkin",
+      "bts:patch_firefly_bush",
+      "bts:sunflower_plains/more_pumpkins/layer_1",
+      "bts:sunflower_plains/more_pumpkins/layer_2"
     ],
     [
       "minecraft:freeze_top_layer",
+      "bts:bottom/stone_slab",
+      "bts:bottom/snow",
       "bts:pebbels"
     ]
   ],

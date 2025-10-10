@@ -5,12 +5,12 @@
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:cod"
+          "type": "minecraft:loot_table",
+          "value": "bts:items/cod"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:salmon"
+          "type": "minecraft:loot_table",
+          "value": "bts:items/salmon"
         }
       ],
       "rolls": 1.0

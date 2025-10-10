@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "Bezoar",
+                "minecraft:item_model": "bts:bezoar",
+                "max_stack_size": 64,
+                "minecraft:custom_data": {
+                  "id":"Bezoar",
+                  "ponder_id":"",
+                  "type":"item",
+                  "alchemy": {
+                    "category":"main",
+                    "color1": "white",
+                    "effect1":"antidote",
+                    "name1":"Antidote",
+                    "quality": 9
+                  }
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Alchemy ingredient",
+                    "color": "dark_purple",
+                    "italic": false
+                  }
+                ],
+                "!jukebox_playable":{},
+                "!rarity":{} 
+                
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:items/bezoar"
+}

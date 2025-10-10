@@ -15,13 +15,24 @@
     "components": {
       "item_model": "bts:copper_knife",
       "minecraft:item_name": "Copper Knife",
-      "minecraft:custom_data": "{knife:1b,copper_knife:1b}", 
-      "minecraft:max_damage": 30,
+      "minecraft:custom_data": {
+                  "id":"copper_knife",
+                  "ponder_id":"tools/knife",
+                  "type":"knife",
+                  "material":"copper"
+
+      },
+      "minecraft:max_damage": 96,
       "minecraft:tool": {
         "rules": [
           {
             "blocks": "#bts:foliage",
             "speed": 1,
+            "correct_for_drops": true
+          },
+          {
+            "blocks": "cobweb",
+            "speed": 10,
             "correct_for_drops": true
           }
         ],
@@ -31,7 +42,7 @@
       "minecraft:lore": [
         "",
           {"color":"gray","italic":false,"text":"When in Main Hand:"},
-          {"color":"dark_green","italic":false,"text":" 2.2 Attack Damege"},
+          {"color":"dark_green","italic":false,"text":" 2.2 Attack Damage"},
           {"color":"dark_green","italic":false,"text":" 2 Attack Speed"}
 
         ],

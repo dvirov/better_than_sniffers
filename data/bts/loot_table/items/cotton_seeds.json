@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:empty",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:item_frame",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "item_model":"bts:cotton_seeds",
+                "rarity": "common",
+                "minecraft:custom_data": {
+                  "alchemy":true,
+                  "id": "cotton_seeds",
+                  "ponder_id": "gameplay/agriculture",
+                  "type": "custom_block"
+                },
+                "minecraft:custom_name": {"text":"Cotton Seeds","italic":false},
+                "minecraft:entity_data": {
+                  "id": "minecraft:item_frame", "Tags":["custom_block","place_cotton_plant"], "Invisible":true, "Invulnerable": true, "Fixed":true, "Silent": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

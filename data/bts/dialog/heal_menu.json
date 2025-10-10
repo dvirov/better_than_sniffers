@@ -1,0 +1,584 @@
+{
+  "type": "minecraft:notice",
+  "title": [
+    "   뀁뀂  뀃뀄뀅뀆뀇      뀈",
+    "                  낡낢낣낤낥낦낧남",
+    "                  낱낲낳내낵낶낷낸",
+    "                  냁냂냃냄 냅냆냇냈"
+  ],
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Choose "
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        [
+          {
+            "text": "묁묁묁묁묁\n",
+            "extra": [
+              {
+                "text": "묁묀묀묀묁\n"
+              },
+              {
+                "text": "묁묀묀묀묁\n"
+              },
+              {
+                "text": "묁묀묀묀묁\n"
+              },
+              {
+                "text": "묁묁묁묁묁\n"
+              }
+            ],
+            "click_event": {
+              "action": "run_command",
+              "command": "trigger heal.dialog set 1"
+            },
+            "hover_event": {
+              "action": "show_text",
+              "value": {
+                "text": "Heal Head"
+              }
+            }
+          },
+          {
+            "text": "",
+            "extra": [
+              [
+                "\n",
+                {
+                  "text": "묁묁묁",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "trigger heal.dialog set 2"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Heal Left Arm"
+                    }
+                  }
+                },
+                {
+                  "text": " 묁묁묁묁묁묁 ",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "trigger heal.dialog set 3"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Heal Body"
+                    }
+                  }
+                },
+                {
+                  "text": "묁묁묁",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "trigger heal.dialog set 4"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Heal Right Arm"
+                    }
+                  }
+                }
+              ],
+              [
+                "\n",
+                {
+                  "text": "묁묀묁",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "trigger heal.dialog set 2"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Heal Left Arm"
+                    }
+                  }
+                },
+                {
+                  "text": " 묁묀묀묀묀묁 ",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "trigger heal.dialog set 3"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Heal Body"
+                    }
+                  }
+                },
+                {
+                  "text": "묁묀묁",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "trigger heal.dialog set 4"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Heal Right Arm"
+                    }
+                  }
+                }
+              ],
+              [
+                "\n",
+                {
+                  "text": "묁묀묁",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "trigger heal.dialog set 2"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Heal Left Arm"
+                    }
+                  }
+                },
+                {
+                  "text": " 묁묀묀묀묀묁 ",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "trigger heal.dialog set 3"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Heal Body"
+                    }
+                  }
+                },
+                {
+                  "text": "묁묀묁",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "trigger heal.dialog set 4"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Heal Right Arm"
+                    }
+                  }
+                }
+              ],
+              [
+                "\n",
+                {
+                  "text": "묁묀묁",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "trigger heal.dialog set 2"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Heal Left Arm"
+                    }
+                  }
+                },
+                {
+                  "text": " 묁묀묀묀묀묁 ",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "trigger heal.dialog set 3"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Heal Body"
+                    }
+                  }
+                },
+                {
+                  "text": "묁묀묁",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "trigger heal.dialog set 4"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Heal Right Arm"
+                    }
+                  }
+                }
+              ],
+              [
+                "\n",
+                {
+                  "text": "묁묀묁",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "trigger heal.dialog set 2"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Heal Left Arm"
+                    }
+                  }
+                },
+                {
+                  "text": " 묁묀묀묀묀묁 ",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "trigger heal.dialog set 3"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Heal Body"
+                    }
+                  }
+                },
+                {
+                  "text": "묁묀묁",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "trigger heal.dialog set 4"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Heal Right Arm"
+                    }
+                  }
+                }
+              ],
+              [
+                "\n",
+                {
+                  "text": "묁묀묁",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "trigger heal.dialog set 2"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Heal Left Arm"
+                    }
+                  }
+                },
+                {
+                  "text": " 묁묀묀묀묀묁 ",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "trigger heal.dialog set 3"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Heal Body"
+                    }
+                  }
+                },
+                {
+                  "text": "묁묀묁",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "trigger heal.dialog set 4"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Heal Right Arm"
+                    }
+                  }
+                }
+              ],
+              [
+                "\n",
+                {
+                  "text": "묁묁묁",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "trigger heal.dialog set 2"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Heal Left Arm"
+                    }
+                  }
+                },
+                {
+                  "text": " 묁묀묀묀묀묁 ",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "trigger heal.dialog set 3"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Heal Body"
+                    }
+                  }
+                },
+                {
+                  "text": "묁묁묁",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "trigger heal.dialog set 4"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Heal Right Arm"
+                    }
+                  }
+                }
+              ],
+              [
+                "\n",
+                {
+                  "text": " 묁묁묁묁묁묁 ",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "trigger heal.dialog set 3"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Heal Body"
+                    }
+                  }
+                }
+              ]
+            ]
+          },
+          {
+            "text": "",
+            "extra": [
+              [
+                "\n\n",
+                {
+                  "text": "묁묁묁",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "trigger heal.dialog set 5"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Heal Left Leg"
+                    }
+                  }
+                },
+                {
+                  "text": "묁묁묁",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "trigger heal.dialog set 6"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Heal Right Leg"
+                    }
+                  }
+                }
+              ],
+              [
+                "\n",
+                {
+                  "text": "묁묀묁",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "trigger heal.dialog set 5"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Heal Left Leg"
+                    }
+                  }
+                },
+                {
+                  "text": "묁묀묁",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "trigger heal.dialog set 6"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Heal Right Leg"
+                    }
+                  }
+                }
+              ],
+              [
+                "\n",
+                {
+                  "text": "묁묀묁",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "trigger heal.dialog set 5"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Heal Left Leg"
+                    }
+                  }
+                },
+                {
+                  "text": "묁묀묁",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "trigger heal.dialog set 6"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Heal Right Leg"
+                    }
+                  }
+                }
+              ],
+              [
+                "\n",
+                {
+                  "text": "묁묀묁",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "trigger heal.dialog set 5"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Heal Left Leg"
+                    }
+                  }
+                },
+                {
+                  "text": "묁묀묁",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "trigger heal.dialog set 6"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Heal Right Leg"
+                    }
+                  }
+                }
+              ],
+              [
+                "\n",
+                {
+                  "text": "묁묀묁",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "trigger heal.dialog set 5"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Heal Left Leg"
+                    }
+                  }
+                },
+                {
+                  "text": "묁묀묁",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "trigger heal.dialog set 6"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Heal Right Leg"
+                    }
+                  }
+                }
+              ],
+              [
+                "\n",
+                {
+                  "text": "묁묀묁",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "trigger heal.dialog set 5"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Heal Left Leg"
+                    }
+                  }
+                },
+                {
+                  "text": "묁묀묁",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "trigger heal.dialog set 6"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Heal Right Leg"
+                    }
+                  }
+                }
+              ],
+              [
+                "\n",
+                {
+                  "text": "묁묁묁",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "trigger heal.dialog set 5"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Heal Left Leg"
+                    }
+                  }
+                },
+                {
+                  "text": "묁묁묁",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "trigger heal.dialog set 6"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Heal Right Leg"
+                    }
+                  }
+                }
+              ]
+            ]
+          }
+        ]
+      ]
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close",
+  "action": {
+    "label": "Quick Heal",
+    "action": {
+      "type": "minecraft:run_command",
+      "command": "trigger heal.dialog set 10"
+    }
+  }
+}

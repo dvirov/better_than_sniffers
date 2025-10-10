@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:confirmation",
+  "title": [
+    "   뀁뀂  뀃뀄뀅뀆뀇      뀈",
+    "                  낡낢낣낤낥낦낧남",
+    "                  낱낲낳내낵낶낷낸",
+    "                  냁냂냃냄 냅냆냇냈"
+  ],
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Clay",
+        "extra": [
+          "\n\n",
+          "Clay is very usefull resource.\n",
+          "However, in order to make its shape stable we need to harden it first.\n",
+          "you can place the clay on the ground under the sun and let it dry for some time \n",
+          "you can also boost the drying speed if you place it in hot and dry biomes or if you put it on campfire and lit it"
+        ]
+      }
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "none",
+  "yes": {
+    "label": "Close",
+    "action": {
+      "type": "minecraft:run_command",
+      "command": "trigger close.dialog"
+    }
+  },
+  "no": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "bts:gameplay"
+    }
+  }
+}

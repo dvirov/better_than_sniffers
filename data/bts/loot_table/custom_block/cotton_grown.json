@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "bts:custom_block/cotton_seeds",
+          "value": "bts:items/cotton_seeds",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -21,7 +21,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "bts:custom_block/cotton_seeds"
+          "value": "bts:items/cotton_seeds"
         }
       ]
     },
@@ -30,7 +30,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "bts:custom_block/cotton"
+          "value": "bts:items/cotton"
         }
       ]
     }

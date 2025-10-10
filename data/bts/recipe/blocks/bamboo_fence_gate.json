@@ -2,16 +2,18 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "group": "wooden_fence_gate",
-  "key": {
-    "#":"minecraft:stick",
-    "W":"minecraft:bamboo_planks"
-  },
   "pattern": [
-    "#W#",
-    "#W#"
+    "SPS",
+    "SPS"
+    
   ],
+  "key": {
+    "P":"minecraft:bamboo_slab",
+    "S":"minecraft:stick"
+  },
   "result": {
-    "count": 1,
-    "id": "minecraft:bamboo_fence_gate"
-  }
+    "id": "minecraft:bamboo_fence_gate",
+    "count": 1
+  },
+  "show_notification": true
 }

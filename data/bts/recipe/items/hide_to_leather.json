@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "HH",
+    "HH"
+  ],
+  "key": {
+    "H":"minecraft:rabbit_hide"
+  },
+  "result": {
+    "id": "minecraft:leather"
+  }
+}

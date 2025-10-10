@@ -35,7 +35,7 @@
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "minecraft:loot_table",
           "functions": [
             {
               "conditions": [
@@ -83,7 +83,7 @@
               "function": "minecraft:enchanted_count_increase"
             }
           ],
-          "name": "minecraft:chicken"
+          "value": "bts:items/chicken"
         }
       ],
       "rolls": 1.0

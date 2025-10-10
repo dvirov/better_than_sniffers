@@ -5,6 +5,7 @@ fillbiome ~15 ~28 ~15 ~-15 ~-3 ~-15 bts:birch_forest_winter replace minecraft:bi
 fillbiome ~15 ~28 ~15 ~-15 ~-3 ~-15 bts:cherry_grove_winter replace minecraft:cherry_grove
 fillbiome ~15 ~28 ~15 ~-15 ~-3 ~-15 bts:dark_forest_winter replace minecraft:dark_forest
 fillbiome ~15 ~28 ~15 ~-15 ~-3 ~-15 bts:flower_forest_winter replace minecraft:flower_forest
+fillbiome ~15 ~28 ~15 ~-15 ~-3 ~-15 bts:forest_winter replace minecraft:forest
 fillbiome ~15 ~28 ~15 ~-15 ~-3 ~-15 bts:grove_winter replace minecraft:grove
 fillbiome ~15 ~28 ~15 ~-15 ~-3 ~-15 bts:jungle_winter replace minecraft:jungle
 fillbiome ~15 ~28 ~15 ~-15 ~-3 ~-15 bts:meadow_winter replace minecraft:meadow

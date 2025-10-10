@@ -19,8 +19,8 @@
           "name": "minecraft:brick"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:emerald"
+          "type": "minecraft:loot_table",
+          "value": "bts:items/emerald"
         },
         {
           "type": "minecraft:item",

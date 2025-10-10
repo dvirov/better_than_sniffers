@@ -19,10 +19,9 @@
     "water_fog_color": 329011
   },
   "features": [
-    [],
+    [], 
     [
-      "minecraft:lake_lava_underground",
-      "minecraft:lake_lava_surface"
+      "minecraft:lake_lava_underground"
     ],
     [
       "minecraft:amethyst_geode"
@@ -34,8 +33,9 @@
     [],
     [],
     [
-      "minecraft:ore_dirt",
-      "minecraft:ore_gravel",
+      "bts:stony_peaks/ore_dirt",
+      "bts:ore_gravel_lower",
+      "bts:ore_gravel_upper",
       "minecraft:ore_granite_upper",
       "minecraft:ore_granite_lower",
       "minecraft:ore_diorite_upper",
@@ -53,16 +53,17 @@
       "minecraft:ore_redstone",
       "minecraft:ore_redstone_lower",
       "minecraft:ore_diamond",
-      "minecraft:ore_diamond_medium",
       "minecraft:ore_diamond_large",
       "minecraft:ore_diamond_buried",
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
-      "minecraft:underwater_magma",
-      "minecraft:disk_sand",
-      "minecraft:disk_clay",
-      "minecraft:disk_gravel"
+      "bts:underwater_magma",
+      "bts:disk/clay",
+      "bts:disk/sand_1",
+      "bts:disk/sand_2",
+      "bts:disk/gravel_1",
+      "bts:disk/gravel_2"
     ],
     [],
     [
@@ -71,18 +72,20 @@
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:trees_water",
-      "minecraft:patch_bush",
-      "minecraft:flower_default",
-      "minecraft:patch_grass_badlands",
+      "bts:windswept_hills/grass",
+      "bts:river/bushes",
+      "bts:river/flowers",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
-      "minecraft:patch_pumpkin",
-      "minecraft:patch_sugar_cane",
-      "minecraft:patch_firefly_bush_near_water"
+      "bts:patch_sugar_cane_rare",
+      "bts:patch_pumpkin_rare",
+      "bts:patch_firefly_bush_rare",
+      "bts:river/seagrass"
     ],
     [
-      "minecraft:freeze_top_layer"
+      "minecraft:freeze_top_layer",
+      "bts:bottom/stone_slab",
+      "bts:bottom/snow"
     ]
   ],
   "has_precipitation": true,

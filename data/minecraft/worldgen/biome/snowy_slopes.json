@@ -23,7 +23,7 @@
         },
         "weight": 1
       }
-    ],
+    ], 
     "music_volume": 1.0,
     "sky_color": 8560639,
     "water_color": 4159204,
@@ -32,8 +32,7 @@
   "features": [
     [],
     [
-      "minecraft:lake_lava_underground",
-      "minecraft:lake_lava_surface"
+      "minecraft:lake_lava_underground"
     ],
     [
       "minecraft:amethyst_geode"
@@ -45,8 +44,9 @@
     [],
     [],
     [
-      "minecraft:ore_dirt",
-      "minecraft:ore_gravel",
+      "bts:ore_dirt",
+      "bts:ore_gravel_lower",
+      "bts:ore_gravel_upper",
       "minecraft:ore_granite_upper",
       "minecraft:ore_granite_lower",
       "minecraft:ore_diorite_upper",
@@ -64,13 +64,12 @@
       "minecraft:ore_redstone",
       "minecraft:ore_redstone_lower",
       "minecraft:ore_diamond",
-      "minecraft:ore_diamond_medium",
       "minecraft:ore_diamond_large",
       "minecraft:ore_diamond_buried",
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
-      "minecraft:underwater_magma",
+      "bts:underwater_magma",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
       "minecraft:disk_gravel",
@@ -78,6 +77,9 @@
     ],
     [
       "minecraft:ore_infested",
+      "bts:grove/steep_ice",
+      "bts:snowy_plains/andesite/steep",
+      "bts:snowy_plains/andesite/slope",
       "bts:crater"
     ],
     [
@@ -87,10 +89,13 @@
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:patch_pumpkin"
+      "bts:patch_sugar_cane_rare",
+      "bts:patch_pumpkin_rare"
     ],
     [
       "minecraft:freeze_top_layer",
+      "bts:bottom/stone_slab",
+      "bts:bottom/snow",
       "bts:pebbels"
     ]
   ],

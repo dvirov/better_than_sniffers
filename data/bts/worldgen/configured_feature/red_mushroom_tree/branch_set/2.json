@@ -1,0 +1,23 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": "bts:red_mushroom_tree/branch/2_east",
+        "placement": []
+      },
+      {
+        "feature": "bts:red_mushroom_tree/branch/2_south",
+        "placement": []
+      },
+      {
+        "feature": "bts:red_mushroom_tree/branch/2_west",
+        "placement": []
+      },
+      {
+        "feature": "bts:red_mushroom_tree/branch/2_north",
+        "placement": []
+      }
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

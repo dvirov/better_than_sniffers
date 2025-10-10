@@ -10,8 +10,8 @@
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:potato"
+          "type": "minecraft:loot_table",
+          "value": "bts:items/potato"
         }
       ],
       "rolls": 1.0
@@ -29,7 +29,7 @@
       ],
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "minecraft:loot_table",
           "functions": [
             {
               "enchantment": "minecraft:fortune",
@@ -41,7 +41,7 @@
               }
             }
           ],
-          "name": "minecraft:potato"
+          "value": "bts:items/potato"
         }
       ],
       "rolls": 1.0

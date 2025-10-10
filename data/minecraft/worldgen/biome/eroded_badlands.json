@@ -32,13 +32,18 @@
     "water_color": 4159204,
     "water_fog_color": 329011
   },
-  "features": [
-    [],
+  "features": [ 
     [
-      "minecraft:lake_lava_underground",
-      "minecraft:lake_lava_surface"
+      "bts:badlands/red_sandstone/layer_1",
+      "bts:badlands/red_sandstone/layer_2"
     ],
     [
+      "minecraft:lake_lava_underground"
+    ],
+    [
+      "bts:badlands/red_sandstone_spike/eroded",
+      "bts:badlands/red_sandstone_spike/layer_2",
+      "bts:badlands/terracotta_spike/eroded",
       "minecraft:amethyst_geode"
     ],
     [
@@ -48,8 +53,9 @@
     [],
     [],
     [
-      "minecraft:ore_dirt",
-      "minecraft:ore_gravel",
+      "bts:ore_dirt",
+      "bts:ore_gravel_lower",
+      "bts:ore_gravel_upper",
       "minecraft:ore_granite_upper",
       "minecraft:ore_granite_lower",
       "minecraft:ore_diorite_upper",
@@ -67,18 +73,17 @@
       "minecraft:ore_redstone",
       "minecraft:ore_redstone_lower",
       "minecraft:ore_diamond",
-      "minecraft:ore_diamond_medium",
       "minecraft:ore_diamond_large",
       "minecraft:ore_diamond_buried",
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
-      "minecraft:underwater_magma",
+      "bts:underwater_magma",
       "minecraft:ore_gold_extra",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
-      "minecraft:disk_gravel"
-    ],
+      "minecraft:disk_gravel",
+      "bts:salt"    ],
     [],
     [
       "minecraft:spring_water",
@@ -86,18 +91,28 @@
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:patch_grass_badlands",
-      "minecraft:patch_dry_grass_badlands",
-      "minecraft:patch_dead_bush_badlands",
+      "bts:badlands/grass",
+      "bts:badlands/dead_bush/layer_1",
+      "bts:badlands/dead_bush/layer_2",
+      "bts:badlands/dead_bush/layer_3",
+      "bts:badlands/dead_bush/layer_4",
+      "bts:badlands/dead_bush/layer_5",
+      "bts:badlands/dry_grass_patch/layer_1",
+      "bts:badlands/dry_grass_patch/layer_2",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
-      "minecraft:patch_sugar_cane_badlands",
-      "minecraft:patch_pumpkin",
-      "minecraft:patch_cactus_decorated",
-      "minecraft:patch_firefly_bush_near_water"
+      "bts:patch_sugar_cane_rare",
+      "bts:patch_pumpkin_rare",
+      "bts:patch_firefly_bush_rare",
+      "bts:badlands/cactus/layer_1",
+      "bts:badlands/cactus/layer_2",
+      "bts:badlands/cactus/layer_3"
     ],
     [
-      "minecraft:freeze_top_layer"
+      "minecraft:freeze_top_layer",
+      "bts:bottom/stone_slab",
+      "bts:bottom/snow",
+      "bts:pebbels"
     ]
   ],
   "has_precipitation": false,

@@ -1,0 +1,8 @@
+{
+  "config": {
+    "features": [
+      "bts:lake/gravel_medium"
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

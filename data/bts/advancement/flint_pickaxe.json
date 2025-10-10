@@ -7,7 +7,7 @@
       }
     },
     "title": "Flint Pickaxe",
-    "description": "Craft Coal extractor and get your first Coal",
+    "description": "Craft Flint Pickaxe and get your first Coal",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true

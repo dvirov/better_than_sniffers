@@ -5,6 +5,9 @@
             "minecraft:cobblestone",
             "cobblestone_slab",
             "minecraft:mossy_cobblestone",
-            "minecraft:obsidian"
+            "minecraft:obsidian",
+            "deepslate",
+            "cobbled_deepslate",
+            "#terracotta"
     ]
   }

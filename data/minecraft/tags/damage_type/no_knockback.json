@@ -1,5 +1,9 @@
 {
   "values": [
+    "bts:head",
+    "bts:body",
+    "bts:arms",
+    "bts:legs",
     "minecraft:explosion",
     "minecraft:player_explosion",
     "minecraft:bad_respawn_point",

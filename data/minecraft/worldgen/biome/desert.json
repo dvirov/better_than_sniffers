@@ -14,7 +14,7 @@
       "tick_delay": 6000
     },
     "music": [
-      {
+      { 
         "data": {
           "max_delay": 24000,
           "min_delay": 12000,
@@ -30,10 +30,14 @@
     "water_fog_color": 329011
   },
   "features": [
-    [],
+    [
+      "bts:desert/dunes/layer_1",
+      "bts:desert/dunes/layer_2",
+      "bts:desert/sandstone"
+    ],
     [
       "minecraft:lake_lava_underground",
-      "minecraft:lake_lava_surface"
+      "bts:desert/oasis"
     ],
     [
       "minecraft:amethyst_geode"
@@ -49,8 +53,9 @@
     ],
     [],
     [
-      "minecraft:ore_dirt",
-      "minecraft:ore_gravel",
+      "bts:ore_dirt",
+      "bts:ore_gravel_lower",
+      "bts:ore_gravel_upper",
       "minecraft:ore_granite_upper",
       "minecraft:ore_granite_lower",
       "minecraft:ore_diorite_upper",
@@ -68,38 +73,52 @@
       "minecraft:ore_redstone",
       "minecraft:ore_redstone_lower",
       "minecraft:ore_diamond",
-      "minecraft:ore_diamond_medium",
       "minecraft:ore_diamond_large",
       "minecraft:ore_diamond_buried",
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
-      "minecraft:underwater_magma",
+      "bts:underwater_magma",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
-      "minecraft:disk_gravel"
-    ],
-    [
-      "bts:crater"],
+      "minecraft:disk_gravel",
+      "bts:salt"    ],
+    [],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava"
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:flower_default",
-      "minecraft:patch_grass_badlands",
-      "minecraft:patch_dry_grass_desert",
-      "minecraft:patch_dead_bush_2",
+      "bts:badlands/grass",
+      "bts:desert/dry_grass/layer_1",
+      "bts:desert/dry_grass/layer_2",
+      "bts:desert/dry_grass/layer_3",
+      "bts:desert/dry_grass/layer_4",
+      "bts:desert/dry_grass/layer_5",
+      "bts:desert/dead_bush/layer_1",
+      "bts:desert/dead_bush/layer_2",
+      "bts:desert/dead_bush/layer_3",
+      "bts:desert/dead_bush/layer_4",
+      "bts:desert/dead_bush/layer_5",
+      "bts:desert/dry_grass_patch/layer_1",
+      "bts:desert/dry_grass_patch/layer_2",
+      "bts:desert/dry_grass_patch/layer_3",
+      "bts:desert/dry_grass_patch/layer_4",
+      "bts:desert/flowers",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
-      "minecraft:patch_sugar_cane_desert",
-      "minecraft:patch_pumpkin",
-      "minecraft:patch_cactus_desert"
+      "bts:patch_sugar_cane_rare",
+      "bts:patch_pumpkin_rare",
+      "bts:desert/cactus/layer_1",
+      "bts:desert/cactus/layer_2",
+      "bts:desert/cactus/layer_3",
+      "bts:desert/cactus/layer_4"
     ],
     [
       "minecraft:freeze_top_layer",
-      "bts:pebbels"
+      "bts:bottom/stone_slab",
+      "bts:bottom/snow"
     ]
   ],
   "has_precipitation": false,

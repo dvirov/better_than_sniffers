@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:generic",
+  "functions": [],
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fire_charge",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+      "item_model":"bts:fire_plough",
+      "minecraft:item_name": "Fire Plough",
+      "minecraft:custom_data": {
+                  "id":"fire_plough",
+                  "ponder_id":"tools/fire_plough",
+                  "type":"item"
+
+      }
+   }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:items/fire_plough"
+}

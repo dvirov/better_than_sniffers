@@ -1,0 +1,16 @@
+{
+  "parent": "bts:guide",
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:potion"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bts:item_use/potions/drink_potion"
+  }
+}

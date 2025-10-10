@@ -1,7 +1,11 @@
 {
   "values": [
-    "#coals"
-
-
+    "dead_bush",
+    "stick",
+    "bamboo",
+    "#minecraft:wooden_slabs",
+    "wooden_pickaxe",
+    "#minecraft:saplings",
+    "#logs_that_burn"
   ]
 }

@@ -1,0 +1,61 @@
+{
+  "type": "minecraft:generic",
+  "functions": [],
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+      "item_model": "stone_sword",
+      "minecraft:item_name": "Stone Sword",
+      "minecraft:custom_data": {
+                  "id":"stone_sword",
+                  "ponder_id":"tools/sword",
+                  "type":"sword",
+                  "material":"stone"
+      },
+      "minecraft:max_damage": 64,
+
+      "minecraft:lore": [
+        "",
+          {"color":"gray","italic":false,"text":"When in Main Hand:"},
+          {"color":"dark_green","italic":false,"text":" 3.6 Attack Damage"},
+          {"color":"dark_green","italic":false,"text":" 1.6 Attack Speed"}
+
+        ],
+      "minecraft:attribute_modifiers": [
+          {
+            "id": "damage",
+            "type": "minecraft:attack_damage",
+            "amount": 3.6,
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "id": "attack_speed",
+            "type": "minecraft:attack_speed",
+            "amount": -2.4,
+            "operation": "add_value",
+            "slot": "mainhand"
+          }
+        ],
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      }
+    }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:items/stone_sword"
+}

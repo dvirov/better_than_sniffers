@@ -1,0 +1,8 @@
+{
+  "config": {
+    "features": [
+      "bts:lake/forest_medium"
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

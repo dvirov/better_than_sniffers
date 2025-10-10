@@ -17,13 +17,18 @@
     "components": {
       "item_model": "wooden_shovel",
       "minecraft:item_name": "Wooden Shovel",
-      "minecraft:custom_data": "{shovel:1b,wooden_shovel:1b}",
-      "minecraft:max_damage": 32,
+      "minecraft:custom_data": {
+                  "id":"wooden_shovel",
+                  "ponder_id":"tools/shovel",
+                  "type":"shovel",
+                  "material":"wood"
+      },
+      "minecraft:max_damage": 48,
       "minecraft:tool": {
         "rules": [
           {
             "blocks": "#bts:tier2_dirt",
-            "speed": 1,
+            "speed": 1.3,
             "correct_for_drops": true
           }
         ],
@@ -33,7 +38,7 @@
       "minecraft:lore": [
         "",
           {"color":"gray","italic":false,"text":"When in Main Hand:"},
-          {"color":"dark_green","italic":false,"text":" 1.2 Attack Damege"},
+          {"color":"dark_green","italic":false,"text":" 1.2 Attack Damage"},
           {"color":"dark_green","italic":false,"text":" 1.2 Attack Speed"}
 
         ],

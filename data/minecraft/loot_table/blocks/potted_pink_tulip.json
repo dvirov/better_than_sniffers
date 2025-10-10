@@ -25,8 +25,8 @@
       ],
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:pink_tulip"
+          "type": "minecraft:loot_table",
+          "value": "bts:items/pink_tulip"
         }
       ],
       "rolls": 1.0

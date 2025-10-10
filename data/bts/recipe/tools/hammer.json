@@ -18,7 +18,11 @@
     "components": {
       "item_model": "bts:hammer",
       "minecraft:item_name": "Hammer",
-      "minecraft:custom_data": "{hammer:1b}",
+      "minecraft:custom_data": {
+                  "id":"hammer",
+                  "ponder_id":"tools/hammer",
+                  "type":"hammer"
+                },
       "minecraft:max_damage": 10,
       "minecraft:attribute_modifiers": [
           {

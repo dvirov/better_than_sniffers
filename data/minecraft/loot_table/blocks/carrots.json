@@ -10,8 +10,8 @@
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:carrot"
+          "type": "minecraft:loot_table",
+          "value": "bts:items/carrot"
         }
       ],
       "rolls": 1.0
@@ -29,7 +29,7 @@
       ],
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "minecraft:loot_table",
           "functions": [
             {
               "enchantment": "minecraft:fortune",
@@ -41,11 +41,11 @@
               }
             }
           ],
-          "name": "minecraft:carrot"
+          "value": "bts:items/carrot"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/carrots"
+  "random_sequence": "minecraft:items/"
 }

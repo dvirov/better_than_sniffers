@@ -22,11 +22,12 @@
     "water_color": 7768221,
     "water_fog_color": 5597568
   },
-  "features": [
-    [],
+  "features": [ 
     [
-      "minecraft:lake_lava_underground",
-      "minecraft:lake_lava_surface"
+      "bts:pale_garden/coarse_dirt"
+    ],
+    [
+      "minecraft:lake_lava_underground"
     ],
     [
       "minecraft:amethyst_geode"
@@ -38,8 +39,9 @@
     [],
     [],
     [
-      "minecraft:ore_dirt",
-      "minecraft:ore_gravel",
+      "bts:ore_dirt",
+      "bts:ore_gravel_lower",
+      "bts:ore_gravel_upper",
       "minecraft:ore_granite_upper",
       "minecraft:ore_granite_lower",
       "minecraft:ore_diorite_upper",
@@ -63,29 +65,38 @@
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
-      "minecraft:underwater_magma",
+      "bts:underwater_magma",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
-      "minecraft:disk_gravel"
+      "minecraft:disk_gravel",
+      "bts:salt"    ],
+    [
+      "bts:pale_garden/tuff/steep",
+      "bts:pale_garden/tuff/slope",
+      "bts:crater"
     ],
-    [],
     [
       "minecraft:spring_water",
-      "minecraft:spring_lava"
+      "minecraft:spring_lava",
+      "bts:pale_garden/rocks"
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:pale_garden_vegetation",
-      "minecraft:pale_moss_patch",
-      "minecraft:pale_garden_flowers",
-      "minecraft:flower_pale_garden",
-      "minecraft:patch_grass_forest",
-      "minecraft:patch_pumpkin",
-      "minecraft:patch_sugar_cane",
-      "minecraft:patch_firefly_bush_near_water"
+      "bts:pale_garden/grass",
+      "bts:pale_garden/big_trees",
+      "bts:pale_garden/trees",
+      "bts:pale_garden/pale_moss_patch",
+      "bts:pale_garden/saplings",
+      "bts:pale_garden/flowers/patch",
+      "bts:pale_garden/flowers/single",
+      "bts:patch_sugar_cane",
+      "bts:patch_pumpkin",
+      "bts:patch_firefly_bush_rare"
     ],
     [
       "minecraft:freeze_top_layer",
+      "bts:bottom/stone_slab",
+      "bts:bottom/snow",
       "bts:pebbels"
     ]
   ],

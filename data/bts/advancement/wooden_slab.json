@@ -4,7 +4,7 @@
       "id": "minecraft:oak_slab"
     },
     "title": "Wooden_slab",
-    "description": "Strip Log and collect wooden slab",
+    "description": "Strip Log and collect bark",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true

@@ -1,0 +1,56 @@
+{
+  "type": "minecraft:empty",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:item_frame",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "item_model": "bts:rice",
+                "rarity": "common",
+                "minecraft:custom_name": {
+                  "text": "Rice",
+                  "italic": false
+                },
+                "minecraft:entity_data": {
+                  "id": "minecraft:item_frame",
+                  "Tags": [
+                    "custom_block",
+                    "place_rice_plant"
+                  ],
+                  "Invisible": false,
+                  "Invulnerable": true,
+                  "Fixed": true,
+                  "Silent": true
+                },
+                "minecraft:custom_data": {
+                  "custom_block":true,
+                  "id":"rice",
+                  "ponder_id":"gameplay/agriculture",
+                  "type":"custom_block",
+                  "cooking_values": {
+                    "name": "Rice",
+                    "nutrition": 120,
+                    "saturation": 90
+                  }
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Cooking ingredient",
+                    "color": "dark_purple",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -10,7 +10,7 @@
       ],
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "minecraft:loot_table",
           "conditions": [
             {
               "block": "minecraft:sunflower",
@@ -20,7 +20,7 @@
               }
             }
           ],
-          "name": "minecraft:sunflower"
+          "value": "bts:items/sunflower"
         }
       ],
       "rolls": 1.0

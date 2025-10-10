@@ -25,8 +25,8 @@
       ],
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:poppy"
+          "type": "minecraft:loot_table",
+          "value": "bts:items/poppy"
         }
       ],
       "rolls": 1.0

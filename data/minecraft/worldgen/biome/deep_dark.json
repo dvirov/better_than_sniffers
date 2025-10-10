@@ -70,8 +70,8 @@
       "minecraft:underwater_magma",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
-      "minecraft:disk_gravel"
-    ],
+      "minecraft:disk_gravel",
+      "bts:salt"    ],
     [
       "minecraft:sculk_vein",
       "minecraft:sculk_patch_deep_dark"

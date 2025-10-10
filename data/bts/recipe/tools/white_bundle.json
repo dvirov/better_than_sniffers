@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "equipment",
+  "group": "bundle_dye",
+  "input": "#minecraft:bundles",
+  "material": "minecraft:white_dye",
+  "result": {
+    "id": "minecraft:bundle",
+    "components":{
+      "item_model": "white_bundle"
+    }
+  }
+}

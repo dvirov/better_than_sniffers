@@ -7,8 +7,10 @@
             "equipment": {
               "mainhand": {
                 "items": "minecraft:stone_axe",
-                "components": {
-                  "minecraft:custom_data": "{sculpture_tool:1b}"
+                "predicates": {
+                  "minecraft:custom_data": {
+                    "id":"sculpting_tool"
+                  }
                 }
               }
             }

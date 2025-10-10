@@ -1,11 +1,3 @@
 {
-  "values": [
-    "minecraft:butcher",
-    "minecraft:cartographer",
-    "minecraft:cleric",
-    "minecraft:farmer",
-    "minecraft:leatherworker",
-    "minecraft:mason",
-    "minecraft:shepherd"
-  ]
+  "values": []
 }

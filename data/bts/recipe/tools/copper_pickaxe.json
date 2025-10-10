@@ -17,8 +17,17 @@
     "components": {
       "item_model": "bts:copper_pickaxe",
       "minecraft:item_name": "Copper Pickaxe",
-      "minecraft:custom_data": "{flint_pickaxe:1b,mine_coal:1b,mine_stone:1b,mine_copper:1b,mine_iron:1b}",
-      "minecraft:max_damage": 32,
+      "minecraft:custom_data": {
+                  "id":"copper_pickaxe",
+                  "ponder_id":"tools/pickaxe",
+                  "type":"pickaxe",
+                  "material":"copper",
+                  "mine_coal":true,
+                  "mine_stone":true,
+                  "mine_copper":true,
+                  "mine_iron":true
+      },
+      "minecraft:max_damage": 96,
       "minecraft:tool": {
         "rules": [
           {
@@ -33,7 +42,7 @@
       "minecraft:lore": [
         "",
           {"color":"gray","italic":false,"text":"When in Main Hand:"},
-          {"color":"dark_green","italic":false,"text":" 1.6 Attack Damege"},
+          {"color":"dark_green","italic":false,"text":" 1.6 Attack Damage"},
           {"color":"dark_green","italic":false,"text":" 1.2 Attack Speed"}
 
         ],

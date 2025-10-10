@@ -1,0 +1,20 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:player_head",
+        "components": {
+          "profile":"dvirov"
+        }
+      },
+      "title": "Challenges",
+      "description": "Some extra goals you can try to achieve in your playthrough",
+      "background": "bts:transparent",
+      "announce_to_chat": false
+
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick"
+      }
+    }
+  }

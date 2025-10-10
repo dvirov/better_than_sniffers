@@ -16,7 +16,7 @@
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000
     },
-    "music": [
+    "music": [ 
       {
         "data": {
           "max_delay": 24000,
@@ -35,8 +35,7 @@
   "features": [
     [],
     [
-      "minecraft:lake_lava_underground",
-      "minecraft:lake_lava_surface"
+      "minecraft:lake_lava_underground"
     ],
     [
       "minecraft:amethyst_geode"
@@ -47,11 +46,18 @@
       "minecraft:monster_room",
       "minecraft:monster_room_deep"
     ],
-    [],
+    [
+      "bts:swamp/puddle/all",
+      "bts:swamp/puddle/middle",
+      "bts:swamp/mud/layer_1",
+      "bts:swamp/mud/layer_2",
+      "bts:swamp/mud/layer_3"
+    ],
     [],
     [
-      "minecraft:ore_dirt",
-      "minecraft:ore_gravel",
+      "bts:ore_dirt",
+      "bts:ore_gravel_lower",
+      "bts:ore_gravel_upper",
       "minecraft:ore_granite_upper",
       "minecraft:ore_granite_lower",
       "minecraft:ore_diorite_upper",
@@ -69,40 +75,56 @@
       "minecraft:ore_redstone",
       "minecraft:ore_redstone_lower",
       "minecraft:ore_diamond",
-      "minecraft:ore_diamond_medium",
       "minecraft:ore_diamond_large",
       "minecraft:ore_diamond_buried",
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
-      "minecraft:underwater_magma",
-      "minecraft:disk_clay"
+      "bts:underwater_magma",
+      "bts:swamp/disk_clay",
+      "bts:swamp/disk_mud",
+      "bts:salt"
     ],
     [
       "bts:crater"],
     [
       "minecraft:spring_water",
-      "minecraft:spring_lava"
+      "minecraft:spring_lava",
+      "bts:swamp/rocks/all",
+      "bts:swamp/rocks/middle"
     ],
     [
+      "bts:swamp/islands",
       "minecraft:glow_lichen",
-      "minecraft:trees_swamp",
-      "minecraft:flower_swamp",
-      "minecraft:patch_grass_normal",
-      "minecraft:patch_dead_bush",
-      "minecraft:patch_waterlily",
-      "minecraft:brown_mushroom_swamp",
-      "minecraft:red_mushroom_swamp",
+      "bts:swamp/fallen_trees/underwater",
+      "bts:swamp/grass/all",
+      "bts:swamp/grass/middle",
+      "bts:swamp/tall_grass",
+      "bts:swamp/trees/layer_1",
+      "bts:swamp/trees/layer_2",
+      "bts:swamp/trees/layer_3",
+      "bts:swamp/fallen_trees/layer_1",
+      "bts:swamp/fallen_trees/layer_2",
+      "bts:swamp/dead_bush/all",
+      "bts:swamp/dead_bush/middle",
+      "bts:swamp/brown_mushroom",
+      "bts:swamp/red_mushroom",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
-      "minecraft:patch_sugar_cane_swamp",
-      "minecraft:patch_pumpkin",
-      "minecraft:patch_firefly_bush_swamp",
-      "minecraft:patch_firefly_bush_near_water_swamp",
-      "minecraft:seagrass_swamp"
+      "bts:swamp/sugar_cane",
+      "bts:swamp/flowers",
+      "bts:patch_pumpkin",
+      "bts:swamp/firefly_bush/normal",
+      "bts:swamp/firefly_bush/near_water",
+      "bts:forest/moss_patch",
+      "bts:swamp/lily_pad/all",
+      "bts:swamp/lily_pad/shallow",
+      "bts:swamp/seagrass"
     ],
     [
       "minecraft:freeze_top_layer",
+      "bts:bottom/stone_slab",
+      "bts:bottom/snow",
       "bts:pebbels"
     ]
   ],

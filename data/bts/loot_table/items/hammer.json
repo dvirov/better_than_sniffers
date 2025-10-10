@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:generic",
+  "functions": [],
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+      "item_model": "bts:hammer",
+      "minecraft:item_name": "Hammer",
+      "minecraft:custom_data": {
+                  "id":"hammer",
+                  "ponder_id":"tools/hammer",
+                  "type":"hammer"
+                },
+      "minecraft:max_damage": 10,
+      "minecraft:attribute_modifiers": [
+          {
+            "id": "damage",
+            "type": "minecraft:attack_damage",
+            "amount": 6,
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "id": "attack_speed",
+            "type": "minecraft:attack_speed",
+            "amount": -3.4,
+            "operation": "add_value",
+            "slot": "mainhand"
+          }
+        ],
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      }
+    }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:items/hammer"
+}

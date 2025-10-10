@@ -6,8 +6,8 @@
       "bonus_rolls": 0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:cod",
+          "type": "minecraft:loot_table",
+          "value": "bts:items/cod",
           "weight": 3,
           "functions": [
             {
@@ -67,8 +67,8 @@
           ]
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:salmon",
+          "type": "minecraft:loot_table",
+          "value": "bts:items/salmon",
           "functions": [
             {
               "function": "minecraft:furnace_smelt",

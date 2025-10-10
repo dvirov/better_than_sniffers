@@ -1,18 +1,21 @@
 {
     "values": [
+        "#bts:tier0_rock",
         "minecraft:cobblestone",
+        "minecraft:cobblestone_slab",
+        "#bts:stone_slabs",
         "#stone_ore_replaceables",
         "calcite",
         "tuff",
         "stone_slab",
-        "#bts:tier0_rock",
         "pointed_dripstone",
         "sandstone",
         "sandstone_wall",
         "sandstone_stairs",
         "sandstone_slab",
         "smooth_sandstone",
-        "red_sandstone"
+        "red_sandstone",
+        "amethyst_cluster"
 
     ]
 

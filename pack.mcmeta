@@ -1,12 +1,12 @@
 {
     "pack": {
       "pack_format":81,
-      "description": "§bBetter than Sniffers By dvirov Beta 0.5.0"
+      "description": "§bBetter than Sniffers By dvirov Beta 0.5.5"
     },
     "filter": {
       "block": [{
         "namespace": "minecraft",
-        "path": "loot_table/*"
+        "path": "loot_table/"
       },
         {
           "namespace": "minecraft",
@@ -14,7 +14,7 @@
         },
         {
           "namespace": "minecraft",
-          "path": "advancement/*"
+          "path": "advancement/"
         },
         {
           "namespace": "minecraft",

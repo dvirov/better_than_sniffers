@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:generic",
+  "functions": [],
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+      "minecraft:max_damage": 32,
+      "custom_data": {
+                  "id":"fishing_rod",
+                  "ponder_id":"tools/fishing_rod",
+                  "type":"item"
+        
+      }
+    }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:items/fishing_rod_lvl1"
+}

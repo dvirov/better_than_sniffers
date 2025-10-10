@@ -6,8 +6,10 @@
         "player": {
           "equipment": {
             "mainhand": {
-              "components": {
-                "minecraft:custom_data": "{hammer:1b}"
+              "predicates": {
+                "minecraft:custom_data": {
+                  "type": "hammer"
+                }
               }
             }
           }

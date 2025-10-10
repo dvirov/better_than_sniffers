@@ -25,8 +25,8 @@
       ],
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:lily_of_the_valley"
+          "type": "minecraft:loot_table",
+          "value": "bts:items/lily_of_the_valley"
         }
       ],
       "rolls": 1.0

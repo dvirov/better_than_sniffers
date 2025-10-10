@@ -1,0 +1,71 @@
+{
+  "type": "minecraft:multi_action",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Cheats control panel",
+        "color": "#183e26"
+      }
+    }
+  ],
+  "inputs": [
+    {
+      "type": "minecraft:text",
+      "key": "item",
+      "label": {
+        "text": "/give custom item",
+        "extra": [
+          {
+            "text": "  1",
+            "hover_event": {
+              "action": "show_text",
+              "value": "123"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "title": [
+    "   뀁뀂  뀃뀄뀅뀆뀇      뀈",
+    "                  낡낢낣낤낥낦낧남",
+    "                  낱낲낳내낵낶낷낸",
+    "                  냁냂냃냄 냅냆냇냈"
+  ],
+  "pause": false,
+  "after_action": "none",
+  "exit_action": {
+    "label": "Close",
+    "action": {
+      "type": "minecraft:run_command",
+      "command": "trigger close.dialog"
+    }
+  },
+  "columns": 1,
+  "actions": [
+    {
+      "label": "Give item",
+      "action": {
+        "type": "minecraft:dynamic/run_command",
+        "template": "loot give @s loot bts:items/$(item)"
+      }
+    },
+    {
+      "label": "Toggle Developer mode",
+      "tooltip": {
+        "text": "Just toggle some settings ",
+        "extra": [
+          "XXX",
+          "if you play on singleplayer/creative its ok to toggle",
+          "XXX",
+          "you can always toggle it back"
+        ]
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function bts:developer_mode"
+      }
+    }
+  ]
+}

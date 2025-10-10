@@ -10,7 +10,7 @@
       ],
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "minecraft:loot_table",
           "conditions": [
             {
               "block": "minecraft:peony",
@@ -20,7 +20,7 @@
               }
             }
           ],
-          "name": "minecraft:peony"
+          "value": "bts:items/peony"
         }
       ],
       "rolls": 1.0

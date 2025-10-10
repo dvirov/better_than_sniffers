@@ -3,11 +3,12 @@
     {
       "element": {
         "element_type": "minecraft:feature_pool_element",
-        "feature": "minecraft:spruce",
+        "feature": "bts:village_trees/snowy",
         "projection": "rigid"
       },
       "weight": 1
     }
   ],
-  "fallback": "minecraft:empty"
+  "fallback": "minecraft:empty",
+  "name": "minecraft:village/snowy/trees"
 }

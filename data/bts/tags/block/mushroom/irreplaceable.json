@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#bts:mushroom_blocks",
+    "#bts:dirt_and_snow",
+    "#bts:stone",
+    "#minecraft:features_cannot_replace"
+  ]
+}

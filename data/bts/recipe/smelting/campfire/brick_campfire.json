@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:campfire_cooking",
-  "ingredient":"minecraft:clay_ball",
-  "result": {
-    "id": "minecraft:brick"
-  },
-  "cookingtime": 24000
-}

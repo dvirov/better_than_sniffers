@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:generic",
+  "functions": [],
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rotten_flesh",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 1,
+                  "saturation": 0.2
+                },
+                "minecraft:custom_data": {
+                  "id":"rotten_flesh",
+                  "ponder_id":"",
+                  "type":"item",
+                  "cooking_values": {
+                    "name": "Rotten Flesh",
+                    "nutrition": 50,
+                    "saturation": 18
+                  },
+                  "alchemy": {
+                    "category":"main",
+                    "color1": "red",
+                    "effect1":"hunger",
+                    "name1":"Hunger",
+                    "quality": 1
+                  }
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Cooking ingredient",
+                    "color": "dark_purple",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:items/rotten_flesh"
+}

@@ -4,7 +4,7 @@
 execute if score .20tick.delay bool matches ..19 run return 0
 
 
-execute as @e[type=armor_stand,tag=campfire] at @s on passengers run function bts:blocks/campfire/timer
+execute as @s[type=armor_stand,tag=campfire] at @s on passengers run function bts:blocks/campfire/timer
 
 
 

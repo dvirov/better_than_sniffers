@@ -4,11 +4,16 @@
 #armor insulation calculation
 execute store result score @s insulation_vaule run attribute @s max_absorption get
 
+scoreboard players operation @s insulation_vaule += .4 values
+execute if score @s wetness matches 600.. run scoreboard players remove @s insulation_vaule 4
+execute if score @s wetness matches 300..599 run scoreboard players remove @s insulation_vaule 3
+execute if score @s wetness matches 120..299 run scoreboard players remove @s insulation_vaule 2
+execute if score @s wetness matches 1..119 run scoreboard players remove @s insulation_vaule 1
 
 
 
+execute if score @s temperature_calc > @s bar_temperature unless score @s custom.effect.climate_resistance matches 1.. run scoreboard players operation @s insulation_vaule /= .4 values
 
-execute if score @s temperature_calc > @s bar_temperature run scoreboard players operation @s insulation_vaule /= .4 values
 
 
 #applay delay

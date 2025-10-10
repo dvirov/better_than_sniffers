@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:sandstone",
+    "minecraft:water",
+    "minecraft:ice",
+    "#bts:dirt_and_snow",
+    "#bts:stone",
+    "#minecraft:features_cannot_replace"
+  ]
+}

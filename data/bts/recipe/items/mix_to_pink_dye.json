@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "dye",
+  "ingredients": [
+      "red_dye",
+      "white_dye"
+  ],
+  "result": {
+    "count": 2,
+    "id": "minecraft:pink_dye"
+  }
+}

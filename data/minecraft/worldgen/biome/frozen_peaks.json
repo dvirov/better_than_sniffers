@@ -20,7 +20,7 @@
           "min_delay": 12000,
           "replace_current_music": false,
           "sound": "minecraft:music.overworld.frozen_peaks"
-        },
+        }, 
         "weight": 1
       }
     ],
@@ -32,8 +32,7 @@
   "features": [
     [],
     [
-      "minecraft:lake_lava_underground",
-      "minecraft:lake_lava_surface"
+      "minecraft:lake_lava_underground"
     ],
     [
       "minecraft:amethyst_geode"
@@ -45,11 +44,12 @@
     [],
     [],
     [
-      "minecraft:ore_dirt",
-      "minecraft:ore_gravel",
-      "minecraft:ore_granite_upper",
+      "bts:stony_peaks/ore_dirt",
+      "bts:ore_gravel_lower",
+      "bts:ore_gravel_upper",
+      "bts:stony_peaks/ore_granite_upper",
       "minecraft:ore_granite_lower",
-      "minecraft:ore_diorite_upper",
+      "bts:stony_peaks/ore_diorite_upper",
       "minecraft:ore_diorite_lower",
       "minecraft:ore_andesite_upper",
       "minecraft:ore_andesite_lower",
@@ -64,20 +64,20 @@
       "minecraft:ore_redstone",
       "minecraft:ore_redstone_lower",
       "minecraft:ore_diamond",
-      "minecraft:ore_diamond_medium",
       "minecraft:ore_diamond_large",
       "minecraft:ore_diamond_buried",
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
-      "minecraft:underwater_magma",
+      "bts:underwater_magma",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
       "minecraft:disk_gravel",
       "minecraft:ore_emerald"
     ],
     [
-      "minecraft:ore_infested"
+      "minecraft:ore_infested",
+      "bts:grove/steep_ice"
     ],
     [
       "minecraft:spring_water",
@@ -88,7 +88,9 @@
       "minecraft:glow_lichen"
     ],
     [
-      "minecraft:freeze_top_layer"
+      "minecraft:freeze_top_layer",
+      "bts:bottom/stone_slab",
+      "bts:bottom/snow"
     ]
   ],
   "has_precipitation": true,

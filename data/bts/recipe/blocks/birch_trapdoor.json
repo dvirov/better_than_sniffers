@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "wooden_trapdoor",
+  "pattern": [
+    "SPS"
+    
+  ],
+  "key": {
+    "P":"minecraft:birch_slab",
+    "S":"minecraft:stick"
+  },
+  "result": {
+    "id": "minecraft:birch_trapdoor",
+    "count": 1
+  },
+  "show_notification": true
+}

@@ -2,7 +2,7 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "bonus_rolls": 0.0,
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -11,13 +11,13 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 1.0
+                "max": 8,
+                "min": 1
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:white_wool",
+          "name": "minecraft:white_carpet",
           "weight": 6
         },
         {
@@ -27,13 +27,13 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
+                "max": 3,
+                "min": 1
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:black_wool",
+          "name": "minecraft:black_carpet",
           "weight": 3
         },
         {
@@ -43,13 +43,13 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
+                "max": 3,
+                "min": 1
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:gray_wool",
+          "name": "minecraft:gray_carpet",
           "weight": 2
         },
         {
@@ -59,13 +59,13 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
+                "max": 3,
+                "min": 1
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:brown_wool",
+          "name": "minecraft:brown_carpet",
           "weight": 2
         },
         {
@@ -75,13 +75,13 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
+                "max": 3,
+                "min": 1
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:light_gray_wool",
+          "name": "minecraft:light_gray_carpet",
           "weight": 2
         },
         {
@@ -90,7 +90,17 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:shears"
+          "name": "minecraft:shears",
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 210,
+                "max": 230
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -99,8 +109,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 6.0,
-                "min": 1.0
+                "max": 3,
+                "min": 1
               },
               "function": "minecraft:set_count"
             }
@@ -111,8 +121,8 @@
       ],
       "rolls": {
         "type": "minecraft:uniform",
-        "max": 5.0,
-        "min": 1.0
+        "max": 5,
+        "min": 1
       }
     }
   ],

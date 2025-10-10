@@ -1,5 +1,5 @@
 {
-  "carvers": [
+  "carvers": [ 
     "minecraft:cave",
     "minecraft:cave_extra_underground",
     "minecraft:canyon"
@@ -23,17 +23,26 @@
         },
         "weight": 1
       }
-    ],
+    ], 
     "music_volume": 1.0,
     "sky_color": 7842047,
     "water_color": 4159204,
     "water_fog_color": 329011
   },
   "features": [
-    [],
     [
-      "minecraft:lake_lava_underground",
-      "minecraft:lake_lava_surface"
+      "bts:sparse_jungle/coarse_dirt/layer_1",
+      "bts:sparse_jungle/coarse_dirt/layer_2",
+      "bts:sparse_jungle/coarse_dirt/layer_3",
+      "bts:sparse_jungle/coarse_dirt/layer_4",
+      "bts:sparse_jungle/mud/layer_1",
+      "bts:sparse_jungle/mud/layer_2",
+      "bts:sparse_jungle/mud/layer_3",
+      "bts:sparse_jungle/mud/layer_4",
+      "bts:sparse_jungle/mud/layer_5"
+    ],
+    [
+      "minecraft:lake_lava_underground"
     ],
     [
       "minecraft:amethyst_geode"
@@ -45,8 +54,9 @@
     [],
     [],
     [
-      "minecraft:ore_dirt",
-      "minecraft:ore_gravel",
+      "bts:ore_dirt",
+      "bts:ore_gravel_lower",
+      "bts:ore_gravel_upper",
       "minecraft:ore_granite_upper",
       "minecraft:ore_granite_lower",
       "minecraft:ore_diorite_upper",
@@ -64,37 +74,60 @@
       "minecraft:ore_redstone",
       "minecraft:ore_redstone_lower",
       "minecraft:ore_diamond",
-      "minecraft:ore_diamond_medium",
       "minecraft:ore_diamond_large",
       "minecraft:ore_diamond_buried",
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
-      "minecraft:underwater_magma",
+      "bts:underwater_magma",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
-      "minecraft:disk_gravel"
+      "minecraft:disk_gravel",
+      "bts:salt"    ],
+    [
+      "bts:jungle/spring",
+      "bts:sparse_jungle/tuff/patch",
+      "bts:sparse_jungle/tuff/steep",
+      "bts:crater"
     ],
-    [],
     [
       "minecraft:spring_water",
-      "minecraft:spring_lava"
+      "minecraft:spring_lava",
+      "bts:jungle/spikes",
+      "bts:sparse_jungle/rocks/layer_1",
+      "bts:sparse_jungle/rocks/layer_2",
+      "bts:sparse_jungle/rocks/layer_3"
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:trees_sparse_jungle",
-      "minecraft:flower_warm",
-      "minecraft:patch_grass_jungle",
+      "bts:sparse_jungle/grass/layer_1",
+      "bts:sparse_jungle/grass/layer_2",
+      "bts:sparse_jungle/grass/layer_3",
+      "bts:sparse_jungle/grass/layer_4",
+      "bts:sparse_jungle/palm/layer_1",
+      "bts:sparse_jungle/palm/layer_2",
+      "bts:sparse_jungle/palm/layer_3",
+      "bts:sparse_jungle/palm/layer_4",
+      "bts:sparse_jungle/trees/layer_1",
+      "bts:sparse_jungle/trees/layer_2",
+      "bts:sparse_jungle/trees/layer_3",
+      "bts:sparse_jungle/trees/layer_4",
+      "bts:sparse_jungle/fallen_trees/layer_1",
+      "bts:sparse_jungle/fallen_trees/layer_2",
+      "bts:sparse_jungle/flowers",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
-      "minecraft:patch_pumpkin",
-      "minecraft:patch_sugar_cane",
-      "minecraft:patch_firefly_bush_near_water",
-      "minecraft:vines",
-      "minecraft:patch_melon_sparse"
+      "bts:patch_sugar_cane",
+      "bts:patch_pumpkin",
+      "bts:patch_firefly_bush",
+      "bts:sparse_jungle/vines",
+      "bts:sparse_jungle/patch_melon",
+      "bts:sparse_jungle/moss_on_tuff"
     ],
     [
       "minecraft:freeze_top_layer",
+      "bts:bottom/stone_slab",
+      "bts:bottom/snow",
       "bts:pebbels"
     ]
   ],

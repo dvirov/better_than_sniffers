@@ -19,33 +19,16 @@
         "animation": "crossbow",
         "sound": "minecraft:item.armor.equip_generic",
         "has_consume_particles": false,
-        "on_consume_effects": [
-          {
-            "type": "minecraft:apply_effects",
-            "effects": [
-              {
-                "id": "minecraft:hunger",
-                "duration": 100,
-                "ambient": false,
-                "show_particles": false,
-                "show_icon": false
-              },
-              {
-                "id": "minecraft:regeneration",
-                "amplifier": 0,
-                "duration": 100,
-                "ambient": false,
-                "show_particles": false,
-                "show_icon": false
-              }
-            ],
-            "probability": 1
-          }
-        ]
+        "on_consume_effects": []
       },
       "minecraft:use_cooldown": {
         "seconds": 5,
-        "cooldown_group": "heal1"
+        "cooldown_group": "heal_item"
+      },
+      "minecraft:custom_data": {
+        "healing_data": {
+          "amount":1
+        }
       }
     }
   },

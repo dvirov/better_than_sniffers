@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient":"minecraft:kelp",
+  "result": {
+    "id": "minecraft:dried_kelp",
+                  "components": {
+                "minecraft:food": {
+                  "nutrition": 1,
+                  "saturation": 0.1
+                },
+                "minecraft:custom_data": {
+                  "cooking_values": {
+                    "name": "Dried Kelp",
+                    "nutrition": 110,
+                    "saturation": 35
+                  }
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Cooking ingredient",
+                    "color": "dark_purple",
+                    "italic": false
+                  }
+                ]
+              }
+  },
+  "cookingtime": 1000
+}

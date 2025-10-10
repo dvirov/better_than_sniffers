@@ -18,7 +18,11 @@
       "minecraft:max_stack_size": 1,
       "minecraft:max_damage": 1,
       "minecraft:item_name": "Sculpture Tool",
-      "minecraft:custom_data": "{sculpture_tool:1b}",
+      "minecraft:custom_data": {
+                  "id":"sculpting_tool",
+                  "ponder_id":"sculpture_tool",
+                  "type":"item"
+                },
       "minecraft:attribute_modifiers": [
           {
             "id": "reach",

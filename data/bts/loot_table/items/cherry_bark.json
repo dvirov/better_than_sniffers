@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:generic",
+  "functions": [],
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cherry_slab",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+               "item_model": "bts:cherry_bark",
+                "rarity": "common",
+                "item_name": "Cherry Bark"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:items/cherry_bark"
+}

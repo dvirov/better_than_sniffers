@@ -4,7 +4,12 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": "minecraft:potion"
+          "items": "minecraft:potion",
+          "components": {
+            "potion_contents": {
+              "potion": "minecraft:water"
+            }
+          }
         }
       }
     }

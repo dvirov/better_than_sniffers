@@ -17,13 +17,19 @@
     "components": {
       "item_model": "bts:flint_sword",
       "minecraft:item_name": "Flint Sword",
-      "minecraft:custom_data": "{sword:1b,flint_sword:1b}", 
-      "minecraft:max_damage": 30,
+      "minecraft:custom_data": {
+                  "id":"flint_sword",
+                  "ponder_id":"tools/sword",
+                  "type":"sword",
+                  "material":"flint"
+
+      }, 
+      "minecraft:max_damage": 16,
 
       "minecraft:lore": [
         "",
           {"color":"gray","italic":false,"text":"When in Main Hand:"},
-          {"color":"dark_green","italic":false,"text":" 3 Attack Damege"},
+          {"color":"dark_green","italic":false,"text":" 3 Attack Damage"},
           {"color":"dark_green","italic":false,"text":" 1.6 Attack Speed"}
 
         ],

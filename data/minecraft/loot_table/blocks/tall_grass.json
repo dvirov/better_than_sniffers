@@ -31,13 +31,12 @@
             {
               "type": "minecraft:loot_table",
               "value": "bts:vanilla_blocks/any_grass",
-              "conditions": [
+              "conditions": [],
+              "functions": [
                 {
-                  "condition": "minecraft:survives_explosion"
-                },
-                {
-                  "chance": 0.125,
-                  "condition": "minecraft:random_chance"
+                  "add": false,
+                  "count": 2,
+                  "function": "minecraft:set_count"
                 }
               ]
             }
@@ -76,13 +75,12 @@
             {
               "type": "minecraft:loot_table",
               "value": "bts:vanilla_blocks/any_grass",
-              "conditions": [
+              "conditions": [],
+              "functions": [
                 {
-                  "condition": "minecraft:survives_explosion"
-                },
-                {
-                  "chance": 0.125,
-                  "condition": "minecraft:random_chance"
+                  "add": false,
+                  "count": 2,
+                  "function": "minecraft:set_count"
                 }
               ]
             }

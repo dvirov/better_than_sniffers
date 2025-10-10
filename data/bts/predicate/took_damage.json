@@ -1,0 +1,67 @@
+[
+  {
+    "condition": "minecraft:all_of",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "bts:trigger/health/damage_head": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "bts:trigger/health/damage_arm": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "bts:trigger/health/damage_body": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "bts:trigger/health/damage_leg": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "bts:trigger/health/damage_other": false
+            }
+          }
+        }
+      }
+    ]
+  }
+]

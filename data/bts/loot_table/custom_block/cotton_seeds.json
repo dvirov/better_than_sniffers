@@ -13,10 +13,10 @@
               "components": {
                 "item_model":"bts:cotton_seeds",
                 "rarity": "common",
-                "minecraft:custom_data": "{cotton_seeds:1b}",
+                "minecraft:custom_data": "{custom_block:1b,cotton_seeds:1b}",
                 "minecraft:custom_name": {"text":"Cotton Seeds","italic":false},
                 "minecraft:entity_data": {
-                  "id": "minecraft:item_frame", "Tags":["place_cotton_plant"], "Invisible":false, "Invulnerable": true, "Fixed":true, "Silent": true
+                  "id": "minecraft:item_frame", "Tags":["custom_block","place_cotton_plant"], "Invisible":false, "Invulnerable": true, "Fixed":true, "Silent": true
                 }
               }
             }

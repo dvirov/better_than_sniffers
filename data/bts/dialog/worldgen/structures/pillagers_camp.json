@@ -1,0 +1,71 @@
+{
+  "type": "minecraft:confirmation",
+  "title": [
+    "   뀁뀂  뀃뀄뀅뀆뀇      뀈",
+    "                  낡낢낣낤낥낦낧남",
+    "                  낱낲낳내낵낶낷낸",
+    "                  냁냂냃냄 냅냆냇냈"
+  ],
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Pillagers Camp "
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "The pillagers camp is structure  that can spawn on the surface in most overworld biomes ",
+        "extra": [
+          "\n\n",
+          {
+            "text": "The pillagers use those camps as temporary bases for their scouts when they on misson to find helpless villages and concure them",
+            "color": "#de95f9"
+          },
+          "\n\n",
+          {
+            "text": "Info :",
+            "color": "gray"
+          },
+          "\n\n",
+          {
+            "text": "Rarity :",
+            "color": "gray"
+          },
+          " Common",
+          "\n\n",
+          {
+            "text": "Loot :",
+            "color": "gray"
+          },
+          " 0-2 chests with some basic supplies",
+          "\n\n",
+          {
+            "text": "Enemies : ",
+            "color": "gray"
+          },
+          "0-2 pillagers"
+        ],
+        "color": "#cbaaaa"
+      }
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "none",
+  "yes": {
+    "label": "Close",
+    "action": {
+      "type": "minecraft:run_command",
+      "command": "trigger close.dialog"
+    }
+  },
+  "no": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "bts:worldgen/structures"
+    }
+  }
+}

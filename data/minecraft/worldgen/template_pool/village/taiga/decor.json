@@ -4,9 +4,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/taiga/taiga_lamp_post_1",
-        "processors": {
-          "processors": []
-        },
+        "processors": "minecraft:empty",
         "projection": "rigid"
       },
       "weight": 10
@@ -15,9 +13,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/taiga/taiga_decoration_1",
-        "processors": {
-          "processors": []
-        },
+        "processors": "minecraft:empty",
         "projection": "rigid"
       },
       "weight": 4
@@ -26,9 +22,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/taiga/taiga_decoration_2",
-        "processors": {
-          "processors": []
-        },
+        "processors": "minecraft:empty",
         "projection": "rigid"
       },
       "weight": 1
@@ -37,9 +31,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/taiga/taiga_decoration_3",
-        "processors": {
-          "processors": []
-        },
+        "processors": "minecraft:empty",
         "projection": "rigid"
       },
       "weight": 1
@@ -48,9 +40,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/taiga/taiga_decoration_4",
-        "processors": {
-          "processors": []
-        },
+        "processors": "minecraft:empty",
         "projection": "rigid"
       },
       "weight": 1
@@ -59,9 +49,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/taiga/taiga_decoration_5",
-        "processors": {
-          "processors": []
-        },
+        "processors": "minecraft:empty",
         "projection": "rigid"
       },
       "weight": 2
@@ -70,9 +58,7 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:village/taiga/taiga_decoration_6",
-        "processors": {
-          "processors": []
-        },
+        "processors": "minecraft:empty",
         "projection": "rigid"
       },
       "weight": 1
@@ -80,18 +66,10 @@
     {
       "element": {
         "element_type": "minecraft:feature_pool_element",
-        "feature": "minecraft:spruce",
+        "feature": "bts:village_trees/taiga",
         "projection": "rigid"
       },
-      "weight": 4
-    },
-    {
-      "element": {
-        "element_type": "minecraft:feature_pool_element",
-        "feature": "minecraft:pine",
-        "projection": "rigid"
-      },
-      "weight": 4
+      "weight": 8
     },
     {
       "element": {
@@ -124,5 +102,6 @@
       "weight": 4
     }
   ],
-  "fallback": "minecraft:empty"
+  "fallback": "minecraft:empty",
+  "name": "minecraft:village/taiga/decor"
 }

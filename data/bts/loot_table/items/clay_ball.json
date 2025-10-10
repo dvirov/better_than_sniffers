@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:empty",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:item_frame",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "item_model": "clay_ball",
+                "rarity": "common",
+                "custom_data": {
+                "id":"clay_ball",
+                "ponder_id":"gameplay/clay",
+                "type":"custom_block",
+                
+                "custom_block":true,
+                "bricks":true
+                },
+                "minecraft:custom_name": {
+                  "text": "Clay chunk",
+                  "italic": false
+                },
+                "minecraft:entity_data": {
+                  "id": "minecraft:item_frame",
+                  "Tags": [
+                    "place_bricks",
+                    "custom_block"
+                  ],
+                  "Invisible": true,
+                  "Invulnerable": true,
+                  "Fixed": true,
+                  "Silent": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

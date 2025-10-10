@@ -2,11 +2,22 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "bonus_rolls": 0.0,
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:saddle",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 5,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:leather",
           "weight": 20
         },
         {
@@ -18,26 +29,6 @@
           "type": "minecraft:item",
           "name": "minecraft:enchanted_golden_apple",
           "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_otherside",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_13",
-          "weight": 15
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_cat",
-          "weight": 15
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:name_tag",
-          "weight": 20
         },
         {
           "type": "minecraft:item",
@@ -53,27 +44,16 @@
           "type": "minecraft:item",
           "name": "minecraft:diamond_horse_armor",
           "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly",
-              "options": "#minecraft:on_random_loot"
-            }
-          ],
-          "name": "minecraft:book",
-          "weight": 10
         }
       ],
       "rolls": {
         "type": "minecraft:uniform",
-        "max": 3.0,
-        "min": 1.0
+        "max": 3,
+        "min": 1
       }
     },
     {
-      "bonus_rolls": 0.0,
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -82,13 +62,13 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
+                "max": 2,
+                "min": 1
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:iron_ingot",
+          "name": "minecraft:iron_nugget",
           "weight": 10
         },
         {
@@ -98,13 +78,13 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
+                "max": 2,
+                "min": 1
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:gold_ingot",
+          "name": "minecraft:gold_nugget",
           "weight": 5
         },
         {
@@ -119,8 +99,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
+                "max": 4,
+                "min": 1
               },
               "function": "minecraft:set_count"
             }
@@ -130,34 +110,13 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:bucket",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
           "functions": [
             {
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:redstone",
-          "weight": 15
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
+                "max": 4,
+                "min": 1
               },
               "function": "minecraft:set_count"
             }
@@ -172,8 +131,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 2.0
+                "max": 4,
+                "min": 2
               },
               "function": "minecraft:set_count"
             }
@@ -188,8 +147,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 2.0
+                "max": 4,
+                "min": 2
               },
               "function": "minecraft:set_count"
             }
@@ -204,8 +163,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 2.0
+                "max": 4,
+                "min": 2
               },
               "function": "minecraft:set_count"
             }
@@ -216,27 +175,59 @@
       ],
       "rolls": {
         "type": "minecraft:uniform",
-        "max": 4.0,
-        "min": 1.0
+        "max": 4,
+        "min": 1
       }
     },
     {
-      "bonus_rolls": 0.0,
+      "bonus_rolls": 0,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "minecraft:loot_table",
+          "value": "bts:items/bone",
           "functions": [
             {
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 1.0
+                "max": 4,
+                "min": 1
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:bone",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bts:items/gunpowder",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bts:items/rotten_flesh",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 8,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
           "weight": 10
         },
         {
@@ -246,40 +237,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:gunpowder",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:rotten_flesh",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 1.0
+                "max": 8,
+                "min": 1
               },
               "function": "minecraft:set_count"
             }
@@ -288,7 +247,7 @@
           "weight": 10
         }
       ],
-      "rolls": 3.0
+      "rolls": 3
     }
   ],
   "random_sequence": "minecraft:chests/simple_dungeon"

@@ -1,10 +1,5 @@
 {
   "values": [
-    "dead_bush",
-    "stick",
-    "bamboo",
-    "#minecraft:wooden_slabs",
-    "wooden_pickaxe",
-    "#minecraft:saplings"
+    "leaf_litter"
   ]
 }

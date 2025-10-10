@@ -17,13 +17,19 @@
     "components": {
       "item_model": "bts:flint_axe",
       "minecraft:item_name": "Flint Axe",
-      "minecraft:custom_data": "{axe:1b,flint_axe:1b}",
-      "minecraft:max_damage": 32,
+      "minecraft:custom_data": {
+                  "id":"flint_axe",
+                  "ponder_id":"tools/axe",
+                  "type":"axe",
+                  "material":"flint"
+
+      },
+      "minecraft:max_damage": 16,
       "minecraft:tool": {
         "rules": [
           {
             "blocks": "#bts:tier1_wood",
-            "speed": 1,
+            "speed": 1.1,
             "correct_for_drops": true
           }
         ],
@@ -33,7 +39,7 @@
       "minecraft:lore": [
         "",
           {"color":"gray","italic":false,"text":"When in Main Hand:"},
-          {"color":"dark_green","italic":false,"text":" 4 Attack Damege"},
+          {"color":"dark_green","italic":false,"text":" 4 Attack Damage"},
           {"color":"dark_green","italic":false,"text":" 0.8 Attack Speed"}
 
         ],
