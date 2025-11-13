@@ -1,0 +1,13 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "bts:is_raining"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "bts:noroof"
+    }
+  ]
+}

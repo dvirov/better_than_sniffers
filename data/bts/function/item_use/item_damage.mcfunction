@@ -8,3 +8,5 @@ execute store result storage temp damage.value int 1 run scoreboard players add 
 execute unless items entity @s weapon.mainhand *[damage~{durability:{min:-999,max:1}}] run return run function bts:item_use/item_damage_macro with storage temp damage
 playsound minecraft:entity.item.break
 item modify entity @s weapon.mainhand bts:delete_item
+
+

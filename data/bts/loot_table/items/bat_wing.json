@@ -13,7 +13,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": "Bat Wing",
+                "minecraft:item_name": {
+                   "translate": "item.bts.bat_wing",
+                   "fallback":"Bat Wing"
+                },
                 "minecraft:item_model": "bts:bat_wing",
                 "minecraft:consumable": {
                   "consume_seconds": 1.6,

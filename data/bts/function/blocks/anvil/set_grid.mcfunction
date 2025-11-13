@@ -1,3 +1,4 @@
+function bts:blocks/anvil/restore_items
 
 item replace block ~ ~ ~ container.0 with barrier[item_model="air",max_stack_size=1,tooltip_display={hide_tooltip:true},custom_data={anvil:1b}] 1
 item replace block ~ ~ ~ container.1 with barrier[item_model="air",max_stack_size=1,tooltip_display={hide_tooltip:true},custom_data={anvil:1b}] 1

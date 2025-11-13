@@ -14,7 +14,10 @@
     "count": 1,
     "components": {
       "item_model": "bts:stone_knife",
-      "minecraft:item_name": "Stone Knife",
+      "minecraft:item_name": {
+        "translate": "item.bts.stone_knife",
+        "fallback":"Stone Knife"
+      },
       "minecraft:custom_data": {
                   "id":"stone_knife",
                   "ponder_id":"tools/knife",

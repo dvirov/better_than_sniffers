@@ -5,6 +5,7 @@ execute if score @s wetness matches 1.. unless block ~ ~ ~ water unless block ~ 
 # wetness 
 execute if block ~ ~ ~ #bts:water run scoreboard players set @s wetness 600
 execute if block ~ ~1 ~ #bts:water run scoreboard players set @s wetness 600
+execute if predicate bts:is_in_rain run scoreboard players set @s wetness 600
 
 
 execute if score @s wetness matches 300.. run scoreboard players remove @s temperature_calc 20
@@ -44,13 +45,13 @@ execute if predicate bts:is_night if predicate bts:world_event/hot_biome run sco
 
 
  #fall
-execute if score .monthinyear calander matches 1 run scoreboard players remove @s temperature_calc 20
+execute if score .monthinyear calender matches 1 run scoreboard players remove @s temperature_calc 20
  #winter
-execute if score .monthinyear calander matches 2 run scoreboard players remove @s temperature_calc 50
+execute if score .monthinyear calender matches 2 run scoreboard players remove @s temperature_calc 50
  #spring
-execute if score .monthinyear calander matches 3 run scoreboard players add @s temperature_calc 20
+execute if score .monthinyear calender matches 3 run scoreboard players add @s temperature_calc 20
  #summer
-execute if score .monthinyear calander matches 4 run scoreboard players add @s temperature_calc 50
+execute if score .monthinyear calender matches 4 run scoreboard players add @s temperature_calc 50
 
 
 

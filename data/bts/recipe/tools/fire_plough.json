@@ -8,7 +8,10 @@
     "id": "minecraft:fire_charge",
     "components": {
       "item_model":"bts:fire_plough",
-      "minecraft:item_name": "Fire Plough",
+      "minecraft:item_name": {
+        "translate": "item.bts.fire_plough",
+        "fallback":"Fire Plough"
+      },
       "minecraft:custom_data": {
                   "id":"fire_plough",
                   "ponder_id":"tools/fire_plough",

@@ -3,8 +3,14 @@
     "icon": {
       "id": "minecraft:oak_slab"
     },
-    "title": "Wooden_slab",
-    "description": "Strip Log and collect bark",
+    "title":{
+     "translate": "advancement.progression.wooden_slab.title",
+     "fallback": "Wooden Slab"
+    },
+    "description": {
+     "translate": "advancement.progression.wooden_slab.description",
+     "fallback": "Strip Log and collect bark"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true

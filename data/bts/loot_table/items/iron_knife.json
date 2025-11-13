@@ -13,7 +13,10 @@
               "function": "minecraft:set_components",
               "components": {
       "item_model": "bts:iron_knife",
-      "minecraft:item_name": "Iron Knife",
+      "minecraft:item_name": {
+                   "translate": "item.bts.iron_knife",
+                   "fallback":"Iron Knife"
+      },
       "minecraft:custom_data": {
                   "id":"iron_knife",
                   "ponder_id":"tools/knife",
@@ -34,9 +37,9 @@
       },
       "minecraft:lore": [
         "",
-          {"color":"gray","italic":false,"text":"When in Main Hand:"},
-          {"color":"dark_green","italic":false,"text":" 2.6 Attack Damage"},
-          {"color":"dark_green","italic":false,"text":" 2 Attack Speed"}
+          [{"color":"gray","italic":false,"translate":"item.lore.tool.when_in_main_hand","fallback":"When in Main Hand:"}],
+          [{"color":"dark_green","italic":false,"text":" 2.6 "},{"color":"dark_green","italic":false,"translate":"item.lore.tool.attack_damage","fallback":"Attack Damage"}],
+          [{"color":"dark_green","italic":false,"text":" 2 "},{"color":"dark_green","italic":false,"translate":"item.lore.tool.attack_speed","fallback":"Attack Speed"}]
 
         ],
       "minecraft:attribute_modifiers": [

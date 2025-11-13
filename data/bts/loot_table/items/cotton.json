@@ -21,7 +21,10 @@
                   "ponder_id":"",
                   "type":"item"
                 },
-              "minecraft:custom_name": {"text":"Cotton","italic":false}
+              "minecraft:item_name": {
+                   "translate": "item.bts.cotton",
+                   "fallback":"Cotton"
+                  }
             }
           }
         ]

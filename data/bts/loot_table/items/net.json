@@ -12,7 +12,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "item_name": "Net"
+                "item_name": {
+                   "translate": "block.bts.net",
+                   "fallback":"Net"
+                }
               }
             }
           ]

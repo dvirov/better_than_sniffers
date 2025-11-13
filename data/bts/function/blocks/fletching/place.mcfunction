@@ -2,7 +2,8 @@
 execute unless block ~ ~ ~ #minecraft:replaceable run return run function bts:blocks/fail
 
 
-setblock ~ ~ ~ barrel[facing=down]{CustomName:{text:"Fletching",extra:[{color:white,text:"     \uF801\uF80A\uF80A\uF808\uD001"}]}}
+#setblock ~ ~ ~ barrel[facing=down]{CustomName:{text:"Fletching",extra:[{color:white,text:"     \uF801\uF80A\uF80A\uF808\uD001"}]}}
+setblock ~ ~ ~ barrel[facing=down]{CustomName:{translate:"block.gui.fletching_name",fallback:"Fletching",extra:[{color:white,translate:"block.gui.fletching_gui",fallback:"     \uF801\uF80A\uF80A\uF808\uD001"}]}}
 
 function bts:blocks/fletching/set_grid
 summon block_display ~0.5 ~1.1 ~0.5 {Motion:[0.0,0.0,0.0],Tags:["custom_block","fletching"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.5f,-1.1f,-0.5f],scale:[1f,1f,1f]},block_state:{Name:"minecraft:fletching_table"}}

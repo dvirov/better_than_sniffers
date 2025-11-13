@@ -9,7 +9,6 @@
         },
         {
           "text": "\ni",
-          "type": "text",
           "color": "#afaef4",
           "shadow_color": 4539717,
           "font": "minecraft:include/unifont",
@@ -29,7 +28,7 @@
       "type": "minecraft:plain_message",
       "contents": [
         {
-          "text": "Worldgen",
+          "translate":"dialog.wiki.title.worldgen","fallback":"Worldgen",
           "strikethrough": false,
           "bold": true,
           "color": "#92d416",
@@ -40,13 +39,12 @@
           },
           "hover_event": {
             "action": "show_text",
-            "value": "click to open"
+            "value":{"translate":"dialog.wiki.hover.click_to_open","fallback":"click to open"}
           }
         },
         {
-          "text": "        ",
+          "text": "       ",
           "strikethrough": false ,
-          "type": "text",
           "font": "minecraft:default",
           "click_event": {
             "action": "custom",
@@ -58,8 +56,7 @@
         }
         },
         {
-          "text": "Gameplay",
-          "type": "text",
+          "translate":"dialog.wiki.title.gameplay","fallback":"Gameplay",
           "strikethrough": true,
           "color": "#92d416",
           "font": "minecraft:default",
@@ -69,7 +66,7 @@
           },
           "hover_event": {
             "action": "show_text",
-            "value": "click to open"
+            "value":{"translate":"dialog.wiki.hover.click_to_open","fallback":"click to open"}
           }
         }
       ]
@@ -78,9 +75,8 @@
       "type": "minecraft:plain_message",
       "contents": [
         {
-          "text": "Crafting",
+          "translate":"dialog.wiki.title.crafting","fallback":"Crafting",
           "bold": true,
-          "type": "text",
           "color": "#92d416",
           "font": "minecraft:default",
           "click_event": {
@@ -89,12 +85,11 @@
           },
           "hover_event": {
             "action": "show_text",
-            "value": "click to open"
+            "value":{"translate":"dialog.wiki.hover.click_to_open","fallback":"click to open"}
           }
         },
         {
           "text": "          ",
-          "type": "text",
           "font": "minecraft:default",
           "click_event": {
             "action": "custom",
@@ -106,10 +101,9 @@
         }
         },
         {
-          "text": "Tools",
+          "translate":"dialog.wiki.title.tools","fallback":"Tools",
           "strikethrough": false,
           "bold": true,
-          "type": "text",
           "color": "#92d416",
           "font": "minecraft:default",
           "click_event": {
@@ -118,7 +112,7 @@
           },
           "hover_event": {
             "action": "show_text",
-            "value": "click to open"
+            "value":{"translate":"dialog.wiki.hover.click_to_open","fallback":"click to open"}
           }
         }
       ]
@@ -127,10 +121,9 @@
       "type": "minecraft:plain_message",
       "contents": [
         {
-          "text": "Dimensions",
+          "translate":"dialog.wiki.title.dimensions","fallback":"Dimensions",
           "strikethrough": true,
           "bold": true,
-          "type": "text",
           "color": "#92d416",
           "font": "minecraft:default",
           "click_event": {
@@ -139,13 +132,12 @@
           },
           "hover_event": {
             "action": "show_text",
-            "value": "click to open"
+            "value":{"translate":"dialog.wiki.hover.click_to_open","fallback":"click to open"}
           }
         },
         {
           "text": "          ",
           "strikethrough": false,
-          "type": "text",
           "font": "minecraft:default",
           "click_event": {
             "action": "custom",
@@ -157,10 +149,9 @@
         }
         },
         {
-          "text": "Misc",
+          "translate":"dialog.wiki.title.misc","fallback":"Misc",
           "strikethrough": true,
           "bold": true,
-          "type": "text",
           "color": "#92d416",
           "font": "minecraft:default",
           "click_event": {
@@ -169,7 +160,7 @@
           },
           "hover_event": {
             "action": "show_text",
-            "value": "click to open"
+            "value":{"translate":"dialog.wiki.hover.click_to_open","fallback":"click to open"}
           }
         }
       ]
@@ -178,7 +169,7 @@
   "can_close_with_escape": true,
   "pause": false,
   "external_title": {
-    "translate": "menu.pause.title.text",
+    "translate": "dialog.wiki.external_title.main",
     "fallback": "Open Wiki"
   },
   "title": [
@@ -189,7 +180,10 @@
   ],
     "after_action": "none",
   "no": {
-    "label": "Close",
+    "label":{
+      "translate":"dialog.wiki.label.close",
+      "fallback":"Close"
+    },
     "action": {
       "type": "minecraft:run_command",
       "command": "trigger close.dialog"

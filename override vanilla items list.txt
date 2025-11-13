@@ -1,0 +1,12 @@
+allay spawn egg > acacia bark
+armadillo spawn egg > birch bark
+axolotl spawn egg > cherry bark
+bat spawn egg > dark_oak bark
+bee spawn egg > jungle bark
+blaze spawn egg > mangrove bark
+bogged spawn egg > oak bark
+breeze spawn egg > pale_oak bark
+camel spawn egg > spruce bark
+
+
+

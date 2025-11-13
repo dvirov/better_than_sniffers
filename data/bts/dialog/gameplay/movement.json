@@ -10,36 +10,43 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Movement",
+        "translate":"dialog.wiki.title.gameplay.movement","fallback":"Movement",
         "extra": [
-          [
-            "\n\n",
-            "In Better than Sniffers the player movments are a little diffrent from vanila ",
-            "\n",
-            "All changes will be listed here.",
-            "\n\n"
-          ],
-          [
-            "All movements exept walking requires stamina. ",
-            "Your stamina bar is displayed above the hunger bar. If the baris not displayed, it means it is full.",
-            "\n\n",
-            "Jump height decreased to exactly 1 block .",
-            "\n\n",
-            "Chains are now climbable.",
-            "\n\n",
-            "Wall Run :",
-            "\n",
-            "if  you run paralel to wall while there are no block beneath and you press forword+sprint you can run alongside the wall for short period",
-            "\n\n",
-            "Wall edge climb : (unstable)",
-            "\n",
-            "Press Seank+jump while loking paralel to the ground and have edge of wall in front of you ",
-            "\n\n",
-            "Roll : (experimental)",
-            "\n",
-            "Press Left+righ and exctly before you touch the ground while falling from high place",
-            " to negate all fall damage"
-          ]
+          "\n\n",
+          {
+            "translate":"",
+            "fallback":"In Better than Sniffers the player movments are a little diffrent from vanila \nAll changes will be listed here."
+          },
+          "\n\n",
+          {
+            "translate":"dialog.wiki.page.gameplay.movement.summary",
+            "fallback":"All movements exept walking requires stamina. Your stamina bar is displayed above the hunger bar. If the bar is not displayed, it means it is full."
+          },
+          "\n\n",
+          {
+            "translate":"dialog.wiki.page.gameplay.movement.jump_height.summary",
+            "fallback":"Jump height decreased to exactly 1 block ."
+          },
+          "\n\n",
+          {
+            "translate":"dialog.wiki.page.gameplay.movement.climb.summary" ,
+            "fallback":"Chains are now climbable."
+          },
+          "\n\n",
+          {
+            "translate":"dialog.wiki.page.gameplay.movement.wall_run.summary" ,
+            "fallback":"Wall Run :\nif you run paralel to wall while there are no block beneath and you press forword+sprint you can run alongside the wall for short period"
+          },
+          "\n\n",
+          {
+            "translate":"dialog.wiki.page.gameplay.movement.wall_edge_limb.summary" ,
+            "fallback":"Wall edge climb : (unstable)\nPress Seank+jump while loking paralel to the ground and have edge of wall in front of you "
+          },
+          "\n\n",
+          {
+            "translate":"dialog.wiki.page.gameplay.movement.roll.summary" ,
+            "fallback":"Roll : (experimental)\nPress Left+righ and exctly before you touch the ground while falling from high place to negate all fall damage"
+          }
         ]
       },
       "width": 250
@@ -49,14 +56,20 @@
   "pause": false,
   "after_action": "none",
   "yes": {
-    "label": "Close",
+    "label":{
+      "translate":"dialog.wiki.label.close",
+      "fallback":"Close"
+    },
     "action": {
       "type": "minecraft:run_command",
       "command": "trigger close.dialog"
     }
   },
   "no": {
-    "label": "Back",
+    "label":{
+      "translate":"dialog.wiki.label.back",
+      "fallback":"Back"
+    },
     "action": {
       "type": "minecraft:show_dialog",
       "dialog": "bts:gameplay"

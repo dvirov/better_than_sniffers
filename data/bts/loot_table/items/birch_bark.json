@@ -7,14 +7,18 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:birch_slab",
+          "name": "minecraft:armadillo_spawn_egg",
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
                "item_model": "bts:birch_bark",
                 "rarity": "common",
-                "item_name": "Birch Bark"
+                "item_name": {
+                   "translate": "item.bts.birch_bark",
+                   "fallback":"Birch Bark"
+                },
+                "!minecraft:entity_data": {}
               }
             }
           ]

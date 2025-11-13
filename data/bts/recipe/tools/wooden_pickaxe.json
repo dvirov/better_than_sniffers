@@ -16,7 +16,10 @@
     "count": 1,
     "components": {
       "item_model": "wooden_pickaxe",
-      "minecraft:item_name": "Wooden Pickaxe",
+      "minecraft:item_name": {
+        "translate": "item.bts.wooden_pickaxe",
+        "fallback":"Wooden Pickaxe"
+      },
       "minecraft:custom_data": {
                   "id":"wooden_pickaxe",
                   "ponder_id":"tools/pickaxe",

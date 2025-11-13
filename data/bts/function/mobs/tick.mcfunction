@@ -9,7 +9,7 @@ execute as @s[type=#bts:monsters,tag=!attributes_added,tag=!ai] run function bts
 # Animals AI
 execute if entity @s[type=#bts:ai_neutral,tag=!scanned,tag=!tammed] at @s run function bts:mobs/scan
 
-execute if entity @s[type=#bts:ai_neutral,tag=is_nutral,nbt={HurtTime:10s}] run function bts:mobs/attack
+execute if entity @s[type=#bts:ai_neutral,tag=is_nutral,nbt={HurtTime:10s}] on passengers run function bts:mobs/attack
 
 execute if entity @s[tag=ai,predicate=bts:is_passanger,tag=hurt_animal] run function bts:mobs/anger_time
 

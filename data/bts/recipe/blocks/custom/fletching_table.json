@@ -17,7 +17,9 @@
       "minecraft:entity_data": {
         "id": "minecraft:item_frame", "Tags":["custom_block","place_fletching"], "Invisible":false, "Invulnerable": true, "Fixed":true, "Silent": true
       },
-      "minecraft:custom_name": {"text":"Fletching Table","italic":false},
+      "minecraft:item_name": {
+        "translate": "block.bts.fletching_table",
+        "fallback":"Fletching Table"},
       "minecraft:rarity": "common",
       "custom_data": "{custom_block:1b,fletching:1b}"
     }

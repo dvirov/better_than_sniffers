@@ -6,13 +6,19 @@
         "item_model": "bts:sculpting_tool"
       }
     },
-    "title": "Sculpture Tool",
-    "description": "Craft Sculpture Tool",
+    "title": {
+     "translate": "advancement.progression.sculpture_tool.title",
+     "fallback": "Sculpture Tool"
+    },
+    "description": {
+     "translate": "advancement.progression.sculpture_tool.description",
+     "fallback": "Craft Sculpture Tool"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true
   },
-  "parent": "bts:string",
+  "parent": "bts:plant_fiber",
   "criteria": {
     "1": {
       "trigger": "minecraft:inventory_changed",

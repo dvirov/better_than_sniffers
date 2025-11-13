@@ -5,11 +5,11 @@
       "type": "minecraft:plain_message",
       "contents": [
         {
-          "text": " Better than Sniffers Wiki"
+          "translate":"dialog.wiki.title.main.title",
+          "fallback":" Better than Sniffers Wiki"
         },
         {
           "text": "\ni",
-          "type": "text",
           "color": "#afaef4",
           "shadow_color": 4539717,
           "font": "minecraft:include/unifont",
@@ -18,18 +18,22 @@
           "hover_event": {
             "action": "show_text",
             "value": {
-              "text": "Designed for GUI scale x3 on 1920x1080, errors may occur if diffrent scale is used"
+              "translate":"dialog.wiki.title.main.info",
+              "fallback":"Designed for GUI scale x3 on 1920x1080, errors may occur if diffrent scale is used"
             }
           }
         },
-        "\n Choose category you want to learn about "
+        {"translate":"dialog.wiki.title.main.choose_category",
+        "fallback":"\n Choose category you want to learn about "
+        }
       ]
     },
     {
       "type": "minecraft:plain_message",
       "contents": [
         {
-          "text": "Worldgen",
+          "translate":"dialog.wiki.title.worldgen",
+          "fallback":"Worldgen",
           "strikethrough": false,
           "bold": true,
           "color": "#92d416",
@@ -40,13 +44,12 @@
           },
           "hover_event": {
             "action": "show_text",
-            "value": "click to open"
+            "value":{"translate":"dialog.wiki.hover.click_to_open","fallback":"click to open"}
           }
         },
         {
-          "text": "        ",
+          "text": "       ",
           "strikethrough": false,
-          "type": "text",
           "font": "minecraft:default",
           "click_event": {
             "action": "custom",
@@ -58,8 +61,7 @@
           }
         },
         {
-          "text": "Gameplay",
-          "type": "text",
+          "translate":"dialog.wiki.title.gameplay","fallback":"Gameplay",
           "strikethrough": false,
           "color": "#92d416",
           "font": "minecraft:default",
@@ -69,7 +71,7 @@
           },
           "hover_event": {
             "action": "show_text",
-            "value": "click to open"
+            "value":{"translate":"dialog.wiki.hover.click_to_open","fallback":"click to open"}
           }
         }
       ]
@@ -78,9 +80,8 @@
       "type": "minecraft:plain_message",
       "contents": [
         {
-          "text": "Crafting",
+          "translate":"dialog.wiki.title.crafting","fallback":"Crafting",
           "bold": true,
-          "type": "text",
           "color": "#92d416",
           "font": "minecraft:default",
           "click_event": {
@@ -89,12 +90,11 @@
           },
           "hover_event": {
             "action": "show_text",
-            "value": "click to open"
+            "value":{"translate":"dialog.wiki.hover.click_to_open","fallback":"click to open"}
           }
         },
         {
           "text": "          ",
-          "type": "text",
           "font": "minecraft:default",
           "click_event": {
             "action": "custom",
@@ -106,10 +106,9 @@
           }
         },
         {
-          "text": "Tools",
+          "translate":"dialog.wiki.title.tools","fallback":"Tools",
           "strikethrough": false,
           "bold": true,
-          "type": "text",
           "color": "#92d416",
           "font": "minecraft:default",
           "click_event": {
@@ -118,7 +117,7 @@
           },
           "hover_event": {
             "action": "show_text",
-            "value": "click to open"
+            "value":{"translate":"dialog.wiki.hover.click_to_open","fallback":"click to open"}
           }
         }
       ]
@@ -127,10 +126,9 @@
       "type": "minecraft:plain_message",
       "contents": [
         {
-          "text": "Dimensions",
+          "translate":"dialog.wiki.title.dimensions","fallback":"Dimensions",
           "strikethrough": true,
           "bold": true,
-          "type": "text",
           "color": "#92d416",
           "font": "minecraft:default",
           "click_event": {
@@ -139,13 +137,12 @@
           },
           "hover_event": {
             "action": "show_text",
-            "value": "click to open"
+            "value":{"translate":"dialog.wiki.hover.click_to_open","fallback":"click to open"}
           }
         },
         {
           "text": "          ",
           "strikethrough": false,
-          "type": "text",
           "font": "minecraft:default",
           "click_event": {
             "action": "custom",
@@ -157,10 +154,9 @@
           }
         },
         {
-          "text": "Misc",
+          "translate":"dialog.wiki.title.misc","fallback":"Misc",
           "strikethrough": true,
           "bold": true,
-          "type": "text",
           "color": "#92d416",
           "font": "minecraft:default",
           "click_event": {
@@ -169,7 +165,7 @@
           },
           "hover_event": {
             "action": "show_text",
-            "value": "click to open"
+            "value":{"translate":"dialog.wiki.hover.click_to_open","fallback":"click to open"}
           }
         }
       ]
@@ -177,7 +173,8 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Credits",
+          "translate":"dialog.wiki.title.credits","fallback":"Credits",
+
         "color": "gold",
         "bold": true,
         "click_event": {
@@ -186,7 +183,10 @@
         },
         "hover_event": {
           "action": "show_text",
-          "value": "see credits"
+          "value": {
+            "translate":"dialog.wiki.title.credits.hover",
+            "fallback":"See Credits"
+          }
         }
       }
     }
@@ -194,7 +194,7 @@
   "can_close_with_escape": true,
   "pause": false,
   "external_title": {
-    "translate": "menu.pause.title.text",
+    "translate": "dialog.wiki.external_title.main",
     "fallback": "Open Wiki"
   },
   "title": [
@@ -205,16 +205,22 @@
   ],
   "after_action": "none",
   "no": {
-    "label": "Close",
+    "label":{
+      "translate":"dialog.wiki.label.close",
+      "fallback":"Close"
+    },
     "action": {
       "type": "minecraft:run_command",
       "command": "trigger close.dialog"
     }
   },
   "yes": {
-    "label": "Ponder",
+    "label":{
+      "translate":"dialog.wiki.label.ponder",
+      "fallback": "Ponder"
+    },
     "tooltip": {
-      "text": "Opens the page that corresponds to the item you are holding."
+      "translate":"dialog.wiki.hover.ponder","fallback":"Opens the page that corresponds to the item you are holding."
     },
     "action": {
       "type": "minecraft:run_command",

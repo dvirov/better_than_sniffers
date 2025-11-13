@@ -11,7 +11,10 @@
   "result": {
     "id": "minecraft:cobweb",
     "components": {
-      "minecraft:item_name": "Net"
+      "minecraft:item_name": {
+        "translate": "block.bts.net",
+        "fallback":"Net"
+      }
   }
 }
 }

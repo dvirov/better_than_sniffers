@@ -16,7 +16,10 @@
     "count": 1,
     "components": {
       "item_model": "bts:flint_axe",
-      "minecraft:item_name": "Flint Axe",
+      "minecraft:item_name": {
+        "translate": "item.bts.flint_axe",
+        "fallback":"Flint Axe"
+      },
       "minecraft:custom_data": {
                   "id":"flint_axe",
                   "ponder_id":"tools/axe",

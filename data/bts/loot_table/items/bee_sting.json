@@ -13,7 +13,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": "Bee Sting",
+                "minecraft:item_name": {
+                   "translate": "item.bts.bee_sting",
+                   "fallback":"Bee Sting"
+                },
                 "minecraft:item_model": "bts:bee_sting",
                 "max_stack_size": 64,
                 "minecraft:custom_data": {
@@ -30,7 +33,8 @@
                 },
                 "minecraft:lore": [
                   {
-                    "text": "Alchemy ingredient",
+                    "translate": "item.lore.alchemy_ingredient",
+                    "fallback": "Alchemy ingredient",
                     "color": "dark_purple",
                     "italic": false
                   }

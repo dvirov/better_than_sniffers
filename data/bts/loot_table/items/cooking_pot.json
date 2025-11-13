@@ -19,9 +19,9 @@
                   "ponder_id": "crafting/cooking",
                   "type": "custom_block"
                 },
-                "minecraft:custom_name": {
-                  "text": "Cooking Pot",
-                  "italic": false
+                "minecraft:item_name": {
+                   "translate": "block.bts.cooking_pot",
+                   "fallback":"Cooking Pot"
                 },
                 "minecraft:entity_data": {
                   "id": "minecraft:item_frame",

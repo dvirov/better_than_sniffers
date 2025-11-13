@@ -19,10 +19,10 @@
                   "ponder_id": "crafting/alchemy",
                   "type": "custom_block"
                 },
-                "minecraft:custom_name": {
-                  "text": "Alchemy Table",
-                  "italic": false
-                },
+                "minecraft:item_name": {
+                   "translate": "block.bts.alchemy_table",
+                   "fallback":"Alchemy Table"
+                  },
                 "minecraft:entity_data": {
                   "id": "minecraft:item_frame",
                   "Tags": [

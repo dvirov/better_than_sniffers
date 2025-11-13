@@ -10,22 +10,18 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Storage",
+        "translate":"dialog.wiki.title.gameplay.storage",
+        "fallback":"Storage",
         "extra": [
+          {
+          "translate":"dialog.wiki.title.gameplay.storage.description",
+          "fallback":"Collecting goods is great and all, but, you also need place to store them right ? \nDepending on your resources, you can create different storage blocks with varying amounts of space within them."
+          },
           "\n\n",
-          "Collecting goods is great and all  but you also need place to store them right ? ",
-          "\n",
-          "Depending on your resources, you can create different storage blocks with varying amounts of space within them.",
-          "\n\n",
-          "Storage Pot :",
-          "\n",
-          "The storage pot is the most basic form of storage block",
-          "\n",
-          "it can store 1 type of item and can only store up to the stack limit",
-          "\n",
-          "R-Click with item to store it inside ",
-          "\n",
-          "Shift+R-Click to retrive the items"
+          {
+          "translate":"dialog.wiki.page.gameplay.storage.storage_pot.summary",
+          "fallback":"Storage Pot :\nThe storage pot is the most basic form of storage block\nit can store 1 type of item and can only store up to the stack limit\nR-Click with item to store it inside \nShift+R-Click to retrive the items"
+          }
         ]
       },
       "width": 250
@@ -35,14 +31,20 @@
   "pause": false,
   "after_action": "none",
   "yes": {
-    "label": "Close",
+    "label":{
+      "translate":"dialog.wiki.label.close",
+      "fallback":"Close"
+    },
     "action": {
       "type": "minecraft:run_command",
       "command": "trigger close.dialog"
     }
   },
   "no": {
-    "label": "Back",
+    "label":{
+      "translate":"dialog.wiki.label.back",
+      "fallback":"Back"
+    },
     "action": {
       "type": "minecraft:show_dialog",
       "dialog": "bts:gameplay"

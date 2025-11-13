@@ -21,7 +21,10 @@
                   "nutrition": 1,
                   "saturation": 0.1
                 },
-                "minecraft:item_name": "Sea Spider",
+                "minecraft:item_name": {
+                   "translate": "item.bts.seaspider",
+                   "fallback":"Sea Spider"
+                },
                 "minecraft:item_model": "bts:seaspider"
               }
             }

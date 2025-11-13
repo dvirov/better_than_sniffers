@@ -21,9 +21,9 @@
                 "custom_block":true,
                 "bricks":true
                 },
-                "minecraft:custom_name": {
-                  "text": "Clay chunk",
-                  "italic": false
+                "minecraft:item_name": {
+                   "translate": "item.bts.clay_ball",
+                   "fallback":"Clay chunk"
                 },
                 "minecraft:entity_data": {
                   "id": "minecraft:item_frame",

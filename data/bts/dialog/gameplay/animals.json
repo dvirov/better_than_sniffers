@@ -10,19 +10,13 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Animals",
+        "translate":"dialog.wiki.title.gameplay.animals","fallback":"Animals",
         "extra": [
           "\n\n",
-          "The animals in Better than Sniffers are peaceful creatures All they want is to live peacefully in their natural habitat. ",
-          "Of course, once you attack them it's a different story and they will attack you back mercilessly.",
-          "\n\n",
-          "But not evrything is lost as long as you have some food to tame them",
-          "\n",
-          "To tame animal feed it with its favorite food ",
-          "\n",
-          "Once animal is tamed it will no longer attack you even if you kill it",
-          "\n",
-          "Offspring of tamed animals will also not attack the player."
+          {
+          "translate":"dialog.wiki.page.gameplay.animals.summary",
+          "fallback":"The animals in Better than Sniffers are peaceful creatures All they want is to live peacefully in their natural habitat.Of course, once you attack them it's a different story and they will attack you back mercilessly.\n\nBut not evrything is lost as long as you have some food to tame them\nTo tame animal feed it with its favorite food\nOnce animal is tamed it will no longer attack you even if you kill it\nOffspring of tamed animals will also not attack the player."
+        }
         ]
       },
       "width": 250
@@ -32,14 +26,20 @@
   "pause": false,
   "after_action": "none",
   "yes": {
-    "label": "Close",
+    "label":{
+      "translate":"dialog.wiki.label.close",
+      "fallback":"Close"
+    },
     "action": {
       "type": "minecraft:run_command",
       "command": "trigger close.dialog"
     }
   },
   "no": {
-    "label": "Back",
+    "label":{
+      "translate":"dialog.wiki.label.back",
+      "fallback":"Back"
+    },
     "action": {
       "type": "minecraft:show_dialog",
       "dialog": "bts:gameplay"

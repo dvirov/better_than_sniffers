@@ -7,14 +7,18 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:spruce_slab",
+          "name": "minecraft:camel_spawn_egg",
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
                "item_model": "bts:spruce_bark",
                 "rarity": "common",
-                "item_name": "Spruce Bark"
+                "item_name": {
+                   "translate": "item.bts.spruce_bark",
+                   "fallback":"Spruce Bark"
+                },
+                "!minecraft:entity_data": {}
               }
             }
           ]

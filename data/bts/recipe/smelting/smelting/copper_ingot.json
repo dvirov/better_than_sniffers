@@ -5,9 +5,12 @@
     "id": "minecraft:copper_ingot",
     "components": {
       "minecraft:custom_data": {
-        "copper_ingot": 1,
-        "crucible_made": 1
-      }
+                "minecraft:custom_data": {
+                  "id": "copper_ingot",
+                  "ponder_id": "",
+                  "type": "item"
+                }
+              }
     }
   },
   "cookingtime": 1600

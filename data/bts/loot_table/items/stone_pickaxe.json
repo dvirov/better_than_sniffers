@@ -13,7 +13,10 @@
               "function": "minecraft:set_components",
               "components": {
       "item_model": "stone_pickaxe",
-      "minecraft:item_name": "Stone Pickaxe",
+      "minecraft:item_name": {
+                   "translate": "item.bts.stone_pickaxe",
+                   "fallback":"Stone Pickaxe"
+      },
       "minecraft:custom_data": {
                   "id":"stone_pickaxe",
                   "ponder_id":"tools/pickaxe",
@@ -37,9 +40,9 @@
       },
       "minecraft:lore": [
         "",
-          {"color":"gray","italic":false,"text":"When in Main Hand:"},
-          {"color":"dark_green","italic":false,"text":" 1.4 Attack Damage"},
-          {"color":"dark_green","italic":false,"text":" 1.2 Attack Speed"}
+          [{"color":"gray","italic":false,"translate":"item.lore.tool.when_in_main_hand","fallback":"When in Main Hand:"}],
+          [{"color":"dark_green","italic":false,"text":" 1.4 "},{"color":"dark_green","italic":false,"translate":"item.lore.tool.attack_damage","fallback":"Attack Damage"}],
+          [{"color":"dark_green","italic":false,"text":" 1.2 "},{"color":"dark_green","italic":false,"translate":"item.lore.tool.attack_speed","fallback":"Attack Speed"}]
 
         ],
       "minecraft:attribute_modifiers": [

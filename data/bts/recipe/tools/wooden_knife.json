@@ -14,7 +14,10 @@
     "count": 1,
     "components": {
       "item_model": "bts:wooden_knife",
-      "minecraft:item_name": "Wooden Knife",
+      "minecraft:item_name": {
+        "translate": "item.bts.wooden_knife",
+        "fallback":"Wooden Knife"
+      },
       "minecraft:custom_data": {
                   "id":"wooden_knife",
                   "ponder_id":"tools/knife",

@@ -21,7 +21,10 @@
                   "nutrition": 1,
                   "saturation": 0.1
                 },
-                "minecraft:item_name": "Stormeel",
+                "minecraft:item_name": {
+                   "translate": "item.bts.stormeel",
+                   "fallback":"Stormeel"
+                },
                 "minecraft:item_model": "bts:stormeel"
               }
             }

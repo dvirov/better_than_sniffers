@@ -14,7 +14,10 @@
     "count": 1,
     "components": {
       "item_model": "bts:iron_knife",
-      "minecraft:item_name": "Iron Knife",
+      "minecraft:item_name": {
+        "translate": "item.bts.iron_knife",
+        "fallback":"Iron Knife"
+      },
       "minecraft:custom_data": {
                   "id":"iron_knife",
                   "ponder_id":"tools/knife",

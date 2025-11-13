@@ -10,15 +10,12 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Health and Food",
+        "translate":"dialog.wiki.title.gameplay.health_food","fallback":"Health and Food",
         "extra": [
-          "\n\n",
-          "In Better than Sniffers the natural regeneration is disabled",
-          "\n",
-          "in order to heal your self you must use healing items like bandages or potions",
-          "\n",
-          "Since now food have no connection to health food items are used only to not starving ",
-          "\n"
+          {
+            "translate": "dialog.wiki.page.gameplay.health_food.summary",
+            "fallback":"\n\nIn Better than Sniffers the natural regeneration is disabled\nin order to heal yourself you must use healing items like bandages or potions\nSince now food have no connection to health food items are used only to not starving \n"
+          }
         ]
       }
     }
@@ -27,14 +24,20 @@
   "pause": false,
   "after_action": "none",
   "yes": {
-    "label": "Close",
+    "label":{
+      "translate":"dialog.wiki.label.close",
+      "fallback":"Close"
+    },
     "action": {
       "type": "minecraft:run_command",
       "command": "trigger close.dialog"
     }
   },
   "no": {
-    "label": "Back",
+    "label":{
+      "translate":"dialog.wiki.label.back",
+      "fallback":"Back"
+    },
     "action": {
       "type": "minecraft:show_dialog",
       "dialog": "bts:gameplay"

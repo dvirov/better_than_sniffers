@@ -16,7 +16,10 @@
                   "nutrition": 1,
                   "saturation": 0.1
                 },
-                "minecraft:item_name": "Golden Sunfish",
+                "minecraft:item_name": {
+                   "translate": "item.bts.golden_sunfish",
+                   "fallback":"Golden Sunfish"
+                },
                 "minecraft:item_model": "bts:golden_sunfish",
                 "custom_data": {
                   "id":"golden_sunfish",

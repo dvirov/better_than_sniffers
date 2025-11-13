@@ -3,9 +3,9 @@
   "body": [
     {
       "type": "minecraft:plain_message",
-      "contents": [
-        "Tools\n",
-        "Sculpture Tool"
+      "contents": [{"translate":"dialog.wiki.title.tools","fallback":"Tools"},
+        "\n",
+        {"translate":"dialog.wiki.title.tools.knife","fallback":"Knife"}
       ],
       "width": 300
     },
@@ -13,7 +13,7 @@
       "type": "minecraft:plain_message",
       "contents": [
         {
-          "text": "Sword",
+          "translate":"dialog.wiki.title.tools.sword","fallback":"Sword",
           "color": "gray",
           "font": "minecraft:default",
           "click_event": {
@@ -22,12 +22,14 @@
           },
           "hover_event": {
             "action": "show_text",
-            "value": "Click to learn about Sword"
+            "value":{
+              "translate":"dialog.wiki.hover.click_to_learn_about.sword",
+              "fallback":"Click to learn about Sword"
+            }
           }
         },
         {
           "text": "    ",
-          "type": "text",
           "font": "minecraft:default",
           "click_event": {
             "action": "custom",
@@ -39,7 +41,7 @@
           }
         },
         {
-          "text": "Knife",
+          "translate":"dialog.wiki.title.tools.knife","fallback":"Knife",
           "font": "minecraft:default",
           "click_event": {
             "action": "show_dialog",
@@ -47,13 +49,15 @@
           },
           "hover_event": {
             "action": "show_text",
-            "value": "Click to learn about Knife"
+            "value":{
+              "translate":"dialog.wiki.hover.click_to_learn_about.knife",
+              "fallback": "Click to learn about Knife"
+            }
           }
         },
         {
           "text": "    ",
           "strikethrough": false,
-          "type": "text",
           "font": "minecraft:default",
           "click_event": {
             "action": "custom",
@@ -65,7 +69,7 @@
           }
         },
         {
-          "text": "Pickaxe",
+          "translate":"dialog.wiki.title.tools.pickaxe","fallback":"Pickaxe",
           "color": "gray",
           "font": "minecraft:default",
           "click_event": {
@@ -74,12 +78,14 @@
           },
           "hover_event": {
             "action": "show_text",
-            "value": "Click to learn about Pickaxe"
+            "value":{
+              "translate":"dialog.wiki.hover.click_to_learn_about.pickaxe",
+              "fallback":"Click to learn about Pickaxe"
+            }
           }
         },
         {
           "text": "    ",
-          "type": "text",
           "font": "minecraft:default",
           "click_event": {
             "action": "custom",
@@ -91,7 +97,7 @@
           }
         },
         {
-          "text": "Axe",
+          "translate":"dialog.wiki.title.tools.axe","fallback":"Axe",
           "font": "minecraft:default",
           "click_event": {
             "action": "show_dialog",
@@ -99,12 +105,14 @@
           },
           "hover_event": {
             "action": "show_text",
-            "value": "Click to learn about Axe"
+            "value":{
+              "translate":"dialog.wiki.hover.click_to_learn_about.axe",
+              "fallback": "Click to learn about Axe"
+            }
           }
         },
         {
           "text": "    ",
-          "type": "text",
           "font": "minecraft:default",
           "click_event": {
             "action": "custom",
@@ -116,7 +124,7 @@
           }
         },
         {
-          "text": "Sculpture Tool",
+          "translate":"dialog.wiki.title.tools.sculpture_tool","fallback":"Sculpture Tool",
           "color": "gray",
           "font": "minecraft:default",
           "click_event": {
@@ -125,11 +133,15 @@
           },
           "hover_event": {
             "action": "show_text",
-            "value": "Click to learn about Sculpture Tool"
+            "value":{
+              "translate":"dialog.wiki.hover.click_to_learn_about.sculpture_tool",
+              "fallback": "Click to learn about Sculpture Tool"
+            }
           }
         },
+        "\n",
         {
-          "text": "\nFire Plough",
+          "translate":"dialog.wiki.title.tools.fire_plough","fallback":"Fire Plough",
           "color": "gray",
           "font": "minecraft:default",
           "click_event": {
@@ -138,12 +150,14 @@
           },
           "hover_event": {
             "action": "show_text",
-            "value": "Click to learn about Fire Plough"
+            "value":{
+              "translate":"dialog.wiki.hover.click_to_learn_about.fire_plough",
+              "fallback": "Click to learn about Fire Plough"
+            }
           }
         },
         {
           "text": "    ",
-          "type": "text",
           "font": "minecraft:default",
           "click_event": {
             "action": "custom",
@@ -155,8 +169,7 @@
           }
         },
         {
-          "text": "Shovel",
-          "type": "text",
+          "translate":"dialog.wiki.title.tools.shovel","fallback":"Shovel",
           "color": "gray",
           "font": "minecraft:default",
           "click_event": {
@@ -165,12 +178,14 @@
           },
           "hover_event": {
             "action": "show_text",
-            "value": "Click to learn about Shovel"
+            "value":{
+              "translate":"dialog.wiki.hover.click_to_learn_about.shovel",
+              "fallback": "Click to learn about Shovel"
+            }
           }
         },
         {
           "text": "    ",
-          "type": "text",
           "font": "minecraft:default",
           "click_event": {
             "action": "change_page",
@@ -182,7 +197,7 @@
           }
         },
         {
-          "text": "Hoe",
+          "translate":"dialog.wiki.title.tools.hoe","fallback":"Hoe",
           "color": "gray",
           "font": "minecraft:default",
           "click_event": {
@@ -191,12 +206,14 @@
           },
           "hover_event": {
             "action": "show_text",
-            "value": "Click to learn about Hoe"
+            "value":{
+              "translate":"dialog.wiki.hover.click_to_learn_about.hoe",
+              "fallback": "Click to learn about Hoe"
+            }
           }
         },
         {
           "text": "    ",
-          "type": "text",
           "font": "minecraft:default",
           "click_event": {
             "action": "custom",
@@ -208,7 +225,8 @@
           }
         },
         {
-          "text": "Fishing Rod",
+          "translate":"dialog.wiki.title.tools.fishing_rod",
+          "fallback":"Fishing Rod",
           "color": "gray",
           "font": "minecraft:default",
           "click_event": {
@@ -217,12 +235,14 @@
           },
           "hover_event": {
             "action": "show_text",
-            "value": "Click to learn about Fishing Rod"
+            "value":{
+              "translate":"dialog.wiki.hover.click_to_learn_about.fishing_rod",
+              "fallback": "Click to learn about Fishing Rod"
+            }
           }
         },
         {
           "text": "    ",
-          "type": "text",
           "font": "minecraft:default",
           "click_event": {
             "action": "custom",
@@ -234,7 +254,7 @@
           }
         },
         {
-          "text": "Hammer",
+          "translate":"dialog.wiki.title.tools.hammer","fallback":"Hammer",
           "font": "minecraft:default",
           "click_event": {
             "action": "show_dialog",
@@ -242,7 +262,10 @@
           },
           "hover_event": {
             "action": "show_text",
-            "value": "Click to learn about Hammer"
+            "value":{
+              "translate":"dialog.wiki.hover.click_to_learn_about.hammer",
+              "fallback": "Click to learn about Hammer"
+            }
           }
         }
       ],
@@ -250,12 +273,10 @@
     },
     {
       "type": "minecraft:plain_message",
-      "contents":[
-        "Ouch its sharp ! \n",
-        "knife can be used to cut plants into plant fiber\n",
-        "its also cheaper than swords so its perfect as early weapon",
-        ""
-      ]
+      "contents":{
+        "translate":"dialog.wiki.page.tools.knife.summary",
+        "fallback":"Ouch its sharp ! \nknife can be used to cut plants into plant fiber\nits also cheaper than swords so its perfect as early weapon"
+      }
     }
   ],
   "can_close_with_escape": true,
@@ -268,14 +289,20 @@
   ],
   "after_action": "none",
   "yes": {
-    "label": "Close",
+    "label":{
+      "translate":"dialog.wiki.label.close",
+      "fallback":"Close"
+    },
     "action": {
       "type": "minecraft:run_command",
       "command": "trigger close.dialog"
     }
   },
   "no": {
-    "label": "Back",
+    "label":{
+      "translate":"dialog.wiki.label.back",
+      "fallback":"Back"
+    },
     "action": {
       "type": "minecraft:show_dialog",
       "dialog": "bts:tools"

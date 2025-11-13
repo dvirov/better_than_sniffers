@@ -1,44 +1,18 @@
 ### Features/changes:
-- added ducks (chicken variant)
-- new world generation
-- add salt rocks to world generation
-- added salt item
-- too hot temperatures set the player on fire
-- custom stews in cooking pot 
-- potions recipes in alchemy table 
-- some code optimization
-- now only the attacked animals attacks the player instead of all the nearby animals
-- improvements to the sanity system
-- sleeping restores sanity
-- added colors recipes
-- added beds recipes
-- added recipes for signs, trapdoors, colored bundles
-- disabling villager trades (temporary)
-- creepers will explode if they touch fire
-- new health system
-- reworked the anvil crafting. now the anvil have gui 
-- when stepping on leave there is small chance to destroy it (player/mobs)
-- removed recipe for bricks
-- clay is now placeable - when placed for long time it dry into brick
-- changes in loot tabels of dirt types - now those blocks drop dirt instead of "dirt balls"
-- removed recipe for dirt slab
-- added recipe for glass (sand in blast furnace)
-- bottles are now back to be made from glass instead of clay(maybe temporary)
-- now monsters can climb on climbable blocks(ladder, vine, etc)
-- added special fish types to fishing   
-- added more items into fishing loot table
+- # updated to 1.21.10
+- dp and rp now support lang translate (contact me if you want to add translate to your language)
+- bricks dry faster (x4) on lit campfire
+- torches consume more durability when used while in rain
+- crucible now support shapless crafting
+- wood bark now have independent item 
+- wooden slabs can be crafted from bark
+- rain make puddles(experiental)
+
+
 
 ###  Bug Fixes :
-- the campfires in the camp structure spawn without timer
-- sniffers not spawning in sniffer garden biome
-- villagers and loot can give unsupported items
-- knives are not damaged when used for attacking
-- tools have low durability / the same durability in higher tiers
-- difficulty not auto set to hard on load function
-- regular stone slabs missing loot table
-- no loot table for cobweb 
-- leaf litter not in campfire fuel tags
-- deepslate and terracotta not in tag #hard_rock for pebble break
-- wood slabs missing loottables
-- iron nuggets have unnecessary data in some cases 
+- rain dose not count in the wetness stat
+- some item models use handheld parent instead of generated
+- miss click in gui of custom block can void items 
+- misspelled every instance of calendar as calander 
 

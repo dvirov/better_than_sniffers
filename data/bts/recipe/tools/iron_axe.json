@@ -16,7 +16,10 @@
     "count": 1,
     "components": {
       "item_model": "iron_axe",
-      "minecraft:item_name": "Iron Axe",
+      "minecraft:item_name": {
+        "translate": "item.bts.iron_axe",
+        "fallback":"Iron Axe"
+      },
       "minecraft:custom_data": {
                   "id":"iron_axe",
                   "ponder_id":"tools/axe",

@@ -13,7 +13,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": "Raw Meat",
+                "minecraft:item_name": {
+                   "translate": "item.bts.raw_meat",
+                   "fallback":"Raw Meat"
+                },
                 "minecraft:item_model": "bts:raw_meat",
                 "minecraft:consumable": {
                   "consume_seconds": 1.6,
@@ -36,7 +39,8 @@
                 },
                 "minecraft:lore": [
                   {
-                    "text": "Cooking ingredient",
+                    "translate": "item.lore.cooking_ingredient",
+                    "fallback": "Cooking ingredient",
                     "color": "dark_purple",
                     "italic": false
                   }

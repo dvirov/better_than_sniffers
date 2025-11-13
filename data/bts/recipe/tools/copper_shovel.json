@@ -16,7 +16,10 @@
     "count": 1,
     "components": {
       "item_model": "bts:copper_shovel",
-      "minecraft:item_name": "Copper Shovel",
+      "minecraft:item_name": {
+        "translate": "item.bts.copper_shovel",
+        "fallback":"Copper Shovel"
+      },
       "minecraft:custom_data": {
                   "id":"copper_shovel",
                   "ponder_id":"tools/shovel",

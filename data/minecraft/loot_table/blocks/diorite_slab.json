@@ -46,7 +46,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "bts:items/salt",
+          "value": "bts:items/potash",
           "functions": [
             {
               "function": "minecraft:set_count",

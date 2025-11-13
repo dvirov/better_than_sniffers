@@ -1,6 +1,6 @@
     
     
-execute if score @s L.leg matches ..2 run data modify storage temp parts_health.leftleg_trigger set value '"click_event":{"action":"run_command","command":"trigger heal.dialog set 5"},"hover_event":{"action":"show_text","value":{"text":"Heal Left Leg"}}'
+execute if score @s L.leg matches ..2 run data modify storage temp parts_health.leftleg_trigger set value '"click_event":{"action":"run_command","command":"trigger heal.dialog set 5"},"hover_event":{"action":"show_text","value":{"translate":"dialog.healing.heal_left_leg",fallback:"Heal Left Leg"}}'
 execute if score @s L.leg matches 3.. run data modify storage temp parts_health.leftleg_trigger set value ""
 
 execute if score @s L.leg matches 3.. run data modify storage temp parts_health.leftleg_edge set value "묁묁묁"

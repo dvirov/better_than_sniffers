@@ -36,7 +36,10 @@
   "pause": false,
   "after_action": "none",
   "exit_action": {
-    "label": "Close",
+    "label":{
+      "translate":"dialog.wiki.label.close",
+      "fallback":"Close"
+    },
     "action": {
       "type": "minecraft:run_command",
       "command": "trigger close.dialog"

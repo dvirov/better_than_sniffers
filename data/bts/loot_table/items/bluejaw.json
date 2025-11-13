@@ -16,7 +16,10 @@
                   "nutrition": 1,
                   "saturation": 0.1
                 },
-                "minecraft:item_name": "Bluejaw",
+                "minecraft:item_name": {
+                   "translate": "item.bts.bluejaw",
+                   "fallback":"Bluejaw"
+                },
                 "minecraft:item_model": "bts:bluejaw",
                 "custom_data": {
                   "id":"bluejaw",

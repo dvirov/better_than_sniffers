@@ -16,7 +16,10 @@
     "count": 1,
     "components": {
       "item_model": "bts:copper_axe",
-      "minecraft:item_name": "Copper Axe",
+      "minecraft:item_name": {
+        "translate": "item.bts.copper_axe",
+        "fallback":"Copper Axe"
+      },
       "minecraft:custom_data": {
                   "id":"copper_axe",
                   "ponder_id":"tools/axe",

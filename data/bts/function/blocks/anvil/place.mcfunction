@@ -2,7 +2,7 @@
 execute unless block ~ ~ ~ air run return run function bts:blocks/fail
 
 
-setblock ~ ~ ~ barrel[facing=down]{CustomName:{text:"Anvil",extra:[{color:white,text:"            \uF807\uF80A\uF80A\uF808\uD004"}]}}
+setblock ~ ~ ~ barrel[facing=down]{CustomName:{translate:"block.gui.anvil_name",fallback:"Anvil",extra:[{color:white,translate:"block.gui.anvil_gui",fallback:"            \uF807\uF80A\uF80A\uF808\uD004"}]}}
 function bts:blocks/anvil/set_grid
 
 

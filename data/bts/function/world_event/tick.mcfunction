@@ -1,9 +1,9 @@
 # run from player tick
 
-execute if score .season calander matches 1 as @a at @s run function bts:world_event/seasons/fall
-execute if score .season calander matches 2 as @a at @s run function bts:world_event/seasons/winter
-execute if score .season calander matches 3 as @a at @s run function bts:world_event/seasons/spring
-execute if score .season calander matches 4 as @a at @s run function bts:world_event/seasons/summer
+execute if score .season calender matches 1 as @a at @s run function bts:world_event/seasons/fall
+execute if score .season calender matches 2 as @a at @s run function bts:world_event/seasons/winter
+execute if score .season calender matches 3 as @a at @s run function bts:world_event/seasons/spring
+execute if score .season calender matches 4 as @a at @s run function bts:world_event/seasons/summer
 
 
 #execute as @a at @s store result score @s ylevel run data get entity @s Pos[1]
@@ -19,11 +19,11 @@ execute unless score @s bar_stamina matches 21.. unless predicate bts:is_running
 
 
 # Slime Rain
-execute unless score slimerain calander matches 1 if predicate bts:is_day if predicate bts:sunrise if predicate bts:world_event/rng0.001 as @a run function bts:world_event/slimerain/start
-execute if score slimerain calander matches 1 as @a at @s positioned ~ ~50 ~ run function bts:world_event/slimerain/main
+execute unless score slimerain calender matches 1 if predicate bts:is_day if predicate bts:sunrise if predicate bts:world_event/rng0.001 as @a run function bts:world_event/slimerain/start
+execute if score slimerain calender matches 1 as @a at @s positioned ~ ~50 ~ run function bts:world_event/slimerain/main
 
 
-
+execute if predicate bts:is_raining run function bts:world_event/rain/main
 
 execute if predicate bts:nightfall run function bts:world_event/day_end
 

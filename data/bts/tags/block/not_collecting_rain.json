@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#leaves",
+    "#bts:mushroom_blocks",
+    "magma_block"
+  ]
+}

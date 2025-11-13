@@ -16,7 +16,10 @@
     "count": 1,
     "components": {
       "item_model": "bts:copper_sword",
-      "minecraft:item_name": "Copper Sword",
+      "minecraft:item_name": {
+        "translate": "item.bts.copper_sword",
+        "fallback":"Copper Sword"
+      },
       "minecraft:custom_data": {
                   "id":"copper_sword",
                   "ponder_id":"tools/sword",

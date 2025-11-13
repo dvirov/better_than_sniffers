@@ -16,7 +16,10 @@
     "count": 1,
     "components": {
       "item_model": "iron_sword",
-      "minecraft:item_name": "iron Sword",
+      "minecraft:item_name": {
+        "translate": "item.bts.iron_sword",
+        "fallback":"iron Sword"
+      },
       "minecraft:custom_data": {
                   "id":"iron_sword",
                   "ponder_id":"tools/sword",

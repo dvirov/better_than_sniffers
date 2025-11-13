@@ -19,10 +19,9 @@
                   "ponder_id": "crafting/campfire",
                   "type": "custom_block"
                 },
-                "minecraft:custom_name": {
-                  "text": "Campfire",
-                  "type": "text",
-                  "italic": false
+                "minecraft:item_name": {
+                   "translate": "block.bts.campfire",
+                   "fallback": "Campfire"
                 },
                 "minecraft:entity_data": {
                   "id": "minecraft:item_frame",

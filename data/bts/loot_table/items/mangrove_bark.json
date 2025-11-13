@@ -7,14 +7,18 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:mangrove_slab",
+          "name": "minecraft:blaze_spawn_egg",
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
                "item_model": "bts:mangrove_bark",
                 "rarity": "common",
-                "item_name": "Mangrove Bark"
+                "item_name": {
+                   "translate": "item.bts.mangrove_bark",
+                   "fallback":"Mangrove Bark"
+                },
+                "!minecraft:entity_data": {}
               }
             }
           ]

@@ -16,7 +16,10 @@
     "count": 1,
     "components": {
       "item_model": "iron_shovel",
-      "minecraft:item_name": "Iron Shovel",
+      "minecraft:item_name": {
+        "translate": "item.bts.iron_shovel",
+        "fallback":"Iron Shovel"
+      },
       "minecraft:custom_data": {
                   "id":"iron_shovel",
                   "ponder_id":"tools/shovel",

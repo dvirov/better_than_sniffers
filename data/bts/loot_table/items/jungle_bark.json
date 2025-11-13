@@ -7,14 +7,18 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:jungle_slab",
+          "name": "minecraft:bee_spawn_egg",
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
                "item_model": "bts:jungle_bark",
                 "rarity": "common",
-                "item_name": "Jungle Bark"
+                "item_name": {
+                   "translate": "item.bts.jungle_bark",
+                   "fallback":"Jungle Bark"
+                },
+                "!minecraft:entity_data": {}
               }
             }
           ]

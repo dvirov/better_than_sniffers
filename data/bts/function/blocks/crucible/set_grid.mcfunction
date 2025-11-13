@@ -1,3 +1,4 @@
+function bts:blocks/crucible/restore_items
 
 item replace block ~ ~ ~ container.0 with barrier[item_model="air",max_stack_size=1,tooltip_display={hide_tooltip:true},custom_data={crucible:1b}] 1
 item replace block ~ ~ ~ container.1 with barrier[item_model="air",max_stack_size=1,tooltip_display={hide_tooltip:true},custom_data={crucible:1b}] 1
@@ -9,9 +10,13 @@ item replace block ~ ~ ~ container.6 with barrier[item_model="air",max_stack_siz
 item replace block ~ ~ ~ container.7 with barrier[item_model="air",max_stack_size=1,tooltip_display={hide_tooltip:true},custom_data={crucible:1b}] 1
 item replace block ~ ~ ~ container.8 with barrier[item_model="air",max_stack_size=1,tooltip_display={hide_tooltip:true},custom_data={crucible:1b}] 1
 item replace block ~ ~ ~ container.9 with barrier[item_model="air",max_stack_size=1,tooltip_display={hide_tooltip:true},custom_data={crucible:1b}] 1
+# replace block ~ ~ ~ container.10 with barrier[item_model="air",max_stack_size=1,tooltip_display={hide_tooltip:true},custom_data={crucible:1b}] 1
+# replace block ~ ~ ~ container.11 with barrier[item_model="air",max_stack_size=1,tooltip_display={hide_tooltip:true},custom_data={crucible:1b}] 1
+#item replace block ~ ~ ~ container.12 with barrier[item_model="air",max_stack_size=1,tooltip_display={hide_tooltip:true},custom_data={crucible:1b}] 1
 item replace block ~ ~ ~ container.13 with barrier[item_model="air",max_stack_size=1,tooltip_display={hide_tooltip:true},custom_data={crucible:1b}] 1
 item replace block ~ ~ ~ container.14 with barrier[item_model="air",max_stack_size=1,tooltip_display={hide_tooltip:true},custom_data={crucible:1b}] 1
 item replace block ~ ~ ~ container.15 with barrier[item_model="air",max_stack_size=1,tooltip_display={hide_tooltip:true},custom_data={crucible:1b}] 1
+#item replace block ~ ~ ~ container.16 with barrier[item_model="air",max_stack_size=1,tooltip_display={hide_tooltip:true},custom_data={crucible:1b}] 1
 item replace block ~ ~ ~ container.17 with barrier[item_model="air",max_stack_size=1,tooltip_display={hide_tooltip:true},custom_data={crucible:1b}] 1
 item replace block ~ ~ ~ container.18 with barrier[item_model="air",max_stack_size=1,tooltip_display={hide_tooltip:true},custom_data={crucible:1b}] 1
 item replace block ~ ~ ~ container.19 with barrier[item_model="air",max_stack_size=1,tooltip_display={hide_tooltip:true},custom_data={crucible:1b}] 1

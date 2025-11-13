@@ -13,7 +13,10 @@
               "function": "minecraft:set_components",
               "components": {
       "item_model": "bts:copper_sword",
-      "minecraft:item_name": "Copper Sword",
+      "minecraft:item_name": {
+                   "translate": "item.bts.copper_sword",
+                   "fallback":"Copper Sword"
+      },
       "minecraft:custom_data": {
                   "id":"copper_sword",
                   "ponder_id":"tools/sword",
@@ -24,10 +27,10 @@
       "minecraft:max_damage": 96,
 
       "minecraft:lore": [
-          "",
-          {"color":"gray","italic":false,"text":"When in Main Hand:"},
-          {"color":"dark_green","italic":false,"text":" 3.9 Attack Damage"},
-          {"color":"dark_green","italic":false,"text":" 1.6 Attack Speed"}
+        "",
+          [{"color":"gray","italic":false,"translate":"item.lore.tool.when_in_main_hand","fallback":"When in Main Hand:"}],
+          [{"color":"dark_green","italic":false,"text":" 3.9 "},{"color":"dark_green","italic":false,"translate":"item.lore.tool.attack_damage","fallback":"Attack Damage"}],
+          [{"color":"dark_green","italic":false,"text":" 1.6 "},{"color":"dark_green","italic":false,"translate":"item.lore.tool.attack_speed","fallback":"Attack Speed"}]
 
         ],
       "minecraft:attribute_modifiers": [

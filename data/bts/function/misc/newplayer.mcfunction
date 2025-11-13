@@ -1,5 +1,6 @@
 scoreboard players set @s deathdetector 0
 scoreboard players set @s time_in_dark 0
+scoreboard players set @s settings.custom_sounds 1
 
 
 function bts:item_use/potions/effects/clear_all_custom_effects

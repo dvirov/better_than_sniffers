@@ -16,7 +16,10 @@
     "count": 1,
     "components": {
       "item_model": "wooden_shovel",
-      "minecraft:item_name": "Wooden Shovel",
+      "minecraft:item_name": {
+        "translate": "item.bts.wooden_shovel",
+        "fallback":"Wooden Shovel"
+      },
       "minecraft:custom_data": {
                   "id":"wooden_shovel",
                   "ponder_id":"tools/shovel",

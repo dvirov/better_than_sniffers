@@ -16,7 +16,10 @@
     "count": 1,
     "components": {
       "item_model": "bts:flint_sword",
-      "minecraft:item_name": "Flint Sword",
+      "minecraft:item_name": {
+        "translate": "item.bts.flint_sword",
+        "fallback":"Flint Sword"
+      },
       "minecraft:custom_data": {
                   "id":"flint_sword",
                   "ponder_id":"tools/sword",

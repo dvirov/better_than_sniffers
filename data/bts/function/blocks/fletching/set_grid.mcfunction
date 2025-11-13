@@ -1,3 +1,4 @@
+function bts:blocks/fletching/restore_items
 
 item replace block ~ ~ ~ container.0 with barrier[item_model="air",max_stack_size=1,tooltip_display={hide_tooltip:true},custom_data={fletching:1b}] 1
 item replace block ~ ~ ~ container.1 with barrier[item_model="air",max_stack_size=1,tooltip_display={hide_tooltip:true},custom_data={fletching:1b}] 1

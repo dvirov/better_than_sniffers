@@ -19,7 +19,7 @@
         ]
       },
       "minecraft:item_name": {
-        "translate": "bts.improvised_bow",
+        "translate": "item.bts.improvised_bow",
         "fallback": "Improvised Bow",
         "color": "white"
       },

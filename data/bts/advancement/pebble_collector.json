@@ -3,8 +3,14 @@
       "icon": {
         "id": "minecraft:stone_button"
       },
-      "title": "Pebble collector",
-      "description": "Collect some Pebbles",
+      "title": {
+     "translate": "advancement.progression.pebble_collector.title",
+     "fallback": "Pebble collector"
+      },
+      "description": {
+     "translate": "advancement.progression.pebble_collector.description",
+     "fallback": "Collect some Pebbles"
+      },
       "hidden": false
     },
     "parent": "bts:guide",

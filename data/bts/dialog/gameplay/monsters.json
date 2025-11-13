@@ -10,24 +10,28 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Monsters",
+        "translate":"dialog.wiki.title.gameplay.monsters","fallback":"Monsters",
         "extra": [
           "\n\n",
-          "The world is a dangerous place. Monsters lurk in the shadows, waiting for the unwary player to fall into their trap.",
-          "\n",
-          "But while the players feel safe in the upper world, during the day, protected by the warm rays of the sun, the monsters don't sit idle, they evolve.",
+          {
+            "translate":"dialog.wiki.page.gameplay.monsters.summary",
+            "fallback":"The world is a dangerous place. Monsters lurk in the shadows, waiting for the unwary player to fall into their trap.\nBut while the players feel safe in the upper world, during the day, protected by the warm rays of the sun, the monsters don't sit idle, they evolved."
+          },
           "\n\n",
-          "Miner Zombie : ",
-          "\n",
-          "The miner zombie is a rare variant of the regular zombie , it can mine block and break through walls in order to find somthing to eat",
-          "\n",
-          "it can apear as zombie or husk and it will hold pickaxe in the hand",
+          {
+            "translate":"dialog.wiki.page.gameplay.monsters.miner_zombie.summary",
+            "fallback":"Miner Zombie:\nThe miner zombie is a rare variant of the regular zombie , it can mine block and break through walls in order to find somthing to eat\nit can apear as zombie or husk and it will hold pickaxe in the hand"
+          },
           "\n\n",
-          "Spider :",
-          "\n",
-          "The spiders learned how to throw cobwebs ! ",
-          "once they cought you its game over....",
-          ""
+          {
+            "translate":"dialog.wiki.page.gameplay.monsters.spider.summary",
+            "fallback":"Spider:\nThe spiders learned how to throw cobwebs ! once they cought you, its game over...."
+          },
+          "\n\n",
+          {
+            "translate":"dialog.wiki.page.gameplay.monsters.creeper.summary",
+            "fallback":"Creeper:\nThe creepers have developed a serious allergy to fire, just the slightest touch and they explode uncontrollably."
+          }
         ]
       },
       "width": 250
@@ -37,14 +41,20 @@
   "pause": false,
   "after_action": "none",
   "yes": {
-    "label": "Close",
+    "label":{
+      "translate":"dialog.wiki.label.close",
+      "fallback":"Close"
+    },
     "action": {
       "type": "minecraft:run_command",
       "command": "trigger close.dialog"
     }
   },
   "no": {
-    "label": "Back",
+    "label":{
+      "translate":"dialog.wiki.label.back",
+      "fallback":"Back"
+    },
     "action": {
       "type": "minecraft:show_dialog",
       "dialog": "bts:gameplay"

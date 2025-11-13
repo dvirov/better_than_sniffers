@@ -6,8 +6,14 @@
         "item_model": "bts:wooden_knife"
       }
     },
-    "title": "Wooden Knife",
-    "description": "Craft Wooden knife",
+    "title": {
+     "translate": "advancement.progression.wooden_knife.title",
+     "fallback": "Wooden Knife"
+    },
+    "description": {
+     "translate": "advancement.progression.wooden_knife.description",
+     "fallback": "Craft Wooden knife"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true

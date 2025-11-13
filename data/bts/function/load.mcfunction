@@ -1,8 +1,9 @@
-function bts:calander/load
+function bts:calender/load
 function bts:world_event/sound/load
 function bts:mobs/load
 function bts:item_use/potions/effects/load
 function bts:world_event/health/load
+function bts:blocks/crucible/load
 team add blue
 team modify blue color blue
 difficulty hard
@@ -76,6 +77,8 @@ scoreboard objectives add crafting.progress dummy
 
 
 # settings 
+scoreboard objectives add settings.custom_sounds dummy
+
 scoreboard objectives add pack.settings dummy
 execute if score .developer pack.settings matches 1 run tellraw @a {color:dark_red ,text:"Developer mode is active !"}
 

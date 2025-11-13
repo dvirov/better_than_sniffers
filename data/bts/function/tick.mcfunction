@@ -1,6 +1,6 @@
 # main tick command
 
-function bts:calander/tick
+function bts:calender/tick
 
 #execute as @e[type=armor_stand,tag=drying_rack] at @s run function bts:drying_rack/tick
 

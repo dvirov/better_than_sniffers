@@ -13,7 +13,10 @@
               "function": "minecraft:set_components",
               "components": {
       "item_model": "bts:flint_hoe",
-      "minecraft:item_name": "Flint Hoe",
+      "minecraft:item_name": {
+                   "translate": "item.bts.flint_hoe",
+                   "fallback":"Flint Hoe"
+                  },
       "minecraft:custom_data": {
                   "id":"flint_hoe",
                   "ponder_id":"tools/hoe",
@@ -35,9 +38,9 @@
       },
       "minecraft:lore": [
         "",
-          {"color":"gray","italic":false,"text":"When in Main Hand:"},
-          {"color":"dark_green","italic":false,"text":" 1 Attack Damage"},
-          {"color":"dark_green","italic":false,"text":" 2 Attack Speed"}
+          [{"color":"gray","italic":false,"translate":"item.lore.tool.when_in_main_hand","fallback":"When in Main Hand:"}],
+          [{"color":"dark_green","italic":false,"text":" 1 "},{"color":"dark_green","italic":false,"translate":"item.lore.tool.attack_damage","fallback":"Attack Damage"}],
+          [{"color":"dark_green","italic":false,"text":" 2 "},{"color":"dark_green","italic":false,"translate":"item.lore.tool.attack_speed","fallback":"Attack Speed"}]
 
         ],
       "minecraft:attribute_modifiers": [

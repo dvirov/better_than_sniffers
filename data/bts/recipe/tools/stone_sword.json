@@ -16,7 +16,10 @@
     "count": 1,
     "components": {
       "item_model": "stone_sword",
-      "minecraft:item_name": "Stone Sword",
+      "minecraft:item_name": {
+        "translate": "item.bts.stone_sword",
+        "fallback":"Stone Sword"
+      },
       "minecraft:custom_data": {
                   "id":"stone_sword",
                   "ponder_id":"tools/sword",

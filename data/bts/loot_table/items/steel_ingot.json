@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:generic",
+  "functions": [],
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "item_model": "bts:steel_ingot",
+                "minecraft:item_name": {
+                  "translate": "item.bts.steel_ingot",
+                  "fallback": "Steel Ingot",
+                  "color": "gray"
+                },
+                "minecraft:custom_data": {
+                  "id": "steel_ingot",
+                  "ponder_id": "",
+                  "type": "item"
+                },
+                "minecraft:max_stack_size": 64,
+                "minecraft:rarity": "common",
+                "!minecraft:jukebox_playable": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:items/steel_ingot"
+}

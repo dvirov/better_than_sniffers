@@ -2,7 +2,7 @@
     
 #full health
 
-execute if score @s Body matches ..5 run data modify storage temp parts_health.body_trigger set value '"click_event":{"action":"run_command","command":"trigger heal.dialog set 3"},"hover_event":{"action":"show_text","value":{"text":"Heal Body"}}'
+execute if score @s Body matches ..5 run data modify storage temp parts_health.body_trigger set value '"click_event":{"action":"run_command","command":"trigger heal.dialog set 3"},"hover_event":{"action":"show_text","value":{"translate":"dialog.healing.heal_body",fallback:"Heal Body"}}'
 execute if score @s Body matches 6.. run data modify storage temp parts_health.body_trigger set value ''
 
 execute if score @s Body matches 6.. run data modify storage temp parts_health.body_edge set value "묁묁묁묁묁묁"

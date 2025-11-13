@@ -16,9 +16,9 @@ execute unless score @s crafting.progress matches 200 run return run function bt
 scoreboard players set @s crafting.progress 0
 item replace block ~ ~ ~ container.26 with barrier[item_model="air",max_stack_size=1,custom_data={crucible:1b},tooltip_display={hide_tooltip:true}] 1
 execute if items block ~ ~ ~ container.16 music_disc_11 run item modify block ~ ~ ~ container.16 bts:add1
-execute unless items block ~ ~ ~ container.16 music_disc_11 run item replace block ~ ~ ~ container.16 with minecraft:music_disc_11[item_model="bts:steel_ingot",minecraft:item_name={"color":"gray","text":"Steel Ingot"},minecraft:custom_data={"steel_ingot":1b,"crucible_made":1b},!minecraft:jukebox_playable,minecraft:max_stack_size=64] 1
+execute unless items block ~ ~ ~ container.16 music_disc_11 run loot replace block ~ ~ ~ container.16 loot bts:items/steel_ingot
 item modify block ~ ~ ~ container.10 bts:delete_item
 item modify block ~ ~ ~ container.11 bts:delete_item
 item modify block ~ ~ ~ container.12 bts:delete_item
 
-#data merge block ~ ~ ~ {CustomName:{"color":"white","text":"\uF807\uF801\uD000"}}
+#data merge block ~ ~ ~ {CustomName:{"color":"white","text":"\uF807\uF801\uD000"}} 

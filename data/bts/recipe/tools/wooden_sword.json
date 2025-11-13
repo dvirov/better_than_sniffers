@@ -16,7 +16,10 @@
     "count": 1,
     "components": {
       "item_model": "wooden_sword",
-      "minecraft:item_name": "Wooden Sword",
+      "minecraft:item_name": {
+        "translate": "item.bts.wooden_sword",
+        "fallback":"Wooden Sword"
+      },
       "minecraft:custom_data": {
                   "id":"wooden_sword",
                   "ponder_id":"tools/sword",

@@ -17,7 +17,10 @@
       "item_model":"bts:sculpting_tool",
       "minecraft:max_stack_size": 1,
       "minecraft:max_damage": 1,
-      "minecraft:item_name": "Sculpture Tool",
+      "minecraft:item_name": {
+        "translate": "item.bts.sculpting_tool",
+        "fallback":"Sculpture Tool"
+      },
       "minecraft:custom_data": {
                   "id":"sculpting_tool",
                   "ponder_id":"sculpture_tool",

@@ -16,7 +16,10 @@
     "count": 1,
     "components": {
       "item_model": "bts:flint_shovel",
-      "minecraft:item_name": "Flint Shovel",
+      "minecraft:item_name": {
+        "translate": "item.bts.flint_shovel",
+        "fallback":"Flint Shovel"
+      },
       "minecraft:custom_data": {
                   "id":"flint_shovel",
                   "ponder_id":"tools/shovel",

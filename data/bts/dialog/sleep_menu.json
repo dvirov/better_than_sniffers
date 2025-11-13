@@ -3,19 +3,28 @@
   "body": [
     {
       "type": "minecraft:plain_message",
-      "contents": "The game is not paused !\n\n while you sleep you restore small amounts of sanity over time"
+      "contents":
+      {
+        "translate": "dialog.sleep.title",
+        "fallback": "The game is not paused !\n\n while you sleep you restore small amounts of sanity over time"
+      }
+       
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Dream about the wiki",
+        "translate":"dialog.sleep.open_wiki",
+        "fallback": "Dream about the wiki",
         "click_event": {
           "action": "show_dialog",
           "dialog": "bts:main"
         },
         "hover_event": {
           "action": "show_text",
-          "value": "Open wiki"
+          "value": {
+            "translate": "dialog.wiki.external_title.main",
+             "fallback": "Open Wiki"
+          }
         }
       }
     }
@@ -24,7 +33,7 @@
   "can_close_with_escape": true,
   "pause": false,
   "external_title": {
-    "translate": "menu.pause.title.text",
+    "translate": "dialog.wiki.external_title.main",
     "fallback": "Open Wiki"
   },
   "title": [

@@ -7,14 +7,18 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:pale_oak_slab",
+          "name": "minecraft:breeze_spawn_egg",
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
                "item_model": "bts:pale_oak_bark",
                 "rarity": "common",
-                "item_name": "Pale Oak Bark"
+                "item_name": {
+                   "translate": "item.bts.pale_oak_bark",
+                   "fallback":"Pale Oak Bark"
+                },
+                "!minecraft:entity_data": {}
               }
             }
           ]

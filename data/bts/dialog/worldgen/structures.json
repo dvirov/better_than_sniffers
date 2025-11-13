@@ -10,14 +10,15 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Learn about structurs in the world"
+        "translate":"dialog.wiki.title.worldgen.structures.description",
+        "fallback":"Learn about structurs in the world"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": [
         {
-          "text": "Pillagers Camp    ",
+          "translate":"dialog.wiki.title.worldgen.structures.pillagers_camp","fallback":"Pillagers Camp",
           "color": "#92d416",
           "bold": true,
           "click_event": {
@@ -26,11 +27,13 @@
           },
           "hover_event": {
             "action": "show_text",
-            "value": "Learn"
+            "value": {
+              "translate":"dialog.wiki.hover.learn","fallback":"Learn"
+            }
           }
         },
         {
-          "text": "        ",
+          "text": "       ",
           "strikethrough": false,
           "click_event": {
             "action": "custom",
@@ -53,14 +56,20 @@
   "pause": false,
   "after_action": "none",
   "yes": {
-    "label": "Close",
+    "label":{
+      "translate":"dialog.wiki.label.close",
+      "fallback":"Close"
+    },
     "action": {
       "type": "minecraft:run_command",
       "command": "trigger close.dialog"
     }
   },
   "no": {
-    "label": "Back",
+    "label":{
+      "translate":"dialog.wiki.label.back",
+      "fallback":"Back"
+    },
     "action": {
       "type": "minecraft:show_dialog",
       "dialog": "bts:worldgen"

@@ -35,12 +35,15 @@
                 },
                 "minecraft:lore": [
                   {
-                    "text": "Cooking ingredient",
+                    "translate": "item.lore.cooking_ingredient",
+                    "fallback": "Cooking ingredient",
                     "color": "dark_purple",
                     "italic": false
                   },
                   {
-                    "text": "Alchemy ingredient",
+
+                    "translate": "item.lore.alchemy_ingredient",
+                    "fallback": "Alchemy ingredient",
                     "color": "dark_purple",
                     "italic": false
                   }

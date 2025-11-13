@@ -3,8 +3,14 @@
     "icon": {
       "id": "minecraft:flint"
     },
-    "title": "Ooga Booga !",
-    "description": "smash the pebbles on hard surface",
+    "title": {
+     "translate": "advancement.progression.shater_it.title",
+     "fallback": "Ooga Booga !"
+    },
+    "description": {
+     "translate": "advancement.progression.shater_it.description",
+     "fallback": "Smash the pebbles on hard surface"
+    },
     "hidden": false
   },
   "parent": "bts:pebble_collector",

@@ -3,8 +3,14 @@
     "icon": {
       "id": "minecraft:dark_oak_fence_gate"
     },
-    "title": "Defences",
-    "description": "Craft some Fence to keep your camp safe",
+    "title": {
+     "translate": "advancement.progression.fences.title",
+     "fallback": "Defences"
+    },
+    "description": {
+     "translate": "advancement.progression.fences.description",
+     "fallback": "Craft some Fence to keep your camp safe"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true

@@ -7,14 +7,18 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:cherry_slab",
+          "name": "minecraft:axolotl_spawn_egg",
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
                "item_model": "bts:cherry_bark",
                 "rarity": "common",
-                "item_name": "Cherry Bark"
+                "item_name":{
+                   "translate": "item.bts.cherry_bark",
+                   "fallback":"Cherry Bark"
+                },
+                "!minecraft:entity_data": {}
               }
             }
           ]

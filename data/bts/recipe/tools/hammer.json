@@ -17,7 +17,10 @@
     "count": 1,
     "components": {
       "item_model": "bts:hammer",
-      "minecraft:item_name": "Hammer",
+      "minecraft:item_name": {
+        "translate": "item.bts.hammer",
+        "fallback":"Hammer"
+      },
       "minecraft:custom_data": {
                   "id":"hammer",
                   "ponder_id":"tools/hammer",
@@ -35,7 +38,7 @@
           {
             "id": "attack_speed",
             "type": "minecraft:attack_speed",
-            "amount": -3.4,
+            "amount": -2.38,
             "operation": "add_value",
             "slot": "mainhand"
           }

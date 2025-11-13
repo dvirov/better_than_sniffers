@@ -1,15 +1,28 @@
-## run as player tick
+## run from player tick
+
+## layer 1 (weather)
+function bts:world_event/sound/weather_main
+# - weather 
+# - biome
+
+
+## layer 2 (ambient)
+function bts:world_event/sound/ambient_main
+# - biome 
+# - day time
+# - conditions 
+
+
+## layer 3 (wildlife)
+function bts:world_event/sound/wildlife_main
+# - biome
+# - day time
+# - animal sound
 
 
 
-execute if predicate bts:is_night if predicate bts:noroof run function bts:world_event/sound/play/night.nature
-execute unless predicate bts:is_night run function bts:world_event/sound/stop/ambient.time
 
-execute if predicate bts:is_raining unless biome ~ ~ ~ #bts:cold_biome run function bts:world_event/sound/play/weather.storm.rain
-execute if predicate bts:is_raining if biome ~ ~ ~ #bts:cold_biome run function bts:world_event/sound/play/weather.storm.wind
-execute unless predicate bts:is_raining run function bts:world_event/sound/stop/weather
-
-
-
+## layer 4 
+#
 
 

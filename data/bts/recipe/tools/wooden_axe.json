@@ -16,7 +16,10 @@
     "count": 1,
     "components": {
       "item_model": "wooden_axe",
-      "minecraft:item_name": "Wooden Axe",
+      "minecraft:item_name": {
+        "translate": "item.bts.wooden_axe",
+        "fallback":"Wooden Axe"
+      },
       "minecraft:custom_data": {
                   "id":"wooden_axe",
                   "ponder_id":"tools/axe",

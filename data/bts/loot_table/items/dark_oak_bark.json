@@ -7,14 +7,18 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:dark_oak_slab",
+          "name": "minecraft:bat_spawn_egg",
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
                "item_model": "bts:dark_oak_bark",
                 "rarity": "common",
-                "item_name": "Dark Oak Bark"
+                "item_name": {
+                   "translate": "item.bts.dark_oak_bark",
+                   "fallback":"Dark Oak Bark"
+                },
+                "!minecraft:entity_data": {}
               }
             }
           ]

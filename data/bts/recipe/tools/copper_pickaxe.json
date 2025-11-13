@@ -16,7 +16,10 @@
     "count": 1,
     "components": {
       "item_model": "bts:copper_pickaxe",
-      "minecraft:item_name": "Copper Pickaxe",
+      "minecraft:item_name": {
+        "translate": "item.bts.copper_pickaxe",
+        "fallback":"Copper Pickaxe"
+      },
       "minecraft:custom_data": {
                   "id":"copper_pickaxe",
                   "ponder_id":"tools/pickaxe",

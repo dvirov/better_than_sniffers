@@ -16,7 +16,10 @@
     "count": 1,
     "components": {
       "item_model": "bts:copper_hoe",
-      "minecraft:item_name": "Copper Hoe",
+      "minecraft:item_name": {
+        "translate": "item.bts.copper_hoe",
+        "fallback":"Copper Hoe"
+      },
       "minecraft:custom_data": {
                   "id":"copper_hoe",
                   "ponder_id":"tools/hoe",

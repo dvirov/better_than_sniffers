@@ -16,7 +16,10 @@
     "count": 1,
     "components": {
       "item_model": "bts:flint_pickaxe",
-      "minecraft:item_name": "Flint Pickaxe",
+      "minecraft:item_name": {
+        "translate": "item.bts.flint_pickaxe",
+        "fallback":"Flint Pickaxe"
+      },
       "minecraft:custom_data": {
                   "id":"flint_pickaxe",
                   "ponder_id":"tools/pickaxe",

@@ -21,7 +21,10 @@
                   "nutrition": 1,
                   "saturation": 0.1
                 },
-                "minecraft:item_name": "Tiger Koi",
+                "minecraft:item_name": {
+                   "translate": "item.bts.tiger_koi",
+                   "fallback":"Tiger Koi"
+                },
                 "minecraft:item_model": "bts:tiger_koi"
               }
             }

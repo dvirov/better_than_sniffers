@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sugar",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "item_name":{
+                   "translate": "item.bts.potash",
+                   "fallback":"Potash"
+                },
+                "minecraft:custom_data": {
+                  "id":"potash",
+                  "ponder_id":"",
+                  "type":"item",
+                  "alchemy": {
+                    "category":"modifier",
+                    "quality": 1
+                  }
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "item.lore.alchemy_ingredient",
+                    "fallback": "Alchemy ingredient",
+                    "color": "dark_purple",
+                    "italic": false
+                  }
+                ],
+                "!rarity":{} 
+                
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:items/potash"
+}

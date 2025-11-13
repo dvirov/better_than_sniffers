@@ -6,8 +6,14 @@
           "profile":"dvirov"
         }
       },
-      "title": "Better Than Sniffers",
-      "description": "Created by dvirov ",
+      "title": {
+     "translate": "advancement.progression.guide.title",
+     "fallback": "Better Than Sniffers"
+      },
+      "description": {
+     "translate": "advancement.progression.guide.description",
+     "fallback": "Created by dvirov"
+      },
       "background": "bts:transparent",
       "announce_to_chat": false
 

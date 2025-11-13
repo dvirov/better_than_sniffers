@@ -10,13 +10,13 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Clay",
+        "translate":"dialog.wiki.title.gameplay.clay","fallback":"Clay",
         "extra": [
           "\n\n",
-          "Clay is very usefull resource.\n",
-          "However, in order to make its shape stable we need to harden it first.\n",
-          "you can place the clay on the ground under the sun and let it dry for some time \n",
-          "you can also boost the drying speed if you place it in hot and dry biomes or if you put it on campfire and lit it"
+          {
+          "translate":"dialog.wiki.page.gameplay.clay.summary",
+          "fallback":"Clay is very usefull resource.\nHowever, in order to make its shape stable we need to harden it first.\nyou can place the clay on the ground under the sun and let it dry for some time \nyou can also boost the drying speed if you place it in hot and dry biomes or if you put it on campfire and lit it"
+          }
         ]
       }
     }
@@ -25,14 +25,20 @@
   "pause": false,
   "after_action": "none",
   "yes": {
-    "label": "Close",
+    "label":{
+      "translate":"dialog.wiki.label.close",
+      "fallback":"Close"
+    },
     "action": {
       "type": "minecraft:run_command",
       "command": "trigger close.dialog"
     }
   },
   "no": {
-    "label": "Back",
+    "label":{
+      "translate":"dialog.wiki.label.back",
+      "fallback":"Back"
+    },
     "action": {
       "type": "minecraft:show_dialog",
       "dialog": "bts:gameplay"

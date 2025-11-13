@@ -33,7 +33,8 @@
                 },
                 "minecraft:lore": [
                   {
-                    "text": "Alchemy ingredient",
+                    "translate": "item.lore.alchemy_ingredient",
+                    "fallback": "Alchemy ingredient",
                     "color": "dark_purple",
                     "italic": false
                   }

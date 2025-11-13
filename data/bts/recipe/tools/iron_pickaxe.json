@@ -16,7 +16,10 @@
     "count": 1,
     "components": {
       "item_model": "iron_pickaxe",
-      "minecraft:item_name": "Iron Pickaxe",
+      "minecraft:item_name": {
+        "translate": "item.bts.iron_pickaxe",
+        "fallback":"Iron Pickaxe"
+      },
       "minecraft:custom_data": {
                   "id":"iron_pickaxe",
                   "ponder_id":"tools/pickaxe",

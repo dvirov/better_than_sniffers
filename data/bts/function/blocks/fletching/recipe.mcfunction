@@ -1,5 +1,8 @@
 execute if block ~ ~-1 ~ hopper run function bts:blocks/hopper_interaction
 
+execute if score @s crafting.progress matches 1.. run function bts:blocks/fletching/reduce_crafting_time
+
+
 execute if items block ~ ~ ~ container.16 *[!minecraft:custom_data={arrow:1b}] unless items block ~ ~ ~ container.20 * run function bts:blocks/fletching/shift_click
 execute if items block ~ ~ ~ container.16 *[!minecraft:custom_data={arrow:1b}] unless items block ~ ~ ~ container.22 * run function bts:blocks/fletching/shift_click2
 execute if items block ~ ~ ~ container.16 *[!minecraft:custom_data={arrow:1b}] if items block ~ ~ ~ container.20 * if items block ~ ~ ~ container.22 * unless items entity @p[] player.cursor * run function bts:blocks/fletching/shift_click3

@@ -15,7 +15,10 @@
                 "minecraft:max_stack_size": 1,
                 "minecraft:enchantment_glint_override": false,
                 "minecraft:rarity": "common",
-                "minecraft:item_name": "Sharp Stone",
+                "minecraft:item_name": {
+                   "translate": "item.bts.sharp_stone",
+                   "fallback":"Sharp Stone"
+                },
                 "minecraft:tool": {
                   "rules": [
                     {

@@ -1,7 +1,7 @@
     
     
 
-execute if score @s R.leg matches ..2 run data modify storage temp parts_health.rightleg_trigger set value '"click_event":{"action":"run_command","command":"trigger heal.dialog set 6"},"hover_event":{"action":"show_text","value":{"text":"Heal Right Leg"}}'
+execute if score @s R.leg matches ..2 run data modify storage temp parts_health.rightleg_trigger set value '"click_event":{"action":"run_command","command":"trigger heal.dialog set 6"},"hover_event":{"action":"show_text","value":{"translate":"dialog.healing.heal_right_leg",fallback:"Heal Right Leg"}}'
 execute if score @s R.leg matches 3.. run data modify storage temp parts_health.rightleg_trigger set value ""
 
 execute if score @s R.leg matches 3.. run data modify storage temp parts_health.rightleg_edge set value "묁묁묁"

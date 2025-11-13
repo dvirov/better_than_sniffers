@@ -1,7 +1,7 @@
 #run once when trigger from detect
 execute unless block ~ ~ ~ #minecraft:replaceable run return run function bts:blocks/fail
 
-setblock ~ ~ ~ barrel[facing=down]{CustomName:{text:"Cooking Pot",extra:[{color:white,text:"  \uF801\uF80B\uF808\uD002"}]}}
+setblock ~ ~ ~ barrel[facing=down]{CustomName:{translate:"block.gui.cooking_name",fallback:"Cooking Pot",extra:[{color:white,translate:"block.gui.cooking_gui",fallback:"  \uF801\uF80B\uF808\uD002"}]}}
 #setblock ~ ~ ~ barrel[facing=down]{CustomName:["Cooking Pot  ",{"color":"white","text":"\uF801\uF80B\uF808\uD002"}]}
 
 function bts:blocks/cooking/set_grid

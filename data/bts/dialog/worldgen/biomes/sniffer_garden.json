@@ -10,15 +10,11 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Sniffer Garden",
-        "extra": [
-          "\n\n",
-          "The Sniffer Garden is a special biome that has been preserved since ancient times. ",
-          "\n",
-          "It is the only place in the world where the sniffers have  yet to become extinct.",
-          "\n",
-          " In addition, it has a pleasant temperature throughout the year and apparently no monsters appear there."
-        ]
+        "translate":"dialog.wiki.title.worldgen.biomes.sniffer_garden","fallback":"Sniffer Garden",
+        "extra": [{
+          "translate":"dialog.wiki.page.worldgen.biomes.sniffer_garden",
+          "fallback":"\n\nThe Sniffer Garden is a special biome that has been preserved since ancient times. \nIt is the only place in the world where the sniffers have  yet to become extinct.\nIn addition, it has a pleasant temperature throughout the year and apparently no monsters appear there."
+        }]
       }
     }
   ],
@@ -26,17 +22,23 @@
   "pause": false,
   "after_action": "none",
   "yes": {
-    "label": "Close",
+    "label":{
+      "translate":"dialog.wiki.label.close",
+      "fallback":"Close"
+    },
     "action": {
       "type": "minecraft:run_command",
       "command": "trigger close.dialog"
     }
   },
   "no": {
-    "label": "Back",
+    "label":{
+      "translate":"dialog.wiki.label.back",
+      "fallback":"Back"
+    },
     "action": {
       "type": "minecraft:show_dialog",
-      "dialog": "bts:worldgen/structures"
+      "dialog": "bts:worldgen/biomes"
     }
   }
 }

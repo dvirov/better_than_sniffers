@@ -13,7 +13,7 @@ execute unless score @s crafting.progress matches 200 run return run function bt
 scoreboard players set @s crafting.progress 0
 item replace block ~ ~ ~ container.26 with barrier[item_model="air",max_stack_size=1,custom_data={crucible:1b}] 1
 execute if items block ~ ~ ~ container.16 iron_ingot run item modify block ~ ~ ~ container.16 bts:add1
-execute unless items block ~ ~ ~ container.16 iron_ingot run item replace block ~ ~ ~ container.16 with minecraft:iron_ingot[custom_data={"iron_ingot":1b,"crucible_made":1b}] 1
+execute unless items block ~ ~ ~ container.16 iron_ingot run loot replace block ~ ~ ~ container.16 loot bts:items/iron_ingot
 item modify block ~ ~ ~ container.10 bts:delete_item
 item modify block ~ ~ ~ container.11 bts:delete_item
 item modify block ~ ~ ~ container.12 bts:delete_item

@@ -2,12 +2,12 @@ rope beacome lead when used
 
 # ideas
 
-# to fix
 
+
+# to fix
+shaders broken !
 
 # changes 
-now monsters can climb on climbable blocks 
 
 
 # fixed
-planks missing recipes

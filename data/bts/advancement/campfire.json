@@ -3,8 +3,14 @@
     "icon": {
       "id": "minecraft:campfire"
     },
-    "title": "Warm Up",
-    "description": "Craft and Place Campfire",
+    "title": {
+     "translate": "advancement.progression.campfire.title",
+     "fallback": "Warm Up"
+    },
+    "description": {
+     "translate": "advancement.progression.campfire.description",
+     "fallback": "Craft and Place Campfire"
+    },
     "frame": "task",
     "show_toast": true
   },

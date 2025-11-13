@@ -3,10 +3,10 @@
   "body": [
     {
       "type": "minecraft:plain_message",
-      "contents": [
-        "Worldgen",
+      "contents": [{"translate":"dialog.wiki.title.worldgen","fallback":"Worldgen"},
         "\n",
-        "all categories related to world generation  "
+        {"translate":"dialog.wiki.title.worldgen.description",
+        "fallback":"all categories related to world generation  "}
       ],
       "width": 250
     },
@@ -14,7 +14,8 @@
       "type": "minecraft:plain_message",
       "contents": [
         {
-          "text": "Structures",
+          "translate":"dialog.wiki.title.worldgen.structures",
+          "fallback":"Structures",
           "color": "#92d416",
           "bold": true,
           "underlined": false,
@@ -24,7 +25,7 @@
           },
           "hover_event": {
             "action": "show_text",
-            "value": "Click to open"
+            "value":{"translate":"dialog.wiki.hover.click_to_open","fallback":"click to open"}
           }
         },
         {
@@ -39,7 +40,7 @@
           }
         },
         {
-          "text": "Biomes",
+          "translate":"dialog.wiki.title.worldgen.biomes","fallback":"Biomes",
           "bold": true,
           "click_event": {
             "action": "show_dialog",
@@ -47,7 +48,7 @@
           },
           "hover_event": {
             "action": "show_text",
-            "value": "Click to open"
+            "value":{"translate":"dialog.wiki.hover.click_to_open","fallback":"click to open"}
           }
         }
       ]
@@ -63,14 +64,20 @@
   ],
   "after_action": "none",
   "yes": {
-    "label": "Close",
+    "label":{
+      "translate":"dialog.wiki.label.close",
+      "fallback":"Close"
+    },
     "action": {
       "type": "minecraft:run_command",
       "command": "trigger close.dialog"
     }
   },
   "no": {
-    "label": "Back",
+    "label":{
+      "translate":"dialog.wiki.label.back",
+      "fallback":"Back"
+    },
     "action": {
       "type": "minecraft:show_dialog",
       "dialog": "bts:main"

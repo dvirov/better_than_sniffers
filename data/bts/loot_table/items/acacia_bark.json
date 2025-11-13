@@ -7,14 +7,18 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:acacia_slab",
+          "name": "minecraft:allay_spawn_egg",
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
                "item_model": "bts:acacia_bark",
                 "rarity": "common",
-                "item_name": "Acacia Bark"
+                "item_name": {
+                   "translate": "item.bts.acacia_bark",
+                   "fallback":"Acacia Bark"
+                },
+                "!minecraft:entity_data": {}
               }
             }
           ]

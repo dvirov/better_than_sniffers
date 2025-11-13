@@ -13,9 +13,9 @@
               "components": {
                 "item_model": "bts:rice",
                 "rarity": "common",
-                "minecraft:custom_name": {
-                  "text": "Rice",
-                  "italic": false
+                "minecraft:item_name": {
+                   "translate": "block.bts.rice",
+                   "fallback":"Rice"
                 },
                 "minecraft:entity_data": {
                   "id": "minecraft:item_frame",
@@ -41,7 +41,8 @@
                 },
                 "minecraft:lore": [
                   {
-                    "text": "Cooking ingredient",
+                    "translate": "item.lore.cooking_ingredient",
+                    "fallback": "Cooking ingredient",
                     "color": "dark_purple",
                     "italic": false
                   }

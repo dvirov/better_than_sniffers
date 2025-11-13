@@ -19,9 +19,9 @@
                   "ponder_id": "crafting/fletching",
                   "type": "custom_block"
                 },
-                "minecraft:custom_name": {
-                  "text": "Fletching Table",
-                  "italic": false
+                "minecraft:item_name": {
+                   "translate": "block.bts.fletching_table",
+                   "fallback":"Fletching Table"
                 },
                 "minecraft:entity_data": {
                   "id": "minecraft:item_frame",

@@ -21,7 +21,10 @@
                   "nutrition": 1,
                   "saturation": 0.1
                 },
-                "minecraft:item_name": "Rockfish",
+                "minecraft:item_name": {
+                   "translate": "item.bts.rockfish",
+                   "fallback":"Rockfish"
+                },
                 "minecraft:item_model": "bts:rockfish"
               }
             }

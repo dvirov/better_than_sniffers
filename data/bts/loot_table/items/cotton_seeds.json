@@ -19,7 +19,10 @@
                   "ponder_id": "gameplay/agriculture",
                   "type": "custom_block"
                 },
-                "minecraft:custom_name": {"text":"Cotton Seeds","italic":false},
+                "minecraft:item_name": {
+                   "translate": "block.bts.cotton_seeds",
+                   "fallback":"Cotton Seeds"
+                  },
                 "minecraft:entity_data": {
                   "id": "minecraft:item_frame", "Tags":["custom_block","place_cotton_plant"], "Invisible":true, "Invulnerable": true, "Fixed":true, "Silent": true
                 }

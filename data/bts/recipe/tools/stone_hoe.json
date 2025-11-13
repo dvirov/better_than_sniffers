@@ -16,7 +16,10 @@
     "count": 1,
     "components": {
       "item_model": "stone_hoe",
-      "minecraft:item_name": "Stone Hoe",
+      "minecraft:item_name": {
+        "translate": "item.bts.stone_hoe",
+        "fallback":"Stone Hoe"
+      },
       "minecraft:custom_data": {
                   "id":"stone_hoe",
                   "ponder_id":"tools/hoe",

@@ -13,7 +13,10 @@
               "function": "minecraft:set_components",
               "components": {
       "item_model": "iron_pickaxe",
-      "minecraft:item_name": "Iron Pickaxe",
+      "minecraft:item_name": {
+                   "translate": "item.bts.iron_pickaxe",
+                   "fallback":"Iron Pickaxe"
+      },
       "minecraft:custom_data": {
                   "id":"iron_pickaxe",
                   "ponder_id":"tools/pickaxe",
@@ -38,9 +41,9 @@
       },
       "minecraft:lore": [
         "",
-          {"color":"gray","italic":false,"text":"When in Main Hand:"},
-          {"color":"dark_green","italic":false,"text":" 1.8 Attack Damage"},
-          {"color":"dark_green","italic":false,"text":" 1.2 Attack Speed"}
+          [{"color":"gray","italic":false,"translate":"item.lore.tool.when_in_main_hand","fallback":"When in Main Hand:"}],
+          [{"color":"dark_green","italic":false,"text":" 1.6 "},{"color":"dark_green","italic":false,"translate":"item.lore.tool.attack_damage","fallback":"Attack Damage"}],
+          [{"color":"dark_green","italic":false,"text":" 1.2 "},{"color":"dark_green","italic":false,"translate":"item.lore.tool.attack_speed","fallback":"Attack Speed"}]
 
         ],
       "minecraft:attribute_modifiers": [

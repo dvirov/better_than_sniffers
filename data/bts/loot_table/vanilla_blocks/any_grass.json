@@ -71,11 +71,21 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "bts:custom_block/cotton_seeds",
+          "value": "bts:items/cotton_seeds",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
               "chance": 0.03
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bts:items/rice",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.04
             }
           ]
         }

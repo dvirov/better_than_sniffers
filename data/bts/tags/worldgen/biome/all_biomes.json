@@ -6,6 +6,7 @@
         "#bts:hot_biome",
         "#bts:cold_biome",
         "#bts:warm_biome",
+        "#bts:dry_biome",
         "#is_ocean"
     ]
   }

@@ -12,7 +12,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "item_name": "Plant Fiber"
+                "item_name": {
+                   "translate": "item.bts.plant_fiber",
+                   "fallback":"Plant Fiber"
+                }
               }
             }
           ]

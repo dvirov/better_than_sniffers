@@ -27,16 +27,10 @@
           ]
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:decorated_pot",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:item_name": {"text":"Storage Pot"}
-              }
-            }
-          ]
+          "type": "minecraft:loot_table",
+          "value": "minecraft:blocks/decorated_pot",
+          "conditions": [],
+          "functions": []
         }
       ]
     },
@@ -90,13 +84,13 @@
           ]
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:clay_ball",
+          "type": "minecraft:loot_table",
+          "value": "bts:items/clay_ball",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 0,
+                "min": 2,
                 "max": 10
               }
             }
@@ -109,13 +103,14 @@
           ]
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:string",
+          "type": "minecraft:loot_table",
+          "value": "bts:items/plant_fiber",
           "functions": [
             {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:item_name": {"text":"Plant Fiber"}
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 6
               }
             }
           ],

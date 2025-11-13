@@ -6,8 +6,14 @@
         "item_model": "bts:stone_knife"
       }
     },
-    "title": "Stone Knife",
-    "description": "Craft Stone Knife",
+    "title": {
+     "translate": "advancement.progression.stone_knife.title",
+     "fallback": "Stone Knife"
+    },
+    "description": {
+     "translate": "advancement.progression.stone_knife.title",
+     "fallback": "Craft Stone Knife"
+    },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true

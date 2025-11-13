@@ -10,21 +10,13 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Seasons",
+        "translate":"dialog.wiki.title.gameplay.seasons","fallback":"Seasons",
         "extra": [
-          "\n",
-          "There are 4 seasons in Better than Sniffers ",
-          "\n\n",
-          "you start the game in the autumn ",
-          "\n\n",
-          "every season have diffrent effects on the ambient temperature and growth rate for crops",
-          "\n\n",
-          "the season cycle is ",
-          "\n",
-          "autumn -> winter -> spring -> summer",
-          "\n\n",
-          "the easiest season is spring while the hardes is winter"
-        ]
+          {
+          "translate":"dialog.wiki.page.gameplay.seasons.summary",
+          "fallback":"\nThere are 4 seasons in Better than Sniffers \n\nyou start the game in the autumn \n\nevery season have diffrent effects on the ambient temperature and growth rate for crops\n\nthe season cycle is \nautumn -> winter -> spring -> summer\n\nthe easiest season is spring while the hardes is winter"
+         }
+       ]
       }
     }
   ],
@@ -32,14 +24,20 @@
   "pause": false,
   "after_action": "none",
   "yes": {
-    "label": "Close",
+    "label":{
+      "translate":"dialog.wiki.label.close",
+      "fallback":"Close"
+    },
     "action": {
       "type": "minecraft:run_command",
       "command": "trigger close.dialog"
     }
   },
   "no": {
-    "label": "Back",
+    "label":{
+      "translate":"dialog.wiki.label.back",
+      "fallback":"Back"
+    },
     "action": {
       "type": "minecraft:show_dialog",
       "dialog": "bts:gameplay"

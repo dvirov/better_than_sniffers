@@ -10,42 +10,56 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Pillagers Camp "
+        "translate":"dialog.wiki.title.worldgen.structures.pillagers_camp","fallback":"Pillagers Camp"
       }
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "The pillagers camp is structure  that can spawn on the surface in most overworld biomes ",
+        "translate":"dialog.wiki.page.worldgen.structures.pillagers_camp.summary",
+        "fallback":"The pillagers camp is structure that can spawn on the surface in most overworld biomes ",
         "extra": [
           "\n\n",
           {
-            "text": "The pillagers use those camps as temporary bases for their scouts when they on misson to find helpless villages and concure them",
+            "translate":"dialog.wiki.page.worldgen.structures.pillagers_camp.lore",
+            "fallback":"The pillagers use those camps as temporary bases for their scouts when they on misson to find helpless villages and concure them",
             "color": "#de95f9"
           },
           "\n\n",
           {
-            "text": "Info :",
+            "translate":"dialog.wiki.word.info","fallback":"Info",
             "color": "gray"
+          },
+          ":",
+          "\n\n",
+          {
+            "translate":"dialog.wiki.word.rarity","fallback":"Rarity",
+            "color": "gray"
+          },
+          ": ",
+          {
+            "translate": "dialog.wiki.word.rarity.common","fallback": "Common"
           },
           "\n\n",
           {
-            "text": "Rarity :",
+            "translate":"dialog.wiki.word.loot","fallback":"Loot",
             "color": "gray"
           },
-          " Common",
+          ": ",
+          "0-2 ",
+          {
+            "translate":"dialog.wiki.word.chests_with_some_basic_supplies","fallback": "Chests with some basic supplies"
+          },
           "\n\n",
           {
-            "text": "Loot :",
+            "translate":"dialog.wiki.word.enemies","fallback":"Enemies",
             "color": "gray"
           },
-          " 0-2 chests with some basic supplies",
-          "\n\n",
+           ": ",
+          "0-2 ",
           {
-            "text": "Enemies : ",
-            "color": "gray"
-          },
-          "0-2 pillagers"
+            "translate":"dialog.wiki.word.pillagers","fallback":"pillagers"
+          }
         ],
         "color": "#cbaaaa"
       }
@@ -55,14 +69,20 @@
   "pause": false,
   "after_action": "none",
   "yes": {
-    "label": "Close",
+    "label":{
+      "translate":"dialog.wiki.label.close",
+      "fallback":"Close"
+    },
     "action": {
       "type": "minecraft:run_command",
       "command": "trigger close.dialog"
     }
   },
   "no": {
-    "label": "Back",
+    "label":{
+      "translate":"dialog.wiki.label.back",
+      "fallback":"Back"
+    },
     "action": {
       "type": "minecraft:show_dialog",
       "dialog": "bts:worldgen/structures"

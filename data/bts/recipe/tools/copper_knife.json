@@ -14,7 +14,10 @@
     "count": 1,
     "components": {
       "item_model": "bts:copper_knife",
-      "minecraft:item_name": "Copper Knife",
+      "minecraft:item_name": {
+        "translate": "item.bts.copper_knife",
+        "fallback":"Copper Knife"
+      },
       "minecraft:custom_data": {
                   "id":"copper_knife",
                   "ponder_id":"tools/knife",

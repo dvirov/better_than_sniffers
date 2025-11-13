@@ -2,7 +2,14 @@
   "type": "minecraft:blasting",
   "ingredient":"minecraft:raw_iron",
   "result": {
-    "id": "minecraft:iron_nugget"
+    "id": "minecraft:iron_nugget",
+    "components": {
+                "minecraft:custom_data": {
+                  "id": "iron_nugget",
+                  "ponder_id": "",
+                  "type": "item"
+                }
+              }
   },
   "cookingtime": 1600
 }

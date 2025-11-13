@@ -1,7 +1,7 @@
 
 
 
-execute if block ~ ~-.5 ~ campfire[lit=true] run scoreboard players add @s timer 1
+execute if block ~ ~-.5 ~ campfire[lit=true] run scoreboard players add @s timer 4
 execute if predicate bts:is_sunny_day run scoreboard players add @s timer 1
 execute if predicate bts:world_event/hot_biome run scoreboard players add @s timer 1
 

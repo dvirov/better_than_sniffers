@@ -3,8 +3,14 @@
     "icon": {
       "id": "minecraft:heart_pottery_sherd"
     },
-    "title": "Legends Never Die",
-    "description": "Don't die even once in this playthrough",
+    "title": {
+     "translate": "advancement.challenges.hardcore.title",
+     "fallback": "Legends Never Die"
+    },
+    "description": {
+     "translate": "advancement.challenges.hardcore.description",
+     "fallback": "Don't die even once in this playthrough"
+    },
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": false

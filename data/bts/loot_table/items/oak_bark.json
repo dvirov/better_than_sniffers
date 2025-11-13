@@ -7,14 +7,18 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:oak_slab",
+          "name": "minecraft:bogged_spawn_egg",
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
                "item_model": "bts:oak_bark",
                 "rarity": "common",
-                "item_name": "Oak Bark"
+                "item_name": {
+                   "translate": "item.bts.oak_bark",
+                   "fallback":"Oak Bark"
+                },
+                "!minecraft:entity_data": {}
               }
             }
           ]

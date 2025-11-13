@@ -4,8 +4,9 @@
     {
       "type": "minecraft:plain_message",
       "contents": [
-        "Crafting\n",
-        "Fletching"
+        {"translate":"dialog.wiki.title.crafting","fallback":"Crafting"},
+        "\n",
+        {"translate":"dialog.wiki.title.crafting.fletching_table","fallback":"Fletching Table"}
       ],
       "width": 250
     },
@@ -13,7 +14,7 @@
       "type": "minecraft:plain_message",
       "contents": [
         {
-          "text": "Anvil",
+          "translate":"dialog.wiki.title.crafting.anvil","fallback":"Anvil",
           "color": "gray",
           "font": "minecraft:default",
           "click_event": {
@@ -22,12 +23,13 @@
           },
           "hover_event": {
             "action": "show_text",
-            "value": "Click to open Anvil category"
+            "value":{
+              "translate":"dialog.wiki.hover.click_to_open.anvil","fallback":"Click to open Anvil category"
+            }
           }
         },
         {
           "text": "                    ",
-          "type": "text",
           "font": "minecraft:default",
           "click_event": {
             "action": "custom",
@@ -39,7 +41,7 @@
         }
         },
         {
-          "text": "Campfire",
+          "translate":"dialog.wiki.title.crafting.campfire","fallback":"Campfire",
           "font": "minecraft:default",
           "click_event": {
             "action": "show_dialog",
@@ -47,7 +49,9 @@
           },
           "hover_event": {
             "action": "show_text",
-            "value": "Click to open Campfire category"
+            "value":{
+              "translate":"dialog.wiki.hover.click_to_open.campfire","fallback":"Click to open Campfire category"
+            }
           }
         }
       ]
@@ -56,8 +60,7 @@
       "type": "minecraft:plain_message",
       "contents": [
         {
-          "text": "Fletching table",
-          "type": "text",
+          "translate":"dialog.wiki.title.crafting.fletching_table","fallback":"Fletching Table",
           "color": "gray",
           "font": "minecraft:default",
           "click_event": {
@@ -66,12 +69,13 @@
           },
           "hover_event": {
             "action": "show_text",
-            "value": "Click to open Fletching category"
+            "value":{
+              "translate":"dialog.wiki.hover.click_to_open.fletching","fallback": "Click to open Fletching category"
+            }
           }
         },
         {
-          "text": "        ",
-          "type": "text",
+          "text": "       ",
           "font": "minecraft:default",
           "click_event": {
           "action": "change_page",
@@ -83,7 +87,8 @@
           }
         },
         {
-          "text": "Crucible",
+          "translate":"dialog.wiki.title.crafting.crucible",
+          "fallback":"Crucible",
           "color": "gray",
           "font": "minecraft:default",
           "click_event": {
@@ -92,7 +97,10 @@
           },
           "hover_event": {
             "action": "show_text",
-            "value": "Click to open Crucible category"
+            "value":{
+              "translate":"dialog.wiki.hover.click_to_open.crucible",
+              "fallback":"Click to open Crucible category"
+            }
           }
         }
       ]
@@ -101,7 +109,7 @@
       "type": "minecraft:plain_message",
       "contents": [
         {
-          "text": "Cooking Pot",
+          "translate":"dialog.wiki.title.crafting.cooking_pot","fallback":"Cooking Pot",
           "color": "gray",
           "font": "minecraft:default",
           "click_event": {
@@ -110,13 +118,14 @@
           },
           "hover_event": {
             "action": "show_text",
-            "value": "Click to open Cooking category"
+            "value":{
+              "translate":"dialog.wiki.hover.click_to_open.cooking","fallback":"Click to open Cooking category"
+            }
           }
         },
         
         {
-          "text": "      ",
-          "type": "text",
+          "text": "       ",
           "font": "minecraft:default",
           "click_event": {
           "action": "change_page",
@@ -128,7 +137,7 @@
           }
         },
         {
-          "text": "Alchemy table",
+          "translate":"dialog.wiki.title.crafting.alchemy_table","fallback":"Alchemy Table",
           "color": "gray",
           "font": "minecraft:default",
           "click_event": {
@@ -137,19 +146,19 @@
           },
           "hover_event": {
             "action": "show_text",
-            "value": "Click to open Alchemy category"
+            "value":{
+              "translate":"dialog.wiki.hover.click_to_open.alchemy","fallback":"Click to open Alchemy category"
+            }
           }
         }
       ]
     },
-    {
+        {
       "type": "minecraft:plain_message",
-      "contents": [
-        "Want to shoot someting ? The fletching Table is the place for you !. \n",
-        "here you can craft all kinds of arrows .\n",
-        " The recipe is simple - just place flint,stick and feather (top to bottom).\n",
-        "when you get bored from the regular arrows you can put special ingridiants in the extra slot to add effect to the arrows."
-            ],
+      "contents":{
+        "translate":"dialog.wiki.page.crafting.fletching_table" ,
+        "fallback":"Want to shoot someting ? The fletching Table is the place for you !. \nhere you can craft all kinds of arrows .\n The recipe is simple - just place flint,stick and feather (top to bottom).\nwhen you get bored from the regular arrows you can put special ingridiants in the extra slot to add effect to the arrows."
+      },
       "width": 250
     }
   ],
@@ -163,14 +172,20 @@
   ],
   "after_action": "none",
   "yes": {
-    "label": "Close",
+    "label":{
+      "translate":"dialog.wiki.label.close",
+      "fallback":"Close"
+    },
     "action": {
       "type": "minecraft:run_command",
       "command": "trigger close.dialog"
     }
   },
   "no": {
-    "label": "Back",
+    "label":{
+      "translate":"dialog.wiki.label.back",
+      "fallback":"Back"
+    },
     "action": {
       "type": "minecraft:show_dialog",
       "dialog": "bts:crafting"

@@ -21,7 +21,10 @@
                   "nutrition": 1,
                   "saturation": 0.1
                 },
-                "minecraft:item_name": "Slimegill",
+                "minecraft:item_name": {
+                   "translate": "item.bts.slimegill",
+                   "fallback":"Slimegill"
+                },
                 "minecraft:item_model": "bts:slimegill"
               }
             }

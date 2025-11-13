@@ -3,8 +3,14 @@
     "icon": {
       "id": "minecraft:tropical_fish"
     },
-    "title": "Epic Fisherman",
-    "description": "Collect all the fish types in the game",
+    "title": {
+     "translate": "advancement.challenges.epic_fisherman.title",
+     "fallback": "Epic Fisherman"
+    },
+    "description": {
+     "translate": "advancement.challenges.epic_fisherman.description",
+     "fallback": "Collect all the fish types in the game"
+    },
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": false

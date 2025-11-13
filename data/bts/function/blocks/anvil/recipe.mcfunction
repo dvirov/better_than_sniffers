@@ -21,9 +21,9 @@ execute as @p[tag=this] if predicate bts:world_event/rng0.1 run function bts:ite
 
 #steel pickaxe 
 execute if score @s anvil.hit matches 6.. \
-        if items block ~ ~ ~ container.3 *[minecraft:custom_data~{steel_ingot:1b}] \
-        if items block ~ ~ ~ container.4 *[minecraft:custom_data~{steel_ingot:1b}] \
-        if items block ~ ~ ~ container.5 *[minecraft:custom_data~{steel_ingot:1b}] \
+        if items block ~ ~ ~ container.3 *[minecraft:custom_data~{id:"steel_ingot"}] \
+        if items block ~ ~ ~ container.4 *[minecraft:custom_data~{id:"steel_ingot"}] \
+        if items block ~ ~ ~ container.5 *[minecraft:custom_data~{id:"steel_ingot"}] \
         unless items block ~ ~ ~ container.12 * \
         if items block ~ ~ ~ container.13 stick \
         unless items block ~ ~ ~ container.14 * \
@@ -35,21 +35,21 @@ execute if score @s anvil.hit matches 6.. \
 #steel axe right 
 execute if score @s anvil.hit matches 6.. \
         unless items block ~ ~ ~ container.3 * \
-        if items block ~ ~ ~ container.4 *[minecraft:custom_data~{steel_ingot:1b}] \
-        if items block ~ ~ ~ container.5 *[minecraft:custom_data~{steel_ingot:1b}] \
+        if items block ~ ~ ~ container.4 *[minecraft:custom_data~{id:"steel_ingot"}] \
+        if items block ~ ~ ~ container.5 *[minecraft:custom_data~{id:"steel_ingot"}] \
         unless items block ~ ~ ~ container.12 * \
         if items block ~ ~ ~ container.13 stick \
-        if items block ~ ~ ~ container.14 *[minecraft:custom_data~{steel_ingot:1b}] \
+        if items block ~ ~ ~ container.14 *[minecraft:custom_data~{id:"steel_ingot"}] \
         unless items block ~ ~ ~ container.21 * \
         if items block ~ ~ ~ container.22 stick \
         unless items block ~ ~ ~ container.23 * \
         run function bts:blocks/anvil/recipe/shaped/steel_axe
 #steel axe left 
 execute if score @s anvil.hit matches 6.. \
-        if items block ~ ~ ~ container.3 *[minecraft:custom_data~{steel_ingot:1b}] \
-        if items block ~ ~ ~ container.4 *[minecraft:custom_data~{steel_ingot:1b}] \
+        if items block ~ ~ ~ container.3 *[minecraft:custom_data~{id:"steel_ingot"}] \
+        if items block ~ ~ ~ container.4 *[minecraft:custom_data~{id:"steel_ingot"}] \
         unless items block ~ ~ ~ container.5 * \
-        if items block ~ ~ ~ container.12 *[minecraft:custom_data~{steel_ingot:1b}] \
+        if items block ~ ~ ~ container.12 *[minecraft:custom_data~{id:"steel_ingot"}] \
         if items block ~ ~ ~ container.13 stick \
         unless items block ~ ~ ~ container.14 * \
         unless items block ~ ~ ~ container.21 * \
@@ -60,8 +60,8 @@ execute if score @s anvil.hit matches 6.. \
 #steel hoe right 
 execute if score @s anvil.hit matches 6.. \
         unless items block ~ ~ ~ container.3 * \
-        if items block ~ ~ ~ container.4 *[minecraft:custom_data~{steel_ingot:1b}] \
-        if items block ~ ~ ~ container.5 *[minecraft:custom_data~{steel_ingot:1b}] \
+        if items block ~ ~ ~ container.4 *[minecraft:custom_data~{id:"steel_ingot"}] \
+        if items block ~ ~ ~ container.5 *[minecraft:custom_data~{id:"steel_ingot"}] \
         \
         unless items block ~ ~ ~ container.12 * \
         if items block ~ ~ ~ container.13 stick \
@@ -74,8 +74,8 @@ execute if score @s anvil.hit matches 6.. \
 
 #steel hoe left 
 execute if score @s anvil.hit matches 6.. \
-        if items block ~ ~ ~ container.3 *[minecraft:custom_data~{steel_ingot:1b}] \
-        if items block ~ ~ ~ container.4 *[minecraft:custom_data~{steel_ingot:1b}] \
+        if items block ~ ~ ~ container.3 *[minecraft:custom_data~{id:"steel_ingot"}] \
+        if items block ~ ~ ~ container.4 *[minecraft:custom_data~{id:"steel_ingot"}] \
         unless items block ~ ~ ~ container.5 * \
         unless items block ~ ~ ~ container.12 * \
         if items block ~ ~ ~ container.13 stick \
@@ -87,11 +87,11 @@ execute if score @s anvil.hit matches 6.. \
 
 #steel sword left
 execute if score @s anvil.hit matches 6.. \
-        if items block ~ ~ ~ container.3 *[minecraft:custom_data~{steel_ingot:1b}] \
+        if items block ~ ~ ~ container.3 *[minecraft:custom_data~{id:"steel_ingot"}] \
         unless items block ~ ~ ~ container.4 * \
         unless items block ~ ~ ~ container.5 * \
         \
-        if items block ~ ~ ~ container.12 *[minecraft:custom_data~{steel_ingot:1b}] \
+        if items block ~ ~ ~ container.12 *[minecraft:custom_data~{id:"steel_ingot"}] \
         unless items block ~ ~ ~ container.13 * \
         unless items block ~ ~ ~ container.14 * \
         \
@@ -103,11 +103,11 @@ execute if score @s anvil.hit matches 6.. \
 #steel sword mid
 execute if score @s anvil.hit matches 6.. \
         unless items block ~ ~ ~ container.3 * \
-        if items block ~ ~ ~ container.4 *[minecraft:custom_data~{steel_ingot:1b}] \
+        if items block ~ ~ ~ container.4 *[minecraft:custom_data~{id:"steel_ingot"}] \
         unless items block ~ ~ ~ container.5 * \
         \
         unless items block ~ ~ ~ container.12 * \
-        if items block ~ ~ ~ container.13 *[minecraft:custom_data~{steel_ingot:1b}] \
+        if items block ~ ~ ~ container.13 *[minecraft:custom_data~{id:"steel_ingot"}] \
         unless items block ~ ~ ~ container.14 * \
         \
         unless items block ~ ~ ~ container.21 * \
@@ -119,11 +119,11 @@ execute if score @s anvil.hit matches 6.. \
 execute if score @s anvil.hit matches 6.. \
         unless items block ~ ~ ~ container.3 * \
         unless items block ~ ~ ~ container.4 * \
-        if items block ~ ~ ~ container.5 *[minecraft:custom_data~{steel_ingot:1b}] \
+        if items block ~ ~ ~ container.5 *[minecraft:custom_data~{id:"steel_ingot"}] \
         \
         unless items block ~ ~ ~ container.12 * \
         unless items block ~ ~ ~ container.13 * \
-        if items block ~ ~ ~ container.14 *[minecraft:custom_data~{steel_ingot:1b}] \
+        if items block ~ ~ ~ container.14 *[minecraft:custom_data~{id:"steel_ingot"}] \
         \
         unless items block ~ ~ ~ container.21 * \
         unless items block ~ ~ ~ container.22 * \
@@ -132,7 +132,7 @@ execute if score @s anvil.hit matches 6.. \
 
 #steel shovel left
 execute if score @s anvil.hit matches 6.. \
-        if items block ~ ~ ~ container.3 *[minecraft:custom_data~{steel_ingot:1b}] \
+        if items block ~ ~ ~ container.3 *[minecraft:custom_data~{id:"steel_ingot"}] \
         unless items block ~ ~ ~ container.4 * \
         unless items block ~ ~ ~ container.5 * \
         \
@@ -148,7 +148,7 @@ execute if score @s anvil.hit matches 6.. \
 #steel shovel mid
 execute if score @s anvil.hit matches 6.. \
         unless items block ~ ~ ~ container.3 * \
-        if items block ~ ~ ~ container.4 *[minecraft:custom_data~{steel_ingot:1b}] \
+        if items block ~ ~ ~ container.4 *[minecraft:custom_data~{id:"steel_ingot"}] \
         unless items block ~ ~ ~ container.5 * \
         \
         unless items block ~ ~ ~ container.12 * \
@@ -164,7 +164,7 @@ execute if score @s anvil.hit matches 6.. \
 execute if score @s anvil.hit matches 6.. \
         unless items block ~ ~ ~ container.3 * \
         unless items block ~ ~ ~ container.4 * \
-        if items block ~ ~ ~ container.5 *[minecraft:custom_data~{steel_ingot:1b}] \
+        if items block ~ ~ ~ container.5 *[minecraft:custom_data~{id:"steel_ingot"}] \
         \
         unless items block ~ ~ ~ container.12 * \
         unless items block ~ ~ ~ container.13 * \
@@ -177,7 +177,7 @@ execute if score @s anvil.hit matches 6.. \
 
 # steel knife top left
 execute if score @s anvil.hit matches 6.. \
-        if items block ~ ~ ~ container.3 *[minecraft:custom_data~{steel_ingot:1b}] \
+        if items block ~ ~ ~ container.3 *[minecraft:custom_data~{id:"steel_ingot"}] \
         unless items block ~ ~ ~ container.4 * \
         unless items block ~ ~ ~ container.5 * \
         \
@@ -193,7 +193,7 @@ execute if score @s anvil.hit matches 6.. \
 # steel knife top mid
 execute if score @s anvil.hit matches 6.. \
         unless items block ~ ~ ~ container.3 * \
-        if items block ~ ~ ~ container.4 *[minecraft:custom_data~{steel_ingot:1b}] \
+        if items block ~ ~ ~ container.4 *[minecraft:custom_data~{id:"steel_ingot"}] \
         unless items block ~ ~ ~ container.5 * \
         \
         unless items block ~ ~ ~ container.12 * \
@@ -209,7 +209,7 @@ execute if score @s anvil.hit matches 6.. \
 execute if score @s anvil.hit matches 6.. \
         unless items block ~ ~ ~ container.3 * \
         unless items block ~ ~ ~ container.4 * \
-        if items block ~ ~ ~ container.5 *[minecraft:custom_data~{steel_ingot:1b}] \
+        if items block ~ ~ ~ container.5 *[minecraft:custom_data~{id:"steel_ingot"}] \
         \
         unless items block ~ ~ ~ container.12 * \
         unless items block ~ ~ ~ container.13 * \
@@ -226,7 +226,7 @@ execute if score @s anvil.hit matches 6.. \
         unless items block ~ ~ ~ container.4 * \
         unless items block ~ ~ ~ container.5 * \
         \
-        if items block ~ ~ ~ container.12 *[minecraft:custom_data~{steel_ingot:1b}] \
+        if items block ~ ~ ~ container.12 *[minecraft:custom_data~{id:"steel_ingot"}] \
         unless items block ~ ~ ~ container.13 * \
         unless items block ~ ~ ~ container.14 * \
         \
@@ -242,7 +242,7 @@ execute if score @s anvil.hit matches 6.. \
         unless items block ~ ~ ~ container.5 * \
         \
         unless items block ~ ~ ~ container.12 * \
-        if items block ~ ~ ~ container.13 *[minecraft:custom_data~{steel_ingot:1b}] \
+        if items block ~ ~ ~ container.13 *[minecraft:custom_data~{id:"steel_ingot"}] \
         unless items block ~ ~ ~ container.14 * \
         \
         unless items block ~ ~ ~ container.21 * \
@@ -258,7 +258,7 @@ execute if score @s anvil.hit matches 6.. \
         \
         unless items block ~ ~ ~ container.12 * \
         unless items block ~ ~ ~ container.13 * \
-        if items block ~ ~ ~ container.14 *[minecraft:custom_data~{steel_ingot:1b}] \
+        if items block ~ ~ ~ container.14 *[minecraft:custom_data~{id:"steel_ingot"}] \
         \
         unless items block ~ ~ ~ container.21 * \
         unless items block ~ ~ ~ container.22 * \

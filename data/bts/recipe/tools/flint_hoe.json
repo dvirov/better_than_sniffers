@@ -16,7 +16,10 @@
     "count": 1,
     "components": {
       "item_model": "bts:flint_hoe",
-      "minecraft:item_name": "Flint Hoe",
+      "minecraft:item_name": {
+        "translate": "item.bts.flint_hoe",
+        "fallback":"Flint Hoe"
+      },
       "minecraft:custom_data": {
                   "id":"flint_hoe",
                   "ponder_id":"tools/hoe",

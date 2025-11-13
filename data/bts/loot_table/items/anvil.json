@@ -19,9 +19,9 @@
                   "ponder_id": "crafting/anvil",
                   "type": "custom_block"
                 },
-                "minecraft:custom_name": {
-                  "text": "Anvil",
-                  "italic": false
+                "minecraft:item_name": {
+                   "translate": "block.bts.iron_anvil",
+                   "fallback": "Anvil"
                 },
                 "minecraft:entity_data": {
                   "id": "minecraft:item_frame",

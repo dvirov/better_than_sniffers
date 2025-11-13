@@ -1,5 +1,10 @@
 execute if block ~ ~-1 ~ hopper run function bts:blocks/hopper_interaction
 
+execute if score @s crafting.progress matches 1.. run function bts:blocks/cooking/reduce_crafting_time
+
+## work only if placed on lit campfire 
+execute unless block ~ ~-1 ~ campfire[lit=true] run return fail 
+
 #execute if items block ~ ~ ~ container.16 *[!minecraft:custom_data={"tag":"cooked_food"}] unless items block ~ ~ ~ container.20 * run function bts:blocks/cooking/shift_click
 #execute if items block ~ ~ ~ container.16 *[!minecraft:custom_data={"tag":"cooked_food"}] unless items block ~ ~ ~ container.22 * run function bts:blocks/cooking/shift_click2
 #execute if items block ~ ~ ~ container.16 *[!minecraft:custom_data={"tag":"cooked_food"}] if items block ~ ~ ~ container.20 * if items block ~ ~ ~ container.22 * unless items entity @p[] player.cursor * run function bts:blocks/cooking/shift_click3

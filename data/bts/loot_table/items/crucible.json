@@ -19,9 +19,9 @@
                   "ponder_id": "crafting/crucible",
                   "type": "custom_block"
                 },
-                "minecraft:custom_name": {
-                  "text": "Crucible",
-                  "italic": false
+                "minecraft:item_name": {
+                   "translate": "block.bts.crucible",
+                   "fallback":"Crucible"
                 },
                 "minecraft:entity_data": {
                   "id": "minecraft:item_frame",
