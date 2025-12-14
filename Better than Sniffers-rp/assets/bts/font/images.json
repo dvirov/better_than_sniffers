@@ -1,0 +1,27 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "bts:wiki/images/alchemy_potions.png",
+
+            "ascent": 0,
+
+            "height": 70,
+            "chars": ["\uA001"]
+        },
+        {
+            "type": "bitmap",
+            "file": "bts:heal_menu_parts/green_main.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uB000"]
+        },
+        {
+            "type": "bitmap",
+            "file": "bts:heal_menu_parts/green_border.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uB001"]
+        }
+    ]
+}

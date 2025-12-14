@@ -1,0 +1,14 @@
+{
+  "language":{
+    "bts_lang":{
+      "name":"Better than Sniffers",
+      "region":"Datapack special",
+      "bidirectional": false
+    }
+  },
+  "pack": {
+    "description": "§bBetter than Sniffers By Dvirov v0.6.1",
+    "min_format": [69,0],
+    "max_format": [69,0]
+  }
+}

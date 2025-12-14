@@ -1,0 +1,11 @@
+{
+    "vertex": "bts:post/internal/blit",
+    "fragment": "bts:post/data",
+    "samplers": [
+        { "name": "DataSampler" },
+        { "name": "ParticlesSampler" }
+    ],
+    "uniforms": [
+        { "name": "GameTime", "type": "float", "count": 1, "values": [ 0.0 ] }
+    ]
+}

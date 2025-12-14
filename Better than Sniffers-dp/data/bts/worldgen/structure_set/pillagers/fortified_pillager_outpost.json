@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "bts:pillagers/fortified_pillager_outpost",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 25,
+    "separation": 21,
+    "salt": 83847562891019,
+    "exclusion_zone": {
+      "other_set": "minecraft:villages",
+      "chunk_count": 8
+    }
+  }
+}

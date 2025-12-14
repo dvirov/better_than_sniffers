@@ -1,0 +1,9 @@
+{
+    "vertex": "bts:post/internal/blit",
+    "fragment": "bts:post/internal/blit",
+    "samplers": [
+        { "name": "InSampler" }
+    ],
+    "uniforms": [
+    ]
+}

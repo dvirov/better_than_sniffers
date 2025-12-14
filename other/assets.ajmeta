@@ -1,0 +1,18 @@
+{
+	"blueprinttest": {
+		"files": [
+			"assets/animated_java/models/empty.json",
+			"assets/animated_java/textures/item/blueprinttest/andesite.png",
+			"assets/animated_java/textures/item/transparent.png",
+			"assets/animated_java/models/item/blueprinttest/default/core.json",
+			"assets/animated_java/models/item/blueprinttest/default/flipper.json",
+			"assets/animated_java/models/item/blueprinttest/default/flipper2.json",
+			"assets/animated_java/models/item/blueprinttest/default/flipper3.json",
+			"assets/animated_java/models/item/blueprinttest/default/flipper4.json",
+			"assets/animated_java/models/item/blueprinttest/default/flipper5.json",
+			"assets/animated_java/models/item/blueprinttest/default/flipper6.json",
+			"assets/animated_java/models/item/blueprinttest/default/flipper7.json",
+			"assets/animated_java/models/item/blueprinttest/default/flipper8.json"
+		]
+	}
+}

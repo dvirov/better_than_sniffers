@@ -1,0 +1,25 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "bts:pillagers/single_turret_pillager",
+        "override_liquid_settings": "apply_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "bts:pillagers/triple_turret_pillager",
+        "override_liquid_settings": "apply_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}
