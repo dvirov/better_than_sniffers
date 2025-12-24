@@ -1,0 +1,20 @@
+{
+  "replace": true,
+  "values": [
+    "bts:day/bees_stay_in_hive",
+    "bts:day/cloud_color",
+    "bts:day/creaking_active",
+    "bts:day/eyeblossom_open",
+    "bts:day/firefly_bush_sounds",
+    "bts:day/fog_color",
+    "bts:day/monsters_burn",
+    "bts:day/moon_angle",
+    "bts:day/sky_color",
+    "bts:day/sky_light_color",
+    "bts:day/sky_light_factor",
+    "bts:day/sky_light_level",
+    "bts:day/star_angle",
+    "bts:day/sun_angle",
+    "bts:day/sunrise_sunset_color"
+  ]
+}
