@@ -48,13 +48,13 @@ scoreboard objectives add potion_duration_clc dummy
 scoreboard objectives add potion_duration_temp dummy
 scoreboard objectives add item.damage dummy
 scoreboard objectives add item.use dummy
-gamerule playersSleepingPercentage 101
-gamerule doInsomnia false
-gamerule naturalRegeneration false
-gamerule snowAccumulationHeight 7
-gamerule waterSourceConversion false
+gamerule minecraft:players_sleeping_percentage 101
+gamerule spawn_phantoms false
+gamerule natural_health_regeneration false
+gamerule max_snow_accumulation_height 7
+gamerule water_source_conversion false
 
-gamerule playersNetherPortalDefaultDelay 999999999
+gamerule players_nether_portal_default_delay 999999999
 
 scoreboard objectives add bar_stamina dummy
 scoreboard objectives add bar_stamina_cd dummy
@@ -82,11 +82,11 @@ scoreboard objectives add settings.custom_sounds dummy
 scoreboard objectives add pack.settings dummy
 execute if score .developer pack.settings matches 1 run tellraw @a {color:dark_red ,text:"Developer mode is active !"}
 
-execute if score .developer pack.settings matches 0 run gamerule reducedDebugInfo true
-execute if score .developer pack.settings matches 0 run gamerule sendCommandFeedback false
+execute if score .developer pack.settings matches 0 run gamerule reduced_debug_info true
+execute if score .developer pack.settings matches 0 run gamerule send_command_feedback false
 
-execute if score .developer pack.settings matches 1 run gamerule reducedDebugInfo false
-execute if score .developer pack.settings matches 1 run gamerule sendCommandFeedback true
+execute if score .developer pack.settings matches 1 run gamerule reduced_debug_info false
+execute if score .developer pack.settings matches 1 run gamerule send_command_feedback true
 
 
 

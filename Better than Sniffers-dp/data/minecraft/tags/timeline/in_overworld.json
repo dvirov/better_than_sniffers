@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    "#minecraft:universal",
+    "minecraft:early_game",
+    "#bts:day",
+    "bts:moon_phase"
+  ]
+}

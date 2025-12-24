@@ -1,9 +1,9 @@
 # run from player tick
 
-execute if score .season calender matches 1 as @a at @s run function bts:world_event/seasons/fall
-execute if score .season calender matches 2 as @a at @s run function bts:world_event/seasons/winter
-execute if score .season calender matches 3 as @a at @s run function bts:world_event/seasons/spring
-execute if score .season calender matches 4 as @a at @s run function bts:world_event/seasons/summer
+execute if score .season calender matches 1 at @s run function bts:world_event/seasons/spring
+execute if score .season calender matches 2 at @s run function bts:world_event/seasons/summer
+execute if score .season calender matches 3 at @s run function bts:world_event/seasons/fall
+execute if score .season calender matches 4 at @s run function bts:world_event/seasons/winter
 
 
 #execute as @a at @s store result score @s ylevel run data get entity @s Pos[1]

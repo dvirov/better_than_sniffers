@@ -1,5 +1,5 @@
 ![better than sniffers logo](https://cdn.modrinth.com/data/cached_images/c80a00843574d965576770c05f885c570e1bd47d.png)
-# We advanced to 1.21.8 !
+# We advanced to 1.21.10 !
 ## only the latest release is supported !
 
 Better than Sniffers is a datapack inspierd by the mod "better than wolves" 

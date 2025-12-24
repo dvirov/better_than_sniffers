@@ -1,4 +1,4 @@
-gamerule randomTickSpeed 1
+gamerule random_tick_speed 1
 weather rain
 
 execute positioned ~ ~ ~ if biome ~ ~ ~ #bts:biome run function bts:world_event/seasons/winter_fillbiome
