@@ -488,7 +488,7 @@
             "type": "bitmap",
             "file": "bts:gui/powder_snow_outline.png",
             "ascent": -2000,
-            "height": 0,
+            "height": 50,
             "chars": ["\uD100"]
         },          
         {

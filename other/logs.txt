@@ -1,8 +1,8 @@
 ### Features/changes:
-- updateed to 1.21.11
+- updated to 1.21.11
 - timelines
 - structures
-- 
+- now sleeping is allowed during the day
 - 
 - 
 - 

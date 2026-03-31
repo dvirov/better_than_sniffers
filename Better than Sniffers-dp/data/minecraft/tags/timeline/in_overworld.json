@@ -4,6 +4,7 @@
     "#minecraft:universal",
     "minecraft:early_game",
     "#bts:day",
-    "bts:moon_phase"
+    "bts:moon_phase",
+    "bts:seasons/winter"
   ]
 }

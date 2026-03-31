@@ -1,0 +1,22 @@
+{
+  "period_ticks": 1152000,
+  "tracks": {
+    "minecraft:gameplay/snow_golem_melts": {
+      "modifier": "and",
+      "keyframes": [
+        {
+          "ticks": 0,
+          "value": true
+        },
+        {
+          "ticks": 576000,
+          "value": false
+        },
+        {
+          "ticks": 864000,
+          "value": true
+        }
+      ]
+    }
+  }
+}
