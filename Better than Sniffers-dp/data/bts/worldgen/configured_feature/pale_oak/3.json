@@ -115,12 +115,6 @@
                         "probability": 0.15
                       }
                     ],
-                    "dirt_provider": {
-                      "state": {
-                        "Name": "minecraft:rooted_dirt"
-                      },
-                      "type": "minecraft:simple_state_provider"
-                    },
                     "foliage_placer": {
                       "height": 0,
                       "offset": 0,
@@ -133,7 +127,6 @@
                       },
                       "type": "minecraft:simple_state_provider"
                     },
-                    "force_dirt": true,
                     "ignore_vines": true,
                     "minimum_size": {
                       "limit": 3,
@@ -153,6 +146,12 @@
                         "Properties": {
                           "axis": "y"
                         }
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    },
+                    "below_trunk_provider": {
+                      "state": {
+                        "Name": "minecraft:rooted_dirt"
                       },
                       "type": "minecraft:simple_state_provider"
                     }

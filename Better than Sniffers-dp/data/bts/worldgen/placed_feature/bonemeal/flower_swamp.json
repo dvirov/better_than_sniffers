@@ -1,0 +1,9 @@
+{
+  "feature": "minecraft:flower_swamp",
+  "placement": [
+    {
+      "count": 0,
+      "type": "minecraft:count"
+    }
+  ]
+}

@@ -126,12 +126,13 @@
                                   "type": "minecraft:simple_state_provider"
                                 }
                               }
-                            ]
+                            ],
+                            "type": "minecraft:rule_based_state_provider"
                           },
                           "target": {
                             "predicates": [
                               {
-                                "blocks": "#bts:dirt",
+                                "blocks": "#minecraft:substrate_overworld",
                                 "type": "minecraft:matching_blocks"
                               },
                               {
@@ -161,12 +162,13 @@
                                   },
                                   "type": "minecraft:simple_state_provider"
                                 },
-                                "rules": []
+                                "rules": [],
+                                "type": "minecraft:rule_based_state_provider"
                               },
                               "target": {
                                 "predicates": [
                                   {
-                                    "blocks": "#bts:dirt",
+                                    "blocks": "#minecraft:substrate_overworld",
                                     "type": "minecraft:matching_blocks"
                                   },
                                   {
@@ -254,90 +256,57 @@
               {
                 "feature": {
                   "config": {
-                    "feature": {
-                      "feature": {
-                        "config": {
-                          "allowed_placement": {
-                            "predicate": {
-                              "blocks": "#minecraft:features_cannot_replace",
-                              "type": "minecraft:matching_blocks"
-                            },
-                            "type": "minecraft:not"
-                          },
-                          "direction": "down",
-                          "layers": [
+                    "allowed_placement": {
+                      "predicate": {
+                        "blocks": "#minecraft:features_cannot_replace",
+                        "type": "minecraft:matching_blocks"
+                      },
+                      "type": "minecraft:not"
+                    },
+                    "direction": "down",
+                    "layers": [
+                      {
+                        "height": 1,
+                        "provider": {
+                          "entries": [
                             {
-                              "height": 1,
-                              "provider": {
-                                "entries": [
-                                  {
-                                    "data": {
-                                      "Name": "minecraft:sweet_berry_bush",
-                                      "Properties": {
-                                        "age": "2"
-                                      }
-                                    },
-                                    "weight": 1
-                                  },
-                                  {
-                                    "data": {
-                                      "Name": "minecraft:sweet_berry_bush",
-                                      "Properties": {
-                                        "age": "1"
-                                      }
-                                    },
-                                    "weight": 1
-                                  }
-                                ],
-                                "type": "minecraft:weighted_state_provider"
-                              }
+                              "data": {
+                                "Name": "minecraft:sweet_berry_bush",
+                                "Properties": {
+                                  "age": "2"
+                                }
+                              },
+                              "weight": 1
                             },
                             {
-                              "height": 1,
-                              "provider": {
-                                "state": {
-                                  "Name": "minecraft:grass_block",
-                                  "Properties": {
-                                    "snowy": "false"
-                                  }
-                                },
-                                "type": "minecraft:simple_state_provider"
-                              }
+                              "data": {
+                                "Name": "minecraft:sweet_berry_bush",
+                                "Properties": {
+                                  "age": "1"
+                                }
+                              },
+                              "weight": 1
                             }
                           ],
-                          "prioritize_tip": false
-                        },
-                        "type": "minecraft:block_column"
-                      },
-                      "placement": [
-                        {
-                          "predicate": {
-                            "predicates": [
-                              {
-                                "blocks": "minecraft:air",
-                                "type": "minecraft:matching_blocks"
-                              },
-                              {
-                                "blocks": "#bts:dirt",
-                                "offset": [
-                                  0,
-                                  -1,
-                                  0
-                                ],
-                                "type": "minecraft:matching_blocks"
-                              }
-                            ],
-                            "type": "minecraft:all_of"
-                          },
-                          "type": "minecraft:block_predicate_filter"
+                          "type": "minecraft:weighted_state_provider"
                         }
-                      ]
-                    },
-                    "tries": 3,
-                    "xz_spread": 3,
-                    "y_spread": 0
+                      },
+                      {
+                        "height": 1,
+                        "provider": {
+                          "state": {
+                            "Name": "minecraft:grass_block",
+                            "Properties": {
+                              "snowy": "false"
+                            }
+                          },
+                          "type": "minecraft:simple_state_provider"
+                        }
+                      }
+                    ],
+                    "prioritize_tip": false
                   },
-                  "type": "minecraft:random_patch"
+                  "type": "minecraft:block_column"
                 },
                 "placement": [
                   {
@@ -365,6 +334,44 @@
                         "type": "minecraft:matching_blocks"
                       },
                       "type": "minecraft:not"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  },
+                  {
+                    "count": 3,
+                    "type": "minecraft:count"
+                  },
+                  {
+                    "xz_spread": {
+                      "type": "minecraft:uniform",
+                      "min_inclusive": -3,
+                      "max_inclusive": 3
+                    },
+                    "y_spread": {
+                      "type": "minecraft:uniform",
+                      "min_inclusive": 0,
+                      "max_inclusive": 0
+                    },
+                    "type": "minecraft:random_offset"
+                  },
+                  {
+                    "predicate": {
+                      "predicates": [
+                        {
+                          "blocks": "minecraft:air",
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "blocks": "#minecraft:substrate_overworld",
+                          "offset": [
+                            0,
+                            -1,
+                            0
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        }
+                      ],
+                      "type": "minecraft:all_of"
                     },
                     "type": "minecraft:block_predicate_filter"
                   }

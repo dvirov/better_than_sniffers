@@ -16,7 +16,8 @@
                 },
                 "type": "minecraft:simple_state_provider"
               },
-              "rules": []
+              "rules": [],
+              "type": "minecraft:rule_based_state_provider"
             },
             "target": {
               "predicate": {
@@ -86,7 +87,8 @@
                             "type": "minecraft:simple_state_provider"
                           }
                         }
-                      ]
+                      ],
+                      "type": "minecraft:rule_based_state_provider"
                     },
                     "target": {
                       "predicates": [
@@ -163,7 +165,8 @@
                               },
                               "type": "minecraft:simple_state_provider"
                             },
-                            "rules": []
+                            "rules": [],
+                            "type": "minecraft:rule_based_state_provider"
                           },
                           "target": {
                             "predicates": [
@@ -462,7 +465,8 @@
                             "type": "minecraft:weighted_state_provider"
                           }
                         }
-                      ]
+                      ],
+                      "type": "minecraft:rule_based_state_provider"
                     },
                     "target": {
                       "blocks": "minecraft:sand",

@@ -16,7 +16,7 @@
               },
               "type": "minecraft:simple_state_provider"
             },
-            "replaceable": "#bts:dirt",
+            "replaceable": "#minecraft:substrate_overworld",
             "surface": "floor",
             "vegetation_chance": 1.0,
             "vegetation_feature": {
@@ -34,7 +34,7 @@
                     },
                     "type": "minecraft:simple_state_provider"
                   },
-                  "replaceable": "#bts:dirt",
+                  "replaceable": "#minecraft:substrate_overworld",
                   "surface": "floor",
                   "vegetation_chance": 0.35,
                   "vegetation_feature": {
@@ -52,7 +52,7 @@
                           },
                           "type": "minecraft:simple_state_provider"
                         },
-                        "replaceable": "#bts:dirt",
+                        "replaceable": "#minecraft:substrate_overworld",
                         "surface": "floor",
                         "vegetation_chance": 0.4,
                         "vegetation_feature": {
@@ -74,7 +74,8 @@
                                   },
                                   "type": "minecraft:simple_state_provider"
                                 },
-                                "rules": []
+                                "rules": [],
+                                "type": "minecraft:rule_based_state_provider"
                               },
                               "target": {
                                 "predicates": [

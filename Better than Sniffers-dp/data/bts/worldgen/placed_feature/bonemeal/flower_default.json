@@ -1,0 +1,9 @@
+{
+  "feature": "minecraft:flower_default",
+  "placement": [
+    {
+      "count": 0,
+      "type": "minecraft:count"
+    }
+  ]
+}

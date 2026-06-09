@@ -48,20 +48,6 @@
                         "feature": {
                           "config": {
                             "decorators": [],
-                            "dirt_provider": {
-                              "state": {
-                                "Name": "minecraft:mushroom_stem",
-                                "Properties": {
-                                  "down": "true",
-                                  "east": "true",
-                                  "north": "true",
-                                  "south": "true",
-                                  "up": "true",
-                                  "west": "true"
-                                }
-                              },
-                              "type": "minecraft:simple_state_provider"
-                            },
                             "foliage_placer": {
                               "crown_height": 3,
                               "offset": 0,
@@ -82,7 +68,6 @@
                               },
                               "type": "minecraft:simple_state_provider"
                             },
-                            "force_dirt": false,
                             "ignore_vines": true,
                             "minimum_size": {
                               "limit": 0,
@@ -109,6 +94,34 @@
                                 }
                               },
                               "type": "minecraft:simple_state_provider"
+                            },
+                            "below_trunk_provider": {
+                              "type": "minecraft:rule_based_state_provider",
+                              "rules": [
+                                {
+                                  "if_true": {
+                                    "type": "minecraft:not",
+                                    "predicate": {
+                                      "type": "minecraft:matching_block_tag",
+                                      "tag": "minecraft:cannot_replace_below_tree_trunk"
+                                    }
+                                  },
+                                  "then": {
+                                    "state": {
+                                      "Name": "minecraft:mushroom_stem",
+                                      "Properties": {
+                                        "down": "true",
+                                        "east": "true",
+                                        "north": "true",
+                                        "south": "true",
+                                        "up": "true",
+                                        "west": "true"
+                                      }
+                                    },
+                                    "type": "minecraft:simple_state_provider"
+                                  }
+                                }
+                              ]
                             }
                           },
                           "type": "minecraft:tree"
@@ -170,7 +183,8 @@
                                 },
                                 "type": "minecraft:simple_state_provider"
                               },
-                              "rules": []
+                              "rules": [],
+                              "type": "minecraft:rule_based_state_provider"
                             },
                             "target": {
                               "blocks": "minecraft:red_mushroom_block",
@@ -211,7 +225,8 @@
                                 },
                                 "type": "minecraft:simple_state_provider"
                               },
-                              "rules": []
+                              "rules": [],
+                              "type": "minecraft:rule_based_state_provider"
                             },
                             "target": {
                               "blocks": "minecraft:red_mushroom_block",

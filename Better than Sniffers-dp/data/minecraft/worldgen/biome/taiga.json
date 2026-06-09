@@ -6,19 +6,9 @@
   ],
   "downfall": 0.8,
   "effects": {
-    "fog_color": 12638463,
-    "mood_sound": {
-      "block_search_extent": 8,
-      "offset": 2.0,
-      "sound": "minecraft:ambient.cave",
-      "tick_delay": 6000
-    },
-    "music_volume": 1.0,
-    "sky_color": 8233983,
-    "water_color": 4159204,
-    "water_fog_color": 329011
+    "water_color": 4159204
   },
-  "features": [ 
+  "features": [
     [
       "bts:taiga/coarse_dirt/blobs",
       "bts:taiga/podzol/blobs"
@@ -65,7 +55,8 @@
       "minecraft:disk_sand",
       "minecraft:disk_clay",
       "minecraft:disk_gravel",
-      "bts:salt"    ],
+      "bts:salt"
+    ],
     [
       "bts:taiga/spring",
       "bts:taiga/gravel",

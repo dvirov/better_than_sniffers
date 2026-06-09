@@ -4,7 +4,7 @@ execute if predicate bts:sunrise run scoreboard players add @a close.dialog 9999
 
 ## calculate calender
 ## prevent reset by mistake 
-execute store result score .calender.clc temp run time query day
+execute store result score .calender.clc temp run time query day repetition
 execute if score .calender.clc temp < .day calender run return fail
 
 #### calculations

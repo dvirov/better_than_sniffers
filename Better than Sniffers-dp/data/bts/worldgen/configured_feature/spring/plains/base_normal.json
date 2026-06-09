@@ -12,7 +12,7 @@
       },
       "type": "minecraft:simple_state_provider"
     },
-    "replaceable": "#bts:dirt",
+    "replaceable": "#minecraft:substrate_overworld",
     "surface": "floor",
     "vegetation_chance": 0.25,
     "vegetation_feature": {
@@ -190,14 +190,15 @@
                   "type": "minecraft:simple_state_provider"
                 }
               }
-            ]
+            ],
+            "type": "minecraft:rule_based_state_provider"
           },
           "target": {
             "predicates": [
               {
                 "predicates": [
                   {
-                    "blocks": "#bts:dirt",
+                    "blocks": "#minecraft:substrate_overworld",
                     "type": "minecraft:matching_blocks"
                   },
                   {

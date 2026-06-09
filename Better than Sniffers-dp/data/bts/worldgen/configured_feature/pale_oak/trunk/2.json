@@ -117,12 +117,6 @@
                 "type": "minecraft:attached_to_leaves"
               }
             ],
-            "dirt_provider": {
-              "state": {
-                "Name": "minecraft:pale_moss_block"
-              },
-              "type": "minecraft:simple_state_provider"
-            },
             "foliage_placer": {
               "offset": 1,
               "radius": 0,
@@ -139,7 +133,6 @@
               },
               "type": "minecraft:simple_state_provider"
             },
-            "force_dirt": true,
             "ignore_vines": true,
             "minimum_size": {
               "limit": 1,
@@ -159,6 +152,12 @@
                 "Properties": {
                   "axis": "y"
                 }
+              },
+              "type": "minecraft:simple_state_provider"
+            },
+            "below_trunk_provider": {
+              "state": {
+                "Name": "minecraft:pale_moss_block"
               },
               "type": "minecraft:simple_state_provider"
             }

@@ -1,44 +1,14 @@
 {
   "feature": {
+    "type": "minecraft:simple_block",
     "config": {
-      "feature": {
-        "feature": {
-          "type": "minecraft:simple_block",
-          "config": {
-            "to_place": {
-              "type": "minecraft:simple_state_provider",
-              "state": {
-                "Name": "minecraft:firefly_bush"
-              }
-            }
-          }
-        },
-        "placement": [
-          {
-            "predicate": {
-              "predicates": [
-                {
-                  "blocks": "minecraft:air",
-                  "type": "minecraft:matching_blocks"
-                },
-                {
-                  "state": {
-                    "Name": "minecraft:firefly_bush"
-                  },
-                  "type": "minecraft:would_survive"
-                }
-              ],
-              "type": "minecraft:all_of"
-            },
-            "type": "minecraft:block_predicate_filter"
-          }
-        ]
-      },
-      "tries": 20,
-      "xz_spread": 3,
-      "y_spread": 2
-    },
-    "type": "minecraft:random_patch"
+      "to_place": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:firefly_bush"
+        }
+      }
+    }
   },
   "placement": [
     {
@@ -119,6 +89,41 @@
     },
     {
       "type": "minecraft:biome"
+    },
+    {
+      "count": 20,
+      "type": "minecraft:count"
+    },
+    {
+      "xz_spread": {
+        "type": "minecraft:uniform",
+        "min_inclusive": -3,
+        "max_inclusive": 3
+      },
+      "y_spread": {
+        "type": "minecraft:uniform",
+        "min_inclusive": -2,
+        "max_inclusive": 2
+      },
+      "type": "minecraft:random_offset"
+    },
+    {
+      "predicate": {
+        "predicates": [
+          {
+            "blocks": "minecraft:air",
+            "type": "minecraft:matching_blocks"
+          },
+          {
+            "state": {
+              "Name": "minecraft:firefly_bush"
+            },
+            "type": "minecraft:would_survive"
+          }
+        ],
+        "type": "minecraft:all_of"
+      },
+      "type": "minecraft:block_predicate_filter"
     }
   ]
 }

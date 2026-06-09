@@ -7,8 +7,8 @@
     }
   },
   "pack": {
-    "description": "§bBetter than Sniffers By dvirov Beta 0.6.2",
-    "min_format": [75,0],
-    "max_format": [75,0]
+    "description": "§bBetter than Sniffers By dvirov Beta 0.6.3",
+    "min_format": [84,0],
+    "max_format": [84,0]
   }
 }

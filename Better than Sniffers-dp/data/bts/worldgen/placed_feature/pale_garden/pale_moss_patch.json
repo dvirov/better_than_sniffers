@@ -11,7 +11,7 @@
           "Name": "minecraft:pale_moss_block"
         }
       },
-      "replaceable": "#bts:dirt",
+      "replaceable": "#minecraft:substrate_overworld",
       "surface": "floor",
       "vegetation_chance": 0.35,
       "vegetation_feature": {

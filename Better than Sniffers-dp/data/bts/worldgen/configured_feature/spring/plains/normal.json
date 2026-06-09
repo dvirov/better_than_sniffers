@@ -10,7 +10,7 @@
                 "placement": [
                   {
                     "predicate": {
-                      "blocks": "#bts:dirt",
+                      "blocks": "#minecraft:substrate_overworld",
                       "offset": [
                         0,
                         -1,
@@ -42,7 +42,8 @@
                         },
                         "type": "minecraft:simple_state_provider"
                       },
-                      "rules": []
+                      "rules": [],
+                      "type": "minecraft:rule_based_state_provider"
                     },
                     "target": {
                       "predicate": {
@@ -58,7 +59,7 @@
                   {
                     "predicate": {
                       "predicate": {
-                        "blocks": "#bts:dirt",
+                        "blocks": "#minecraft:substrate_overworld",
                         "offset": [
                           0,
                           -1,
@@ -261,7 +262,7 @@
                   "type": "minecraft:matching_blocks"
                 },
                 {
-                  "blocks": "#bts:dirt",
+                  "blocks": "#minecraft:substrate_overworld",
                   "offset": [
                     0,
                     -1,

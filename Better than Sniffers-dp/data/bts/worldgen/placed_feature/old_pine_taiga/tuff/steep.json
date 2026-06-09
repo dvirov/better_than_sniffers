@@ -89,7 +89,7 @@
                     },
                     "target": {
                       "predicate_type": "minecraft:tag_match",
-                      "tag": "bts:dirt"
+                      "tag": "minecraft:substrate_overworld"
                     }
                   },
                   {
@@ -183,7 +183,7 @@
             "type": "minecraft:replaceable"
           },
           {
-            "blocks": "#bts:dirt",
+            "blocks": "#minecraft:substrate_overworld",
             "offset": [
               0,
               -1,

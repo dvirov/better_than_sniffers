@@ -11,7 +11,7 @@
                   "type": "minecraft:replaceable"
                 },
                 {
-                  "blocks": "#bts:dirt",
+                  "blocks": "#minecraft:substrate_overworld",
                   "offset": [
                     0,
                     -1,
@@ -28,7 +28,7 @@
                   "type": "minecraft:replaceable"
                 },
                 {
-                  "blocks": "#bts:dirt",
+                  "blocks": "#minecraft:substrate_overworld",
                   "offset": [
                     0,
                     -1,
@@ -45,7 +45,7 @@
                   "type": "minecraft:replaceable"
                 },
                 {
-                  "blocks": "#bts:dirt",
+                  "blocks": "#minecraft:substrate_overworld",
                   "offset": [
                     0,
                     -1,
@@ -62,7 +62,7 @@
                   "type": "minecraft:replaceable"
                 },
                 {
-                  "blocks": "#bts:dirt",
+                  "blocks": "#minecraft:substrate_overworld",
                   "offset": [
                     0,
                     -1,
@@ -79,7 +79,7 @@
                   "type": "minecraft:replaceable"
                 },
                 {
-                  "blocks": "#bts:dirt",
+                  "blocks": "#minecraft:substrate_overworld",
                   "offset": [
                     0,
                     -1,

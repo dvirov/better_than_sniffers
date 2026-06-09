@@ -130,62 +130,33 @@
               {
                 "feature": {
                   "config": {
-                    "feature": {
-                      "feature": {
-                        "config": {
-                          "allowed_placement": {
-                            "offset": [
-                              0,
-                              -2,
-                              0
-                            ],
-                            "type": "minecraft:replaceable"
-                          },
-                          "direction": "down",
-                          "layers": [
-                            {
-                              "height": {
-                                "type": "minecraft:uniform",
-                                "min_inclusive": 1,
-                                "max_inclusive": 4
-                              },
-                              "provider": {
-                                "state": {
-                                  "Name": "minecraft:ice"
-                                },
-                                "type": "minecraft:simple_state_provider"
-                              }
-                            }
-                          ],
-                          "prioritize_tip": false
-                        },
-                        "type": "minecraft:block_column"
-                      },
-                      "placement": [
-                        {
-                          "direction_of_search": "up",
-                          "max_steps": 12,
-                          "target_condition": {
-                            "blocks": [
-                              "minecraft:packed_ice",
-                              "minecraft:blue_ice"
-                            ],
-                            "offset": [
-                              0,
-                              1,
-                              0
-                            ],
-                            "type": "minecraft:matching_blocks"
-                          },
-                          "type": "minecraft:environment_scan"
-                        }
-                      ]
+                    "allowed_placement": {
+                      "offset": [
+                        0,
+                        -2,
+                        0
+                      ],
+                      "type": "minecraft:replaceable"
                     },
-                    "tries": 4,
-                    "xz_spread": 10,
-                    "y_spread": 0
+                    "direction": "down",
+                    "layers": [
+                      {
+                        "height": {
+                          "type": "minecraft:uniform",
+                          "min_inclusive": 1,
+                          "max_inclusive": 4
+                        },
+                        "provider": {
+                          "state": {
+                            "Name": "minecraft:ice"
+                          },
+                          "type": "minecraft:simple_state_provider"
+                        }
+                      }
+                    ],
+                    "prioritize_tip": false
                   },
-                  "type": "minecraft:random_patch"
+                  "type": "minecraft:block_column"
                 },
                 "placement": [
                   {
@@ -260,6 +231,40 @@
                       "type": "minecraft:not"
                     },
                     "type": "minecraft:block_predicate_filter"
+                  },
+                  {
+                    "count": 4,
+                    "type": "minecraft:count"
+                  },
+                  {
+                    "xz_spread": {
+                      "type": "minecraft:uniform",
+                      "min_inclusive": -10,
+                      "max_inclusive": 10
+                    },
+                    "y_spread": {
+                      "type": "minecraft:uniform",
+                      "min_inclusive": 0,
+                      "max_inclusive": 0
+                    },
+                    "type": "minecraft:random_offset"
+                  },
+                  {
+                    "direction_of_search": "up",
+                    "max_steps": 12,
+                    "target_condition": {
+                      "blocks": [
+                        "minecraft:packed_ice",
+                        "minecraft:blue_ice"
+                      ],
+                      "offset": [
+                        0,
+                        1,
+                        0
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    "type": "minecraft:environment_scan"
                   }
                 ]
               }

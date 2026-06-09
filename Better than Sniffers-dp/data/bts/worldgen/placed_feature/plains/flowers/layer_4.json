@@ -1,71 +1,40 @@
 {
   "feature": {
     "config": {
-      "feature": {
-        "feature": {
-          "config": {
-            "to_place": {
-              "default_state": {
-                "Name": "minecraft:azure_bluet"
-              },
-              "high_chance": 0.33333334,
-              "high_states": [
-                {
-                  "Name": "minecraft:poppy"
-                },
-                {
-                  "Name": "minecraft:dandelion"
-                }
-              ],
-              "low_states": [
-                {
-                  "Name": "minecraft:orange_tulip"
-                },
-                {
-                  "Name": "minecraft:red_tulip"
-                }
-              ],
-              "noise": {
-                "amplitudes": [
-                  1.0
-                ],
-                "firstOctave": 0
-              },
-              "scale": 0.005,
-              "seed": 2345,
-              "threshold": -0.8,
-              "type": "minecraft:noise_threshold_provider"
-            }
-          },
-          "type": "minecraft:simple_block"
+      "to_place": {
+        "default_state": {
+          "Name": "minecraft:azure_bluet"
         },
-        "placement": [
+        "high_chance": 0.33333334,
+        "high_states": [
           {
-            "predicate": {
-              "blocks": "minecraft:air",
-              "type": "minecraft:matching_blocks"
-            },
-            "type": "minecraft:block_predicate_filter"
+            "Name": "minecraft:poppy"
           },
           {
-            "predicate": {
-              "blocks": "minecraft:grass_block",
-              "offset": [
-                0,
-                -1,
-                0
-              ],
-              "type": "minecraft:matching_blocks"
-            },
-            "type": "minecraft:block_predicate_filter"
+            "Name": "minecraft:dandelion"
           }
-        ]
-      },
-      "tries": 12,
-      "xz_spread": 4,
-      "y_spread": 2
+        ],
+        "low_states": [
+          {
+            "Name": "minecraft:orange_tulip"
+          },
+          {
+            "Name": "minecraft:red_tulip"
+          }
+        ],
+        "noise": {
+          "amplitudes": [
+            1.0
+          ],
+          "firstOctave": 0
+        },
+        "scale": 0.005,
+        "seed": 2345,
+        "threshold": -0.8,
+        "type": "minecraft:noise_threshold_provider"
+      }
     },
-    "type": "minecraft:no_bonemeal_flower"
+    "type": "minecraft:simple_block"
   },
   "placement": [
     {
@@ -115,6 +84,42 @@
     },
     {
       "type": "minecraft:biome"
+    },
+    {
+      "count": 12,
+      "type": "minecraft:count"
+    },
+    {
+      "xz_spread": {
+        "type": "minecraft:uniform",
+        "min_inclusive": -4,
+        "max_inclusive": 4
+      },
+      "y_spread": {
+        "type": "minecraft:uniform",
+        "min_inclusive": -2,
+        "max_inclusive": 2
+      },
+      "type": "minecraft:random_offset"
+    },
+    {
+      "predicate": {
+        "blocks": "minecraft:air",
+        "type": "minecraft:matching_blocks"
+      },
+      "type": "minecraft:block_predicate_filter"
+    },
+    {
+      "predicate": {
+        "blocks": "minecraft:grass_block",
+        "offset": [
+          0,
+          -1,
+          0
+        ],
+        "type": "minecraft:matching_blocks"
+      },
+      "type": "minecraft:block_predicate_filter"
     }
   ]
 }

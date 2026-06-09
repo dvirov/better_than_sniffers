@@ -70,9 +70,12 @@
               "config": {
                 "state": {
                   "Name": "minecraft:stone"
+                },
+                "can_place_on": {
+                  "type": "minecraft:solid"
                 }
               },
-              "type": "minecraft:forest_rock"
+              "type": "minecraft:block_blob"
             },
             "placement": [
               {
@@ -130,7 +133,7 @@
     },
     {
       "predicate": {
-        "blocks": "#bts:dirt",
+        "blocks": "#minecraft:substrate_overworld",
         "offset": [
           0,
           -1,

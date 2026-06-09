@@ -5,110 +5,128 @@
         {
           "feature": {
             "config": {
-              "feature": {
-                "feature": {
-                  "config": {
-                    "to_place": {
-                      "state": {
-                        "Name": "minecraft:lilac",
-                        "Properties": {
-                          "half": "lower"
-                        }
-                      },
-                      "type": "minecraft:simple_state_provider"
-                    }
-                  },
-                  "type": "minecraft:simple_block"
-                },
-                "placement": [
-                  {
-                    "predicate": {
-                      "blocks": "minecraft:air",
-                      "type": "minecraft:matching_blocks"
-                    },
-                    "type": "minecraft:block_predicate_filter"
+              "to_place": {
+                "state": {
+                  "Name": "minecraft:lilac",
+                  "Properties": {
+                    "half": "lower"
                   }
-                ]
-              },
-              "tries": 24,
-              "xz_spread": 5,
-              "y_spread": 2
+                },
+                "type": "minecraft:simple_state_provider"
+              }
             },
-            "type": "minecraft:random_patch"
+            "type": "minecraft:simple_block"
           },
-          "placement": []
+          "placement": [
+            {
+              "count": 24,
+              "type": "minecraft:count"
+            },
+            {
+              "xz_spread": {
+                "type": "minecraft:uniform",
+                "min_inclusive": -5,
+                "max_inclusive": 5
+              },
+              "y_spread": {
+                "type": "minecraft:uniform",
+                "min_inclusive": -2,
+                "max_inclusive": 2
+              },
+              "type": "minecraft:random_offset"
+            },
+            {
+              "predicate": {
+                "blocks": "minecraft:air",
+                "type": "minecraft:matching_blocks"
+              },
+              "type": "minecraft:block_predicate_filter"
+            }
+          ]
         },
         {
           "feature": {
             "config": {
-              "feature": {
-                "feature": {
-                  "config": {
-                    "to_place": {
-                      "state": {
-                        "Name": "minecraft:rose_bush",
-                        "Properties": {
-                          "half": "lower"
-                        }
-                      },
-                      "type": "minecraft:simple_state_provider"
-                    }
-                  },
-                  "type": "minecraft:simple_block"
-                },
-                "placement": [
-                  {
-                    "predicate": {
-                      "blocks": "minecraft:air",
-                      "type": "minecraft:matching_blocks"
-                    },
-                    "type": "minecraft:block_predicate_filter"
+              "to_place": {
+                "state": {
+                  "Name": "minecraft:rose_bush",
+                  "Properties": {
+                    "half": "lower"
                   }
-                ]
-              },
-              "tries": 24,
-              "xz_spread": 5,
-              "y_spread": 2
+                },
+                "type": "minecraft:simple_state_provider"
+              }
             },
-            "type": "minecraft:random_patch"
+            "type": "minecraft:simple_block"
           },
-          "placement": []
+          "placement": [
+            {
+              "count": 24,
+              "type": "minecraft:count"
+            },
+            {
+              "xz_spread": {
+                "type": "minecraft:uniform",
+                "min_inclusive": -5,
+                "max_inclusive": 5
+              },
+              "y_spread": {
+                "type": "minecraft:uniform",
+                "min_inclusive": -2,
+                "max_inclusive": 2
+              },
+              "type": "minecraft:random_offset"
+            },
+            {
+              "predicate": {
+                "blocks": "minecraft:air",
+                "type": "minecraft:matching_blocks"
+              },
+              "type": "minecraft:block_predicate_filter"
+            }
+          ]
         },
         {
           "feature": {
             "config": {
-              "feature": {
-                "feature": {
-                  "config": {
-                    "to_place": {
-                      "state": {
-                        "Name": "minecraft:peony",
-                        "Properties": {
-                          "half": "lower"
-                        }
-                      },
-                      "type": "minecraft:simple_state_provider"
-                    }
-                  },
-                  "type": "minecraft:simple_block"
-                },
-                "placement": [
-                  {
-                    "predicate": {
-                      "blocks": "minecraft:air",
-                      "type": "minecraft:matching_blocks"
-                    },
-                    "type": "minecraft:block_predicate_filter"
+              "to_place": {
+                "state": {
+                  "Name": "minecraft:peony",
+                  "Properties": {
+                    "half": "lower"
                   }
-                ]
-              },
-              "tries": 24,
-              "xz_spread": 5,
-              "y_spread": 2
+                },
+                "type": "minecraft:simple_state_provider"
+              }
             },
-            "type": "minecraft:random_patch"
+            "type": "minecraft:simple_block"
           },
-          "placement": []
+          "placement": [
+            {
+              "count": 24,
+              "type": "minecraft:count"
+            },
+            {
+              "xz_spread": {
+                "type": "minecraft:uniform",
+                "min_inclusive": -5,
+                "max_inclusive": 5
+              },
+              "y_spread": {
+                "type": "minecraft:uniform",
+                "min_inclusive": -2,
+                "max_inclusive": 2
+              },
+              "type": "minecraft:random_offset"
+            },
+            {
+              "predicate": {
+                "blocks": "minecraft:air",
+                "type": "minecraft:matching_blocks"
+              },
+              "type": "minecraft:block_predicate_filter"
+            }
+          ]
         }
       ]
     },

@@ -135,12 +135,13 @@
                               },
                               "type": "minecraft:simple_state_provider"
                             },
-                            "rules": []
+                            "rules": [],
+                            "type": "minecraft:rule_based_state_provider"
                           },
                           "target": {
                             "predicates": [
                               {
-                                "blocks": "#bts:dirt",
+                                "blocks": "#minecraft:substrate_overworld",
                                 "type": "minecraft:matching_blocks"
                               },
                               {
@@ -188,12 +189,13 @@
                                       "type": "minecraft:simple_state_provider"
                                     }
                                   }
-                                ]
+                                ],
+                                "type": "minecraft:rule_based_state_provider"
                               },
                               "target": {
                                 "predicates": [
                                   {
-                                    "blocks": "#bts:dirt",
+                                    "blocks": "#minecraft:substrate_overworld",
                                     "type": "minecraft:matching_blocks"
                                   },
                                   {
@@ -490,7 +492,7 @@
                           "type": "minecraft:matching_blocks"
                         },
                         {
-                          "blocks": "#minecraft:bamboo_plantable_on",
+                          "blocks": "#minecraft:supports_bamboo",
                           "offset": [
                             0,
                             -1,
@@ -614,15 +616,6 @@
                         "type": "minecraft:attached_to_leaves"
                       }
                     ],
-                    "dirt_provider": {
-                      "state": {
-                        "Name": "minecraft:jungle_wood",
-                        "Properties": {
-                          "axis": "y"
-                        }
-                      },
-                      "type": "minecraft:simple_state_provider"
-                    },
                     "foliage_placer": {
                       "offset": 1,
                       "radius": 2,
@@ -639,7 +632,6 @@
                       },
                       "type": "minecraft:simple_state_provider"
                     },
-                    "force_dirt": false,
                     "ignore_vines": true,
                     "minimum_size": {
                       "limit": 1,
@@ -703,6 +695,29 @@
                         }
                       },
                       "type": "minecraft:simple_state_provider"
+                    },
+                    "below_trunk_provider": {
+                      "type": "minecraft:rule_based_state_provider",
+                      "rules": [
+                        {
+                          "if_true": {
+                            "type": "minecraft:not",
+                            "predicate": {
+                              "type": "minecraft:matching_block_tag",
+                              "tag": "minecraft:cannot_replace_below_tree_trunk"
+                            }
+                          },
+                          "then": {
+                            "state": {
+                              "Name": "minecraft:jungle_wood",
+                              "Properties": {
+                                "axis": "y"
+                              }
+                            },
+                            "type": "minecraft:simple_state_provider"
+                          }
+                        }
+                      ]
                     }
                   },
                   "type": "minecraft:tree"

@@ -84,12 +84,13 @@
                                   "type": "minecraft:simple_state_provider"
                                 }
                               }
-                            ]
+                            ],
+                            "type": "minecraft:rule_based_state_provider"
                           },
                           "target": {
                             "predicates": [
                               {
-                                "blocks": "#bts:dirt",
+                                "blocks": "#minecraft:substrate_overworld",
                                 "type": "minecraft:matching_blocks"
                               },
                               {
@@ -119,12 +120,13 @@
                                   },
                                   "type": "minecraft:simple_state_provider"
                                 },
-                                "rules": []
+                                "rules": [],
+                                "type": "minecraft:rule_based_state_provider"
                               },
                               "target": {
                                 "predicates": [
                                   {
-                                    "blocks": "#bts:dirt",
+                                    "blocks": "#minecraft:substrate_overworld",
                                     "type": "minecraft:matching_blocks"
                                   },
                                   {

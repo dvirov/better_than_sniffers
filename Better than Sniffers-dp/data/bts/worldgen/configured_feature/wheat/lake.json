@@ -9,7 +9,7 @@
       },
       "type": "minecraft:simple_state_provider"
     },
-    "replaceable": "#bts:dirt",
+    "replaceable": "#minecraft:substrate_overworld",
     "surface": "floor",
     "vegetation_chance": 0.85,
     "vegetation_feature": {

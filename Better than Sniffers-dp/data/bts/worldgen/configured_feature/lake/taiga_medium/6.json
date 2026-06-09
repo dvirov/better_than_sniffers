@@ -140,12 +140,13 @@
                                   "type": "minecraft:simple_state_provider"
                                 }
                               }
-                            ]
+                            ],
+                            "type": "minecraft:rule_based_state_provider"
                           },
                           "target": {
                             "predicates": [
                               {
-                                "blocks": "#bts:dirt",
+                                "blocks": "#minecraft:substrate_overworld",
                                 "type": "minecraft:matching_blocks"
                               },
                               {
@@ -175,12 +176,13 @@
                                   },
                                   "type": "minecraft:simple_state_provider"
                                 },
-                                "rules": []
+                                "rules": [],
+                                "type": "minecraft:rule_based_state_provider"
                               },
                               "target": {
                                 "predicates": [
                                   {
-                                    "blocks": "#bts:dirt",
+                                    "blocks": "#minecraft:substrate_overworld",
                                     "type": "minecraft:matching_blocks"
                                   },
                                   {
@@ -406,64 +408,31 @@
               {
                 "feature": {
                   "config": {
-                    "feature": {
-                      "feature": {
-                        "config": {
-                          "to_place": {
-                            "entries": [
-                              {
-                                "data": {
-                                  "Name": "minecraft:sweet_berry_bush",
-                                  "Properties": {
-                                    "age": "3"
-                                  }
-                                },
-                                "weight": 1
-                              },
-                              {
-                                "data": {
-                                  "Name": "minecraft:sweet_berry_bush",
-                                  "Properties": {
-                                    "age": "2"
-                                  }
-                                },
-                                "weight": 1
-                              }
-                            ],
-                            "type": "minecraft:weighted_state_provider"
-                          }
-                        },
-                        "type": "minecraft:simple_block"
-                      },
-                      "placement": [
+                    "to_place": {
+                      "entries": [
                         {
-                          "predicate": {
-                            "predicates": [
-                              {
-                                "blocks": "minecraft:air",
-                                "type": "minecraft:matching_blocks"
-                              },
-                              {
-                                "blocks": "#bts:dirt",
-                                "offset": [
-                                  0,
-                                  -1,
-                                  0
-                                ],
-                                "type": "minecraft:matching_blocks"
-                              }
-                            ],
-                            "type": "minecraft:all_of"
+                          "data": {
+                            "Name": "minecraft:sweet_berry_bush",
+                            "Properties": {
+                              "age": "3"
+                            }
                           },
-                          "type": "minecraft:block_predicate_filter"
+                          "weight": 1
+                        },
+                        {
+                          "data": {
+                            "Name": "minecraft:sweet_berry_bush",
+                            "Properties": {
+                              "age": "2"
+                            }
+                          },
+                          "weight": 1
                         }
-                      ]
-                    },
-                    "tries": 4,
-                    "xz_spread": 3,
-                    "y_spread": 0
+                      ],
+                      "type": "minecraft:weighted_state_provider"
+                    }
                   },
-                  "type": "minecraft:random_patch"
+                  "type": "minecraft:simple_block"
                 },
                 "placement": [
                   {
@@ -494,6 +463,44 @@
                         "type": "minecraft:matching_fluids"
                       },
                       "type": "minecraft:not"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  },
+                  {
+                    "count": 4,
+                    "type": "minecraft:count"
+                  },
+                  {
+                    "xz_spread": {
+                      "type": "minecraft:uniform",
+                      "min_inclusive": -3,
+                      "max_inclusive": 3
+                    },
+                    "y_spread": {
+                      "type": "minecraft:uniform",
+                      "min_inclusive": 0,
+                      "max_inclusive": 0
+                    },
+                    "type": "minecraft:random_offset"
+                  },
+                  {
+                    "predicate": {
+                      "predicates": [
+                        {
+                          "blocks": "minecraft:air",
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "blocks": "#minecraft:substrate_overworld",
+                          "offset": [
+                            0,
+                            -1,
+                            0
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        }
+                      ],
+                      "type": "minecraft:all_of"
                     },
                     "type": "minecraft:block_predicate_filter"
                   }

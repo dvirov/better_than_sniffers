@@ -5,4 +5,4 @@ scoreboard players reset .monthinyear
 scoreboard players reset .moonphase
 scoreboard players reset .year
 scoreboard players reset .calender.clc
-time set 0
+time of minecraft:overworld set 0

@@ -70,7 +70,7 @@
                     },
                     "target": {
                       "predicate_type": "minecraft:tag_match",
-                      "tag": "bts:dirt"
+                      "tag": "minecraft:substrate_overworld"
                     }
                   }
                 ]

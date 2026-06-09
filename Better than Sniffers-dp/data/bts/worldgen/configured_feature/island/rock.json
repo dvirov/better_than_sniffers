@@ -5,29 +5,6 @@
         "feature": {
           "config": {
             "decorators": [],
-            "dirt_provider": {
-              "entries": [
-                {
-                  "data": {
-                    "Name": "minecraft:stone"
-                  },
-                  "weight": 3
-                },
-                {
-                  "data": {
-                    "Name": "minecraft:tuff"
-                  },
-                  "weight": 2
-                },
-                {
-                  "data": {
-                    "Name": "minecraft:andesite"
-                  },
-                  "weight": 1
-                }
-              ],
-              "type": "minecraft:weighted_state_provider"
-            },
             "foliage_placer": {
               "height": 1,
               "offset": 0,
@@ -57,7 +34,6 @@
               ],
               "type": "minecraft:weighted_state_provider"
             },
-            "force_dirt": false,
             "ignore_vines": true,
             "minimum_size": {
               "limit": 1,
@@ -93,6 +69,43 @@
                 }
               ],
               "type": "minecraft:weighted_state_provider"
+            },
+            "below_trunk_provider": {
+              "type": "minecraft:rule_based_state_provider",
+              "rules": [
+                {
+                  "if_true": {
+                    "type": "minecraft:not",
+                    "predicate": {
+                      "type": "minecraft:matching_block_tag",
+                      "tag": "minecraft:cannot_replace_below_tree_trunk"
+                    }
+                  },
+                  "then": {
+                    "entries": [
+                      {
+                        "data": {
+                          "Name": "minecraft:stone"
+                        },
+                        "weight": 3
+                      },
+                      {
+                        "data": {
+                          "Name": "minecraft:tuff"
+                        },
+                        "weight": 2
+                      },
+                      {
+                        "data": {
+                          "Name": "minecraft:andesite"
+                        },
+                        "weight": 1
+                      }
+                    ],
+                    "type": "minecraft:weighted_state_provider"
+                  }
+                }
+              ]
             }
           },
           "type": "minecraft:tree"

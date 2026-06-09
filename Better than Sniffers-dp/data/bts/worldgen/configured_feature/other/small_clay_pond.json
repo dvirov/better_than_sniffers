@@ -295,7 +295,7 @@
                 "placement": [
                   {
                     "predicate": {
-                      "blocks": "#bts:dirt",
+                      "blocks": "#minecraft:substrate_overworld",
                       "offset": [
                         0,
                         -1,
@@ -360,7 +360,8 @@
                                     "type": "minecraft:simple_state_provider"
                                   }
                                 }
-                              ]
+                              ],
+                              "type": "minecraft:rule_based_state_provider"
                             },
                             "target": {
                               "blocks": "minecraft:clay",
@@ -446,120 +447,126 @@
                       {
                         "feature": {
                           "config": {
-                            "feature": {
-                              "feature": {
-                                "config": {
-                                  "allowed_placement": {
-                                    "blocks": "minecraft:air",
-                                    "type": "minecraft:matching_blocks"
+                            "allowed_placement": {
+                              "blocks": "minecraft:air",
+                              "type": "minecraft:matching_blocks"
+                            },
+                            "direction": "up",
+                            "layers": [
+                              {
+                                "height": {
+                                  "type": "minecraft:biased_to_bottom",
+                                  "min_inclusive": 2,
+                                  "max_inclusive": 3
+                                },
+                                "provider": {
+                                  "state": {
+                                    "Name": "minecraft:sugar_cane",
+                                    "Properties": {
+                                      "age": "0"
+                                    }
                                   },
-                                  "direction": "up",
-                                  "layers": [
+                                  "type": "minecraft:simple_state_provider"
+                                }
+                              }
+                            ],
+                            "prioritize_tip": false
+                          },
+                          "type": "minecraft:block_column"
+                        },
+                        "placement": [
+                          {
+                            "count": 1,
+                            "type": "minecraft:count"
+                          },
+                          {
+                            "xz_spread": {
+                              "type": "minecraft:uniform",
+                              "min_inclusive": -2,
+                              "max_inclusive": 2
+                            },
+                            "y_spread": {
+                              "type": "minecraft:uniform",
+                              "min_inclusive": 0,
+                              "max_inclusive": 0
+                            },
+                            "type": "minecraft:random_offset"
+                          },
+                          {
+                            "predicate": {
+                              "predicates": [
+                                {
+                                  "blocks": "minecraft:air",
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "state": {
+                                    "Name": "minecraft:sugar_cane",
+                                    "Properties": {
+                                      "age": "0"
+                                    }
+                                  },
+                                  "type": "minecraft:would_survive"
+                                },
+                                {
+                                  "predicates": [
                                     {
-                                      "height": {
-                                        "type": "minecraft:biased_to_bottom",
-                                        "min_inclusive": 2,
-                                        "max_inclusive": 3
-                                      },
-                                      "provider": {
-                                        "state": {
-                                          "Name": "minecraft:sugar_cane",
-                                          "Properties": {
-                                            "age": "0"
-                                          }
-                                        },
-                                        "type": "minecraft:simple_state_provider"
-                                      }
+                                      "fluids": [
+                                        "minecraft:water",
+                                        "minecraft:flowing_water"
+                                      ],
+                                      "offset": [
+                                        1,
+                                        -1,
+                                        0
+                                      ],
+                                      "type": "minecraft:matching_fluids"
+                                    },
+                                    {
+                                      "fluids": [
+                                        "minecraft:water",
+                                        "minecraft:flowing_water"
+                                      ],
+                                      "offset": [
+                                        -1,
+                                        -1,
+                                        0
+                                      ],
+                                      "type": "minecraft:matching_fluids"
+                                    },
+                                    {
+                                      "fluids": [
+                                        "minecraft:water",
+                                        "minecraft:flowing_water"
+                                      ],
+                                      "offset": [
+                                        0,
+                                        -1,
+                                        1
+                                      ],
+                                      "type": "minecraft:matching_fluids"
+                                    },
+                                    {
+                                      "fluids": [
+                                        "minecraft:water",
+                                        "minecraft:flowing_water"
+                                      ],
+                                      "offset": [
+                                        0,
+                                        -1,
+                                        -1
+                                      ],
+                                      "type": "minecraft:matching_fluids"
                                     }
                                   ],
-                                  "prioritize_tip": false
-                                },
-                                "type": "minecraft:block_column"
-                              },
-                              "placement": [
-                                {
-                                  "predicate": {
-                                    "predicates": [
-                                      {
-                                        "blocks": "minecraft:air",
-                                        "type": "minecraft:matching_blocks"
-                                      },
-                                      {
-                                        "state": {
-                                          "Name": "minecraft:sugar_cane",
-                                          "Properties": {
-                                            "age": "0"
-                                          }
-                                        },
-                                        "type": "minecraft:would_survive"
-                                      },
-                                      {
-                                        "predicates": [
-                                          {
-                                            "fluids": [
-                                              "minecraft:water",
-                                              "minecraft:flowing_water"
-                                            ],
-                                            "offset": [
-                                              1,
-                                              -1,
-                                              0
-                                            ],
-                                            "type": "minecraft:matching_fluids"
-                                          },
-                                          {
-                                            "fluids": [
-                                              "minecraft:water",
-                                              "minecraft:flowing_water"
-                                            ],
-                                            "offset": [
-                                              -1,
-                                              -1,
-                                              0
-                                            ],
-                                            "type": "minecraft:matching_fluids"
-                                          },
-                                          {
-                                            "fluids": [
-                                              "minecraft:water",
-                                              "minecraft:flowing_water"
-                                            ],
-                                            "offset": [
-                                              0,
-                                              -1,
-                                              1
-                                            ],
-                                            "type": "minecraft:matching_fluids"
-                                          },
-                                          {
-                                            "fluids": [
-                                              "minecraft:water",
-                                              "minecraft:flowing_water"
-                                            ],
-                                            "offset": [
-                                              0,
-                                              -1,
-                                              -1
-                                            ],
-                                            "type": "minecraft:matching_fluids"
-                                          }
-                                        ],
-                                        "type": "minecraft:any_of"
-                                      }
-                                    ],
-                                    "type": "minecraft:all_of"
-                                  },
-                                  "type": "minecraft:block_predicate_filter"
+                                  "type": "minecraft:any_of"
                                 }
-                              ]
+                              ],
+                              "type": "minecraft:all_of"
                             },
-                            "tries": 1,
-                            "xz_spread": 2,
-                            "y_spread": 0
-                          },
-                          "type": "minecraft:random_patch"
-                        },
-                        "placement": []
+                            "type": "minecraft:block_predicate_filter"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -613,7 +620,7 @@
                   "type": "minecraft:matching_blocks"
                 },
                 {
-                  "blocks": "#bts:dirt",
+                  "blocks": "#minecraft:substrate_overworld",
                   "offset": [
                     0,
                     -1,
@@ -631,7 +638,7 @@
                   "type": "minecraft:matching_blocks"
                 },
                 {
-                  "blocks": "#bts:dirt",
+                  "blocks": "#minecraft:substrate_overworld",
                   "offset": [
                     2,
                     -1,
@@ -649,7 +656,7 @@
                   "type": "minecraft:matching_blocks"
                 },
                 {
-                  "blocks": "#bts:dirt",
+                  "blocks": "#minecraft:substrate_overworld",
                   "offset": [
                     1,
                     -1,
@@ -667,7 +674,7 @@
                   "type": "minecraft:matching_blocks"
                 },
                 {
-                  "blocks": "#bts:dirt",
+                  "blocks": "#minecraft:substrate_overworld",
                   "offset": [
                     0,
                     -1,
@@ -685,7 +692,7 @@
                   "type": "minecraft:matching_blocks"
                 },
                 {
-                  "blocks": "#bts:dirt",
+                  "blocks": "#minecraft:substrate_overworld",
                   "offset": [
                     -1,
                     -1,
@@ -703,7 +710,7 @@
                   "type": "minecraft:matching_blocks"
                 },
                 {
-                  "blocks": "#bts:dirt",
+                  "blocks": "#minecraft:substrate_overworld",
                   "offset": [
                     -2,
                     -1,
@@ -721,7 +728,7 @@
                   "type": "minecraft:matching_blocks"
                 },
                 {
-                  "blocks": "#bts:dirt",
+                  "blocks": "#minecraft:substrate_overworld",
                   "offset": [
                     -1,
                     -1,
@@ -739,7 +746,7 @@
                   "type": "minecraft:matching_blocks"
                 },
                 {
-                  "blocks": "#bts:dirt",
+                  "blocks": "#minecraft:substrate_overworld",
                   "offset": [
                     0,
                     -1,
@@ -757,7 +764,7 @@
                   "type": "minecraft:matching_blocks"
                 },
                 {
-                  "blocks": "#bts:dirt",
+                  "blocks": "#minecraft:substrate_overworld",
                   "offset": [
                     1,
                     -1,

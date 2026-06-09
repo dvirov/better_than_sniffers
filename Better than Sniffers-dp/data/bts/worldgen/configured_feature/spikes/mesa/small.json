@@ -494,7 +494,8 @@
                         },
                         "type": "minecraft:simple_state_provider"
                       },
-                      "rules": []
+                      "rules": [],
+                      "type": "minecraft:rule_based_state_provider"
                     },
                     "target": {
                       "blocks": "minecraft:packed_mud",

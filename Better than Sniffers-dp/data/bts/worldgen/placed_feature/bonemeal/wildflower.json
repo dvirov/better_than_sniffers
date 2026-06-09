@@ -1,0 +1,9 @@
+{
+  "feature": "minecraft:wildflower",
+  "placement": [
+    {
+      "count": 0,
+      "type": "minecraft:count"
+    }
+  ]
+}

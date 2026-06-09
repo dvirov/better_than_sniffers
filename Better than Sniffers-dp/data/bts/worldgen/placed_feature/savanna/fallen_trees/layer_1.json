@@ -73,7 +73,7 @@
     },
     {
       "predicate": {
-        "blocks": "#bts:dirt",
+        "blocks": "#minecraft:substrate_overworld",
         "offset": [
           0,
           -1,

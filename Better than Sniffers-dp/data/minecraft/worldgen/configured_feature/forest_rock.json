@@ -1,8 +1,11 @@
 {
-  "type": "minecraft:forest_rock",
+  "type": "minecraft:block_blob",
   "config": {
     "state": {
       "Name": "minecraft:mossy_cobblestone"
+    },
+    "can_place_on": {
+      "type": "minecraft:solid"
     }
   }
 }

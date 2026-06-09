@@ -25,7 +25,7 @@
     },
     {
       "predicate": {
-        "blocks": "#minecraft:bamboo_plantable_on",
+        "blocks": "#minecraft:supports_bamboo",
         "offset": [
           0,
           -1,

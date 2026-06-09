@@ -143,7 +143,8 @@
                                           "type": "minecraft:simple_state_provider"
                                         }
                                       }
-                                    ]
+                                    ],
+                                    "type": "minecraft:rule_based_state_provider"
                                   },
                                   "target": {
                                     "blocks": "minecraft:stone",
@@ -312,7 +313,8 @@
                                           "type": "minecraft:simple_state_provider"
                                         }
                                       }
-                                    ]
+                                    ],
+                                    "type": "minecraft:rule_based_state_provider"
                                   },
                                   "target": {
                                     "blocks": "minecraft:stone",

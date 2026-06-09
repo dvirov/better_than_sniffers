@@ -7,8 +7,20 @@
             "features": [
               {
                 "feature": {
-                  "config": {},
-                  "type": "minecraft:ice_spike"
+                  "type": "minecraft:spike",
+                  "config": {
+                    "can_place_on": {
+                      "type": "minecraft:matching_blocks",
+                      "blocks": "minecraft:snow_block"
+                    },
+                    "can_replace": {
+                      "type": "minecraft:matching_block_tag",
+                      "tag": "minecraft:ice_spike_replaceable"
+                    },
+                    "state": {
+                      "Name": "minecraft:packed_ice"
+                    }
+                  }
                 },
                 "placement": [
                   {

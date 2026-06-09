@@ -21,7 +21,7 @@
         ],
         "type": "minecraft:weighted_state_provider"
       },
-      "replaceable": "#bts:dirt",
+      "replaceable": "#minecraft:substrate_overworld",
       "surface": "floor",
       "vegetation_chance": 1.0,
       "vegetation_feature": {
@@ -77,7 +77,7 @@
                   "type": "minecraft:replaceable"
                 },
                 {
-                  "blocks": "#bts:dirt",
+                  "blocks": "#minecraft:substrate_overworld",
                   "offset": [
                     0,
                     -1,

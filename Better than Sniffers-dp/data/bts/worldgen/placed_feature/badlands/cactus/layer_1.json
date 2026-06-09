@@ -1,86 +1,53 @@
 {
   "feature": {
     "config": {
-      "feature": {
-        "feature": {
-          "config": {
-            "allowed_placement": {
-              "blocks": "minecraft:air",
-              "type": "minecraft:matching_blocks"
+      "allowed_placement": {
+        "blocks": "minecraft:air",
+        "type": "minecraft:matching_blocks"
+      },
+      "direction": "up",
+      "layers": [
+        {
+          "height": {
+            "type": "minecraft:biased_to_bottom",
+            "min_inclusive": 1,
+            "max_inclusive": 4
+          },
+          "provider": {
+            "state": {
+              "Name": "minecraft:cactus",
+              "Properties": {
+                "age": "0"
+              }
             },
-            "direction": "up",
-            "layers": [
+            "type": "minecraft:simple_state_provider"
+          }
+        },
+        {
+          "height": {
+            "type": "minecraft:weighted_list",
+            "distribution": [
               {
-                "height": {
-                  "type": "minecraft:biased_to_bottom",
-                  "min_inclusive": 1,
-                  "max_inclusive": 4
-                },
-                "provider": {
-                  "state": {
-                    "Name": "minecraft:cactus",
-                    "Properties": {
-                      "age": "0"
-                    }
-                  },
-                  "type": "minecraft:simple_state_provider"
-                }
+                "data": 0,
+                "weight": 4
               },
               {
-                "height": {
-                  "type": "minecraft:weighted_list",
-                  "distribution": [
-                    {
-                      "data": 0,
-                      "weight": 4
-                    },
-                    {
-                      "data": 1,
-                      "weight": 1
-                    }
-                  ]
-                },
-                "provider": {
-                  "type": "minecraft:simple_state_provider",
-                  "state": {
-                    "Name": "minecraft:cactus_flower"
-                  }
-                }
+                "data": 1,
+                "weight": 1
               }
-            ],
-            "prioritize_tip": false
+            ]
           },
-          "type": "minecraft:block_column"
-        },
-        "placement": [
-          {
-            "predicate": {
-              "predicates": [
-                {
-                  "blocks": "minecraft:air",
-                  "type": "minecraft:matching_blocks"
-                },
-                {
-                  "state": {
-                    "Name": "minecraft:cactus",
-                    "Properties": {
-                      "age": "0"
-                    }
-                  },
-                  "type": "minecraft:would_survive"
-                }
-              ],
-              "type": "minecraft:all_of"
-            },
-            "type": "minecraft:block_predicate_filter"
+          "provider": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:cactus_flower"
+            }
           }
-        ]
-      },
-      "tries": 6,
-      "xz_spread": 5,
-      "y_spread": 3
+        }
+      ],
+      "prioritize_tip": false
     },
-    "type": "minecraft:random_patch"
+    "type": "minecraft:block_column"
   },
   "placement": [
     {
@@ -108,6 +75,44 @@
     },
     {
       "type": "minecraft:biome"
+    },
+    {
+      "count": 6,
+      "type": "minecraft:count"
+    },
+    {
+      "xz_spread": {
+        "type": "minecraft:uniform",
+        "min_inclusive": -5,
+        "max_inclusive": 5
+      },
+      "y_spread": {
+        "type": "minecraft:uniform",
+        "min_inclusive": -3,
+        "max_inclusive": 3
+      },
+      "type": "minecraft:random_offset"
+    },
+    {
+      "predicate": {
+        "predicates": [
+          {
+            "blocks": "minecraft:air",
+            "type": "minecraft:matching_blocks"
+          },
+          {
+            "state": {
+              "Name": "minecraft:cactus",
+              "Properties": {
+                "age": "0"
+              }
+            },
+            "type": "minecraft:would_survive"
+          }
+        ],
+        "type": "minecraft:all_of"
+      },
+      "type": "minecraft:block_predicate_filter"
     }
   ]
 }

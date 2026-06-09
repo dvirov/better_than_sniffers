@@ -269,7 +269,7 @@
                     "type": "minecraft:replaceable"
                   },
                   {
-                    "blocks": "#bts:dirt",
+                    "blocks": "#minecraft:substrate_overworld",
                     "offset": [
                       0,
                       -1,
@@ -278,7 +278,7 @@
                     "type": "minecraft:matching_blocks"
                   },
                   {
-                    "blocks": "#bts:dirt",
+                    "blocks": "#minecraft:substrate_overworld",
                     "offset": [
                       3,
                       -1,
@@ -287,7 +287,7 @@
                     "type": "minecraft:matching_blocks"
                   },
                   {
-                    "blocks": "#bts:dirt",
+                    "blocks": "#minecraft:substrate_overworld",
                     "offset": [
                       8,
                       -1,
@@ -296,7 +296,7 @@
                     "type": "minecraft:matching_blocks"
                   },
                   {
-                    "blocks": "#bts:dirt",
+                    "blocks": "#minecraft:substrate_overworld",
                     "offset": [
                       5,
                       -1,
@@ -305,7 +305,7 @@
                     "type": "minecraft:matching_blocks"
                   },
                   {
-                    "blocks": "#bts:dirt",
+                    "blocks": "#minecraft:substrate_overworld",
                     "offset": [
                       0,
                       -1,
@@ -314,7 +314,7 @@
                     "type": "minecraft:matching_blocks"
                   },
                   {
-                    "blocks": "#bts:dirt",
+                    "blocks": "#minecraft:substrate_overworld",
                     "offset": [
                       0,
                       -1,
@@ -323,7 +323,7 @@
                     "type": "minecraft:matching_blocks"
                   },
                   {
-                    "blocks": "#bts:dirt",
+                    "blocks": "#minecraft:substrate_overworld",
                     "offset": [
                       -5,
                       -1,
@@ -332,7 +332,7 @@
                     "type": "minecraft:matching_blocks"
                   },
                   {
-                    "blocks": "#bts:dirt",
+                    "blocks": "#minecraft:substrate_overworld",
                     "offset": [
                       -3,
                       -1,
@@ -341,7 +341,7 @@
                     "type": "minecraft:matching_blocks"
                   },
                   {
-                    "blocks": "#bts:dirt",
+                    "blocks": "#minecraft:substrate_overworld",
                     "offset": [
                       -8,
                       -1,
@@ -350,7 +350,7 @@
                     "type": "minecraft:matching_blocks"
                   },
                   {
-                    "blocks": "#bts:dirt",
+                    "blocks": "#minecraft:substrate_overworld",
                     "offset": [
                       -5,
                       -1,
@@ -359,7 +359,7 @@
                     "type": "minecraft:matching_blocks"
                   },
                   {
-                    "blocks": "#bts:dirt",
+                    "blocks": "#minecraft:substrate_overworld",
                     "offset": [
                       0,
                       -1,
@@ -368,7 +368,7 @@
                     "type": "minecraft:matching_blocks"
                   },
                   {
-                    "blocks": "#bts:dirt",
+                    "blocks": "#minecraft:substrate_overworld",
                     "offset": [
                       0,
                       -1,
@@ -377,7 +377,7 @@
                     "type": "minecraft:matching_blocks"
                   },
                   {
-                    "blocks": "#bts:dirt",
+                    "blocks": "#minecraft:substrate_overworld",
                     "offset": [
                       5,
                       -1,
@@ -429,7 +429,7 @@
                       "type": "minecraft:replaceable"
                     },
                     {
-                      "blocks": "#bts:dirt",
+                      "blocks": "#minecraft:substrate_overworld",
                       "offset": [
                         0,
                         -1,
@@ -438,7 +438,7 @@
                       "type": "minecraft:matching_blocks"
                     },
                     {
-                      "blocks": "#bts:dirt",
+                      "blocks": "#minecraft:substrate_overworld",
                       "offset": [
                         3,
                         -1,
@@ -447,7 +447,7 @@
                       "type": "minecraft:matching_blocks"
                     },
                     {
-                      "blocks": "#bts:dirt",
+                      "blocks": "#minecraft:substrate_overworld",
                       "offset": [
                         8,
                         -1,
@@ -456,7 +456,7 @@
                       "type": "minecraft:matching_blocks"
                     },
                     {
-                      "blocks": "#bts:dirt",
+                      "blocks": "#minecraft:substrate_overworld",
                       "offset": [
                         5,
                         -1,
@@ -465,7 +465,7 @@
                       "type": "minecraft:matching_blocks"
                     },
                     {
-                      "blocks": "#bts:dirt",
+                      "blocks": "#minecraft:substrate_overworld",
                       "offset": [
                         0,
                         -1,
@@ -474,7 +474,7 @@
                       "type": "minecraft:matching_blocks"
                     },
                     {
-                      "blocks": "#bts:dirt",
+                      "blocks": "#minecraft:substrate_overworld",
                       "offset": [
                         0,
                         -1,
@@ -483,7 +483,7 @@
                       "type": "minecraft:matching_blocks"
                     },
                     {
-                      "blocks": "#bts:dirt",
+                      "blocks": "#minecraft:substrate_overworld",
                       "offset": [
                         -5,
                         -1,
@@ -492,7 +492,7 @@
                       "type": "minecraft:matching_blocks"
                     },
                     {
-                      "blocks": "#bts:dirt",
+                      "blocks": "#minecraft:substrate_overworld",
                       "offset": [
                         -3,
                         -1,
@@ -501,7 +501,7 @@
                       "type": "minecraft:matching_blocks"
                     },
                     {
-                      "blocks": "#bts:dirt",
+                      "blocks": "#minecraft:substrate_overworld",
                       "offset": [
                         -8,
                         -1,
@@ -510,7 +510,7 @@
                       "type": "minecraft:matching_blocks"
                     },
                     {
-                      "blocks": "#bts:dirt",
+                      "blocks": "#minecraft:substrate_overworld",
                       "offset": [
                         -5,
                         -1,
@@ -519,7 +519,7 @@
                       "type": "minecraft:matching_blocks"
                     },
                     {
-                      "blocks": "#bts:dirt",
+                      "blocks": "#minecraft:substrate_overworld",
                       "offset": [
                         0,
                         -1,
@@ -528,7 +528,7 @@
                       "type": "minecraft:matching_blocks"
                     },
                     {
-                      "blocks": "#bts:dirt",
+                      "blocks": "#minecraft:substrate_overworld",
                       "offset": [
                         0,
                         -1,
@@ -537,7 +537,7 @@
                       "type": "minecraft:matching_blocks"
                     },
                     {
-                      "blocks": "#bts:dirt",
+                      "blocks": "#minecraft:substrate_overworld",
                       "offset": [
                         5,
                         -1,

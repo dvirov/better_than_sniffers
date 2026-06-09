@@ -77,11 +77,11 @@
         "text": "links to resources and projects used partly or fully on this pack :",
         "extra": [
           {
-            "text": "\n Arboria ",
+            "text": "\n bts ",
             "color": "aqua",
             "click_event": {
               "action": "open_url",
-              "url": "https://modrinth.com/datapack/arboria/gallery"
+              "url": "https://modrinth.com/datapack/bts/gallery"
             },
             "hover_event": {
               "action": "show_text",

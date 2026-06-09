@@ -35,12 +35,12 @@
             "predicate": {
               "predicates": [
                 {
-                  "blocks": "#bts:dirt",
+                  "blocks": "#minecraft:substrate_overworld",
                   "type": "minecraft:matching_blocks"
                 },
                 {
                   "predicate": {
-                    "blocks": "#bts:dirt",
+                    "blocks": "#minecraft:substrate_overworld",
                     "offset": [
                       0,
                       1,

@@ -13,7 +13,8 @@
                 },
                 "type": "minecraft:simple_state_provider"
               },
-              "rules": []
+              "rules": [],
+              "type": "minecraft:rule_based_state_provider"
             },
             "target": {
               "predicates": [
@@ -22,7 +23,7 @@
                   "type": "minecraft:matching_blocks"
                 },
                 {
-                  "blocks": "#bts:dirt",
+                  "blocks": "#minecraft:substrate_overworld",
                   "offset": [
                     0,
                     -1,

@@ -7,14 +7,14 @@
       },
       "features": [
         {
-          "chance": 0.02,
+          "chance": 0.002,
           "feature": {
             "feature": "bts:pale_oak/dead_1",
             "placement": []
           }
         },
         {
-          "chance": 0.02,
+          "chance": 0.002,
           "feature": {
             "feature": "bts:pale_oak/dead_2",
             "placement": []

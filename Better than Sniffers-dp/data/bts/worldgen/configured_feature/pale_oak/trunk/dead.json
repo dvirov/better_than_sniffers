@@ -16,12 +16,6 @@
                         "trunk_probability": 0.15
                       }
                     ],
-                    "dirt_provider": {
-                      "state": {
-                        "Name": "minecraft:rooted_dirt"
-                      },
-                      "type": "minecraft:simple_state_provider"
-                    },
                     "foliage_placer": {
                       "height": 0,
                       "offset": 0,
@@ -34,7 +28,6 @@
                       },
                       "type": "minecraft:simple_state_provider"
                     },
-                    "force_dirt": false,
                     "ignore_vines": true,
                     "minimum_size": {
                       "limit": 1,
@@ -70,6 +63,26 @@
                         }
                       ],
                       "type": "minecraft:weighted_state_provider"
+                    },
+                    "below_trunk_provider": {
+                      "type": "minecraft:rule_based_state_provider",
+                      "rules": [
+                        {
+                          "if_true": {
+                            "type": "minecraft:not",
+                            "predicate": {
+                              "type": "minecraft:matching_block_tag",
+                              "tag": "minecraft:cannot_replace_below_tree_trunk"
+                            }
+                          },
+                          "then": {
+                            "state": {
+                              "Name": "minecraft:rooted_dirt"
+                            },
+                            "type": "minecraft:simple_state_provider"
+                          }
+                        }
+                      ]
                     }
                   },
                   "type": "minecraft:tree"
@@ -138,12 +151,6 @@
                         "trunk_probability": 0.15
                       }
                     ],
-                    "dirt_provider": {
-                      "state": {
-                        "Name": "minecraft:rooted_dirt"
-                      },
-                      "type": "minecraft:simple_state_provider"
-                    },
                     "foliage_placer": {
                       "height": 0,
                       "offset": 0,
@@ -156,7 +163,6 @@
                       },
                       "type": "minecraft:simple_state_provider"
                     },
-                    "force_dirt": false,
                     "ignore_vines": true,
                     "minimum_size": {
                       "limit": 1,
@@ -192,6 +198,26 @@
                         }
                       ],
                       "type": "minecraft:weighted_state_provider"
+                    },
+                    "below_trunk_provider": {
+                      "type": "minecraft:rule_based_state_provider",
+                      "rules": [
+                        {
+                          "if_true": {
+                            "type": "minecraft:not",
+                            "predicate": {
+                              "type": "minecraft:matching_block_tag",
+                              "tag": "minecraft:cannot_replace_below_tree_trunk"
+                            }
+                          },
+                          "then": {
+                            "state": {
+                              "Name": "minecraft:rooted_dirt"
+                            },
+                            "type": "minecraft:simple_state_provider"
+                          }
+                        }
+                      ]
                     }
                   },
                   "type": "minecraft:tree"

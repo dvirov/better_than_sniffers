@@ -1,347 +1,368 @@
 {
   "config": {
-    "feature": {
-      "feature": {
-        "config": {
-          "features": [
-            {
-              "feature": {
-                "config": {
-                  "to_place": {
-                    "state": {
-                      "Name": "minecraft:acacia_log",
-                      "Properties": {
-                        "axis": "y"
-                      }
-                    },
-                    "type": "minecraft:simple_state_provider"
-                  }
-                },
-                "type": "minecraft:simple_block"
-              },
-              "placement": [  
-                {
-                  "predicate": {
-                    "blocks": "#bts:tree_branch_replaceable",
-                    "type": "minecraft:matching_blocks"
+    "features": [
+      {
+        "feature": {
+          "config": {
+            "features": [
+              {
+                "feature": {
+                  "config": {
+                    "to_place": {
+                      "state": {
+                        "Name": "minecraft:acacia_log",
+                        "Properties": {
+                          "axis": "y"
+                        }
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    }
                   },
-                  "type": "minecraft:block_predicate_filter"
-                }
-              ]
-            },
-            {
-              "feature": {
-                "config": {
-                  "feature": {
-                    "feature": {
-                      "config": {
-                        "features": [
-                          {
-                            "feature": {
-                              "config": {
-                                "to_place": {
-                                  "state": {
-                                    "Name": "minecraft:acacia_log",
-                                    "Properties": {
-                                      "axis": "y"
-                                    }
-                                  },
-                                  "type": "minecraft:simple_state_provider"
+                  "type": "minecraft:simple_block"
+                },
+                "placement": [
+                  {
+                    "predicate": {
+                      "blocks": "#bts:tree_branch_replaceable",
+                      "type": "minecraft:matching_blocks"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              },
+              {
+                "feature": {
+                  "config": {
+                    "features": [
+                      {
+                        "feature": {
+                          "config": {
+                            "to_place": {
+                              "state": {
+                                "Name": "minecraft:acacia_log",
+                                "Properties": {
+                                  "axis": "y"
                                 }
                               },
-                              "type": "minecraft:simple_block"
+                              "type": "minecraft:simple_state_provider"
+                            }
+                          },
+                          "type": "minecraft:simple_block"
+                        },
+                        "placement": [
+                          {
+                            "predicate": {
+                              "blocks": "#bts:tree_branch_replaceable",
+                              "type": "minecraft:matching_blocks"
                             },
-                            "placement": [
-                              {
-                                "predicate": {
-                                  "blocks": "#bts:tree_branch_replaceable",
-                                  "type": "minecraft:matching_blocks"
-                                },
-                                "type": "minecraft:block_predicate_filter"
-                              }
-                            ]
-                          },
-                          {
-                            "feature": "bts:acacia/branch/2_south",
-                            "placement": [
-                              {
-                                "predicate": {
-                                  "blocks": "minecraft:acacia_log",
-                                  "type": "minecraft:matching_blocks"
-                                },
-                                "type": "minecraft:block_predicate_filter"
-                              },
-                              {
-                                "predicate": {
-                                  "blocks": "#bts:tree_branch_replaceable",
-                                  "offset": [
-                                    0,
-                                    1,
-                                    1
-                                  ],
-                                  "type": "minecraft:matching_blocks"
-                                },
-                                "type": "minecraft:block_predicate_filter"
-                              },
-                              {
-                                "direction_of_search": "up",
-                                "max_steps": 1,
-                                "target_condition": {
-                                  "blocks": "minecraft:acacia_log",
-                                  "offset": [
-                                    0,
-                                    -1,
-                                    0
-                                  ],
-                                  "type": "minecraft:matching_blocks"
-                                },
-                                "type": "minecraft:environment_scan"
-                              }
-                            ]
-                          },
-                          {
-                            "feature": "bts:acacia/branch/2_north",
-                            "placement": [
-                              {
-                                "predicate": {
-                                  "blocks": "minecraft:acacia_log",
-                                  "type": "minecraft:matching_blocks"
-                                },
-                                "type": "minecraft:block_predicate_filter"
-                              },
-                              {
-                                "predicate": {
-                                  "blocks": "#bts:tree_branch_replaceable",
-                                  "offset": [
-                                    0,
-                                    1,
-                                    -1
-                                  ],
-                                  "type": "minecraft:matching_blocks"
-                                },
-                                "type": "minecraft:block_predicate_filter"
-                              },
-                              {
-                                "direction_of_search": "up",
-                                "max_steps": 1,
-                                "target_condition": {
-                                  "blocks": "minecraft:acacia_log",
-                                  "offset": [
-                                    0,
-                                    -1,
-                                    0
-                                  ],
-                                  "type": "minecraft:matching_blocks"
-                                },
-                                "type": "minecraft:environment_scan"
-                              }
-                            ]
+                            "type": "minecraft:block_predicate_filter"
                           }
                         ]
                       },
-                      "type": "minecraft:simple_random_selector"
-                    },
-                    "placement": [
                       {
-                        "predicate": {
-                          "predicates": [
-                            {
-                              "blocks": "#bts:tree_branch_replaceable",
+                        "feature": "bts:acacia/branch/2_south",
+                        "placement": [
+                          {
+                            "predicate": {
+                              "blocks": "minecraft:acacia_log",
                               "type": "minecraft:matching_blocks"
                             },
-                            {
+                            "type": "minecraft:block_predicate_filter"
+                          },
+                          {
+                            "predicate": {
+                              "blocks": "#bts:tree_branch_replaceable",
+                              "offset": [
+                                0,
+                                1,
+                                1
+                              ],
+                              "type": "minecraft:matching_blocks"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          },
+                          {
+                            "direction_of_search": "up",
+                            "max_steps": 1,
+                            "target_condition": {
                               "blocks": "minecraft:acacia_log",
                               "offset": [
-                                1,
-                                -1,
-                                0
-                              ],
-                              "type": "minecraft:matching_blocks"
-                            },
-                            {
-                              "predicate": {
-                                "blocks": "minecraft:acacia_log",
-                                "offset": [
-                                  -1,
-                                  -1,
-                                  0
-                                ],
-                                "type": "minecraft:matching_blocks"
-                              },
-                              "type": "minecraft:not"
-                            },
-                            {
-                              "predicate": {
-                                "blocks": "minecraft:acacia_log",
-                                "offset": [
-                                  0,
-                                  -1,
-                                  1
-                                ],
-                                "type": "minecraft:matching_blocks"
-                              },
-                              "type": "minecraft:not"
-                            },
-                            {
-                              "predicate": {
-                                "blocks": "minecraft:acacia_log",
-                                "offset": [
-                                  0,
-                                  -1,
-                                  -1
-                                ],
-                                "type": "minecraft:matching_blocks"
-                              },
-                              "type": "minecraft:not"
-                            },
-                            {
-                              "blocks": "#bts:tree_branch_replaceable",
-                              "offset": [
-                                1,
-                                0,
-                                0
-                              ],
-                              "type": "minecraft:matching_blocks"
-                            },
-                            {
-                              "blocks": "#bts:tree_branch_replaceable",
-                              "offset": [
                                 0,
                                 -1,
                                 0
                               ],
                               "type": "minecraft:matching_blocks"
-                            }
-                          ],
-                          "type": "minecraft:all_of"
-                        },
-                        "type": "minecraft:block_predicate_filter"
+                            },
+                            "type": "minecraft:environment_scan"
+                          }
+                        ]
                       },
                       {
-                        "count": 40,
-                        "type": "minecraft:count"
+                        "feature": "bts:acacia/branch/2_north",
+                        "placement": [
+                          {
+                            "predicate": {
+                              "blocks": "minecraft:acacia_log",
+                              "type": "minecraft:matching_blocks"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          },
+                          {
+                            "predicate": {
+                              "blocks": "#bts:tree_branch_replaceable",
+                              "offset": [
+                                0,
+                                1,
+                                -1
+                              ],
+                              "type": "minecraft:matching_blocks"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          },
+                          {
+                            "direction_of_search": "up",
+                            "max_steps": 1,
+                            "target_condition": {
+                              "blocks": "minecraft:acacia_log",
+                              "offset": [
+                                0,
+                                -1,
+                                0
+                              ],
+                              "type": "minecraft:matching_blocks"
+                            },
+                            "type": "minecraft:environment_scan"
+                          }
+                        ]
                       }
                     ]
                   },
-                  "tries": 18,
-                  "xz_spread": 1,
-                  "y_spread": 0
+                  "type": "minecraft:simple_random_selector"
                 },
-                "type": "minecraft:random_patch"
-              },
-              "placement": [
-                {
-                  "predicate": {
-                    "blocks": "minecraft:acacia_log",
-                    "type": "minecraft:matching_blocks"
+                "placement": [
+                  {
+                    "predicate": {
+                      "blocks": "minecraft:acacia_log",
+                      "type": "minecraft:matching_blocks"
+                    },
+                    "type": "minecraft:block_predicate_filter"
                   },
-                  "type": "minecraft:block_predicate_filter"
-                },
-                {
-                  "direction_of_search": "up",
-                  "max_steps": 1,
-                  "target_condition": {
-                    "blocks": "minecraft:acacia_log",
-                    "offset": [
-                      0,
-                      -1,
-                      0
-                    ],
-                    "type": "minecraft:matching_blocks"
+                  {
+                    "direction_of_search": "up",
+                    "max_steps": 1,
+                    "target_condition": {
+                      "blocks": "minecraft:acacia_log",
+                      "offset": [
+                        0,
+                        -1,
+                        0
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    "type": "minecraft:environment_scan"
                   },
-                  "type": "minecraft:environment_scan"
-                }
-              ]
-            }
-          ]
+                  {
+                    "count": 18,
+                    "type": "minecraft:count"
+                  },
+                  {
+                    "xz_spread": {
+                      "type": "minecraft:uniform",
+                      "min_inclusive": -1,
+                      "max_inclusive": 1
+                    },
+                    "y_spread": {
+                      "type": "minecraft:uniform",
+                      "min_inclusive": 0,
+                      "max_inclusive": 0
+                    },
+                    "type": "minecraft:random_offset"
+                  },
+                  {
+                    "predicate": {
+                      "predicates": [
+                        {
+                          "blocks": "#bts:tree_branch_replaceable",
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "blocks": "minecraft:acacia_log",
+                          "offset": [
+                            1,
+                            -1,
+                            0
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "predicate": {
+                            "blocks": "minecraft:acacia_log",
+                            "offset": [
+                              -1,
+                              -1,
+                              0
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          },
+                          "type": "minecraft:not"
+                        },
+                        {
+                          "predicate": {
+                            "blocks": "minecraft:acacia_log",
+                            "offset": [
+                              0,
+                              -1,
+                              1
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          },
+                          "type": "minecraft:not"
+                        },
+                        {
+                          "predicate": {
+                            "blocks": "minecraft:acacia_log",
+                            "offset": [
+                              0,
+                              -1,
+                              -1
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          },
+                          "type": "minecraft:not"
+                        },
+                        {
+                          "blocks": "#bts:tree_branch_replaceable",
+                          "offset": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "blocks": "#bts:tree_branch_replaceable",
+                          "offset": [
+                            0,
+                            -1,
+                            0
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        }
+                      ],
+                      "type": "minecraft:all_of"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  },
+                  {
+                    "count": 40,
+                    "type": "minecraft:count"
+                  }
+                ]
+              }
+            ]
+          },
+          "type": "minecraft:simple_random_selector"
         },
-        "type": "minecraft:simple_random_selector"
-      },
-      "placement": [
-        {
-          "predicate": {
-            "predicates": [
-              {
-                "blocks": "#bts:tree_branch_replaceable",
-                "type": "minecraft:matching_blocks"
-              },
-              {
-                "blocks": "minecraft:acacia_log",
-                "offset": [
-                  1,
-                  -1,
-                  0
-                ],
-                "type": "minecraft:matching_blocks"
-              },
-              {
-                "predicate": {
+        "placement": [
+          {
+            "count": 64,
+            "type": "minecraft:count"
+          },
+          {
+            "xz_spread": {
+              "type": "minecraft:uniform",
+              "min_inclusive": -1,
+              "max_inclusive": 1
+            },
+            "y_spread": {
+              "type": "minecraft:uniform",
+              "min_inclusive": 0,
+              "max_inclusive": 0
+            },
+            "type": "minecraft:random_offset"
+          },
+          {
+            "predicate": {
+              "predicates": [
+                {
+                  "blocks": "#bts:tree_branch_replaceable",
+                  "type": "minecraft:matching_blocks"
+                },
+                {
                   "blocks": "minecraft:acacia_log",
                   "offset": [
-                    -1,
+                    1,
                     -1,
                     0
                   ],
                   "type": "minecraft:matching_blocks"
                 },
-                "type": "minecraft:not"
-              },
-              {
-                "predicate": {
-                  "blocks": "minecraft:acacia_log",
+                {
+                  "predicate": {
+                    "blocks": "minecraft:acacia_log",
+                    "offset": [
+                      -1,
+                      -1,
+                      0
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  "type": "minecraft:not"
+                },
+                {
+                  "predicate": {
+                    "blocks": "minecraft:acacia_log",
+                    "offset": [
+                      0,
+                      -1,
+                      1
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  "type": "minecraft:not"
+                },
+                {
+                  "predicate": {
+                    "blocks": "minecraft:acacia_log",
+                    "offset": [
+                      0,
+                      -1,
+                      -1
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  "type": "minecraft:not"
+                },
+                {
+                  "blocks": "#bts:tree_branch_replaceable",
                   "offset": [
+                    1,
                     0,
-                    -1,
-                    1
+                    0
                   ],
                   "type": "minecraft:matching_blocks"
                 },
-                "type": "minecraft:not"
-              },
-              {
-                "predicate": {
-                  "blocks": "minecraft:acacia_log",
+                {
+                  "blocks": "#bts:tree_branch_replaceable",
                   "offset": [
                     0,
                     -1,
-                    -1
+                    0
                   ],
                   "type": "minecraft:matching_blocks"
-                },
-                "type": "minecraft:not"
-              },
-              {
-                "blocks": "#bts:tree_branch_replaceable",
-                "offset": [
-                  1,
-                  0,
-                  0
-                ],
-                "type": "minecraft:matching_blocks"
-              },
-              {
-                "blocks": "#bts:tree_branch_replaceable",
-                "offset": [
-                  0,
-                  -1,
-                  0
-                ],
-                "type": "minecraft:matching_blocks"
-              }
-            ],
-            "type": "minecraft:all_of"
+                }
+              ],
+              "type": "minecraft:all_of"
+            },
+            "type": "minecraft:block_predicate_filter"
           },
-          "type": "minecraft:block_predicate_filter"
-        },
-        {
-          "count": 32,
-          "type": "minecraft:count"
-        }
-      ]
-    },
-    "tries": 64,
-    "xz_spread": 1,
-    "y_spread": 0
+          {
+            "count": 32,
+            "type": "minecraft:count"
+          }
+        ]
+      }
+    ]
   },
-  "type": "minecraft:random_patch"
+  "type": "minecraft:simple_random_selector"
 }

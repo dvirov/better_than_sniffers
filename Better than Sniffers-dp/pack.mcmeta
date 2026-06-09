@@ -1,8 +1,8 @@
 {
   "pack": {
-    "description": "§bBetter than Sniffers By dvirov Beta 0.6.2",
-    "min_format": [94,1],
-    "max_format": [94,1]
+    "description": "§bBetter than Sniffers By dvirov Beta 0.6.3",
+    "min_format": [101,1],
+    "max_format": [101,1]
   },
   "filter": {
     "block": [

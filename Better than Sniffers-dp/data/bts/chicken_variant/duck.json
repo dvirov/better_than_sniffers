@@ -1,5 +1,6 @@
 {
   "asset_id": "bts:entity/chicken/duck",
+  "baby_asset_id":"bts:entity/chicken/duck",
   "model": "cold",
   "spawn_conditions": [
     {

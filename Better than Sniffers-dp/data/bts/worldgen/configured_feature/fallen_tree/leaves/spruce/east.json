@@ -65,12 +65,6 @@
                                 "feature": {
                                   "config": {
                                     "decorators": [],
-                                    "dirt_provider": {
-                                      "state": {
-                                        "Name": "minecraft:dirt"
-                                      },
-                                      "type": "minecraft:simple_state_provider"
-                                    },
                                     "foliage_placer": {
                                       "offset": 0,
                                       "height": 0,
@@ -88,7 +82,6 @@
                                       },
                                       "type": "minecraft:simple_state_provider"
                                     },
-                                    "force_dirt": false,
                                     "ignore_vines": true,
                                     "minimum_size": {
                                       "limit": 0,
@@ -110,6 +103,26 @@
                                         }
                                       },
                                       "type": "minecraft:simple_state_provider"
+                                    },
+                                    "below_trunk_provider": {
+                                      "type": "minecraft:rule_based_state_provider",
+                                      "rules": [
+                                        {
+                                          "if_true": {
+                                            "type": "minecraft:not",
+                                            "predicate": {
+                                              "type": "minecraft:matching_block_tag",
+                                              "tag": "minecraft:cannot_replace_below_tree_trunk"
+                                            }
+                                          },
+                                          "then": {
+                                            "state": {
+                                              "Name": "minecraft:dirt"
+                                            },
+                                            "type": "minecraft:simple_state_provider"
+                                          }
+                                        }
+                                      ]
                                     }
                                   },
                                   "type": "minecraft:tree"
@@ -127,12 +140,6 @@
                                 "feature": {
                                   "config": {
                                     "decorators": [],
-                                    "dirt_provider": {
-                                      "state": {
-                                        "Name": "minecraft:dirt"
-                                      },
-                                      "type": "minecraft:simple_state_provider"
-                                    },
                                     "foliage_placer": {
                                       "offset": 0,
                                       "height": 0,
@@ -150,7 +157,6 @@
                                       },
                                       "type": "minecraft:simple_state_provider"
                                     },
-                                    "force_dirt": false,
                                     "ignore_vines": true,
                                     "minimum_size": {
                                       "limit": 0,
@@ -172,6 +178,26 @@
                                         }
                                       },
                                       "type": "minecraft:simple_state_provider"
+                                    },
+                                    "below_trunk_provider": {
+                                      "type": "minecraft:rule_based_state_provider",
+                                      "rules": [
+                                        {
+                                          "if_true": {
+                                            "type": "minecraft:not",
+                                            "predicate": {
+                                              "type": "minecraft:matching_block_tag",
+                                              "tag": "minecraft:cannot_replace_below_tree_trunk"
+                                            }
+                                          },
+                                          "then": {
+                                            "state": {
+                                              "Name": "minecraft:dirt"
+                                            },
+                                            "type": "minecraft:simple_state_provider"
+                                          }
+                                        }
+                                      ]
                                     }
                                   },
                                   "type": "minecraft:tree"
@@ -212,7 +238,7 @@
                                           "type": "minecraft:matching_blocks"
                                         },
                                         {
-                                          "blocks": "#bts:dirt",
+                                          "blocks": "#minecraft:substrate_overworld",
                                           "offset": [
                                             0,
                                             -1,
@@ -298,7 +324,7 @@
                                   "type": "minecraft:matching_blocks"
                                 },
                                 {
-                                  "blocks": "#bts:dirt",
+                                  "blocks": "#minecraft:substrate_overworld",
                                   "offset": [
                                     0,
                                     -1,
@@ -379,7 +405,7 @@
                           "type": "minecraft:matching_blocks"
                         },
                         {
-                          "blocks": "#bts:dirt",
+                          "blocks": "#minecraft:substrate_overworld",
                           "offset": [
                             0,
                             -1,
@@ -523,7 +549,7 @@
                                           "type": "minecraft:matching_blocks"
                                         },
                                         {
-                                          "blocks": "#bts:dirt",
+                                          "blocks": "#minecraft:substrate_overworld",
                                           "offset": [
                                             0,
                                             -1,
@@ -600,7 +626,7 @@
                                   "type": "minecraft:matching_blocks"
                                 },
                                 {
-                                  "blocks": "#bts:dirt",
+                                  "blocks": "#minecraft:substrate_overworld",
                                   "offset": [
                                     0,
                                     -1,
@@ -681,7 +707,7 @@
                           "type": "minecraft:matching_blocks"
                         },
                         {
-                          "blocks": "#bts:dirt",
+                          "blocks": "#minecraft:substrate_overworld",
                           "offset": [
                             0,
                             -1,
@@ -730,7 +756,7 @@
                   "type": "minecraft:replaceable"
                 },
                 {
-                  "blocks": "#bts:dirt",
+                  "blocks": "#minecraft:substrate_overworld",
                   "offset": [
                     0,
                     -1,
@@ -747,7 +773,7 @@
                   "type": "minecraft:replaceable"
                 },
                 {
-                  "blocks": "#bts:dirt",
+                  "blocks": "#minecraft:substrate_overworld",
                   "offset": [
                     1,
                     -1,
@@ -764,7 +790,7 @@
                   "type": "minecraft:replaceable"
                 },
                 {
-                  "blocks": "#bts:dirt",
+                  "blocks": "#minecraft:substrate_overworld",
                   "offset": [
                     2,
                     -1,
@@ -781,7 +807,7 @@
                   "type": "minecraft:replaceable"
                 },
                 {
-                  "blocks": "#bts:dirt",
+                  "blocks": "#minecraft:substrate_overworld",
                   "offset": [
                     -1,
                     -1,
@@ -798,7 +824,7 @@
                   "type": "minecraft:replaceable"
                 },
                 {
-                  "blocks": "#bts:dirt",
+                  "blocks": "#minecraft:substrate_overworld",
                   "offset": [
                     -2,
                     -1,

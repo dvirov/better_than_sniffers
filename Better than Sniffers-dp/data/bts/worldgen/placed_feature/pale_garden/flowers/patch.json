@@ -1,34 +1,15 @@
 {
   "feature": {
+    "type": "minecraft:simple_block",
     "config": {
-      "feature": {
-        "feature": {
-          "type": "minecraft:simple_block",
-          "config": {
-            "schedule_tick": true,
-            "to_place": {
-              "type": "minecraft:simple_state_provider",
-              "state": {
-                "Name": "minecraft:closed_eyeblossom"
-              }
-            }
-          }
-        },
-        "placement": [
-          {
-            "predicate": {
-              "blocks": "minecraft:air",
-              "type": "minecraft:matching_blocks"
-            },
-            "type": "minecraft:block_predicate_filter"
-          }
-        ]
-      },
-      "tries": 12,
-      "xz_spread": 3,
-      "y_spread": 2
-    },
-    "type": "minecraft:flower"
+      "schedule_tick": true,
+      "to_place": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:closed_eyeblossom"
+        }
+      }
+    }
   },
   "placement": [
     {
@@ -50,6 +31,30 @@
     },
     {
       "type": "minecraft:biome"
+    },
+    {
+      "count": 12,
+      "type": "minecraft:count"
+    },
+    {
+      "xz_spread": {
+        "type": "minecraft:uniform",
+        "min_inclusive": -3,
+        "max_inclusive": 3
+      },
+      "y_spread": {
+        "type": "minecraft:uniform",
+        "min_inclusive": -2,
+        "max_inclusive": 2
+      },
+      "type": "minecraft:random_offset"
+    },
+    {
+      "predicate": {
+        "blocks": "minecraft:air",
+        "type": "minecraft:matching_blocks"
+      },
+      "type": "minecraft:block_predicate_filter"
     }
   ]
 }
