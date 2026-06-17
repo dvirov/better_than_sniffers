@@ -59,9 +59,9 @@
       "tooltip": {
         "text": "Just toggle some settings ",
         "extra": [
-          "XXX",
+          "",
           "if you play on singleplayer/creative its ok to toggle",
-          "XXX",
+          "",
           "you can always toggle it back"
         ]
       },

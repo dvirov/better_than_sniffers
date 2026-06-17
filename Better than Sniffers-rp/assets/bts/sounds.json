@@ -29,10 +29,10 @@
     },
     "wildlife.forest.night.": {
      "sounds": [
-       "bts:ambient/cricket-chirping",
-       "bts:ambient/latenightpeepersandcoyotesmarch",
-       "bts:ambient/tawny-owl-and-robin-early-night",
-       "bts:ambient/ambience-night-field-cricket"
+       "bts:wildlife/cricket-chirping",
+       "bts:wildlife/latenightpeepersandcoyotesmarch",
+       "bts:wildlife/tawny-owl-and-robin-early-night",
+       "bts:wildlife/ambience-night-field-cricket"
       ]
     }
      

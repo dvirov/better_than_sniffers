@@ -1,39 +1,15 @@
 {
-  "type": "minecraft:empty",
+  "type": "minecraft:entity",
   "pools": [
     {
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:item_frame",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "item_model": "brewing_stand",
-                "rarity": "uncommon",
-                "custom_data": "{custom_block:1b,alchemy:1b}",
-                "minecraft:custom_name": {
-                  "text": "Alchemy Table",
-                  "italic": false
-                },
-                "minecraft:entity_data": {
-                  "id": "minecraft:item_frame",
-                  "Tags": [
-                    "place_alchemy",
-                    "custom_block"
-                  ],
-                  "Invisible": true,
-                  "Invulnerable": true,
-                  "Fixed": true,
-                  "Silent": true
-                }
-              }
-            }
-          ]
+          "type": "minecraft:loot_table",
+          "value": "bts:items/alchemy_table"
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "minecraft:entities/frog"
 }

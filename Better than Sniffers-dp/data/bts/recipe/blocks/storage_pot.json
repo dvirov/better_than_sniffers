@@ -3,8 +3,7 @@
   "category": "building",
   "pattern": [
     "B B",
-    "B B",
-    "BBB"
+    " B "
   ],
   "key": {
     "B":"minecraft:brick"

@@ -14,3 +14,4 @@ execute if items entity @p[tag=block_placed] weapon.mainhand item_frame run item
 execute if items entity @p[tag=block_placed] weapon.offhand item_frame run item modify entity @a weapon.offhand bts:add1 
 execute if items entity @p[tag=block_placed] weapon.offhand item_frame run item modify entity @a weapon.offhand bts:delete_item
 kill @s
+

@@ -30,7 +30,7 @@
   },
   "features": [
     [
-      "bts:bonemeal/flower_default",
+      
       "bts:deep_cold_ocean/islands/layer_1",
       "bts:deep_cold_ocean/islands/layer_2",
       "bts:deep_cold_ocean/islands/layer_3"

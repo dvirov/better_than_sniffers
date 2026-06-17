@@ -2,8 +2,8 @@ import os
 from nbtlib import load, String
 
 # --- Configuration ---
-OLD_WORD = "arboria"
-NEW_WORD = "bts"
+OLD_WORD = ""
+NEW_WORD = ""
 
 # Automatically detect the directory where the script is executed
 START_FOLDER = os.getcwd()

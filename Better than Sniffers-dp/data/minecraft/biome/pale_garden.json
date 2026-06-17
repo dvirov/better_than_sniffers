@@ -20,7 +20,6 @@
   },
   "features": [
     [
-      "bts:bonemeal/flower_pale_garden",
       "bts:pale_garden/coarse_dirt"
     ],
     [

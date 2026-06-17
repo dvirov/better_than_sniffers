@@ -1,4 +1,4 @@
-execute if entity @s[gamemode=creative] run return 0
+execute if entity @s[gamemode=creative] run return fail
 execute if items entity @s weapon.mainhand *[]
 
 execute store result score #damage item.damage run data get entity @s SelectedItem.components."minecraft:damage"

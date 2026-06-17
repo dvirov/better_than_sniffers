@@ -22,3 +22,4 @@ scoreboard players set .20 values 20
 scoreboard players set .48 values 48
 scoreboard players set .64 values 64
 scoreboard players set .100 values 100
+scoreboard players set .1000 values 1000

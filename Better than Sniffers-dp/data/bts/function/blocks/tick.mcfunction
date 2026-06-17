@@ -1,5 +1,9 @@
 # run from main tick
 # run as type=#bts:visuals,tag=custom_block 
+
+execute if score @s countdown matches 1.. run scoreboard players remove @s countdown 1
+execute if score @s countdown matches 0 run kill @s
+
 execute if entity @s[tag=puddle] at @s run function bts:world_event/rain/dry
 
 execute as @s[tag=plant] at @s run function bts:blocks/tick_grow
@@ -8,6 +12,7 @@ function bts:blocks/bricks/tick
 
 function bts:blocks/campfire/tick
 
+execute if score @s timer matches ..0 run kill @s
 
 execute as @s[tag=crucible] at @s positioned ~ ~-0.3 ~ run function bts:blocks/crucible/recipe
 execute as @s[tag=fletching] at @s positioned ~ ~-0.3 ~ run function bts:blocks/fletching/recipe

@@ -14,7 +14,7 @@
         "extra": [
           {
           "translate":"dialog.wiki.page.gameplay.seasons.summary",
-          "fallback":"\nThere are 4 seasons in Better than Sniffers \n\nyou start the game in the autumn \n\nevery season have diffrent effects on the ambient temperature and growth rate for crops\n\nthe season cycle is \nautumn -> winter -> spring -> summer\n\nthe easiest season is spring while the hardes is winter"
+          "fallback":"\nThere are 4 seasons in Better than Sniffers \n\nyou start the game in the spring \n\nevery season have diffrent effects on the ambient temperature, growth rate for crops and day length\n\nthe season cycle is \n spring -> summer -> autumn -> winter \n\nthe easiest season is spring while the hardest is winter"
          }
        ]
       }

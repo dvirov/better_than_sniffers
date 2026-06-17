@@ -20,8 +20,6 @@
   },
   "features": [
     [
-      "bts:bonemeal/flower_meadow",
-      "bts:bonemeal/wildflower",
       "bts:meadow/coarse_dirt"
     ],
     [

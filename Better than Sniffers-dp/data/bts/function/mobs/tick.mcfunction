@@ -31,7 +31,7 @@ execute if entity @s[type=#bts:monster_riders,predicate=bts:is_passanger,tag=!ai
 
 # SPIDER SHOOTING WEB
 execute if entity @s[type=spider] at @s run function bts:mobs/spider_shoot_throw
-execute as @e[type=falling_block,tag=motion_projectile,tag=!motion_added,distance=..1,limit=1] at @s rotated as @e[distance=..1,limit=1,type=spider] run function bts:mobs/apply_motion
+#execute as @e[tag=motion_projectile,tag=!motion_added,distance=..1,limit=1,type=falling_block] at @s rotated as @e[distance=..1,limit=1,type=spider] run function bts:mobs/apply_motion
 
 # ignite burning creepers 
 execute if entity @s[type=creeper,predicate=bts:is_on_fire] run data merge entity @s[type=creeper] {ignited:1b}

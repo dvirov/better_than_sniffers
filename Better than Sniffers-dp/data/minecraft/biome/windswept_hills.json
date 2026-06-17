@@ -13,7 +13,6 @@
   },
   "features": [
     [
-      "bts:bonemeal/flower_default",
       "bts:windswept_hills/coarse_dirt",
       "bts:windswept_hills/andesite"
     ],

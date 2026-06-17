@@ -14,16 +14,30 @@
   "result": {
     "id": "minecraft:item_frame",
     "components": {
-      "item_model":"brewing_stand",
-      "minecraft:entity_data": {
-        "id": "minecraft:item_frame", "Tags":["custom_block","place_alchemy"], "Invisible":false, "Invulnerable": true, "Fixed":true, "Silent": true
-      },
-      "minecraft:item_name": {
-        "translate": "block.bts.alchemy_table",
-        "fallback":"Alchemy Table"},
-      "minecraft:rarity": "uncommon",
-      "custom_data": "{custom_block:1b,alchemy:1b}"
-    }
+                "item_model": "brewing_stand",
+                "rarity": "uncommon",
+                "custom_data": {
+                  "alchemy":true,
+                  "id": "alchemy_table",
+                  "ponder_id": "crafting/alchemy",
+                  "type": "custom_block"
+                },
+                "minecraft:item_name": {
+                   "translate": "block.bts.alchemy_table",
+                   "fallback":"Alchemy Table"
+                  },
+                "minecraft:entity_data": {
+                  "id": "minecraft:item_frame",
+                  "Tags": [
+                    "place_alchemy",
+                    "custom_block"
+                  ],
+                  "Invisible": true,
+                  "Invulnerable": true,
+                  "Fixed": true,
+                  "Silent": true
+                }
+              }
   },
   "show_notification": true
 }

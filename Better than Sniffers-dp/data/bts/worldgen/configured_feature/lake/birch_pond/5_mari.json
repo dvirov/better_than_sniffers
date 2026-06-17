@@ -342,10 +342,7 @@
                   "config": {
                     "to_place": {
                       "state": {
-                        "Name": "minecraft:lily_of_the_valley",
-                        "Properties": {
-                          "half": "lower"
-                        }
+                        "Name": "minecraft:lily_of_the_valley"
                       },
                       "type": "minecraft:simple_state_provider"
                     }
@@ -429,7 +426,7 @@
               {
                 "feature": {
                   "config": {
-                    "discard_chance_on_air_exposure": 0.0,
+                    "discard_chance_on_air_exposure": 0,
                     "size": 24,
                     "targets": [
                       {

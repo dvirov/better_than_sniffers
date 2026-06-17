@@ -5,8 +5,10 @@
       "conditions": {
         "item": {
           "items": "minecraft:phantom_membrane",
-          "components": {
-            "minecraft:item_name": "Weave"
+          "predicates": {
+            "custom_data": {
+              "id": "weaving"
+            }
           }
         }
       }

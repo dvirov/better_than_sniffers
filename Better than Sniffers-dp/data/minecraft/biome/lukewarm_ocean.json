@@ -31,7 +31,7 @@
   },
   "features": [
     [
-      "bts:bonemeal/flower_default",
+      
       "bts:lukewarm_ocean/islands/layer_1",
       "bts:lukewarm_ocean/islands/layer_2",
       "bts:lukewarm_ocean/islands/layer_3"

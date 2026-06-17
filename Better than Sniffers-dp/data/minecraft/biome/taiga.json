@@ -13,7 +13,7 @@
   },
   "features": [
     [
-      "bts:bonemeal/flower_default",
+      
       "bts:taiga/coarse_dirt/blobs",
       "bts:taiga/podzol/blobs"
     ],

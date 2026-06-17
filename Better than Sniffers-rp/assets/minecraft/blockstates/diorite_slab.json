@@ -3,7 +3,7 @@
     "type=bottom": {
       "model": "minecraft:block/diorite_slab"
     },
-    "type=double": {
+    "type=double,waterlogged=false": {
       "model": "minecraft:block/diorite"
     },
     "type=top": {

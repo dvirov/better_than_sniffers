@@ -1,39 +1,15 @@
 {
-  "type": "minecraft:empty",
+  "type": "minecraft:entity",
   "pools": [
     {
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:item_frame",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "item_model": "fletching_table",
-                "rarity": "common",
-                "custom_data": "{custom_block:1b,fletching:1b}",
-                "minecraft:custom_name": {
-                  "text": "Fletching Table",
-                  "italic": false
-                },
-                "minecraft:entity_data": {
-                  "id": "minecraft:item_frame",
-                  "Tags": [
-                    "place_fletching",
-                    "custom_block"
-                  ],
-                  "Invisible": true,
-                  "Invulnerable": true,
-                  "Fixed": true,
-                  "Silent": true
-                }
-              }
-            }
-          ]
+          "type": "minecraft:loot_table",
+          "value": "bts:items/fletching_table"
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "minecraft:entities/frog"
 }

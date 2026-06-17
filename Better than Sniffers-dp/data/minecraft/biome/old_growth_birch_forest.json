@@ -20,8 +20,7 @@
   },
   "features": [
     [
-      "bts:bonemeal/flower_default",
-      "bts:bonemeal/wildflower",
+      
       "bts:old_birch_forest/coarse_dirt/layer_1",
       "bts:old_birch_forest/coarse_dirt/layer_2",
       "bts:old_birch_forest/coarse_dirt/layer_3",

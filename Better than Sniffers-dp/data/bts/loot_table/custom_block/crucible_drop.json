@@ -1,39 +1,15 @@
 {
-  "type": "minecraft:empty",
+  "type": "minecraft:entity",
   "pools": [
     {
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:item_frame",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "item_model": "cauldron",
-                "rarity": "uncommon",
-                "custom_data": "{custom_block:1b,crucible:1b}",
-                "minecraft:custom_name": {
-                  "text": "Crucible",
-                  "italic": false
-                },
-                "minecraft:entity_data": {
-                  "id": "minecraft:item_frame",
-                  "Tags": [
-                    "place_crucible",
-                    "custom_block"
-                  ],
-                  "Invisible": true,
-                  "Invulnerable": true,
-                  "Fixed": true,
-                  "Silent": true
-                }
-              }
-            }
-          ]
+          "type": "minecraft:loot_table",
+          "value": "bts:items/crucible"
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "minecraft:entities/frog"
 }

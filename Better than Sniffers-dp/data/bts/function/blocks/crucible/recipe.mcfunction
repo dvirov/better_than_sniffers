@@ -11,7 +11,7 @@ function bts:blocks/crucible/get_ingredients
 #steel ingot 
 execute if score @s ingredient.shapless.iron_ingot matches 1 \
         if score @s ingredient.shapless.coals matches 2 \
-        unless items block ~ ~ ~ container.16 music_disc_11[!minecraft:custom_data~{id:"steel_ingot"},count=64] \
+        unless items block ~ ~ ~ container.16 *[count=64] \
         unless items block ~ ~ ~ container.16 *[!minecraft:custom_data~{id:"steel_ingot"}] \
         run function bts:blocks/crucible/recipe/steel_ingot
 

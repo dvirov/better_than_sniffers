@@ -1,0 +1,37 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "block/white_wool",
+		"particle": "block/white_wool"
+	},
+	"elements": [
+		{
+			"from": [0.4375, 2, 0],
+			"to": [15.625, 8.75, 23],
+			"faces": {
+				"north": {"uv": [0, 0, 15.1875, 6.75], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 6.75], "texture": "#0"},
+				"south": {"uv": [0, 0, 15.1875, 6.75], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 6.75], "texture": "#0"},
+				"up": {"uv": [0, 0, 15.1875, 16], "texture": "#0"},
+				"down": {"uv": [0, 0, 15.1875, 16], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-24, 0, 0],
+			"translation": [-6, -5, -4.75]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-24, 0, 0],
+			"translation": [-6, -5, -4.75]
+		},
+		"fixed": {
+			"rotation": [-87, 0, 0],
+			"translation": [0, -2.25, 0],
+			"scale": [0.7, 0.7, 0.7]
+		}
+	}
+}

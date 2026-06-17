@@ -1,4 +1,3 @@
-execute if items block ~ ~ ~ container.16 *[!minecraft:custom_data={"steel_ingot":1b,"crucible_made":1b}] run say error
 
 
 execute if score @s crafting.progress matches 10..39 run item replace block ~ ~ ~ container.26 with barrier[item_model="bts:arrow",custom_model_data={floats:[1]},max_stack_size=1,tooltip_display={hide_tooltip:true},custom_data={crucible:1b}]
@@ -22,3 +21,4 @@ item modify block ~ ~ ~ container.11 bts:delete_item
 item modify block ~ ~ ~ container.12 bts:delete_item
 
 #data merge block ~ ~ ~ {CustomName:{"color":"white","text":"\uF807\uF801\uD000"}} 
+

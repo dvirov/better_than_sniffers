@@ -13,7 +13,6 @@
   },
   "features": [
     [
-      "bts:bonemeal/flower_plain",
       "bts:sunflower_plains/coarse_dirt"
     ],
     [

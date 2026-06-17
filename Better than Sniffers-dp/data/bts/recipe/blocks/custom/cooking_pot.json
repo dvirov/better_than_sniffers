@@ -3,6 +3,7 @@
   "category": "building",
   "pattern": [
     "C C",
+    "C C",
     "CCC"
   ],
   "key": {
@@ -11,16 +12,30 @@
   "result": {
     "id": "minecraft:item_frame",
     "components": {
-      "item_model":"cauldron",
-      "minecraft:entity_data": {
-        "id": "minecraft:item_frame", "Tags":["custom_block","place_cooking"], "Invisible":false, "Invulnerable": true, "Fixed":true, "Silent": true
-      },
-      "minecraft:custom_name":{
-        "translate": "block.bts.cooking_pot",
-        "fallback":"Cooking Pot"},
-      "minecraft:rarity": "common",
-      "custom_data": "{custom_block:1b,cooking:1b}"
-    }
+                "item_model": "cauldron",
+                "rarity": "common",
+                "custom_data": {
+                  "cooking":true,
+                  "id": "cooking_pot",
+                  "ponder_id": "crafting/cooking",
+                  "type": "custom_block"
+                },
+                "minecraft:item_name": {
+                   "translate": "block.bts.cooking_pot",
+                   "fallback":"Cooking Pot"
+                },
+                "minecraft:entity_data": {
+                  "id": "minecraft:item_frame",
+                  "Tags": [
+                    "place_cooking",
+                    "custom_block"
+                  ],
+                  "Invisible": true,
+                  "Invulnerable": true,
+                  "Fixed": true,
+                  "Silent": true
+                }
+              }
   },
   "show_notification": true
 }

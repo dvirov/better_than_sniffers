@@ -963,7 +963,6 @@
                       "crack_point_offset": 0,
                       "generate_crack_chance": 0.0
                     },
-                    "distribution_points": 0,
                     "invalid_blocks_threshold": 512,
                     "layers": {
                       "filling": 1.0,
@@ -974,7 +973,6 @@
                     "min_gen_offset": -16,
                     "max_gen_offset": 16,
                     "noise_multiplier": 0.0,
-                    "outer_wall_distance": 0,
                     "placements_require_layer0_alternate": true,
                     "point_offset": 1,
                     "use_alternate_layer0_chance": 0.0,

@@ -1,6 +1,6 @@
 {
-  "asset_id": "bts:entity/chicken/duck",
-  "baby_asset_id":"bts:entity/chicken/duck",
+  "asset_id": "clucking_ducks:entity/chicken/duck",
+  "baby_asset_id": "clucking_ducks:entity/chicken/duck_baby",
   "model": "cold",
   "spawn_conditions": [
     {

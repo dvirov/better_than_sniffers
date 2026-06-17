@@ -1,1351 +1,1543 @@
 {
-  "clock":"minecraft:overworld",
+  "clock": "minecraft:overworld",
   "period_ticks": 1152000,
   "tracks": {
     "minecraft:visual/sunrise_sunset_color": {
       "keyframes": [
         {
-          "ticks": 71,
+          "ticks": 0,
           "value": "#5fefa333"
         },
         {
-          "ticks": 11270,
+          "ticks": 1000,
           "value": "#00ffe533"
         },
         {
-          "ticks": 11397,
+          "ticks": 11000,
           "value": "#04fcd833"
         },
         {
-          "ticks": 12732,
+          "ticks": 12000,
           "value": "#feda6333"
         },
         {
-          "ticks": 13775,
+          "ticks": 13000,
           "value": "#36be3733"
         },
         {
-          "ticks": 14192,
+          "ticks": 14000,
           "value": "#00b33333"
         },
         {
-          "ticks": 23757,
+          "ticks": 22000,
+          "value": "#00b33333"
+        },
+        {
+          "ticks": 23000,
           "value": "#b1e78733"
         },
         {
-          "ticks": 24071,
+          "ticks": 24000,
           "value": "#5fefa333"
         },
         {
-          "ticks": 35270,
+          "ticks": 25000,
           "value": "#00ffe533"
         },
         {
-          "ticks": 35397,
+          "ticks": 35000,
           "value": "#04fcd833"
         },
         {
-          "ticks": 36732,
+          "ticks": 36000,
           "value": "#feda6333"
         },
         {
-          "ticks": 37775,
+          "ticks": 37000,
           "value": "#36be3733"
         },
         {
-          "ticks": 38192,
+          "ticks": 38000,
           "value": "#00b33333"
         },
         {
-          "ticks": 47757,
+          "ticks": 46000,
+          "value": "#00b33333"
+        },
+        {
+          "ticks": 47000,
           "value": "#b1e78733"
         },
         {
-          "ticks": 48071,
+          "ticks": 48000,
           "value": "#5fefa333"
         },
         {
-          "ticks": 59270,
+          "ticks": 49000,
           "value": "#00ffe533"
         },
         {
-          "ticks": 59397,
+          "ticks": 59000,
           "value": "#04fcd833"
         },
         {
-          "ticks": 60732,
+          "ticks": 60000,
           "value": "#feda6333"
         },
         {
-          "ticks": 61775,
+          "ticks": 61000,
           "value": "#36be3733"
         },
         {
-          "ticks": 62192,
+          "ticks": 62000,
           "value": "#00b33333"
         },
         {
-          "ticks": 71757,
+          "ticks": 70000,
+          "value": "#00b33333"
+        },
+        {
+          "ticks": 71000,
           "value": "#b1e78733"
         },
         {
-          "ticks": 72071,
+          "ticks": 72000,
           "value": "#5fefa333"
         },
         {
-          "ticks": 83270,
+          "ticks": 73000,
           "value": "#00ffe533"
         },
         {
-          "ticks": 83397,
+          "ticks": 83000,
           "value": "#04fcd833"
         },
         {
-          "ticks": 84732,
+          "ticks": 84000,
           "value": "#feda6333"
         },
         {
-          "ticks": 85775,
+          "ticks": 85000,
           "value": "#36be3733"
         },
         {
-          "ticks": 86192,
+          "ticks": 86000,
           "value": "#00b33333"
         },
         {
-          "ticks": 95757,
+          "ticks": 94000,
+          "value": "#00b33333"
+        },
+        {
+          "ticks": 95000,
           "value": "#b1e78733"
         },
         {
-          "ticks": 96071,
+          "ticks": 96000,
           "value": "#5fefa333"
         },
         {
-          "ticks": 107270,
+          "ticks": 97000,
           "value": "#00ffe533"
         },
         {
-          "ticks": 107397,
+          "ticks": 107000,
           "value": "#04fcd833"
         },
         {
-          "ticks": 108732,
+          "ticks": 108000,
           "value": "#feda6333"
         },
         {
-          "ticks": 109775,
+          "ticks": 109000,
           "value": "#36be3733"
         },
         {
-          "ticks": 110192,
+          "ticks": 110000,
           "value": "#00b33333"
         },
         {
-          "ticks": 119757,
+          "ticks": 118000,
+          "value": "#00b33333"
+        },
+        {
+          "ticks": 119000,
           "value": "#b1e78733"
         },
         {
-          "ticks": 120071,
+          "ticks": 120000,
           "value": "#5fefa333"
         },
         {
-          "ticks": 131270,
+          "ticks": 121000,
           "value": "#00ffe533"
         },
         {
-          "ticks": 131397,
+          "ticks": 131000,
           "value": "#04fcd833"
         },
         {
-          "ticks": 132732,
+          "ticks": 132000,
           "value": "#feda6333"
         },
         {
-          "ticks": 133775,
+          "ticks": 133000,
           "value": "#36be3733"
         },
         {
-          "ticks": 134192,
+          "ticks": 134000,
           "value": "#00b33333"
         },
         {
-          "ticks": 143757,
+          "ticks": 142000,
+          "value": "#00b33333"
+        },
+        {
+          "ticks": 143000,
           "value": "#b1e78733"
         },
         {
-          "ticks": 144071,
+          "ticks": 144000,
           "value": "#5fefa333"
         },
         {
-          "ticks": 155270,
+          "ticks": 145000,
           "value": "#00ffe533"
         },
         {
-          "ticks": 155397,
+          "ticks": 155000,
           "value": "#04fcd833"
         },
         {
-          "ticks": 156732,
+          "ticks": 156000,
           "value": "#feda6333"
         },
         {
-          "ticks": 157775,
+          "ticks": 157000,
           "value": "#36be3733"
         },
         {
-          "ticks": 158192,
+          "ticks": 158000,
           "value": "#00b33333"
         },
         {
-          "ticks": 167757,
+          "ticks": 166000,
+          "value": "#00b33333"
+        },
+        {
+          "ticks": 167000,
           "value": "#b1e78733"
         },
         {
-          "ticks": 168071,
+          "ticks": 168000,
           "value": "#5fefa333"
         },
         {
-          "ticks": 179270,
+          "ticks": 169000,
           "value": "#00ffe533"
         },
         {
-          "ticks": 179397,
+          "ticks": 179000,
           "value": "#04fcd833"
         },
         {
-          "ticks": 180732,
+          "ticks": 180000,
           "value": "#feda6333"
         },
         {
-          "ticks": 181775,
+          "ticks": 181000,
           "value": "#36be3733"
         },
         {
-          "ticks": 182192,
+          "ticks": 182000,
           "value": "#00b33333"
         },
         {
-          "ticks": 191757,
+          "ticks": 190000,
+          "value": "#00b33333"
+        },
+        {
+          "ticks": 191000,
           "value": "#b1e78733"
         },
         {
-          "ticks": 192071,
+          "ticks": 192000,
           "value": "#5fefa333"
         },
         {
-          "ticks": 203270,
+          "ticks": 193000,
           "value": "#00ffe533"
         },
         {
-          "ticks": 203397,
+          "ticks": 203000,
           "value": "#04fcd833"
         },
         {
-          "ticks": 204732,
+          "ticks": 204000,
           "value": "#feda6333"
         },
         {
-          "ticks": 205775,
+          "ticks": 205000,
           "value": "#36be3733"
         },
         {
-          "ticks": 206192,
+          "ticks": 206000,
           "value": "#00b33333"
         },
         {
-          "ticks": 215757,
+          "ticks": 214000,
+          "value": "#00b33333"
+        },
+        {
+          "ticks": 215000,
           "value": "#b1e78733"
         },
         {
-          "ticks": 216071,
+          "ticks": 216000,
           "value": "#5fefa333"
         },
         {
-          "ticks": 227270,
+          "ticks": 217000,
           "value": "#00ffe533"
         },
         {
-          "ticks": 227397,
+          "ticks": 227000,
           "value": "#04fcd833"
         },
         {
-          "ticks": 228732,
+          "ticks": 228000,
           "value": "#feda6333"
         },
         {
-          "ticks": 229775,
+          "ticks": 229000,
           "value": "#36be3733"
         },
         {
-          "ticks": 230192,
+          "ticks": 230000,
           "value": "#00b33333"
         },
         {
-          "ticks": 239757,
+          "ticks": 238000,
+          "value": "#00b33333"
+        },
+        {
+          "ticks": 239000,
           "value": "#b1e78733"
         },
         {
-          "ticks": 240071,
+          "ticks": 240000,
           "value": "#5fefa333"
         },
         {
-          "ticks": 251270,
+          "ticks": 241000,
           "value": "#00ffe533"
         },
         {
-          "ticks": 251397,
+          "ticks": 251000,
           "value": "#04fcd833"
         },
         {
-          "ticks": 252732,
+          "ticks": 252000,
           "value": "#feda6333"
         },
         {
-          "ticks": 253775,
+          "ticks": 253000,
           "value": "#36be3733"
         },
         {
-          "ticks": 254192,
+          "ticks": 254000,
           "value": "#00b33333"
         },
         {
-          "ticks": 263757,
+          "ticks": 262000,
+          "value": "#00b33333"
+        },
+        {
+          "ticks": 263000,
           "value": "#b1e78733"
         },
         {
-          "ticks": 264071,
+          "ticks": 264000,
           "value": "#5fefa333"
         },
         {
-          "ticks": 275270,
+          "ticks": 265000,
           "value": "#00ffe533"
         },
         {
-          "ticks": 275397,
+          "ticks": 275000,
           "value": "#04fcd833"
         },
         {
-          "ticks": 276732,
+          "ticks": 276000,
           "value": "#feda6333"
         },
         {
-          "ticks": 277775,
+          "ticks": 277000,
           "value": "#36be3733"
         },
         {
-          "ticks": 278192,
+          "ticks": 278000,
           "value": "#00b33333"
         },
         {
-          "ticks": 287757,
+          "ticks": 286000,
+          "value": "#00b33333"
+        },
+        {
+          "ticks": 287000,
           "value": "#b1e78733"
         },
         {
-          "ticks": 288071,
+          "ticks": 288000,
           "value": "#5fefa333"
         },
         {
-          "ticks": 301270,
+          "ticks": 289000,
           "value": "#00ffe533"
         },
         {
-          "ticks": 301397,
+          "ticks": 301000,
           "value": "#04fcd833"
         },
         {
-          "ticks": 302732,
+          "ticks": 302000,
           "value": "#feda6333"
         },
         {
-          "ticks": 303775,
+          "ticks": 303000,
           "value": "#36be3733"
         },
         {
-          "ticks": 304192,
+          "ticks": 304000,
           "value": "#00b33333"
         },
         {
-          "ticks": 311757,
+          "ticks": 310000,
+          "value": "#00b33333"
+        },
+        {
+          "ticks": 311000,
           "value": "#b1e78733"
         },
         {
-          "ticks": 312071,
+          "ticks": 312000,
           "value": "#5fefa333"
         },
         {
-          "ticks": 325270,
+          "ticks": 313000,
           "value": "#00ffe533"
         },
         {
-          "ticks": 325397,
+          "ticks": 325000,
           "value": "#04fcd833"
         },
         {
-          "ticks": 326732,
+          "ticks": 326000,
           "value": "#feda6333"
         },
         {
-          "ticks": 327775,
+          "ticks": 327000,
           "value": "#36be3733"
         },
         {
-          "ticks": 328192,
+          "ticks": 328000,
           "value": "#00b33333"
         },
         {
-          "ticks": 335757,
+          "ticks": 334000,
+          "value": "#00b33333"
+        },
+        {
+          "ticks": 335000,
           "value": "#b1e78733"
         },
         {
-          "ticks": 336071,
+          "ticks": 336000,
           "value": "#5fefa333"
         },
         {
-          "ticks": 349270,
+          "ticks": 337000,
           "value": "#00ffe533"
         },
         {
-          "ticks": 349397,
+          "ticks": 349000,
           "value": "#04fcd833"
         },
         {
-          "ticks": 350732,
+          "ticks": 350000,
           "value": "#feda6333"
         },
         {
-          "ticks": 351775,
+          "ticks": 351000,
           "value": "#36be3733"
         },
         {
-          "ticks": 352192,
+          "ticks": 352000,
           "value": "#00b33333"
         },
         {
-          "ticks": 359757,
+          "ticks": 358000,
+          "value": "#00b33333"
+        },
+        {
+          "ticks": 359000,
           "value": "#b1e78733"
         },
         {
-          "ticks": 360071,
+          "ticks": 360000,
           "value": "#5fefa333"
         },
         {
-          "ticks": 373270,
+          "ticks": 361000,
           "value": "#00ffe533"
         },
         {
-          "ticks": 373397,
+          "ticks": 373000,
           "value": "#04fcd833"
         },
         {
-          "ticks": 374732,
+          "ticks": 374000,
           "value": "#feda6333"
         },
         {
-          "ticks": 375775,
+          "ticks": 375000,
           "value": "#36be3733"
         },
         {
-          "ticks": 376192,
+          "ticks": 376000,
           "value": "#00b33333"
         },
         {
-          "ticks": 383757,
+          "ticks": 382000,
+          "value": "#00b33333"
+        },
+        {
+          "ticks": 383000,
           "value": "#b1e78733"
         },
         {
-          "ticks": 384071,
+          "ticks": 384000,
           "value": "#5fefa333"
         },
         {
-          "ticks": 397270,
+          "ticks": 385000,
           "value": "#00ffe533"
         },
         {
-          "ticks": 397397,
+          "ticks": 397000,
           "value": "#04fcd833"
         },
         {
-          "ticks": 398732,
+          "ticks": 398000,
           "value": "#feda6333"
         },
         {
-          "ticks": 399775,
+          "ticks": 399000,
           "value": "#36be3733"
         },
         {
-          "ticks": 400192,
+          "ticks": 400000,
           "value": "#00b33333"
         },
         {
-          "ticks": 407757,
+          "ticks": 406000,
+          "value": "#00b33333"
+        },
+        {
+          "ticks": 407000,
           "value": "#b1e78733"
         },
         {
-          "ticks": 408071,
+          "ticks": 408000,
           "value": "#5fefa333"
         },
         {
-          "ticks": 421270,
+          "ticks": 409000,
           "value": "#00ffe533"
         },
         {
-          "ticks": 421397,
+          "ticks": 421000,
           "value": "#04fcd833"
         },
         {
-          "ticks": 422732,
+          "ticks": 422000,
           "value": "#feda6333"
         },
         {
-          "ticks": 423775,
+          "ticks": 423000,
           "value": "#36be3733"
         },
         {
-          "ticks": 424192,
+          "ticks": 424000,
           "value": "#00b33333"
         },
         {
-          "ticks": 431757,
+          "ticks": 430000,
+          "value": "#00b33333"
+        },
+        {
+          "ticks": 431000,
           "value": "#b1e78733"
         },
         {
-          "ticks": 432071,
+          "ticks": 432000,
           "value": "#5fefa333"
         },
         {
-          "ticks": 445270,
+          "ticks": 433000,
           "value": "#00ffe533"
         },
         {
-          "ticks": 445397,
+          "ticks": 445000,
           "value": "#04fcd833"
         },
         {
-          "ticks": 446732,
+          "ticks": 446000,
           "value": "#feda6333"
         },
         {
-          "ticks": 447775,
+          "ticks": 447000,
           "value": "#36be3733"
         },
         {
-          "ticks": 448192,
+          "ticks": 448000,
           "value": "#00b33333"
         },
         {
-          "ticks": 455757,
+          "ticks": 454000,
+          "value": "#00b33333"
+        },
+        {
+          "ticks": 455000,
           "value": "#b1e78733"
         },
         {
-          "ticks": 456071,
+          "ticks": 456000,
           "value": "#5fefa333"
         },
         {
-          "ticks": 469270,
+          "ticks": 457000,
           "value": "#00ffe533"
         },
         {
-          "ticks": 469397,
+          "ticks": 469000,
           "value": "#04fcd833"
         },
         {
-          "ticks": 470732,
+          "ticks": 470000,
           "value": "#feda6333"
         },
         {
-          "ticks": 471775,
+          "ticks": 471000,
           "value": "#36be3733"
         },
         {
-          "ticks": 472192,
+          "ticks": 472000,
           "value": "#00b33333"
         },
         {
-          "ticks": 479757,
+          "ticks": 478000,
+          "value": "#00b33333"
+        },
+        {
+          "ticks": 479000,
           "value": "#b1e78733"
         },
         {
-          "ticks": 480071,
+          "ticks": 480000,
           "value": "#5fefa333"
         },
         {
-          "ticks": 493270,
+          "ticks": 481000,
           "value": "#00ffe533"
         },
         {
-          "ticks": 493397,
+          "ticks": 493000,
           "value": "#04fcd833"
         },
         {
-          "ticks": 494732,
+          "ticks": 494000,
           "value": "#feda6333"
         },
         {
-          "ticks": 495775,
+          "ticks": 495000,
           "value": "#36be3733"
         },
         {
-          "ticks": 496192,
+          "ticks": 496000,
           "value": "#00b33333"
         },
         {
-          "ticks": 503757,
+          "ticks": 502000,
+          "value": "#00b33333"
+        },
+        {
+          "ticks": 503000,
           "value": "#b1e78733"
         },
         {
-          "ticks": 504071,
+          "ticks": 504000,
           "value": "#5fefa333"
         },
         {
-          "ticks": 517270,
+          "ticks": 505000,
           "value": "#00ffe533"
         },
         {
-          "ticks": 517397,
+          "ticks": 517000,
           "value": "#04fcd833"
         },
         {
-          "ticks": 518732,
+          "ticks": 518000,
           "value": "#feda6333"
         },
         {
-          "ticks": 519775,
+          "ticks": 519000,
           "value": "#36be3733"
         },
         {
-          "ticks": 520192,
+          "ticks": 520000,
           "value": "#00b33333"
         },
         {
-          "ticks": 527757,
+          "ticks": 526000,
+          "value": "#00b33333"
+        },
+        {
+          "ticks": 527000,
           "value": "#b1e78733"
         },
         {
-          "ticks": 528071,
+          "ticks": 528000,
           "value": "#5fefa333"
         },
         {
-          "ticks": 541270,
+          "ticks": 529000,
           "value": "#00ffe533"
         },
         {
-          "ticks": 541397,
+          "ticks": 541000,
           "value": "#04fcd833"
         },
         {
-          "ticks": 542732,
+          "ticks": 542000,
           "value": "#feda6333"
         },
         {
-          "ticks": 543775,
+          "ticks": 543000,
           "value": "#36be3733"
         },
         {
-          "ticks": 544192,
+          "ticks": 544000,
           "value": "#00b33333"
         },
         {
-          "ticks": 551757,
+          "ticks": 550000,
+          "value": "#00b33333"
+        },
+        {
+          "ticks": 551000,
           "value": "#b1e78733"
         },
         {
-          "ticks": 552071,
+          "ticks": 552000,
           "value": "#5fefa333"
         },
         {
-          "ticks": 565270,
+          "ticks": 553000,
           "value": "#00ffe533"
         },
         {
-          "ticks": 565397,
+          "ticks": 565000,
           "value": "#04fcd833"
         },
         {
-          "ticks": 566732,
+          "ticks": 566000,
           "value": "#feda6333"
         },
         {
-          "ticks": 567775,
+          "ticks": 567000,
           "value": "#36be3733"
         },
         {
-          "ticks": 568192,
+          "ticks": 568000,
           "value": "#00b33333"
         },
         {
-          "ticks": 575757,
+          "ticks": 574000,
+          "value": "#00b33333"
+        },
+        {
+          "ticks": 575000,
           "value": "#b1e78733"
         },
         {
-          "ticks": 576071,
+          "ticks": 576000,
           "value": "#5fefa333"
         },
         {
-          "ticks": 587270,
+          "ticks": 577000,
           "value": "#00ffe533"
         },
         {
-          "ticks": 587397,
+          "ticks": 587000,
           "value": "#04fcd833"
         },
         {
-          "ticks": 588732,
+          "ticks": 588000,
           "value": "#feda6333"
         },
         {
-          "ticks": 589775,
+          "ticks": 589000,
           "value": "#36be3733"
         },
         {
-          "ticks": 590192,
+          "ticks": 590000,
           "value": "#00b33333"
         },
         {
-          "ticks": 599757,
+          "ticks": 598000,
+          "value": "#00b33333"
+        },
+        {
+          "ticks": 599000,
           "value": "#b1e78733"
         },
         {
-          "ticks": 600071,
+          "ticks": 600000,
           "value": "#5fefa333"
         },
         {
-          "ticks": 611270,
+          "ticks": 601000,
           "value": "#00ffe533"
         },
         {
-          "ticks": 611397,
+          "ticks": 611000,
           "value": "#04fcd833"
         },
         {
-          "ticks": 612732,
+          "ticks": 612000,
           "value": "#feda6333"
         },
         {
-          "ticks": 613775,
+          "ticks": 613000,
           "value": "#36be3733"
         },
         {
-          "ticks": 614192,
+          "ticks": 614000,
           "value": "#00b33333"
         },
         {
-          "ticks": 623757,
+          "ticks": 622000,
+          "value": "#00b33333"
+        },
+        {
+          "ticks": 623000,
           "value": "#b1e78733"
         },
         {
-          "ticks": 624071,
+          "ticks": 624000,
           "value": "#5fefa333"
         },
         {
-          "ticks": 635270,
+          "ticks": 625000,
           "value": "#00ffe533"
         },
         {
-          "ticks": 635397,
+          "ticks": 635000,
           "value": "#04fcd833"
         },
         {
-          "ticks": 636732,
+          "ticks": 636000,
           "value": "#feda6333"
         },
         {
-          "ticks": 637775,
+          "ticks": 637000,
           "value": "#36be3733"
         },
         {
-          "ticks": 638192,
+          "ticks": 638000,
           "value": "#00b33333"
         },
         {
-          "ticks": 647757,
+          "ticks": 646000,
+          "value": "#00b33333"
+        },
+        {
+          "ticks": 647000,
           "value": "#b1e78733"
         },
         {
-          "ticks": 648071,
+          "ticks": 648000,
           "value": "#5fefa333"
         },
         {
-          "ticks": 659270,
+          "ticks": 649000,
           "value": "#00ffe533"
         },
         {
-          "ticks": 659397,
+          "ticks": 659000,
           "value": "#04fcd833"
         },
         {
-          "ticks": 660732,
+          "ticks": 660000,
           "value": "#feda6333"
         },
         {
-          "ticks": 661775,
+          "ticks": 661000,
           "value": "#36be3733"
         },
         {
-          "ticks": 662192,
+          "ticks": 662000,
           "value": "#00b33333"
         },
         {
-          "ticks": 671757,
+          "ticks": 670000,
+          "value": "#00b33333"
+        },
+        {
+          "ticks": 671000,
           "value": "#b1e78733"
         },
         {
-          "ticks": 672071,
+          "ticks": 672000,
           "value": "#5fefa333"
         },
         {
-          "ticks": 683270,
+          "ticks": 673000,
           "value": "#00ffe533"
         },
         {
-          "ticks": 683397,
+          "ticks": 683000,
           "value": "#04fcd833"
         },
         {
-          "ticks": 684732,
+          "ticks": 684000,
           "value": "#feda6333"
         },
         {
-          "ticks": 685775,
+          "ticks": 685000,
           "value": "#36be3733"
         },
         {
-          "ticks": 686192,
+          "ticks": 686000,
           "value": "#00b33333"
         },
         {
-          "ticks": 695757,
+          "ticks": 694000,
+          "value": "#00b33333"
+        },
+        {
+          "ticks": 695000,
           "value": "#b1e78733"
         },
         {
-          "ticks": 696071,
+          "ticks": 696000,
           "value": "#5fefa333"
         },
         {
-          "ticks": 707270,
+          "ticks": 697000,
           "value": "#00ffe533"
         },
         {
-          "ticks": 707397,
+          "ticks": 707000,
           "value": "#04fcd833"
         },
         {
-          "ticks": 708732,
+          "ticks": 708000,
           "value": "#feda6333"
         },
         {
-          "ticks": 709775,
+          "ticks": 709000,
           "value": "#36be3733"
         },
         {
-          "ticks": 710192,
+          "ticks": 710000,
           "value": "#00b33333"
         },
         {
-          "ticks": 719757,
+          "ticks": 718000,
+          "value": "#00b33333"
+        },
+        {
+          "ticks": 719000,
           "value": "#b1e78733"
         },
         {
-          "ticks": 720071,
+          "ticks": 720000,
           "value": "#5fefa333"
         },
         {
-          "ticks": 731270,
+          "ticks": 721000,
           "value": "#00ffe533"
         },
         {
-          "ticks": 731397,
+          "ticks": 731000,
           "value": "#04fcd833"
         },
         {
-          "ticks": 732732,
+          "ticks": 732000,
           "value": "#feda6333"
         },
         {
-          "ticks": 733775,
+          "ticks": 733000,
           "value": "#36be3733"
         },
         {
-          "ticks": 734192,
+          "ticks": 734000,
           "value": "#00b33333"
         },
         {
-          "ticks": 743757,
+          "ticks": 742000,
+          "value": "#00b33333"
+        },
+        {
+          "ticks": 743000,
           "value": "#b1e78733"
         },
         {
-          "ticks": 744071,
+          "ticks": 744000,
           "value": "#5fefa333"
         },
         {
-          "ticks": 755270,
+          "ticks": 745000,
           "value": "#00ffe533"
         },
         {
-          "ticks": 755397,
+          "ticks": 755000,
           "value": "#04fcd833"
         },
         {
-          "ticks": 756732,
+          "ticks": 756000,
           "value": "#feda6333"
         },
         {
-          "ticks": 757775,
+          "ticks": 757000,
           "value": "#36be3733"
         },
         {
-          "ticks": 758192,
+          "ticks": 758000,
           "value": "#00b33333"
         },
         {
-          "ticks": 767757,
+          "ticks": 766000,
+          "value": "#00b33333"
+        },
+        {
+          "ticks": 767000,
           "value": "#b1e78733"
         },
         {
-          "ticks": 768071,
+          "ticks": 768000,
           "value": "#5fefa333"
         },
         {
-          "ticks": 779270,
+          "ticks": 769000,
           "value": "#00ffe533"
         },
         {
-          "ticks": 779397,
+          "ticks": 779000,
           "value": "#04fcd833"
         },
         {
-          "ticks": 780732,
+          "ticks": 780000,
           "value": "#feda6333"
         },
         {
-          "ticks": 781775,
+          "ticks": 781000,
           "value": "#36be3733"
         },
         {
-          "ticks": 782192,
+          "ticks": 782000,
           "value": "#00b33333"
         },
         {
-          "ticks": 791757,
+          "ticks": 790000,
+          "value": "#00b33333"
+        },
+        {
+          "ticks": 791000,
           "value": "#b1e78733"
         },
         {
-          "ticks": 792071,
+          "ticks": 792000,
           "value": "#5fefa333"
         },
         {
-          "ticks": 803270,
+          "ticks": 793000,
           "value": "#00ffe533"
         },
         {
-          "ticks": 803397,
+          "ticks": 803000,
           "value": "#04fcd833"
         },
         {
-          "ticks": 804732,
+          "ticks": 804000,
           "value": "#feda6333"
         },
         {
-          "ticks": 805775,
+          "ticks": 805000,
           "value": "#36be3733"
         },
         {
-          "ticks": 806192,
+          "ticks": 806000,
           "value": "#00b33333"
         },
         {
-          "ticks": 815757,
+          "ticks": 814000,
+          "value": "#00b33333"
+        },
+        {
+          "ticks": 815000,
           "value": "#b1e78733"
         },
         {
-          "ticks": 816071,
+          "ticks": 816000,
           "value": "#5fefa333"
         },
         {
-          "ticks": 827270,
+          "ticks": 817000,
           "value": "#00ffe533"
         },
         {
-          "ticks": 827397,
+          "ticks": 827000,
           "value": "#04fcd833"
         },
         {
-          "ticks": 828732,
+          "ticks": 828000,
           "value": "#feda6333"
         },
         {
-          "ticks": 829775,
+          "ticks": 829000,
           "value": "#36be3733"
         },
         {
-          "ticks": 830192,
+          "ticks": 830000,
           "value": "#00b33333"
         },
         {
-          "ticks": 839757,
+          "ticks": 838000,
+          "value": "#00b33333"
+        },
+        {
+          "ticks": 839000,
           "value": "#b1e78733"
         },
         {
-          "ticks": 840071,
+          "ticks": 840000,
           "value": "#5fefa333"
         },
         {
-          "ticks": 851270,
+          "ticks": 841000,
           "value": "#00ffe533"
         },
         {
-          "ticks": 851397,
+          "ticks": 851000,
           "value": "#04fcd833"
         },
         {
-          "ticks": 852732,
+          "ticks": 852000,
           "value": "#feda6333"
         },
         {
-          "ticks": 853775,
+          "ticks": 853000,
           "value": "#36be3733"
         },
         {
-          "ticks": 854192,
+          "ticks": 854000,
           "value": "#00b33333"
         },
         {
-          "ticks": 863757,
+          "ticks": 862000,
+          "value": "#00b33333"
+        },
+        {
+          "ticks": 863000,
           "value": "#b1e78733"
         },
         {
-          "ticks": 864071,
+          "ticks": 864000,
           "value": "#5fefa333"
         },
         {
-          "ticks": 873270,
+          "ticks": 865000,
           "value": "#00ffe533"
         },
         {
-          "ticks": 873397,
+          "ticks": 873000,
           "value": "#04fcd833"
         },
         {
-          "ticks": 874732,
+          "ticks": 874000,
           "value": "#feda6333"
         },
         {
-          "ticks": 875775,
+          "ticks": 875000,
           "value": "#36be3733"
         },
         {
-          "ticks": 876192,
+          "ticks": 876000,
           "value": "#00b33333"
         },
         {
-          "ticks": 887757,
+          "ticks": 886000,
+          "value": "#00b33333"
+        },
+        {
+          "ticks": 887000,
           "value": "#b1e78733"
         },
         {
-          "ticks": 888071,
+          "ticks": 888000,
           "value": "#5fefa333"
         },
         {
-          "ticks": 897270,
+          "ticks": 889000,
           "value": "#00ffe533"
         },
         {
-          "ticks": 897397,
+          "ticks": 897000,
           "value": "#04fcd833"
         },
         {
-          "ticks": 898732,
+          "ticks": 898000,
           "value": "#feda6333"
         },
         {
-          "ticks": 899775,
+          "ticks": 899000,
           "value": "#36be3733"
         },
         {
-          "ticks": 900192,
+          "ticks": 900000,
           "value": "#00b33333"
         },
         {
-          "ticks": 911757,
+          "ticks": 910000,
+          "value": "#00b33333"
+        },
+        {
+          "ticks": 911000,
           "value": "#b1e78733"
         },
         {
-          "ticks": 912071,
+          "ticks": 912000,
           "value": "#5fefa333"
         },
         {
-          "ticks": 921270,
+          "ticks": 913000,
           "value": "#00ffe533"
         },
         {
-          "ticks": 921397,
+          "ticks": 921000,
           "value": "#04fcd833"
         },
         {
-          "ticks": 922732,
+          "ticks": 922000,
           "value": "#feda6333"
         },
         {
-          "ticks": 923775,
+          "ticks": 923000,
           "value": "#36be3733"
         },
         {
-          "ticks": 924192,
+          "ticks": 924000,
           "value": "#00b33333"
         },
         {
-          "ticks": 935757,
+          "ticks": 934000,
+          "value": "#00b33333"
+        },
+        {
+          "ticks": 935000,
           "value": "#b1e78733"
         },
         {
-          "ticks": 936071,
+          "ticks": 936000,
           "value": "#5fefa333"
         },
         {
-          "ticks": 945270,
+          "ticks": 937000,
           "value": "#00ffe533"
         },
         {
-          "ticks": 945397,
+          "ticks": 945000,
           "value": "#04fcd833"
         },
         {
-          "ticks": 946732,
+          "ticks": 946000,
           "value": "#feda6333"
         },
         {
-          "ticks": 947775,
+          "ticks": 947000,
           "value": "#36be3733"
         },
         {
-          "ticks": 948192,
+          "ticks": 948000,
           "value": "#00b33333"
         },
         {
-          "ticks": 959757,
+          "ticks": 958000,
+          "value": "#00b33333"
+        },
+        {
+          "ticks": 959000,
           "value": "#b1e78733"
         },
         {
-          "ticks": 960071,
+          "ticks": 960000,
           "value": "#5fefa333"
         },
         {
-          "ticks": 969270,
+          "ticks": 961000,
           "value": "#00ffe533"
         },
         {
-          "ticks": 969397,
+          "ticks": 969000,
           "value": "#04fcd833"
         },
         {
-          "ticks": 970732,
+          "ticks": 970000,
           "value": "#feda6333"
         },
         {
-          "ticks": 971775,
+          "ticks": 971000,
           "value": "#36be3733"
         },
         {
-          "ticks": 972192,
+          "ticks": 972000,
           "value": "#00b33333"
         },
         {
-          "ticks": 983757,
+          "ticks": 982000,
+          "value": "#00b33333"
+        },
+        {
+          "ticks": 983000,
           "value": "#b1e78733"
         },
         {
-          "ticks": 984071,
+          "ticks": 984000,
           "value": "#5fefa333"
         },
         {
-          "ticks": 993270,
+          "ticks": 985000,
           "value": "#00ffe533"
         },
         {
-          "ticks": 993397,
+          "ticks": 993000,
           "value": "#04fcd833"
         },
         {
-          "ticks": 994732,
+          "ticks": 994000,
           "value": "#feda6333"
         },
         {
-          "ticks": 995775,
+          "ticks": 995000,
           "value": "#36be3733"
         },
         {
-          "ticks": 996192,
+          "ticks": 996000,
           "value": "#00b33333"
         },
         {
-          "ticks": 1007757,
+          "ticks": 1006000,
+          "value": "#00b33333"
+        },
+        {
+          "ticks": 1007000,
           "value": "#b1e78733"
         },
         {
-          "ticks": 1008071,
+          "ticks": 1008000,
           "value": "#5fefa333"
         },
         {
-          "ticks": 1017270,
+          "ticks": 1009000,
           "value": "#00ffe533"
         },
         {
-          "ticks": 1017397,
+          "ticks": 1017000,
           "value": "#04fcd833"
         },
         {
-          "ticks": 1018732,
+          "ticks": 1018000,
           "value": "#feda6333"
         },
         {
-          "ticks": 1019775,
+          "ticks": 1019000,
           "value": "#36be3733"
         },
         {
-          "ticks": 1020192,
+          "ticks": 1020000,
           "value": "#00b33333"
         },
         {
-          "ticks": 1031757,
+          "ticks": 1030000,
+          "value": "#00b33333"
+        },
+        {
+          "ticks": 1031000,
           "value": "#b1e78733"
         },
         {
-          "ticks": 1032071,
+          "ticks": 1032000,
           "value": "#5fefa333"
         },
         {
-          "ticks": 1041270,
+          "ticks": 1033000,
           "value": "#00ffe533"
         },
         {
-          "ticks": 1041397,
+          "ticks": 1041000,
           "value": "#04fcd833"
         },
         {
-          "ticks": 1042732,
+          "ticks": 1042000,
           "value": "#feda6333"
         },
         {
-          "ticks": 1043775,
+          "ticks": 1043000,
           "value": "#36be3733"
         },
         {
-          "ticks": 1044192,
+          "ticks": 1044000,
           "value": "#00b33333"
         },
         {
-          "ticks": 1055757,
+          "ticks": 1054000,
+          "value": "#00b33333"
+        },
+        {
+          "ticks": 1055000,
           "value": "#b1e78733"
         },
         {
-          "ticks": 1056071,
+          "ticks": 1056000,
           "value": "#5fefa333"
         },
         {
-          "ticks": 1065270,
+          "ticks": 1057000,
           "value": "#00ffe533"
         },
         {
-          "ticks": 1065397,
+          "ticks": 1065000,
           "value": "#04fcd833"
         },
         {
-          "ticks": 1066732,
+          "ticks": 1066000,
           "value": "#feda6333"
         },
         {
-          "ticks": 1067775,
+          "ticks": 1067000,
           "value": "#36be3733"
         },
         {
-          "ticks": 1068192,
+          "ticks": 1068000,
           "value": "#00b33333"
         },
         {
-          "ticks": 1079757,
+          "ticks": 1078000,
+          "value": "#00b33333"
+        },
+        {
+          "ticks": 1079000,
           "value": "#b1e78733"
         },
         {
-          "ticks": 1080071,
+          "ticks": 1080000,
           "value": "#5fefa333"
         },
         {
-          "ticks": 1089270,
+          "ticks": 1081000,
           "value": "#00ffe533"
         },
         {
-          "ticks": 1089397,
+          "ticks": 1089000,
           "value": "#04fcd833"
         },
         {
-          "ticks": 1090732,
+          "ticks": 1090000,
           "value": "#feda6333"
         },
         {
-          "ticks": 1091775,
+          "ticks": 1091000,
           "value": "#36be3733"
         },
         {
-          "ticks": 1092192,
+          "ticks": 1092000,
           "value": "#00b33333"
         },
         {
-          "ticks": 1103757,
+          "ticks": 1102000,
+          "value": "#00b33333"
+        },
+        {
+          "ticks": 1103000,
           "value": "#b1e78733"
         },
         {
-          "ticks": 1104071,
+          "ticks": 1104000,
           "value": "#5fefa333"
         },
         {
-          "ticks": 1113270,
+          "ticks": 1105000,
           "value": "#00ffe533"
         },
         {
-          "ticks": 1113397,
+          "ticks": 1113000,
           "value": "#04fcd833"
         },
         {
-          "ticks": 1114732,
+          "ticks": 1114000,
           "value": "#feda6333"
         },
         {
-          "ticks": 1115775,
+          "ticks": 1115000,
           "value": "#36be3733"
         },
         {
-          "ticks": 1116192,
+          "ticks": 1116000,
           "value": "#00b33333"
         },
         {
-          "ticks": 1127757,
+          "ticks": 1126000,
+          "value": "#00b33333"
+        },
+        {
+          "ticks": 1127000,
           "value": "#b1e78733"
         },
         {
-          "ticks": 1128071,
+          "ticks": 1128000,
           "value": "#5fefa333"
         },
         {
-          "ticks": 1137270,
+          "ticks": 1129000,
           "value": "#00ffe533"
         },
         {
-          "ticks": 1137397,
+          "ticks": 1137000,
           "value": "#04fcd833"
         },
         {
-          "ticks": 1138732,
+          "ticks": 1138000,
           "value": "#feda6333"
         },
         {
-          "ticks": 1139775,
+          "ticks": 1139000,
           "value": "#36be3733"
         },
         {
-          "ticks": 1140192,
+          "ticks": 1140000,
           "value": "#00b33333"
         },
         {
-          "ticks": 1151757,
+          "ticks": 1150000,
+          "value": "#00b33333"
+        },
+        {
+          "ticks": 1151000,
           "value": "#b1e78733"
         }
       ]

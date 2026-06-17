@@ -13,17 +13,30 @@
   "result": {
     "id": "minecraft:item_frame",
     "components": {
-      "item_model":"anvil",
-      "minecraft:entity_data": {
-        "id": "minecraft:item_frame", "Tags":["custom_block","place_anvil"], "Invisible":false, "Invulnerable": true, "Fixed":true, "Silent": true
-      },
-      "minecraft:item_name": {
-        "translate": "block.bts.iron_anvil",
-        "fallback":"Anvil"
-      },
-      "minecraft:rarity": "common",
-      "custom_data": "{custom_block:1b,anvil:1b}"
-    }
+                "item_model": "anvil",
+                "rarity": "uncommon",
+                "custom_data": {
+                  "anvil":true,
+                  "id": "anvil",
+                  "ponder_id": "crafting/anvil",
+                  "type": "custom_block"
+                },
+                "minecraft:item_name": {
+                   "translate": "block.bts.iron_anvil",
+                   "fallback": "Anvil"
+                },
+                "minecraft:entity_data": {
+                  "id": "minecraft:item_frame",
+                  "Tags": [
+                    "place_anvil",
+                    "custom_block"
+                  ],
+                  "Invisible": true,
+                  "Invulnerable": true,
+                  "Fixed": true,
+                  "Silent": true
+                }
+              }
   },
   "show_notification": true
 }

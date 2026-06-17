@@ -14,7 +14,6 @@
   },
   "features": [
     [
-      "bts:bonemeal/flower_default",
       "bts:windswept_savanna/coarse_dirt/blobs",
       "bts:windswept_savanna/grass_block/blobs",
       "bts:windswept_savanna/coarse_dirt/specks",

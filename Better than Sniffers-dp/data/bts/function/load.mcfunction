@@ -40,6 +40,7 @@ scoreboard objectives add near_light_block dummy
 scoreboard objectives add near_lit_campfire dummy
 scoreboard objectives add campfire_place dummy
 scoreboard objectives add timer dummy
+scoreboard objectives add countdown dummy
 scoreboard objectives add nutrition_temp dummy
 scoreboard objectives add saturation_temp dummy
 scoreboard objectives add nutrition_clc dummy
