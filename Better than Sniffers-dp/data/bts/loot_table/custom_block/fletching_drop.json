@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "bts:items/fletching_table"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:entities/frog"
+}

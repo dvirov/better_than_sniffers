@@ -1,0 +1,9 @@
+{
+  "feature": "minecraft:flower_pale_garden",
+  "placement": [
+    {
+      "count": 0,
+      "type": "minecraft:count"
+    }
+  ]
+}

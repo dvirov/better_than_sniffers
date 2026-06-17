@@ -1,0 +1,35 @@
+{
+  "asset_id": "clucking_ducks:entity/chicken/duck",
+  "baby_asset_id": "clucking_ducks:entity/chicken/duck_baby",
+  "model": "cold",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "minecraft:river"
+      },
+      "priority": 1
+    },
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "minecraft:swamp"
+      },
+      "priority": 0
+    },
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "minecraft:mangrove_swamp"
+      },
+      "priority": 2
+    },
+    {
+      "condition": {
+        "type": "minecraft:structure",
+        "structures": "minecraft:village_plains"
+      },
+      "priority": 0
+    }
+  ]
+}

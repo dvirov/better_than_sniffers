@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "FF",
+    "CC",
+    "CC"
+  ],
+  "key": {
+    "C": "#planks",
+    "F":"minecraft:flint"
+  },
+  "result": {
+    "id": "minecraft:item_frame",
+    "components": {
+                "item_model": "fletching_table",
+                "rarity": "common",
+                "custom_data": {
+                  "fletching":true,
+                  "id": "fletching_table",
+                  "ponder_id": "crafting/fletching",
+                  "type": "custom_block"
+                },
+                "minecraft:item_name": {
+                   "translate": "block.bts.fletching_table",
+                   "fallback":"Fletching Table"
+                },
+                "minecraft:entity_data": {
+                  "id": "minecraft:item_frame",
+                  "Tags": [
+                    "place_fletching",
+                    "custom_block"
+                  ],
+                  "Invisible": true,
+                  "Invulnerable": true,
+                  "Fixed": true,
+                  "Silent": true
+                }
+              }
+  },
+  "show_notification": true
+}

@@ -1,0 +1,15 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+      {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "bts:pillagers/fortified_outpost/feature_plate",
+        "override_liquid_settings": "apply_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

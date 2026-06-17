@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:phantom_membrane",
+          "predicates": {
+            "custom_data": {
+              "id": "weaving"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bts:item_use/weaving"
+  }
+}

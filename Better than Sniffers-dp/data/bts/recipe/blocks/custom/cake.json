@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "II",
+    "II"
+  ],
+  "key": {
+    "I":"minecraft:cake"
+  },
+  "result": {
+    "id": "minecraft:item_frame",
+    "components": {
+                "item_model": "sweet_berries",
+                "rarity": "common",
+                "custom_data": {
+                  "id": "",
+                  "ponder_id": "",
+                  "type": "custom_block"
+                },
+                "minecraft:item_name": {
+                   "translate": "",
+                   "fallback": "testblock"
+                },
+                "minecraft:entity_data": {
+                  "id": "minecraft:item_frame",
+                  "Tags": [
+                    "custom_block",
+                    "place_cake"
+                  ],
+                  "Invisible": false,
+                  "Invulnerable": true,
+                  "Fixed": true,
+                  "Silent": true
+                  
+                }
+              }
+    
+    
+    
+  },
+  "show_notification": true
+}

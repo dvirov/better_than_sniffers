@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:simple_block",
+  "config": {
+    "to_place": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:sniffer_egg",
+        "Properties": {
+          "hatch": "2"
+        }
+      }
+    },
+    "schedule_tick": true
+  }
+}

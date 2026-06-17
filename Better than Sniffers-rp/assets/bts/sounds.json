@@ -1,0 +1,42 @@
+{
+     "weather.storm.wind": {
+       "sounds": [
+         "bts:weather/weather.storm.wind"
+      ]
+     },
+     "weather.storm.rain1": {
+      "sounds": [
+         "bts:weather/weather.storm.rain1"
+      ]
+    },
+    
+     "weather.storm.rain2": {
+      "sounds": [
+         "bts:weather/weather.storm.rain2"
+      ]
+    },
+     "weather.storm.sandstorm": {
+      "sounds": [
+        "bts:weather/weather.storm.sandstorm"
+      ]
+    },
+    
+     "ambient.river": {
+      "sounds": [
+       "bts:ambient/flowing-water1"
+      ]
+    
+    },
+    "wildlife.forest.night.": {
+     "sounds": [
+       "bts:wildlife/cricket-chirping",
+       "bts:wildlife/latenightpeepersandcoyotesmarch",
+       "bts:wildlife/tawny-owl-and-robin-early-night",
+       "bts:wildlife/ambience-night-field-cricket"
+      ]
+    }
+     
+}
+
+
+

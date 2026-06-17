@@ -1,0 +1,43 @@
+{
+  "pack": {
+    "description": "§bBetter than Sniffers By dvirov Beta 0.6.3",
+    "min_format": [101,1],
+    "max_format": [101,1]
+  },
+  "filter": {
+    "block": [
+      {
+        "namespace": "minecraft",
+        "path": "loot_table/"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipe/"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "advancement/"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "tags/enchantment/in_enchanting_table"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "tags/enchantment/on_random_loot"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "tags/point_of_interest_type/*"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "tags/block/anvil"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "tags/damage_type/*"
+      }
+    ]
+  }
+}

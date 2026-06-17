@@ -1,0 +1,9 @@
+{
+  "condition": "minecraft:location_check",
+  "predicate": {
+    "structures":[
+       "bts:camp",
+       "bts:pillagers/fortified_pillager_outpost"
+    ]
+  }
+}

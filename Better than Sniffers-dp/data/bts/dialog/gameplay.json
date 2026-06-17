@@ -1,0 +1,266 @@
+{
+  "type": "minecraft:confirmation",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {"translate":"dialog.wiki.title.gameplay","fallback":"gameplay"},
+        "\n",
+      {"translate":"dialog.wiki.title.gameplay.description",
+      "fallback":"all categories related to game mechanics"}
+      ],
+      "width": 250
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "translate":"dialog.wiki.title.gameplay.user_interface",
+          "fallback":"User interface",
+          "color": "#92d416",
+          "bold": true,
+          "underlined": false,
+          "click_event": {
+            "action": "show_dialog",
+            "dialog": "bts:gameplay/user_interface"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value":{"translate":"dialog.wiki.hover.click_to_open",
+            "fallback":"click to open"}
+          }
+          
+        },
+        {
+          "text": "          ",
+          "click_event": {
+            "action": "custom",
+            "id": "1"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": ""
+          }
+        },
+        {
+          "translate":"dialog.wiki.title.gameplay.movement","fallback":"Movement",
+          "bold": true,
+          "click_event": {
+            "action": "show_dialog",
+            "dialog": "bts:gameplay/movement"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value":{"translate":"dialog.wiki.hover.click_to_open",
+            "fallback":"click to open"}
+          }
+        }
+      ],
+      "width": 250
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "translate":"dialog.wiki.title.gameplay.animals",
+          "fallback":"Animals",
+          "color": "#92d416",
+          "bold": true,
+          "underlined": false,
+          "click_event": {
+            "action": "show_dialog",
+            "dialog": "bts:gameplay/animals"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value":{"translate":"dialog.wiki.hover.click_to_open",
+            "fallback":"click to open"}
+          }
+        },
+        {
+          "text": "          ",
+          "click_event": {
+            "action": "custom",
+            "id": "1"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": ""
+          }
+        },
+        {
+          "translate":"dialog.wiki.title.gameplay.monsters","fallback":"Monsters",
+          "bold": true,
+          "click_event": {
+            "action": "show_dialog",
+            "dialog": "bts:gameplay/monsters"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value":{"translate":"dialog.wiki.hover.click_to_open","fallback":"click to open"}
+          }
+        }
+      ],
+      "width": 250
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "translate":"dialog.wiki.title.gameplay.seasons","fallback":"Seasons",
+          "color": "#92d416",
+          "bold": true,
+          "underlined": false,
+          "click_event": {
+            "action": "show_dialog",
+            "dialog": "bts:gameplay/seasons"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value":{"translate":"dialog.wiki.hover.click_to_open","fallback":"click to open"}
+          }
+        },
+        {
+          "text": "       ",
+          "click_event": {
+            "action": "custom",
+            "id": "1"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": ""
+          }
+        },
+        {
+          "translate":"dialog.wiki.title.gameplay.health_food","fallback":"Health & food",
+          "bold": true,
+          "click_event": {
+            "action": "show_dialog",
+            "dialog": "bts:gameplay/health_food"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value":{"translate":"dialog.wiki.hover.click_to_open","fallback":"click to open"}
+          }
+        }
+      ],
+      "width": 250
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "translate":"dialog.wiki.title.gameplay.storage",
+          "fallback":"Storage",
+          "color": "#92d416",
+          "bold": true,
+          "underlined": false,
+          "click_event": {
+            "action": "show_dialog",
+            "dialog": "bts:gameplay/storage"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value":{"translate":"dialog.wiki.hover.click_to_open","fallback":"click to open"}
+          }
+        },
+        {
+          "text": "       ",
+          "click_event": {
+            "action": "custom",
+            "id": "1"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": ""
+          }
+        },
+        {
+          "translate":"dialog.wiki.title.gameplay.agriculture","fallback":"Agriculture",
+          "bold": true,
+          "click_event": {
+            "action": "show_dialog",
+            "dialog": "bts:gameplay/agriculture"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value":{"translate":"dialog.wiki.hover.click_to_open","fallback":"click to open"}
+          }
+        }
+      ],
+      "width": 250
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "translate":"dialog.wiki.title.gameplay.clay","fallback":"Clay",
+          "color": "#92d416",
+          "bold": true,
+          "underlined": false,
+          "click_event": {
+            "action": "show_dialog",
+            "dialog": "bts:gameplay/clay"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value":{"translate":"dialog.wiki.hover.click_to_open","fallback":"click to open"}
+          }
+        },
+        {
+          "text": "       ",
+          "click_event": {
+            "action": "custom",
+            "id": "1"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": ""
+          }
+        },
+        {
+          "text": "          ",
+          "bold": true,
+          "click_event": {
+            "action": "change_page",
+            "page": 1
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": ""
+          }
+        }
+      ],
+      "width": 250
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "title": [
+    "   뀁뀂  뀃뀄뀅뀆뀇      뀈",
+    "                  낡낢낣낤낥낦낧남",
+    "                  낱낲낳내낵낶낷낸",
+    "                  냁냂냃냄 냅냆냇냈"
+  ],
+  "after_action": "none",
+  "yes": {
+    "label":{
+      "translate":"dialog.wiki.label.close",
+      "fallback":"Close"
+    },
+    "action": {
+      "type": "minecraft:run_command",
+      "command": "trigger close.dialog"
+    }
+  },
+  "no": {
+    "label":{
+      "translate":"dialog.wiki.label.back",
+      "fallback":"Back"
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "bts:main"
+    }
+  }
+}

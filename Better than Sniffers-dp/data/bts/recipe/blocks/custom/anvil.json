@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BBB",
+    " I ",
+    "III"
+  ],
+  "key": {
+    "B":"minecraft:iron_ingot",
+    "I":"minecraft:iron_nugget"
+  },
+  "result": {
+    "id": "minecraft:item_frame",
+    "components": {
+                "item_model": "anvil",
+                "rarity": "uncommon",
+                "custom_data": {
+                  "anvil":true,
+                  "id": "anvil",
+                  "ponder_id": "crafting/anvil",
+                  "type": "custom_block"
+                },
+                "minecraft:item_name": {
+                   "translate": "block.bts.iron_anvil",
+                   "fallback": "Anvil"
+                },
+                "minecraft:entity_data": {
+                  "id": "minecraft:item_frame",
+                  "Tags": [
+                    "place_anvil",
+                    "custom_block"
+                  ],
+                  "Invisible": true,
+                  "Invulnerable": true,
+                  "Fixed": true,
+                  "Silent": true
+                }
+              }
+  },
+  "show_notification": true
+}

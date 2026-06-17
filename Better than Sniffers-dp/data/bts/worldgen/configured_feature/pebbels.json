@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:simple_block",
+  "config": {
+    "to_place": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 9,
+          "data": {
+            "Name": "minecraft:stone_button",
+            "Properties": {
+              "face": "floor"
+            }
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:dead_bush"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:bush"
+          }
+        }
+      ]
+    }
+  }
+}

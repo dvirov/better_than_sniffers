@@ -1,0 +1,76 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "config": {
+            "features": [
+              {
+                "feature": {
+                  "type": "minecraft:spike",
+                  "config": {
+                    "can_place_on": {
+                      "type": "minecraft:matching_blocks",
+                      "blocks": "minecraft:snow_block"
+                    },
+                    "can_replace": {
+                      "type": "minecraft:matching_block_tag",
+                      "tag": "minecraft:ice_spike_replaceable"
+                    },
+                    "state": {
+                      "Name": "minecraft:packed_ice"
+                    }
+                  }
+                },
+                "placement": [
+                  {
+                    "predicate": {
+                      "predicate": {
+                        "blocks": "minecraft:packed_ice",
+                        "type": "minecraft:matching_blocks"
+                      },
+                      "type": "minecraft:not"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              },
+              {
+                "feature": "bts:spikes/ice/mid/3",
+                "placement": [
+                  {
+                    "predicate": {
+                      "blocks": "minecraft:packed_ice",
+                      "type": "minecraft:matching_blocks"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              }
+            ]
+          },
+          "type": "minecraft:simple_random_selector"
+        },
+        "placement": [
+          {
+            "predicate": {
+              "blocks": "minecraft:snow_block",
+              "offset": [
+                0,
+                -1,
+                0
+              ],
+              "type": "minecraft:matching_blocks"
+            },
+            "type": "minecraft:block_predicate_filter"
+          },
+          {
+            "count": 28,
+            "type": "minecraft:count"
+          }
+        ]
+      }
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

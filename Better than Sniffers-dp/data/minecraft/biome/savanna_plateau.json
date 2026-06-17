@@ -1,0 +1,255 @@
+{
+  "attributes": {
+    "minecraft:gameplay/snow_golem_melts": true,
+    "minecraft:visual/sky_color": "#6eb1ff"
+  },
+  "carvers": [
+    "minecraft:cave",
+    "minecraft:cave_extra_underground",
+    "minecraft:canyon"
+  ],
+  "downfall": 0.0,
+  "effects": {
+    "water_color": "#3f76e4"
+  },
+  "features": [
+    [
+      
+      "bts:savanna/coarse_dirt/layer_1",
+      "bts:savanna/coarse_dirt/layer_2",
+      "bts:savanna/coarse_dirt/layer_3",
+      "bts:savanna/coarse_dirt/layer_4",
+      "bts:savanna/coarse_dirt/layer_5",
+      "bts:savanna/coarse_dirt/layer_6"
+    ],
+    [
+      "minecraft:lake_lava_underground"
+    ],
+    [
+      "minecraft:amethyst_geode"
+    ],
+    [
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
+    ],
+    [],
+    [],
+    [
+      "bts:ore_dirt",
+      "bts:ore_gravel_lower",
+      "bts:ore_gravel_upper",
+      "minecraft:ore_granite_upper",
+      "minecraft:ore_granite_lower",
+      "minecraft:ore_diorite_upper",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_tuff",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper",
+      "bts:underwater_magma",
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel"
+    ],
+    [
+      "bts:savanna_plateau/granite/big",
+      "bts:savanna_plateau/granite/small",
+      "bts:savanna_plateau/granite/steep"
+    ],
+    [
+      "minecraft:spring_water",
+      "minecraft:spring_lava",
+      "bts:savanna/spikes",
+      "bts:savanna_plateau/rocks/layer_1",
+      "bts:savanna_plateau/rocks/layer_2",
+      "bts:savanna_plateau/rocks/layer_3"
+    ],
+    [
+      "minecraft:glow_lichen",
+      "bts:savanna/grass/layer_1",
+      "bts:savanna/grass/layer_2",
+      "bts:savanna/grass/layer_3",
+      "bts:savanna/grass/layer_4",
+      "bts:savanna/grass/layer_5",
+      "bts:savanna/tall_grass/layer_1",
+      "bts:savanna/tall_grass/layer_2",
+      "bts:savanna/tall_grass/layer_3",
+      "bts:savanna/tall_grass/layer_4",
+      "bts:savanna/tall_grass/layer_5",
+      "bts:savanna/dead_bush/layer_1",
+      "bts:savanna/dead_bush/layer_2",
+      "bts:savanna/dead_bush/layer_3",
+      "bts:savanna_plateau/trees/layer_1",
+      "bts:savanna_plateau/trees/layer_2",
+      "bts:savanna_plateau/trees/layer_3",
+      "bts:savanna_plateau/trees/layer_4",
+      "bts:savanna_plateau/trees/layer_5",
+      "bts:savanna_plateau/trees/layer_6",
+      "bts:savanna_plateau/trees/layer_7",
+      "bts:savanna/fallen_trees/layer_1",
+      "bts:savanna/fallen_trees/layer_2",
+      "bts:savanna/flowers",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "bts:patch_sugar_cane",
+      "bts:patch_pumpkin",
+      "bts:patch_firefly_bush_rare"
+    ],
+    [
+      "minecraft:freeze_top_layer",
+      "bts:bottom/stone_slab",
+      "bts:bottom/snow"
+    ]
+  ],
+  "has_precipitation": false,
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "maxCount": 8,
+        "minCount": 8,
+        "weight": 10
+      }
+    ],
+    "axolotls": [],
+    "creature": [
+      {
+        "type": "minecraft:sheep",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 12
+      },
+      {
+        "type": "minecraft:pig",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 10
+      },
+      {
+        "type": "minecraft:chicken",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 10
+      },
+      {
+        "type": "minecraft:cow",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 8
+      },
+      {
+        "type": "minecraft:horse",
+        "maxCount": 6,
+        "minCount": 2,
+        "weight": 1
+      },
+      {
+        "type": "minecraft:donkey",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 1
+      },
+      {
+        "type": "minecraft:armadillo",
+        "maxCount": 3,
+        "minCount": 2,
+        "weight": 10
+      },
+      {
+        "type": "minecraft:llama",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 8
+      },
+      {
+        "type": "minecraft:wolf",
+        "maxCount": 8,
+        "minCount": 4,
+        "weight": 8
+      }
+    ],
+    "misc": [],
+    "monster": [
+      {
+        "type": "minecraft:spider",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 100
+      },
+      {
+        "type": "minecraft:zombie",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 90
+      },
+      {
+        "type": "minecraft:zombie_villager",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 5
+      },
+      {
+        "type": "minecraft:zombie_horse",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 5
+      },
+      {
+        "type": "minecraft:skeleton",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 100
+      },
+      {
+        "type": "minecraft:creeper",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 100
+      },
+      {
+        "type": "minecraft:slime",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 100
+      },
+      {
+        "type": "minecraft:enderman",
+        "maxCount": 4,
+        "minCount": 1,
+        "weight": 10
+      },
+      {
+        "type": "minecraft:witch",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 5
+      }
+    ],
+    "underground_water_creature": [
+      {
+        "type": "minecraft:glow_squid",
+        "maxCount": 6,
+        "minCount": 4,
+        "weight": 10
+      }
+    ],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "temperature": 2.0
+}

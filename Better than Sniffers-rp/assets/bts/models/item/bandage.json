@@ -1,0 +1,16 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "bts:item/tools/bandage"
+	},
+	"display": {
+		"firstperson_righthand": {
+			"rotation": [-45, 0, 0],
+			"translation": [12, -3, -9.25]
+		},
+		"head": {
+			"rotation": [-111, -54, 77],
+			"translation": [-6.75, 4, -1.5]
+		}
+	}
+}

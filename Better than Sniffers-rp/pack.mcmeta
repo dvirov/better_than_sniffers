@@ -1,0 +1,14 @@
+{
+  "pack": {
+    "description": "Better than Sniffers By dvirov Beta 0.6.3",
+    "pack_format": 84,
+    "min_format": [
+      84,
+      0
+    ],
+    "max_format": [
+      84,
+      0
+    ]
+  }
+}

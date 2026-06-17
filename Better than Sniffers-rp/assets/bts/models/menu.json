@@ -1,0 +1,6 @@
+{
+  "parent": "bts:overlay",
+  "textures": {
+    "texture": "bts:gui/menu"
+  }
+}

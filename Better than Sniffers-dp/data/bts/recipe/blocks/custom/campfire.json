@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " S ",
+    "SWS",
+    "WWW"
+  ],
+  "key": {
+    "S":"minecraft:stick",
+    "W": "#minecraft:wooden_slabs"
+  },
+  "result": {
+    "id": "minecraft:item_frame",
+    "components": {
+                "item_model": "campfire",
+                "rarity": "common",
+                "custom_data": {
+                  "campfire":true,
+                  "id": "campfire",
+                  "ponder_id": "crafting/campfire",
+                  "type": "custom_block"
+                },
+                "minecraft:item_name": {
+                   "translate": "block.bts.campfire",
+                   "fallback": "Campfire"
+                },
+                "minecraft:entity_data": {
+                  "id": "minecraft:item_frame",
+                  "Tags": [
+                    "custom_block",
+                    "place_campfire"
+                  ],
+                  "Invisible": true,
+                  "Invulnerable": true,
+                  "Fixed": true,
+                  "Silent": true
+                  
+                }
+              }
+  },
+  "show_notification": true
+}

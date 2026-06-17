@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "C C",
+    "C C",
+    "CCC"
+  ],
+  "key": {
+    "C":"minecraft:iron_ingot"
+  },
+  "result": {
+    "id": "minecraft:item_frame",
+    "components": {
+                "item_model": "cauldron",
+                "rarity": "uncommon",
+                "custom_data": {
+                  "crucible":true,
+                  "id": "crucible",
+                  "ponder_id": "crafting/crucible",
+                  "type": "custom_block"
+                },
+                "minecraft:item_name": {
+                   "translate": "block.bts.crucible",
+                   "fallback":"Crucible"
+                },
+                "minecraft:entity_data": {
+                  "id": "minecraft:item_frame",
+                  "Tags": [
+                    "place_crucible",
+                    "custom_block"
+                  ],
+                  "Invisible": true,
+                  "Invulnerable": true,
+                  "Fixed": true,
+                  "Silent": true
+                }
+              }
+  },
+  "show_notification": true
+}

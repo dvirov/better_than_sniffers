@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "ambientocclusion": true,
+  "textures": {
+    "bottom": "minecraft:block/dirt",
+    "side": "minecraft:block/dirt",
+    "top": "minecraft:block/dirt"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "minecraft:block/diorite_slab"
+    },
+    "type=double,waterlogged=false": {
+      "model": "minecraft:block/diorite"
+    },
+    "type=top": {
+      "model": "minecraft:block/diorite_slab_top"
+    },
+    "type=double,waterlogged=true": {
+      "model": "bts:block/salt_block"
+    }
+  }
+}

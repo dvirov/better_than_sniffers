@@ -1,0 +1,9 @@
+{
+  "feature": "minecraft:flower_flower_forest",
+  "placement": [
+    {
+      "count": 0,
+      "type": "minecraft:count"
+    }
+  ]
+}

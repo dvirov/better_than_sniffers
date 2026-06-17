@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "S S",
+    " N ",
+    "S S"
+  ],
+  "key": {
+    "S": "minecraft:stick",
+    "N": "minecraft:cobweb"
+  },
+  "result": {
+    "id": "minecraft:phantom_membrane",
+    "count": 1,
+    "components": {
+      "minecraft:custom_data": {
+                  "id":"weaving",
+                  "ponder_id":"",
+                  "type":"item"
+      },
+      "minecraft:consumable": {
+        "consume_seconds": 9999,
+        "animation": "bow",
+        "has_consume_particles": true,
+        "sound": "block.wool.step"
+      },
+      "minecraft:item_name": {
+        "translate": "item.bts.weaving",
+        "fallback":"Weaving"
+      },
+      "minecraft:max_damage": 6000,
+      "minecraft:max_stack_size": 1,
+      "minecraft:damage": 6000
+    }
+  },
+  "show_notification": true
+}

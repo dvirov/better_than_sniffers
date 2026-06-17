@@ -1,0 +1,7 @@
+{
+  "parent": "bts:overlay",
+  "textures": {
+    "particle": "block/oak_planks",
+    "texture": "bts:item/gui/alc_arrow6"
+  }
+}

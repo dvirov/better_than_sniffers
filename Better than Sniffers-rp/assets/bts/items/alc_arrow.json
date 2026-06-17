@@ -1,0 +1,140 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "index": 0,
+    "entries": [
+      {
+        "threshold": 1,
+        "model": {
+          "type": "model",
+          "model": "bts:alc_arrow1"
+        }
+      },
+      {
+        "threshold": 2,
+        "model": {
+          "type": "model",
+          "model": "bts:alc_arrow2"
+        }
+      },
+      {
+        "threshold": 3,
+        "model": {
+          "type": "model",
+          "model": "bts:alc_arrow3"
+        }
+      },
+      {
+        "threshold": 4,
+        "model": {
+          "type": "model",
+          "model": "bts:alc_arrow4"
+        }
+      },
+      {
+        "threshold": 5,
+        "model": {
+          "type": "model",
+          "model": "bts:alc_arrow5"
+        }
+      },
+      {
+        "threshold": 6,
+        "model": {
+          "type": "model",
+          "model": "bts:alc_arrow6"
+        }
+      },
+      {
+        "threshold": 7,
+        "model": {
+          "type": "model",
+          "model": "bts:alc_arrow7"
+        }
+      },
+      {
+        "threshold": 8,
+        "model": {
+          "type": "model",
+          "model": "bts:alc_arrow8"
+        }
+      },
+      {
+        "threshold": 9,
+        "model": {
+          "type": "model",
+          "model": "bts:alc_arrow9"
+        }
+      },
+      {
+        "threshold": 10,
+        "model": {
+          "type": "model",
+          "model": "bts:alc_arrow10"
+        }
+      },
+      {
+        "threshold": 11,
+        "model": {
+          "type": "model",
+          "model": "bts:alc_arrow11"
+        }
+      },
+      {
+        "threshold": 12,
+        "model": {
+          "type": "model",
+          "model": "bts:alc_arrow12"
+        }
+      },
+      {
+        "threshold": 13,
+        "model": {
+          "type": "model",
+          "model": "bts:alc_arrow13"
+        }
+      },
+      {
+        "threshold": 14,
+        "model": {
+          "type": "model",
+          "model": "bts:alc_arrow14"
+        }
+      },
+      {
+        "threshold": 15,
+        "model": {
+          "type": "model",
+          "model": "bts:alc_arrow15"
+        }
+      },
+      {
+        "threshold": 16,
+        "model": {
+          "type": "model",
+          "model": "bts:alc_arrow16"
+        }
+      },
+      {
+        "threshold": 17,
+        "model": {
+          "type": "model",
+          "model": "bts:alc_arrow17"
+        }
+      },
+      {
+        "threshold": 18,
+        "model": {
+          "type": "model",
+          "model": "bts:alc_arrow18"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/barrier"
+    }
+  },
+  "oversized_in_gui": true
+}

@@ -1,0 +1,91 @@
+{
+  "feature": {
+    "config": {
+      "default": {
+        "feature": "bts:fallen_tree/mossy/birch",
+        "placement": []
+      },
+      "features": [
+        {
+          "chance": 0.15,
+          "feature": {
+            "feature": "bts:fallen_tree/stump/birch",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.2,
+          "feature": {
+            "feature": "bts:fallen_tree/old_stump/birch",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.3,
+          "feature": {
+            "feature": "bts:fallen_tree/trunk/birch",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.3,
+          "feature": {
+            "feature": "bts:fallen_tree/degraded/birch",
+            "placement": []
+          }
+        }
+      ]
+    },
+    "type": "minecraft:random_selector"
+  },
+  "placement": [
+    {
+      "count": {
+        "distribution": [
+          {
+            "data": 0,
+            "weight": 2
+          },
+          {
+            "data": 1,
+            "weight": 1
+          }
+        ],
+        "type": "minecraft:weighted_list"
+      },
+      "type": "minecraft:count"
+    },
+    {
+      "xz_spread": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 4,
+        "max_inclusive": 11
+      },
+      "y_spread": 0,
+      "type": "minecraft:random_offset"
+    },
+    {
+      "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "max_water_depth": 0,
+      "type": "minecraft:surface_water_depth_filter"
+    },
+    {
+      "predicate": {
+        "blocks": "#minecraft:substrate_overworld",
+        "offset": [
+          0,
+          -1,
+          0
+        ],
+        "type": "minecraft:matching_blocks"
+      },
+      "type": "minecraft:block_predicate_filter"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

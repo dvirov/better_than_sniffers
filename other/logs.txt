@@ -1,0 +1,26 @@
+### Features/changes:
+- updated to 26.2.1
+- cheanges to seasons:
+- now the lenght of the day depends on the season (shorted days in the winter and longer in the summer)
+- now the starting season is spring
+
+- now sleeping is allowed during the day
+- small changes to storage pots
+- small recipe changes to cooking pot and storage pot
+- 
+- 
+
+
+
+###  Bug Fixes :
+- marker spam "hi" in chat when raining
+- animals not attacking the player even after getting hit
+- misalign text in few dialogs
+- 
+- 
+- 
+
+
+
+
+

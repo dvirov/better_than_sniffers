@@ -1,0 +1,2 @@
+gamerule random_tick_speed 3
+weather clear
